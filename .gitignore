@@ -1,2 +1,3 @@
 #ignore some Windows system files
 .DS_Store
+~*.dotx

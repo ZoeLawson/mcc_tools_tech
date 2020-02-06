@@ -1,5 +1,5 @@
 LoginPage=Login
-legend=Something witty here
+legend=TRex Fan Club
 Username=UserName
 UserName_Help=Enter user name
 Passwrd=Password

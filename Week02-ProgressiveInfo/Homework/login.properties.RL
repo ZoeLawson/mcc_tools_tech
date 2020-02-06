@@ -6,3 +6,5 @@ Passwrd=Password
 Password_Help=Enter password
 Submit_btn=Submit
 FixPassword=Reset passwrd
+Graphic=none
+

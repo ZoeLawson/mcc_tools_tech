@@ -1,6 +1,6 @@
-LoginPage=Login
+LoginPage=Hi there!!
 legend=TRex Fan Club
-Username=UserName
+Username=Rebecca Lewis
 UserName_Help=Enter user name
 Passwrd=Password
 Password_Help=Enter password

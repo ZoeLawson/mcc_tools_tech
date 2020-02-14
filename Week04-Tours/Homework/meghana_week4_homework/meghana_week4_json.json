@@ -1,0 +1,35 @@
+var tour = {
+	"id":"ArtboardTour",
+	"steps": [
+		{
+			"target":"artboard_default",
+			"placement":"center",
+			"title":"Default Artboard",
+			"content":"You can start composing your creative ideas on the artboard. To create another artboard, click “Window” > “Artboard” in the top menu bar. Press next for more information."
+		},
+		{
+			"target":"artboard_window_menu",
+			"placement":"left",
+			"title":"Artboard Window Menu",
+			"content":"Click “Artboards” to enable the “Artboards” panel. Press next for the next step or press back to go to a previous step."
+		},
+		{
+			"target":"artboard_panel",
+			"placement":"right",
+			"title":"Artboard Panel",
+			"content":"Clicking “Artboards” in the “Window” dropdown enables the “Artboards” panel below. Press next for the next step or press back to go to a previous step."		
+		},
+		{
+			"target":"artboard_new_button",
+			"placement":"center",
+			"title":"New Artboard Button",
+			"content":"Clicking “New Artboard” in the “Artboard” panel creates a new artboard.Press next for the next step or press back to go to a previous step."		
+		},
+		{
+			"target":"artboard_new",
+			"placement":"center",
+			"title":"New Artboard",
+			"content":"The new artboard that you created by pressing the button in the previous step is on layer 2 and named “Artboard 3” by default. You can change the name by double clicking on the artboard name. Press back to go to a previous step."
+		},
+	]
+};

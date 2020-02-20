@@ -1,0 +1,47 @@
+var tour = {
+	"id": "WinkTour",
+	"steps": [
+	{
+		"target": "Welcome!",
+		"placement": "top",
+		"title": "Welcome!",
+		"content": "Hi! Welcome to the Wink tour!\r\nWink is a software tool to make presentations and tutorials about using software programs.\r\nLet's walk through a few features."\r\n
+},
+{
+"target": "File_menu",
+		"placement": "top",
+		"title": "File menu",
+		"content": "Use the File menu to create a new Wink file by clicking on File and selecting New."\r\n
+},
+{
+"target": "Define_a_capture_area",
+		"placement": "top",
+		"title": "Define a capture area",
+		"content": "When recording audio, it is best to use a headset and avoid typing on keyboard while speaking."\r\n
+},
+{
+"target": "Defining_Hotkeys",
+		"placement": "top",
+		"title": "Defining Hotkeys",
+		"content": "Here you see the screenshot hotkey is Pause."\r\n
+},
+{
+"target": "Minimize_To_Tray",
+		"placement": "bottom",
+		"title": "Minimize To Tray",
+		"content": "To begin your project, click Minimize To Tray button."\r\n
+},
+{
+"target": "Add_Textbox",
+		"placement": "top",
+		"title": "Add Textbox",
+		"content": "To add a textbox, go to the Properties bar and click the Add Textbox button."\r\n
+},
+{
+"target": "Congratulations!",
+		"placement": "bottom",
+		"title": "Congratulations!",
+		"content": "Congratulations! You have completed the Wink tour!"\r\n
+}
+]
+};

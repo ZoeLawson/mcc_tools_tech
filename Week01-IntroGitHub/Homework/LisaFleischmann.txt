@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_a12012
 Lisa Fleischmann
 Week 1 
 Tools and Technologies
@@ -7,3 +8,7 @@ Change 2 - 01/29/20
 Here's a sample text file saying it worked.
 
 It worked! :)
+=======
+"Things will be better in the morning" 
+- General Colin Powell
+>>>>>>> .merge_file_a03356

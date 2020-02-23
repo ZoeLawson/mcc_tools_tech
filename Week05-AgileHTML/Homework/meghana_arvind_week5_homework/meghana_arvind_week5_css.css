@@ -1,7 +1,7 @@
- body {
-	background-color: yellow;
- }
- 
+.column {
+  float: left;
+  width: 50%;
+}
  h1{
 	 color:blue;
 	 text-align:left;
@@ -47,13 +47,21 @@
 	 color:green;
  }
  
+ li{
+	list-style-type:square;
+	font-size:50px;
+ }
+ 
  table, th, td {
   border: 1px solid black;
 }
 
 th{
+	background-color:white;
 	color:blue;
 }
 
 td{
+	padding: 15px;
+	background-color:pink;
 }

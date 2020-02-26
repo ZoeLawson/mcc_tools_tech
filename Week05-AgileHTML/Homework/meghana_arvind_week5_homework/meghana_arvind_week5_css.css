@@ -1,0 +1,67 @@
+.column {
+  float: left;
+  width: 50%;
+}
+ h1{
+	 color:blue;
+	 text-align:left;
+	 font-style:italic;
+	 font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ h2{
+	 color:green;
+	 text-align:center;
+ }
+ 
+ h3{
+	 color:red;
+	 text-align:right;
+ 	 font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ h4{
+	 color:orange;
+	 text-align:left;
+ }
+ 
+ h5{
+	 color:black;
+	 text-align:center;
+ 	 font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ h6{
+	 color:pink;
+	 text-align:right; 
+	 font-style:italic;
+ }
+
+ p{
+	color:blue;
+	font-style:oblique;
+ }	 
+ 
+ ul{
+	 font-family: Arial, Helvetica, sans-serif;	 
+	 color:green;
+ }
+ 
+ li{
+	list-style-type:square;
+	font-size:50px;
+ }
+ 
+ table, th, td {
+  border: 1px solid black;
+}
+
+th{
+	background-color:white;
+	color:blue;
+}
+
+td{
+	padding: 15px;
+	background-color:pink;
+}

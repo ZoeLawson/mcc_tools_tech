@@ -1,4 +1,3 @@
-<<<<<<< .merge_file_a12012
 Lisa Fleischmann
 Week 1 
 Tools and Technologies
@@ -11,4 +10,4 @@ It worked! :)
 =======
 "Things will be better in the morning" 
 - General Colin Powell
->>>>>>> .merge_file_a03356
+

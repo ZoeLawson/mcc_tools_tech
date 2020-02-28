@@ -49,8 +49,9 @@ ol li::before {
 
 table {
 	border-collapse: collapse;
-	border: solid thin #8D1313;
+	border: dotted #551033;
 	font-family: sans-serif;
+	
 }
 
 tr {

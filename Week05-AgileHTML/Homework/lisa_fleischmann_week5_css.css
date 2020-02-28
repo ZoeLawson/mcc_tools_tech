@@ -1,0 +1,22 @@
+BODY
+{color: black; background: lightblue  /* black text, lightblue background */ }
+H1 
+{font-family: "Arial", sans-serif; font-weight: bold; font-size : 24pt;}
+H2
+{font-family: "Arial", sans-serif; font-weight: bold; font-size : 18pt;}
+H3
+{font-family: "Arial", sans-serif; font-style: bold; font-size : 14pt;}
+P 
+{font-family: "Arial", sans-serif; font-size: 10pt;}
+BR
+{font-family: "Arial", sans-serif; font-size: 10pt;}
+LI 
+{font-family: "Arial", sans-serif; font-size : 10pt;}
+}
+
+img {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #ccc;
+}
+

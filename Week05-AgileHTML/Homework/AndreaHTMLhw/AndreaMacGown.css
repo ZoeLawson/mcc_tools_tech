@@ -1,0 +1,31 @@
+body { 
+
+	background-color: DE85B1
+}
+
+
+h1 { 
+	color: FDF8FF; 
+	text-align: right;
+	font-size: 100px;
+}
+
+
+p {
+	font-family: arial;
+	font-size: 50px;
+	font-color: FDF8FF
+}
+
+ol {
+	font-size: 30px;
+	font-color: FDF8FF
+}
+
+table {
+	border-style: dotted;
+	border-color: #8D1313;
+	border-width: 9px 
+}
+
+

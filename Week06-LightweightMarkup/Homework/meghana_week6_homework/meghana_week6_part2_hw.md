@@ -1,8 +1,8 @@
- # Meghana's Example Page - Making my HTML page from Week 5 into GitHub Markdown
+ # H1: Meghana's Example Page - Making my HTML page from Week 5 into GitHub Markdown
  
- ## This is my example web page for the Middlesex Community College Tech Writing Certificate Class.
+ ## H2: This is my example web page for the Middlesex Community College Tech Writing Certificate Class.
  
- ### I am testing different headings.
+ ### H3: I am testing different headings.
  
  #### This is an H4 heading.
  
@@ -33,4 +33,6 @@ Meghana | Arvind
 FN2 | LN2
 FN3 | LN3
 
- Links
+Links: 
+http://github.com
+[GitHub](http://github.com)

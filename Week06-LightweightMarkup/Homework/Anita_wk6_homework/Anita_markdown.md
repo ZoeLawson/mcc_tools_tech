@@ -31,7 +31,7 @@ Dark Shadows|Soap Opera|Amazon Prime
 <a href="https://www.bbc.co.uk/programmes/b00w7dv9">![Miranda](../../../Week05-AgileHTML/Homework/Anita_wk5_homework/Miranda.jpg)</a>
 <a href="https://www.cbc.ca/schittscreek/m_site/">![Schitt's Creek](../../../Week05-AgileHTML/Homework/Anita_wk5_homework/SchittsCreek.jpg)</a>
 <a href="https://en.wikipedia.org/wiki/Malcolm_in_the_Middle">![Malcolm in the Middle](../../../Week05-AgileHTML/Homework/Anita_wk5_homework/Malcolm.jpg)</a>
-<a href="https://en.wikipedia.org/wiki/Dark_Shadows">![Dark Shadows](../../../Week05-AgileHTML/Homework/Anita_wk5_homework/DarkShadows.jpg)</a>
+<a href="https://en.wikipedia.org/wiki/Dark_Shadows">![Dark Shadows](../../../Week05-AgileHTML/Homework/Anita_wk5_homework/darkshadows.jpg)</a>
 
 Well that was fun. Use the `<a href>` tag to put the link in. That's fine. **_Now I'll fool with_** a column for a few minutes, then move on to a new "portfolio" type document instead of my tv watching.
 

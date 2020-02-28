@@ -10,7 +10,8 @@
  
  ###### This is an H6 heading.
  
- __Boston is a wicked smaht city. Everyone pahks their cah in hahvahd yahd using smaht pahk.__
+ _Boston is a wicked smaht city. Everyone pahks their cah in hahvahd yahd using smaht pahk._
+ 
  **They use their blinkahs when they drive. Bahstan has wicked awesome sports teams with players like Tom Brady.**
  
  

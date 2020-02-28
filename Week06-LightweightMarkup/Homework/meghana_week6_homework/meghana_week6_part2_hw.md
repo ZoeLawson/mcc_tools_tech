@@ -1,4 +1,4 @@
- # Meghana's Example Page
+ # Meghana's Example Page - Making my HTML page from Week 5 into GitHub Markdown
  
  ## This is my example web page for the Middlesex Community College Tech Writing Certificate Class.
  
@@ -27,5 +27,10 @@
  * Unordered list item 4
  * Unordered list item 5
 
- Tables
+First Name | Last Name
+------------ | -------------
+Meghana | Arvind
+FN2 | LN2
+FN3 | LN3
+
  Links

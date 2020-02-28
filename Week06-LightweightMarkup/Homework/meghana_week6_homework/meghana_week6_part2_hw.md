@@ -34,5 +34,5 @@ FN2 | LN2
 FN3 | LN3
 
 Links: 
-http://github.com
-[GitHub](http://github.com)
+[Google](http://google.com)
+[Yahoo](http://yahoo.com)

@@ -1,0 +1,52 @@
+    {
+    "orphan": "true",
+    "content": "Congratulations! You've just recorded your first podcast. Before you upload it for the world to hear, maybe you want to cut out a bad take? Shorten your guest's answers? Or rearrange the order of your questions? This tour gets you started.",
+      "backdrop": "true"
+    },
+    {
+      "element": "Ans3",
+      "content": "Before you can cut, move, copy, loop, or trim a section of your podcast, you'll first need to create that section. Each section is called an \"audio region.\" Here is an audio region. Audio regions can be any size.",
+      "placement": "bottom",
+      "backdrop": "true"
+    },
+    {
+      "element": "Track1",
+      "content": "This track currently has nine audio regions. You can create new regions anytime.",
+      "placement": "right",
+      "backdrop": "true"
+    },
+{
+      "element": "AudioEditor",
+      "content": "This is the Audio Editor window. You create new audio regions here. When you open the Audio Editor, your track appears in this window.",
+      "placement": "top",
+      "backdrop": "true"
+},
+{
+      "element": "Editors_Button",
+      "content": "To open or close the Audio Editor window, click the Editors button.",
+      "placement": "bottom"
+},
+{
+     "element": "Ques3_AudioEditor",
+     "title": "How to Create an Audio Region",
+     "content": "In the Audio Editor, highlight the section you want to create and then click it. The new audio region appears. (To highlight a section, place the cursor in the lower half of the track until it turns from an arrow into a plus sign (+). Then click and drag the cursor left or right.)",
+     "placement": "top"
+},
+{
+     "element": "RegionName",
+     "content": "Name your region here",
+     "placement": "top"
+},
+{
+     "element": "Track1",
+     "content": "Now you are ready to edit your regions. Make edits here in the workspace…",
+     "placement": "right",
+     "duration": "7000"
+},
+{
+     "element": "AudioEditor",
+     "content": "… or the Audio Editor. Have fun!",
+     "placement": "top"
+}
+  ]
+};

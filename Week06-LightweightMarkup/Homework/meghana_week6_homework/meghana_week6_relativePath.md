@@ -77,3 +77,9 @@ Relative path: ../../Week05-AgileHTML/Homework/meghana_arvind_week5_homework
 > 11
 
 Relative path: /Homework/meghana_arvind_week5_homework 
+
+###### A few comments
+
+* I like how you showed all the work as you determined the paths.
+* For the first exercise, I was looking for `git_cheatsheet.pdf`.
+* You need to include the target file in the relative path. Almost every time you need to give a relative path to something, you have to include the target file. Think of the `@href` or `@src` in HTML.

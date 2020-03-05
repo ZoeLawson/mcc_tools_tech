@@ -13,3 +13,5 @@ The relative path is ../../Week02-ProgressiveInfo/login.LisaFleischmann.properti
 The relative path is ../../Week05-AgileHTML/Homework/lisa_fleischmann_week5_html.html  
 1. From the week 5 PDF handout to your week 5 homework.  
 The relative path is ./Homework/lisa_fleischmann_week5_html
+
+###### Well done! One minor nit -  you do not need to include the ./ in number 6. You can just start with Homework/

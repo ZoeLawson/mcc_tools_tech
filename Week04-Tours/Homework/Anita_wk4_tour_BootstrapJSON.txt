@@ -1,4 +1,4 @@
-var tour = new Tour ({
+{
   name: “Garageband Audio Regions”
   steps: [
     {
@@ -9,7 +9,7 @@ var tour = new Tour ({
       backdrop: true
     },
     {
-      element: “Chorus”,
+      “element”: “Chorus”,
       content: “This track currently has four audio regions: Intro, Verse 1, Verse 2, and Chorus. You can create new regions anytime.“,
       placement: ‘right’
     },
@@ -47,4 +47,4 @@ var tour = new Tour ({
      placement: ‘top’
 }
   ]
-});
+}

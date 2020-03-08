@@ -1,5 +1,5 @@
-This is a title - Meghana Example
-===============
+Meghana Arvind Week 7 Homework
+##############################
 
 Here is a paragraph.
 

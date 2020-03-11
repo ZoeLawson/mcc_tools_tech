@@ -24,3 +24,5 @@ Provide the relative path for the following:
 
 **Anita's comments:**
 >_It's a good thing I did this exercise before doing the markdown homework because since I redid a big portion of last week's homework for this week, I had to put in relative paths to link to my tv show photos that are in my week 5 homework file. Worked on the first try! Woohoo!!_
+
+###### Fantastic! You got all of these correct, and I'm glad it helped with the rest of your homework. I think you can see why relative paths are important to understand.

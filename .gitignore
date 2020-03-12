@@ -2,3 +2,5 @@
 .DS_Store
 ~*.dotx
 *.backup.fm
+*.backup.book
+*.lck

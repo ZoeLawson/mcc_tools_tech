@@ -51,7 +51,7 @@ h1
 {
 	font-weight: bold;
 	font-size: 2em;
-	color: var(--Brand1);
+	color: #bb3836;
 }
 
 h2
@@ -168,7 +168,7 @@ html.home-topic .main-section > .outer-row	/*Overrides padding set in the skin w
 
 a
 {
-	color: var(--Brand1);
+	color: #bb3836;
 }
 
 a:link
@@ -179,6 +179,11 @@ a:link
 a:visited
 {
 	color: var(--Brand1);
+}
+
+a:active
+{
+	color: #bb3836;
 }
 
 a.home-button

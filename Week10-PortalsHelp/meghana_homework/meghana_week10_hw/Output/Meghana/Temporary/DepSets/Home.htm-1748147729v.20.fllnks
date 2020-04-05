@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileClass="home-topic"
+  FileSearchable="false"
+  MasterPage="file:///C:/Users/chees/Desktop/CLASSES/3 MCC/Spring 2020/github/mcc_tools_tech/Week10-PortalsHelp/meghana_homework/meghana_week10_hw/Content/Resources/MasterPages/Home-Page.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/Home-Page.flmsp" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/Icon-Circle1.png" />
+    <Link
+      Url="Content/Resources/Images/Icon-Circle2.png" />
+    <Link
+      Url="https://community.rsa.com/community/support" />
+    <Link
+      Url="https://community.rsa.com/docs/DOC-101686" />
+    <Link
+      Url="Content/System-Requirements.htm" />
+    <Link
+      Url="https://community.rsa.com/docs/DOC-73378" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/Home-Page.flmsp" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/Icon-Circle1.png" />
+    <Link
+      Url="Content/Resources/Images/Icon-Circle2.png" />
+    <Link
+      Url="https://community.rsa.com/community/support" />
+    <Link
+      Url="https://community.rsa.com/docs/DOC-101686" />
+    <Link
+      Url="Content/System-Requirements.htm" />
+    <Link
+      Url="https://community.rsa.com/docs/DOC-73378" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.CompanyName" />
+    <Variable
+      Name="General.Product 1" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

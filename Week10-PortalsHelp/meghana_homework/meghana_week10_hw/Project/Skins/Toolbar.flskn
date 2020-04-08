@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="3"
+  SkinType="Component"
+  Comment="HTML5 Toolbar skin"
+  ComponentType="TopicToolbar"
+  EnableResponsiveOutput="True">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="ToolbarItem">
+        <Properties>
+          <Property
+            Name="BackgroundGradient">vertical transparent transparent</Property>
+          <Property
+            Name="BorderTopLeftRadius">3px</Property>
+          <Property
+            Name="BoxShadowVShadow">0px</Property>
+          <Property
+            Name="BorderTop">solid 1px #d0d3d5</Property>
+          <Property
+            Name="BorderRight">solid 1px #d0d3d5</Property>
+          <Property
+            Name="BorderBottom">solid 1px #d0d3d5</Property>
+          <Property
+            Name="BorderLeft">solid 1px #d0d3d5</Property>
+          <Property
+            Name="BackgroundColor">#ff0000</Property>
+        </Properties>
+        <Classes>
+          <StyleClass
+            Name="Print">
+            <Properties>
+              <Property
+                Name="BorderTopLeftRadius">3px</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="CurrentTopicIndex">
+            <Properties>
+              <Property
+                Name="Color">#45494c</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Style
+        Name="Toolbar">
+        <Properties>
+          <Property
+            Name="Float">right</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Toolbar Button Separator">
+        <Properties>
+          <Property
+            Name="Color">#d0d3d5</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Toolbar Button Drop-down">
+        <Properties>
+          <Property
+            Name="Color">#45494c</Property>
+        </Properties>
+        <Classes>
+          <StyleClass
+            Name="SelectLanguageDropDownItemHover">
+            <Properties>
+              <Property
+                Name="Color">#000000</Property>
+              <Property
+                Name="BackgroundColor">#d0d3d5</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="SelectSkinDropDownItemHover">
+            <Properties>
+              <Property
+                Name="Color">#000000</Property>
+              <Property
+                Name="BackgroundColor">#d0d3d5</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+    </Styles>
+  </Stylesheet>
+  <TopicToolbar
+    EnableCustomLayout="true"
+    Buttons="PreviousTopic|NextTopic|Separator|Print|ExpandAll" />
+  <Strings />
+</CatapultSkin>

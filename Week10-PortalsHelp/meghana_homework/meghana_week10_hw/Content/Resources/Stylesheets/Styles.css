@@ -1,0 +1,388 @@
+/*<meta />*/
+
+:root
+{
+	--Brand1: #076685;
+	--Brand2: #CDE0E7;
+	--Dark: #45494c;
+	--Medium: #b9bec1;
+	--Light: #d0d3d5;
+	--White: #ffffff;
+}
+
+body
+{
+	color: var(--Dark);
+	font-family: Arial, Avenir, Myriad;
+	font-size: 1em;
+}
+
+.body-container
+{
+	padding-left: 2%;
+	padding-top: 2%;
+}
+
+/* Content */
+
+img
+{
+	border: none;
+	max-width: 100%;
+}
+
+p
+{
+	font-size: 1em;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+p.table-text
+{
+	font-size: 12pt;
+}
+
+/* Headings */
+
+h1
+{
+	font-weight: bold;
+	font-size: 2em;
+	color: #bb3836;
+}
+
+h2
+{
+	font-weight: bold;
+	font-size: 1.8em;
+}
+
+h3
+{
+	font-weight: bold;
+	font-size: 1.6em;
+}
+
+h4
+{
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+/* Home page topic */
+
+div.home-layout
+{
+	padding: 2% 5%;
+}
+
+div.home-section
+{
+	padding: 5% 0;
+	border-bottom: solid 1px var(--Light);
+}
+
+div.home-section:last-of-type	/*Removes the border on the last section of the home page*/
+{
+	border-bottom: none;
+}
+
+div.home-tiles	/*This is a custom responsive layout row style (div class) in your stylesheet.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+div.home-tiles::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-tiles::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-tiles > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: var(--Brand2);
+	padding: 2%;
+	height: 250px;
+}
+
+div.home-tiles > div:nth-child(1)
+{
+	width: 30%;
+	margin-left: 19%;
+}
+
+div.home-tiles > div:nth-child(2)
+{
+	width: 30%;
+	margin-left: 2%;
+}
+
+div.topic-hero
+{
+	padding: 5%;
+	background-image: url('../Images/Hero-Image.png');
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+div.topic-hero h1
+{
+	color: var(--White);
+	font-size: 3.5em;
+	text-align: center;
+}
+
+html.home-topic	/*Used on home topic to override padding set in the skin*/
+{
+	
+}
+
+html.home-topic .body-container	/*Overrides padding set in the skin*/
+{
+	padding: 0;
+}
+
+html.home-topic .main-section > .outer-row	/*Overrides padding set in the skin when in tablet/mobile*/
+{
+	max-width: 100%;
+	padding: 0;
+}
+
+/* Links */
+
+a
+{
+	color: #bb3836;
+}
+
+a:link
+{
+	color: var(--Brand1);
+}
+
+a:visited
+{
+	color: var(--Brand1);
+}
+
+a:active
+{
+	color: #bb3836;
+}
+
+a.home-button
+{
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	width: 100%;
+}
+
+MadCap|dropDown
+{
+	border-bottom: 1px solid var(--Dark);
+	mc-image-position: left;
+	mc-image-spacing: 10px;
+	padding: 10px 0;
+	mc-closed-image: url('../Images/Plus.png');
+	mc-open-image: url('../Images/Minus.png');
+}
+
+MadCap|dropDownBody
+{
+	padding: 10px 30px 0;
+}
+
+MadCap|dropDownHotspot
+{
+	cursor: hand;
+	text-decoration: none;
+	color: var(--Dark);
+	font-size: 20pt;
+	font-weight: bold;
+	border-bottom: none;
+}
+
+MadCap|expandingBody
+{
+	color: var(--Dark);
+	font-style: italic;
+}
+
+MadCap|expandingHead
+{
+	font-style: italic;
+	font-weight: normal;
+	cursor: hand;
+	text-decoration: none;
+	color: var(--Brand1);
+}
+
+MadCap|xref
+{
+	font-weight: bold;
+	mc-format: '{para}';
+	text-decoration: underline;
+	color: var(--Brand1);
+}
+
+/* Lists */
+
+li
+{
+	margin-bottom: 6pt;
+	margin-top: 6pt;
+}
+
+li p
+{
+	margin-bottom: 6pt;
+	margin-top: 6pt;
+}
+
+ol,
+ul
+{
+	letter-spacing: .25;
+	line-height: 20pt;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* Master page */
+
+div.home-footer
+{
+	padding: 2% 5%;
+	color: white;
+	background-color: #bb3836;
+}
+
+p.footer
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 13pt;
+	color: var(--White);
+}
+
+p.footer-sub
+{
+	color: var(--White);
+	font-size: 14pt;
+	margin-top: 14px;
+}
+
+@media print
+{
+	/* Links */
+
+	MadCap|xref
+	{
+		font-weight: normal;
+		mc-format: '{quote}{para}{quote} {pageref}';
+		text-decoration: none;
+	}
+}
+
+@media tablet
+{
+	/* Home page topic */
+
+	html.home-topic .body-container
+	{
+		margin-left: 0;
+	}
+
+	/* Master page */
+
+	.footer
+	{
+		padding: 2% 2% 1%;
+	}
+
+	div.home-footer > div:nth-child(1)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	div.home-footer > div:nth-child(2)
+	{
+		width: 75%;
+		margin-left: 0%;
+	}
+}
+
+@media mobile
+{
+	/* Home page topic */
+
+	div.home-tiles p
+	{
+		line-height: 1.2;
+	}
+
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 10px;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.topic-hero h1
+	{
+		font-size: 2.5em;
+		text-align: center;
+	}
+
+	/* Master page */
+
+	.footer
+	{
+		padding: 5% 7%;
+		text-align: center;
+	}
+
+	.footer-icons
+	{
+		text-align: center;
+	}
+
+	.footer-logo
+	{
+		text-align: center;
+	}
+
+	div.home-footer > div:nth-child(1)
+	{
+		width: 100%;
+	}
+
+	div.home-footer > div:nth-child(2)
+	{
+		width: 100%;
+		margin: 3% 0;
+	}
+}
+

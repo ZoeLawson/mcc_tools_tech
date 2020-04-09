@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="insert_a_link_to_another_topic">
+    <title>Insert a link to another topic</title>
+    <shortdesc>Links to other topics are also known as "local" links.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Add an <xmlelement>xref</xmlelement> element.</cmd>
+            </step>
+            <step>
+                <cmd>Add the <xmlatt>href</xmlatt> attribute with the relative path to the topic you
+                    want to link to.</cmd>
+            </step>
+        </steps>
+        <example>For example, here's a link to <xref href="working_with_topics.dita"/>. The source
+            is <codeph>&lt;xref href="working_with_topics.dita"/></codeph>.</example>
+    </taskbody>
+</task>

@@ -1,0 +1,169 @@
+/*<meta />*/
+
+@media only screen and (max-width: 767px)
+{
+	.search-bar
+	{
+		width: 100%;
+	}
+
+	.buttons._Skins_Toolbar.mc-component
+	{
+		
+	}
+
+	._Skins_Toolbar.mc-component .button
+	{
+		background-repeat: no-repeat;
+		background: #ff0000;
+		background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: linear-gradient(top, transparent 0%,transparent 100%);
+		-pie-background: linear-gradient(transparent, transparent);
+		background-position: center center;
+	}
+
+	._Skins_Toolbar.mc-component .button.collapse-all-button
+	{
+		background: #ff0000 url('Images/collapse.png') no-repeat center center;
+		background: url('Images/collapse.png') no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/collapse.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: url('Images/collapse.png') no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/collapse.png') no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/collapse.png') no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/collapse.png') no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
+		-pie-background: url('Skins/Default/Stylesheets/Components/Images/collapse.png') no-repeat center center, linear-gradient(transparent, transparent);
+	}
+
+	._Skins_Toolbar.mc-component .button.current-topic-index-button
+	{
+		background-repeat: no-repeat;
+		background: #ff0000;
+		background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: linear-gradient(top, transparent 0%,transparent 100%);
+		-pie-background: linear-gradient(transparent, transparent);
+		background-position: center center;
+	}
+
+	._Skins_Toolbar.mc-component .button.expand-all-button
+	{
+		background: #ff0000 url('Images/expand.png') no-repeat center center;
+		background: url('Images/expand.png') no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/expand.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: url('Images/expand.png') no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/expand.png') no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/expand.png') no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/expand.png') no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
+		-pie-background: url('Skins/Default/Stylesheets/Components/Images/expand.png') no-repeat center center, linear-gradient(transparent, transparent);
+	}
+
+	._Skins_Toolbar.mc-component .button.next-topic-button
+	{
+		background: #ff0000 url('Images/navigate-next.png') no-repeat center center;
+		background: url('Images/navigate-next.png') no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/navigate-next.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: url('Images/navigate-next.png') no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/navigate-next.png') no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/navigate-next.png') no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/navigate-next.png') no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
+		-pie-background: url('Skins/Default/Stylesheets/Components/Images/navigate-next.png') no-repeat center center, linear-gradient(transparent, transparent);
+	}
+
+	._Skins_Toolbar.mc-component .button.previous-topic-button
+	{
+		background: #ff0000 url('Images/navigate-previous.png') no-repeat center center;
+		background: url('Images/navigate-previous.png') no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/navigate-previous.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: url('Images/navigate-previous.png') no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/navigate-previous.png') no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/navigate-previous.png') no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/navigate-previous.png') no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
+		-pie-background: url('Skins/Default/Stylesheets/Components/Images/navigate-previous.png') no-repeat center center, linear-gradient(transparent, transparent);
+	}
+
+	._Skins_Toolbar.mc-component .button.print-button
+	{
+		background: #ff0000 url('Images/printer.png') no-repeat center center;
+		background: url('Images/printer.png') no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/printer.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: url('Images/printer.png') no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/printer.png') no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/printer.png') no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/printer.png') no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
+		-pie-background: url('Skins/Default/Stylesheets/Components/Images/printer.png') no-repeat center center, linear-gradient(transparent, transparent);
+	}
+
+	._Skins_Toolbar.mc-component .button.remove-highlight-button
+	{
+		background: #ff0000 url('Images/highlight.png') no-repeat center center;
+		background: url('Images/highlight.png') no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/highlight.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: url('Images/highlight.png') no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/highlight.png') no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/highlight.png') no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/highlight.png') no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
+		-pie-background: url('Skins/Default/Stylesheets/Components/Images/highlight.png') no-repeat center center, linear-gradient(transparent, transparent);
+	}
+
+	._Skins_Toolbar.mc-component .button.select-language-button
+	{
+		background: #ff0000 url('Images/select-language.png') no-repeat center center;
+		background: url('Images/select-language.png') no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/select-language.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: url('Images/select-language.png') no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/select-language.png') no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/select-language.png') no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/select-language.png') no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
+		-pie-background: url('Skins/Default/Stylesheets/Components/Images/select-language.png') no-repeat center center, linear-gradient(transparent, transparent);
+	}
+
+	._Skins_Toolbar.mc-component .button.select-skin-button
+	{
+		background: #ff0000 url('Images/select-skin.png') no-repeat center center;
+		background: url('Images/select-skin.png') no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/select-skin.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: url('Images/select-skin.png') no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/select-skin.png') no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/select-skin.png') no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/select-skin.png') no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
+		-pie-background: url('Skins/Default/Stylesheets/Components/Images/select-skin.png') no-repeat center center, linear-gradient(transparent, transparent);
+	}
+
+	._Skins_Toolbar.mc-component .toolbar-button-drop-down
+	{
+		background-color: #FFFFFF;
+	}
+
+	._Skins_Toolbar.mc-component .toolbar-button-drop-down.select-language-drop-down
+	{
+		background-color: #FFFFFF;
+	}
+
+	._Skins_Toolbar.mc-component .toolbar-button-drop-down.select-language-drop-down ul li:hover
+	{
+		background-color: #d0d3d5;
+	}
+
+	._Skins_Toolbar.mc-component .toolbar-button-drop-down.select-skin-drop-down
+	{
+		background-color: #FFFFFF;
+	}
+
+	._Skins_Toolbar.mc-component .toolbar-button-drop-down.select-skin-drop-down ul li:hover
+	{
+		background-color: #d0d3d5;
+	}
+
+	._Skins_Toolbar.mc-component .button-separator
+	{
+		
+	}
+}
+

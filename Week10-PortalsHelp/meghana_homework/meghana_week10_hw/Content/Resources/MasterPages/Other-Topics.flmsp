@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <meta http-equiv="Cache-control" content="no-cache" />
+        <link href="../Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: ;" />
+        <MadCap:breadcrumbsProxy class="" />
+        <MadCap:bodyProxy />
+    </body>
+</html>

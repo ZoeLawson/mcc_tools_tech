@@ -1,0 +1,107 @@
+/*<meta />*/
+
+/*<meta sourceDocument="C:\Users\rebes\Downloads\Recommendation Report for Cayson Design.docx" />*/
+
+p
+{
+	font-family: Calibri;
+	font-size: 12pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+ol
+{
+	font-family: Calibri;
+	font-size: 12pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+ul
+{
+	font-family: Calibri;
+	font-size: 12pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+li
+{
+	font-family: Calibri;
+	font-size: 12pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+td
+{
+	font-family: Calibri;
+	font-size: 12pt;
+	vertical-align: top;
+}
+
+h1.Heading1
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 12pt;
+	mc-heading-level: 1;
+	font-family: 'Calibri Light';
+	color: #2F5496;
+	font-size: 16pt;
+	font-weight: normal;
+}
+
+h1.Heading1_1
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 12pt;
+	mc-heading-level: 1;
+	color: #2F5496;
+	font-weight: normal;
+	font-family: 'Times New Roman';
+	font-size: 12pt;
+}
+
+p.p_1
+{
+	font-family: 'Times New Roman';
+}
+
+h2.Heading2
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 2pt;
+	mc-heading-level: 2;
+	font-family: 'Calibri Light';
+	color: #2F5496;
+	font-size: 13pt;
+	font-weight: normal;
+}
+
+h2.Heading2_1
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 2pt;
+	mc-heading-level: 2;
+	color: #2F5496;
+	font-weight: normal;
+	font-family: 'Times New Roman';
+	font-size: 12pt;
+}
+
+span.span_1
+{
+	font-family: 'Times New Roman';
+}
+
+p.p_2
+{
+	margin-left: 5pt;
+	margin-right: 18pt;
+}
+

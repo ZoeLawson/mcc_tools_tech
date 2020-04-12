@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="PDF"
+  Destinations=""
+  ShowMadCapBacklink="true"
+  MasterToc="/Project/TOCs/Recommendation Report for Cayson Design_1.fltoc"
+  MasterPageLayout="/Content/Resources/PageLayouts/Default.flpgl"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
+  UseLocalBuildSettings="true"
+  OutputFolder="C:\Users\rebes\Desktop\Cayson Designs MadCap Flare\CaysonDesigns.pdf"
+  OutputFile="[%=Heading.AnyLevel%]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true"
+    OutputFormat="doc" />
+  <Glossaries />
+  <PDF
+    Tagged="true" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/Destination.fldes"
+      Publish="true"
+      IsResource="false" />
+  </Destinations>
+</CatapultTarget>

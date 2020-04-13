@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  LastImport="2020-04-12T12:32:14.9799906-04:00">
+  <Files>
+    <Url
+      Source="../../../../Downloads/Recommendation Report for Cayson Design.docx"
+      AbsoluteSource="file:///C:/Users/rebes/Downloads/Recommendation Report for Cayson Design.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Recommendation Report for_1.htm"
+      TimeStamp="4/12/2020 12:32:02 PM" />
+    <Url
+      Source="../../Content/Introduction_1.htm"
+      TimeStamp="4/12/2020 12:32:02 PM" />
+    <Url
+      Source="../../Content/Ethics_1.htm"
+      TimeStamp="4/12/2020 12:32:02 PM" />
+    <Url
+      Source="../../Content/Cost_1.htm"
+      TimeStamp="4/12/2020 12:32:02 PM" />
+    <Url
+      Source="../../Content/Functionality_1.htm"
+      TimeStamp="4/12/2020 12:32:02 PM" />
+    <Url
+      Source="../../Content/Conclusion_1.htm"
+      TimeStamp="4/12/2020 12:32:02 PM" />
+    <Url
+      Source="../TOCs/Recommendation Report for Cayson Design_1.fltoc"
+      TimeStamp="4/12/2020 12:32:01 PM" />
+    <Url
+      Source="../../Content/Resources/MasterPages/Recommendation Report for Cayson Design_1.flmsp"
+      TimeStamp="4/12/2020 12:32:02 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Recommendation Report for Cayson Design.css"
+      TimeStamp="4/12/2020 12:32:02 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading2"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Page Number"
+      To="span.PageNumber"
+      Style="Word" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+  </NewTopicStyles>
+</MsWordImport>

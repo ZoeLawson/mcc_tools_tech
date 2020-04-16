@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DitaImport
+  ProjectName="Test DITA Acme Eye1"
+  ProjectFolder="C:\LisaStuff\MCC\mygit\mcc_tools_tech\Week11-DITA\lisa_fleischmann_week11_homework\Test DITA Acme Eye1\"
+  KeepSourceLinks="true"
+  KeepElementIDs="false"
+  CreateSeparateTocs="true"
+  SaveContentToOneFolder="true"
+  LastImport="2020-04-16T10:50:54.5334623-04:00">
+  <Files>
+    <Url
+      Source="../../../acme_eye.ditamap"
+      AbsoluteSource="file:///C:/LisaStuff/MCC/mygit/mcc_tools_tech/Week11-DITA/lisa_fleischmann_week11_homework/acme_eye.ditamap" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles>
+    <Url
+      Source="../../../why_use_acme_eye.dita"
+      AbsoluteSource="file:///C:/LisaStuff/MCC/mygit/mcc_tools_tech/Week11-DITA/lisa_fleischmann_week11_homework/why_use_acme_eye.dita" />
+    <Url
+      Source="../../../reviewing_prerequisites.dita"
+      AbsoluteSource="file:///C:/LisaStuff/MCC/mygit/mcc_tools_tech/Week11-DITA/lisa_fleischmann_week11_homework/reviewing_prerequisites.dita" />
+    <Url
+      Source="../../../installing_browser_setup_script.dita"
+      AbsoluteSource="file:///C:/LisaStuff/MCC/mygit/mcc_tools_tech/Week11-DITA/lisa_fleischmann_week11_homework/installing_browser_setup_script.dita" />
+    <Url
+      Source="../../../untitled1.dita"
+      AbsoluteSource="file:///C:/LisaStuff/MCC/mygit/mcc_tools_tech/Week11-DITA/lisa_fleischmann_week11_homework/untitled1.dita" />
+  </CollectedSourceFiles>
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/acme_eye/why_use_acme_eye.htm"
+      TimeStamp="4/16/2020 10:50:25 AM" />
+    <Url
+      Source="../../Content/acme_eye/reviewing_prerequisites.htm"
+      TimeStamp="4/16/2020 10:50:25 AM" />
+    <Url
+      Source="../../Content/acme_eye/installing_browser_setup_script.htm"
+      TimeStamp="4/16/2020 10:50:25 AM" />
+    <Url
+      Source="../../Content/acme_eye/images/create_new_project.jpg"
+      TimeStamp="4/15/2020 1:14:15 PM" />
+    <Url
+      Source="../../Content/acme_eye/untitled1.htm"
+      TimeStamp="4/16/2020 10:50:25 AM" />
+    <Url
+      Source="../TOCs/acme_eye.fltoc"
+      TimeStamp="4/16/2020 10:50:25 AM" />
+    <Url
+      Source="../../Content/acme_eye/acme_eye.css"
+      TimeStamp="4/16/2020 10:50:25 AM" />
+  </GeneratedFiles>
+  <ImportStyles />
+</DitaImport>

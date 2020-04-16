@@ -51,6 +51,10 @@
         <topicref href="insert_a_keyref.dita"/>
     </chapter>
     <chapter href="week_11_homework.dita"/>
+    <chapter href="../../ClassDemo/my_first_concept.dita">
+        <topicref href="../../ClassDemo/my_first_reference_topic.dita"/>
+        <topicref href="../../ClassDemo/my_first_task_topic.dita"/>
+    </chapter>
     <backmatter>    <keydef keys="sample_path" href="art/keyref.png"/>
         <keydef keys="sample_string">
             <topicmeta>

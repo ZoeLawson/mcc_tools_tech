@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="about_the_oxygen_dita_maps_manager">
+    <title>About the Oxygen DITA Maps Manager</title>
+    <shortdesc>This is a glorious panel in Oxygen that makes working with the topics in your map
+        much easier. </shortdesc>
+    <conbody>
+        <p>The major function of a map file is to be your table of contents. The <wintitle>DITA Maps
+                Manager</wintitle> displays your map file in a hierarchical way. You can easily add
+            new topics, reorganize your topics, and open topics to edit them from the <wintitle>DITA
+                Maps Manager</wintitle>.</p>
+    </conbody>
+</concept>

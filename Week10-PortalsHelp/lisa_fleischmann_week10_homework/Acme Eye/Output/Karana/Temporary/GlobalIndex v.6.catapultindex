@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlobalIndex
+  SavedSource="file:///C:/LisaStuff/MCC/mygit/mcc_tools_tech/Week10-PortalsHelp/lisa_fleischmann_week10_homework/Acme Eye/Output/Karana/Temporary/GlobalIndex v.6.catapultindex">
+  <IndexEntry>
+    <Entries />
+    <Links />
+    <SeeAlsoLinks />
+    <IndexControlLinks />
+    <SortAsLinks />
+  </IndexEntry>
+  <SourceUrls>
+    <Url
+      Source="installing_browser_setup_script/installing_browser_setup_script.css" />
+    <Url
+      Source="installing_browser_setup_script/installing_browser_setup_script.htm" />
+    <Url
+      Source="Resources/MasterPages/MasterPage.flmsp" />
+    <Url
+      Source="Resources/PageLayouts/Default.flpgl" />
+    <Url
+      Source="Resources/Stylesheets/Styles.css" />
+  </SourceUrls>
+  <SourceLinkSetUrls>
+    <Url
+      Source="Advanced/Index Link Sets/IndexLinkSet.flixl" />
+  </SourceLinkSetUrls>
+  <UsedUrls />
+  <UsedIndexControlUrls />
+</CatapultGlobalIndex>

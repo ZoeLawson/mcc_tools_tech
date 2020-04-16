@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="">
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    StartSection="false"
+    PageNumber="1"
+    PageNumberReset="reset"
+    StartPageLayout="false"
+    PageType="title"
+    PageNumberFormat="lower-roman"
+    PageLayout="/Content/Resources/PageLayouts/Frontmatter.flpgl"
+    Link="/Content/E-Frontmatter-Topics/Title.htm"
+    BreakType="pageLayout"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/A-Introduction-Topics/Getting-Started.htm"
+    StartChapter="true"
+    PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl"
+    PageNumber="1"
+    PageNumberReset="continue"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    VolumeNumberReset="same"
+    SectionNumberReset="continue"
+    StartPageLayout="false"
+    StartSection="false"
+    AutoEndOnLeftPage="enabled"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/A-Introduction-Topics/Basic-Steps.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/B-Feature-Topics/Features.htm"
+    StartChapter="true"
+    PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl"
+    PageNumber="1"
+    PageNumberReset="continue"
+    StartSection="false"
+    StartPageLayout="false"
+    AutoEndOnLeftPage="enabled"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/B-Feature-Topics/Feature1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/B-Feature-Topics/Feature2.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/B-Feature-Topics/Feature3.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/C-Procedure-Topics/Procedures.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/C-Procedure-Topics/Procedure1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/C-Procedure-Topics/Procedure2.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/C-Procedure-Topics/Procedure3.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+</CatapultToc>

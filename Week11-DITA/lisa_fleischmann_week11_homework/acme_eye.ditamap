@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title></title>
+    <topicref href="why_use_acme_eye.dita">
+        <topicref href="reviewing_prerequisites.dita">
+            <topicref href="installing_browser_setup_script.dita">
+                <topicref href="creating_a_project.dita"/>
+            </topicref>
+        </topicref>
+    </topicref>
+</map>

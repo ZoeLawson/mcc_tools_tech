@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="my_first_reference_topic">
+    <title>Reviewing Prerequisites</title>
+    <shortdesc>When reviewing prerequisites for Acme Eye, it is important to review the web browsers
+        and software that Acme Eye supports.</shortdesc>
+    <refbody>
+        <section>
+            <p>Acme Eye supports web browsers and software, as shown in the table below.</p>
+        </section>
+        <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Item</entry>
+                        <entry>Version</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Firefox</entry>
+                        <entry>17 or later</entry>
+                    </row>
+                    <row>
+                        <entry>Chrome</entry>
+                        <entry>12 or later</entry>
+                    </row>
+                    <row>
+                        <entry>Safari</entry>
+                        <entry>4 or later</entry>
+                    </row>
+                    <row>
+                        <entry>Windows</entry>
+                        <entry>7 or later</entry>
+                    </row>
+                    <row>
+                        <entry>Mac OS</entry>
+                        <entry>7 or later</entry>
+                    </row>
+                    <row>
+                        <entry>Microsoft Office</entry>
+                        <entry>2003 or later</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

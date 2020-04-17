@@ -6,6 +6,9 @@
     <refbody>
         <section>
             <p>Here is some text in a reference topic. Usually I write the intro blurb.</p>
+            <p id="conref_test">I want to reuse this paragraph elsewhere.</p>
+            <p><ph keyref="sample_string"/></p>
+            <image keyref="sample_path" placement="break"/>
         </section>
         <table frame="all" rowsep="1" colsep="1">
             <tgroup cols="2">

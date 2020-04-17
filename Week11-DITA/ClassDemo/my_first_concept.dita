@@ -4,10 +4,13 @@
     <title>My first concept</title>
     <shortdesc>This is the short description.</shortdesc>
     <conbody>
-        <p>This is a pargraph.</p>
+        <p>This is a pargraph. <ph conref="task_from_word.dita#task_from_word/phrase"/></p>
         <ul>
-            <li>This is a list item</li>
-            <li>This is my second list item.</li>
+            <li>This is a list item <ph conref="default_topic.dita#default_topic/company"/><ph
+                    conkeyref="default/product"/></li>
+            <li>This is my second list item. <p
+                    conref="my_first_reference_topic.dita#my_first_reference_topic/conref_test"
+                /></li>
         </ul>
         <p>This is another pargraph.</p>
         <note>This is <uicontrol>more</uicontrol>

@@ -4,13 +4,15 @@
     <title>My first task topic</title>
     <shortdesc>Another short description.</shortdesc>
     <taskbody>
-        <prereq>A list of things I need before I do my procedure.</prereq>
-        <context>
-            <p>A few tips you need for the task. Why you would complete this task.</p>
-            <image placement="break" href="../exampleDITAsource/DITA/art/linkPopup.png">
+        <prereq>A list of things I need before I do my procedure. <ph keyref="newProduct"/> does
+            amazing things.<p
+                conref="my_first_reference_topic.dita#my_first_reference_topic/conref_test"
+            /></prereq>
+        <context><p>A few tips you need for the task. Why you would complete this task. <ph
+                    conkeyref="default/product"/></p><image placement="break"
+                href="../exampleDITAsource/DITA/art/linkPopup.png">
                 <alt>Used by screen readers</alt>
-            </image>
-        </context>
+            </image><image keyref="sample_path"/></context>
         <steps>
             <step>
                 <cmd>This is a thing to do. Click the <uicontrol>thing</uicontrol>.</cmd>

@@ -55,6 +55,8 @@
         <topicref href="../../ClassDemo/my_first_reference_topic.dita"/>
         <topicref href="../../ClassDemo/my_first_task_topic.dita"/>
     </chapter>
+    <chapter href="../../ClassDemo/from_word.dita"/>
+    <chapter href="../../ClassDemo/task_from_word.dita"/>
     <backmatter>    <keydef keys="sample_path" href="art/keyref.png"/>
         <keydef keys="sample_string">
             <topicmeta>
@@ -63,5 +65,13 @@
                 </keywords>
             </topicmeta>
         </keydef>
+        <keydef keys="newProduct">
+            <topicmeta>
+                <keywords>
+                    <keyword>New Product</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="default" href="../../ClassDemo/default_topic.dita"/>
     </backmatter>
 </bookmap>

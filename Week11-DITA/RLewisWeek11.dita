@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle></mainbooktitle>
+    </booktitle>
+    <chapter href="../introduction_0.dita"/>
+    <chapter href="../materialsyouwillneed_0.dita"/>
+    <chapter href="../a_few_words.dita"/>
+    <chapter href="../bancroft_s_steps_of_service.dita"/>
+</bookmap>

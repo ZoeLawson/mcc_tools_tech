@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="netwitness_reference_page">
-    <title>netwitness_reference_page</title>
+    <title>RSA NetWitness Platform Key Terms</title>
     <shortdesc></shortdesc>
-    <refbody> </refbody>
+    <refbody>
+        <properties id="properties_xvw_2lp_klb">
+            <property>
+                <proptype>Dashboard</proptype>
+                <propdesc>Displays what you configure to be the most important information within
+                    your RSA NetWitness Platform instance.</propdesc>
+            </property>
+            <property>
+                <proptype>Decoder</proptype>
+                <propdesc>One of the key services in the RSA NetWitness Platform. The Decoder captures log and network data, as well as parses log data.</propdesc>
+            </property>
+        </properties>
+    </refbody>
 </reference>

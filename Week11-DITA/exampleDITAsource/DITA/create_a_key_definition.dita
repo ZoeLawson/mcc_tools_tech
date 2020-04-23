@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="create_a_key_definition">
+    <title>Create a key definition</title>
+    <shortdesc>Keys must be defined in a map file.</shortdesc>
+    <taskbody>
+        <context>
+            <p>You can use DITA keys for short phrases or references, that is, paths to other
+                files.</p>
+            <p>Short phrases are great for product names and other short variables.</p>
+            <p>Paths to files let you set up links to files that contain content to be referenced or
+                images. Since you can reference maps from maps, you can set up one map that has
+                paths to all of your high-resolution images and another map that has low-resolution
+                images. Then you can use the high-resolution images in a bookmap that builds a PDF,
+                and the low-resolution for HTML.</p>
+        </context>
+        <steps-unordered>
+            <step>
+                <cmd>Use the following format for short string.</cmd>
+                <stepxmp>
+                    <codeblock>&lt;keydef keys="sample_string">
+    &lt;topicmeta>
+        &lt;keywords>
+            &lt;keyword>Words from a key&lt;/keyword>
+        &lt;/keywords>
+    &lt;/topicmeta>
+&lt;/keydef></codeblock>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Us the following format for a path to a file. This could be an image, another
+                    DITA topic, or an external website.</cmd>
+                <stepxmp>
+                    <codeblock>&lt;keydef keys="sample_path" href="path/to/file.png"/></codeblock>
+                </stepxmp>
+            </step>
+        </steps-unordered>
+    </taskbody>
+</task>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="untitled3">
+    <title>Why Use Acme Eye?</title>
+    <shortdesc>This guide: <b>Building Proposals with Acme Eye</b> provides steps on how to build
+        proposals with Acme Eye, a proposal automation tool. It is for Acme associates who work on
+        proposals.It includes reviewing prerequisites, such as browser, Mac OS, Microsoft Office,
+        and Windows, installing browser setup script and logging in, creating a project, completing
+        screens, and building your documents. Acme Eye enables you to save time and increase sales.
+        Preparing proposals is a time-consuming task. Using Acme Eye enables you to save 40% of your
+        time because it automates repetitive tasks. It allows you to spend more time with customers
+        and less time in the office. Thus, it boosts your odds of closing deals and bringing in more
+        revenue. </shortdesc>
+    <conbody>
+        <p>conref="notes.dita#topic_acme_eye/web_based_tool"/></p>
+        <p>This guide includes the following sections. <ol>
+            <li>1.0 Step 1: Reviewing Prerequisites</li>
+            <li>2.0 Step 2: Installing Browser Setup Script &amp; Logging in</li>
+            <li>3.0 Step 3: Creating a Project</li>
+            <li>4.0 Step 4: Completing Data Screens</li>
+            <li>5.0 Step 5: Completing Selection Screens</li>
+            <li>6.0 Step 6: Building your Document<p>Sections 1.0 through 6.0 define the steps
+                to build a proposal with Acme Eye.</p></li>
+        </ol></p>
+        <p>
+            <note>If you need technical support or require additional assistance with Acme Eye, call
+                the Acme IT Department at 978-393-4357 or 978-EYE-HELP.</note>
+        </p>
+    </conbody>
+</concept>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="structured_authoring_resources">
+    <title>Structured authoring resources</title>
+    <shortdesc>Structured authoring is an important concept in technical writing you should
+        understand.</shortdesc>
+    <conbody>
+        <p>I recommend you review these articles to get a better grasp on structured authoring.</p>
+        <ul>
+            <li><xref href="https://www.scriptorium.com/structure.pdf" format="pdf" scope="external"
+                    >Structured Authoring and XML</xref></li>
+            <li><xref
+                    href="https://flowtime.be/wp-content/uploads/2016/01/what_is_structured_authoring.pdf"
+                    format="pdf" scope="external"/></li>
+        </ul>
+    </conbody>
+</concept>

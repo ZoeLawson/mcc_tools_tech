@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>DITA</mainbooktitle>
+        <booktitlealt>Week 11</booktitlealt>
+    </booktitle>
+    <bookmeta>
+        <author>Zoë Lawson</author>
+        <prodinfo>
+            <prodname>Tools and Technologies for Tech Writers 2020</prodname>
+            <vrmlist>
+                <vrm version="1" release="0" modification="0"/>
+            </vrmlist>
+        </prodinfo>
+        <bookrights>
+            <copyrfirst>
+                <year>2020</year>
+            </copyrfirst>
+            <bookowner>
+                <person>Zoë Lawson</person>
+                <organization>MIDDLESEX Community College</organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter>
+        <notices href="../common/notices_dita.dita" toc="no"/>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter href="dita_resources.dita">
+        <topicref href="structured_authoring_resources.dita"/>
+    </chapter>
+    <chapter href="working_with_maps.dita">
+        <topicref href="create_a_map_in_oxygen.dita"/>
+        <topicref href="about_the_oxygen_dita_maps_manager.dita"/>
+        <topicref href="add_a_new_topic_from_the_maps_manager.dita"/>
+        <topicref href="maps_behind_the_scenes.dita"/>
+    </chapter>
+    <chapter href="working_with_topics.dita">
+        <topicref href="basic_authoring.dita"/>
+        <topicref href="about_short_descriptions.dita"/>
+        <topicref href="semantic_tagging.dita"/>
+        <topicref href="insert_an_image.dita"/>
+        <topicref href="insert_a_link_to_another_topic.dita"/>
+        <topicref href="insert_a_link_to_external_content.dita"/>
+        <topicref href="set_up_content_for_a_conref.dita"/>
+        <topicref href="inserting_a_conref.dita"/>
+        <topicref href="create_a_key_definition.dita"/>
+        <topicref href="insert_a_keyref.dita"/>
+    </chapter>
+    <chapter href="week_11_homework.dita"/>
+    <chapter href="../../ClassDemo/my_first_concept.dita">
+        <topicref href="../../ClassDemo/my_first_reference_topic.dita"/>
+        <topicref href="../../ClassDemo/my_first_task_topic.dita"/>
+    </chapter>
+    <chapter href="../../ClassDemo/from_word.dita"/>
+    <chapter href="../../ClassDemo/task_from_word.dita"/>
+    <backmatter>    <keydef keys="sample_path" href="art/keyref.png"/>
+        <keydef keys="sample_string">
+            <topicmeta>
+                <keywords>
+                    <keyword>Words from a key</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="newProduct">
+            <topicmeta>
+                <keywords>
+                    <keyword>New Product</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="default" href="../../ClassDemo/default_topic.dita"/>
+    </backmatter>
+</bookmap>

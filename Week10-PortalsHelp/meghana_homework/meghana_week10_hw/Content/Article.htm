@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>In RSA NetWitness version 11.3.x, queries in Investigate &gt; Navigate are automatically modified.</h1>
+        <table style="width: 100%;">
+            <col style="width: auto;" />
+            <col style="width: auto;" />
+            <col style="width: auto;" />
+            <tbody>
+                <tr>
+                    <td>&#160;<b>Article #:</b> 000037712</td>
+                    <td>&#160;<b>Product:</b> <MadCap:variable name="General.CompanyName" /> <MadCap:variable name="General.Product 1" /></td>
+                    <td>&#160;&#160;<b>Version:</b> 11.3.x</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 style="mc-locked: unlocked;">Applies To:</h2>
+        <ul>
+            <li><MadCap:variable name="General.CompanyName" /> Product Set: <MadCap:variable name="General.Product 1" /></li>
+            <li><MadCap:variable name="General.CompanyName" /> Product/Service Type: <MadCap:variable name="General.Product 1" /> UI</li>
+            <li><MadCap:variable name="General.CompanyName" /> Version/Condition: 11.3.x</li>
+            <li>Platform: CentOS</li>
+            <li>O/S Version: 7</li>
+        </ul>
+        <h2 style="mc-locked: unlocked;">Issue:</h2>
+        <p>When attempting to run a query in Investigate &gt; Navigate within the <MadCap:variable name="General.CompanyName" /> <MadCap:variable name="General.Product 1" /> UI and pressing "Apply," the query is automatically modified to a different query that was not originally entered and provides different data.</p>
+        <h2 style="mc-locked: unlocked;">Workaround:</h2>
+        <p>This workaround is due to whenever a query is executed that is automatically modified, it fetches the incorrect ID for that query from the list within the URL Integrations page, which is why the query is modified.</p>
+        <ol>
+            <li>
+                <p>On node zero, log into mongo.</p>
+                <p><span style="font-family: Consolas;">mongo admin -u deploy_admin -p &lt;password&gt;</span>
+                </p>
+            </li>
+            <li>
+                <p>Display the list of databases and choose the investigate-server database.</p>
+                <p style="font-family: Consolas;">&gt; show dbs</p>
+                <p style="font-family: Consolas;">&gt; use investigate-server</p>
+            </li>
+            <li>
+                <p>Run the following command, which will retain any old queries previously ran in Investigation. However, if you have previously bookmarked any URL's from Investigation, such as "<span style="font-family: Consolas;">https://&lt;sa_ip&gt;/investigation/18/navigate/values/1284</span>", the bookmarks will no longer be valid, as the ID's associated with the old queries (in this example: <span style="font-family: Consolas;">1284</span>) will not work.</p>
+                <p style="font-family: Consolas;">&gt; db.getCollection('predicate').updateMany({}, {$unset: {"legacyId": ""}})</p>
+            </li>
+        </ol>
+        <h2 style="mc-locked: unlocked;">Attribution:</h2>
+        <table style="width: 100%;">
+            <col style="width: 33%;" />
+            <col style="width: 33%;" />
+            <col style="width: 33%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p class="toptable"><b style="mc-locked: unlocked;">Last Updated:</b>
+                        </p>
+                        <p class="toptable" style="text-align: left;">August 6, 2019</p>
+                    </td>
+                    <td>
+                        <p class="toptable" style="mc-locked: unlocked;"><b style="mc-locked: unlocked;">Author: </b>
+                        </p>
+                        <p class="toptable">Meghana Arvind</p>
+                    </td>
+                    <td>
+                        <p class="toptable"><b>Contributions By: </b>
+                        </p>
+                        <p class="toptable" style="text-align: left;"><MadCap:variable name="General.CompanyName" /> Customer Support</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

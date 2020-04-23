@@ -1,50 +1,50 @@
 var tour = new Tour ({
-  name: “Garageband Audio Regions”
-  steps: [
+  "name": “Garageband Audio Regions”
+  "steps": [
     {
-      element: “Verse2_Workspace”,
-      title: “Create Audio Regions to Edit Sections of your Track“,
-      content: “Here is an audio region. Once you have your track in the Workspace, you can separate your track into sections — audio regions — and then edit each audio region however you want. Move, loop, trim, copy, fade, EQ, and much more.“,
-      placement: ‘bottom’,
-      backdrop: true
+      "element": “Verse2_Workspace”,
+      "title": “Create Audio Regions to Edit Sections of your Track“,
+      "content": “Here is an audio region. Once you have your track in the Workspace, you can separate your track into sections — audio regions — and then edit each audio region however you want. Move, loop, trim, copy, fade, EQ, and much more.“,
+      "placement": ‘bottom’,
+      "backdrop": true
     },
     {
-      element: “Chorus”,
-      content: “This track currently has four audio regions: Intro, Verse 1, Verse 2, and Chorus. You can create new regions anytime.“,
-      placement: ‘right’
+      "element": “Chorus”,
+      "content": “This track currently has four audio regions: Intro, Verse 1, Verse 2, and Chorus. You can create new regions anytime.“,
+      "placement": ‘right’
     },
 {
-      element: “AudioEditor”,
-      content: “This is the Audio Editor window where you create new audio regions for your tracks.”,
-      placement: ‘top’,
-      backdrop: true
+      "element": “AudioEditor”,
+      "content": “This is the Audio Editor window where you create new audio regions for your tracks.”,
+      "placement": ‘top’,
+      "backdrop": true
 },
 {
-      element: “Editors_Button”,
-      content: “To open or close the Audio Editor window, click the Editors button.”,
-      placement: ‘bottom’
+      "element": “Editors_Button”,
+      "content": “To open or close the Audio Editor window, click the Editors button.”,
+      "placement": ‘bottom’
 },
 {
-     element: “Verse2_AudioEditor”,
-     title: “How to Create an Audio Region”,
-     content: “To create an audio region, highlight the region you want to create in the Audio Editor and then click the highlighted region. (To highlight, place the cursor in the lower half of the waveform until it turns into a marquee pointer (+) and then drag left or right.),
-     placement: ‘top’
+     "element": “Verse2_AudioEditor”,
+     "title": “How to Create an Audio Region”,
+     "content": “To create an audio region, highlight the region you want to create in the Audio Editor and then click the highlighted region. (To highlight, place the cursor in the lower half of the waveform until it turns into a marquee pointer (+) and then drag left or right.),
+     "placement": ‘top’
 },
 {
-     element: “RegionName”,
-     content: “Name your region here”,
-     placement: ‘top’
+     "element": “RegionName”,
+     "content": “Name your region here”,
+     "placement": ‘top’
 },
 {
-     element: “Chorus”,
-     content: “Now you are ready to edit your regions. Make edits in the Workspace…”,
-     placement: ‘right’,
-     duration: 7000,
+     "element": “Chorus”,
+     "content": “Now you are ready to edit your regions. Make edits in the Workspace…”,
+     "placement": ‘right’,
+     "duration": 7000,
 },
 {
-     element: “AudioEditor”,
-     content: “… or the Audio Editor. Have fun!”,
-     placement: ‘top’
+     "element": “AudioEditor”,
+     "content": “… or the Audio Editor. Have fun!”,
+     "placement": ‘top’
 }
   ]
 });

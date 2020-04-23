@@ -2,7 +2,7 @@
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 <bookmap>
     <booktitle>
-        <mainbooktitle></mainbooktitle>
+        <mainbooktitle>Bancroft's Steps of Service</mainbooktitle>
     </booktitle>
     <chapter href="../introduction_0.dita"/>
     <chapter href="../materialsyouwillneed_0.dita"/>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Atom for Beginners</title>
+    <topicref href="essentials.dita">
+        <topicref href="syntax_highlighting2.dita"/>
+        <topicref href="preview2.dita"/>
+        <topichead navtitle="Additional Resources">
+            <topicref href="intro_installatom.dita"/>
+            <topicref href="syntax_highlighting_online_cheatsheets.dita"/>
+            <topicref href="Basic_Syntax_Comparison.dita"/>
+        </topichead>
+    </topicref>
+</map>

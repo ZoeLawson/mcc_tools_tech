@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="meghana_my_first_concept">
+    <title>RSA NetWitness Platform 11.x Troubleshooting</title>
+    <shortdesc>This provides an overview of the different type of issues that users often run into
+        often in RSA NetWitness Platform version 11.x.</shortdesc>
+    <conbody>
+        <p>Users can often run into issues for licensing and dashboards within the RSA NetWitness
+            Platform 11.x.  License issues can be caused by the capture button within the System
+            page of a service being disabled. Dashboard issues can be caused by multiple unintended
+            "Default" dashboards. </p>
+        <p>The following table provides links to the various issues and the topics that they fall
+            into.</p>
+        <table id="table_opd_fk4_klb">
+            <tgroup cols="2">
+                <thead>
+                    <row>
+                        <entry>Topic</entry>
+                        <entry>Issue</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Licensing</entry>
+                        <entry><xref href="meghana_first_task.dita">Start/Stop Capture button is
+                                disabled on the Decoder service in RSA NetWitness Platform version
+                                11.3.x</xref></entry>
+                    </row>
+                    <row>
+                        <entry>Dashboards</entry>
+                        <entry><xref
+                                href="delete_duplicate_default_dashboards_in_rsa_netwitness_versions_10_6_x_11_x.dita"
+                                >Delete Duplicate "Default Dashboards" in RSA NetWitness Platform
+                                versions 10.6.x and 11.x</xref></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </conbody>
+</concept>

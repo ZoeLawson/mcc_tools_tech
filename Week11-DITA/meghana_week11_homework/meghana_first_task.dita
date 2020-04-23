@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="meghana_first_task">
+    <title>Start/Stop Capture button is disabled on the Decoder service in RSA NetWitness Platform
+        version 11.3.x</title>
+    <shortdesc>The Start/Stop Capture button is disabled and the Decoder "Service Information"
+        section is missing on the RSA NetWitness Platform version 11.3.x UI. </shortdesc>
+    <taskbody>
+        <context>This task provides you with steps to resolve the issue where there is a failure to
+            complete the "<apiname>service?</apiname>" AJAX call and load the service's license
+            information.<p/></context>
+        <steps>
+            <step>
+                <cmd>SSH to the node zero server to restart the License Server using the following
+                    commands. 
+                    <codeph># systemctl stop rsa-nw-license-server 
+                        # systemctl start rsa-nw-license-server 
+                    </codeph>
+                </cmd>
+                <info>Running the following command to tail the <codeph>license-server.log</codeph>
+                    file while restarting the license server will help indicate any further license
+                    issues that may be occurring. 
+                    <codeph># tail -f /var/log/netwitness/license-server/license-server.log</codeph>
+                </info>
+            </step>
+            <step>
+                <cmd>Within the RSA NetWitness UI, navigate to the Admin > Services > Decoder > View > System page.</cmd>
+            </step>
+            <step>
+                <cmd>Refresh the System page.</cmd>
+                <info>
+                    <ul>
+                        <li>The "Start/Stop Capture" button should be enabled</li>
+                        <li>The Decoder "Service Information" section should appear, as well.</li>
+                    </ul>
+                </info>
+                <info>
+                    If the above steps do not work, please try the following steps:
+                    <ol>
+                        <li>Look at one of the <codeph
+                                conref="appliance#ReusableComponent_rkw_kgp_klb/codeph_skw_kgp_klb"
+                            /> AJAX calls to see if you are seeing null values for fields such as
+                            "deviceVersion", "startDate", and/or "licenseInfo."</li>
+                        <li> Look through sa.log for the following error, which refers to the null
+                            values above:
+                                <codeph>org.springframework.web.util.NestedServletException: Request processing failed;</codeph></li>
+                        <li>Navigate to Admin > System > Licensing to see if there are any licenses available.</li>
+                        <li>This issue is happening because the SA Server is unable to fetch the license information. You will need to upload a new offline response file into Admin > System > Licensing > Settings > Step 2: "Upload Offline Response File."
+                            <ul>
+                                <li>You can get the offline response file through your myRSA / Download Central account, or contact RSA Support to provide you with the file.</li>
+                            </ul>
+                        </li>
+                        <li>Upload the offline response file into the RSA NetWitness UI under Admin > System > Licensing > Settings Tab > Manage Local License Server Offline > "Step 2: Upload Offline Response."</li>
+                        <li>After you have completed the upload, go to the "Overview" tab in the same Licensing area, and refresh the licenses under Licensing Actions > Refresh Licenses.</li>
+                        <li>Refresh the browser window, as well, in which you are running the RSA
+                            NetWitness UI. <ul>
+                                <li>The licenses should now appear under Admin > System > Licensing,
+                                    if they were previously missing.</li>
+                                <li>The "Start/Stop Capture" button should be enabled.</li>
+                                <li>The Decoder "Service Information" section should appear, as
+                                    well.</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </info>
+            </step>
+        </steps>
+        <tasktroubleshooting>
+            <p> If you open the Developer Tools > Network tab in your browser
+                window when you are within the System page for any RSA NetWitness
+                core service, there are 4 AJAX calls to pay attention to:</p>
+            <ul>
+                <li><codeph>service?</codeph>: This corresponds to the service's
+                    "System Information." section. This will also display the
+                    service's license information.</li>
+                <li><codeph>user?</codeph>: This corresponds to the service's "User
+                    Information" section.</li>
+                <li><codeph>appliance?</codeph>: This corresponds to the service's
+                    "Appliance Service Information" section.</li>
+                <li><codeph>appliance?</codeph>: This next
+                    "<codeph>appliance?</codeph>" request corresponds to the
+                    service's "Host User Information" section.</li>
+            </ul>
+        </tasktroubleshooting>
+    </taskbody>
+</task>

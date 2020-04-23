@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="completing_selection_screens">
+    <title>Completing Selection Screens</title>
+    <shortdesc>Once you have completed Data Screens in Acme Eye, complete Selection Screens,
+        including Executive Summary. Selection Screens allow you to make selections from Acme Eye
+        database and include them in the document you are creating. Your selections tailor the
+        document to your client's specific needs. Directions at the top of the screen help identify
+        the type of selections you are making and their purpose. You make selections by checking a
+        checkbox.</shortdesc>
+    <taskbody>
+        <context>
+            <p>To complete the Executive Summary selection screen, follow these steps:</p>
+        </context>
+        <steps>
+            <step><cmd>From the Document Outline, select <b>Executive Summary.</b></cmd>
+                <info>The Executive Summary screen is displayed.</info></step>
+            <step><cmd>Select <b>Selections for Executive Summary</b></cmd>
+                <info>The Selections for Executive Summary screen is displayed.</info></step>
+            <step><cmd>Select the checkboxes for <b>Lines of Business, Products, Customer Business Issues,</b> and <b>Differentiators</b> that apply to your customer. Figure 5-1 shows a completed Executive Summary selections screen.</cmd>
+                <info>
+                    <fig expanse="column">
+                        <title>Figure 5-1: Completed Executive Summary Selections Screen</title>
+                        <image href="images/completed_executive_summary_selections_screen.jpg"
+                            placement="break">
+                            <alt>Used by Screen Readers</alt>
+                        </image>
+                    </fig>
+                </info>
+                </step>
+            <step><cmd>Click <b>Next.</b></cmd></step>
+        </steps>
+        <example><note>For the Executive Summary, you can only select a maximum of five customer business issues. More than five customer business issues is too much for the customer to read.</note></example>
+    </taskbody>
+</task>

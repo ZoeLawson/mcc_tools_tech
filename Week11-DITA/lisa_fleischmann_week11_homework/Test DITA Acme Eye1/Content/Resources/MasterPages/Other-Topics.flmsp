@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="side-content">
+            <MadCap:searchBarProxy data-mc-skin="/Project/Skins/Topics-Searchbar.flskn" />
+        </div>
+        <MadCap:breadcrumbsProxy />
+        <div class="topic-layout">
+            <div class="side-content"> <MadCap:menuProxy data-mc-skin="/Project/Skins/Topics-Menu.flskn" style="mc-context-sensitive: True;mc-include-parent: True;mc-include-siblings: True;mc-include-children: True;" /></div>
+            <MadCap:bodyProxy />
+        </div>
+    </body>
+</html>

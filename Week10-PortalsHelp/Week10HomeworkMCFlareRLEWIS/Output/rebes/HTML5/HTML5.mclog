@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapLog Protocol="2" Description="MadCap Flare 2019 r2 Generated HTML5.fltar" Date="2020-04-12T16:33:32.8789375-04:00">
+    <Messages>Publishing target HTML5...
+Publish failed: Unable to load credentials for server: ftp.myftpserver.com
+Saving log to "C:\Users\rebes\Desktop\Cayson Designs MadCap Flare\Output\rebes\HTML5\HTML5.mclog"
+</Messages>
+    <Warnings />
+    <Errors>
+        <LogEntry File="../../../Project/Destinations/Destination.fldes" Message="Publish failed: Unable to load credentials for server: ftp.myftpserver.com&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Publisher" Target="HTML5" ErrorID="140005" />
+    </Errors>
+</MadCapLog>

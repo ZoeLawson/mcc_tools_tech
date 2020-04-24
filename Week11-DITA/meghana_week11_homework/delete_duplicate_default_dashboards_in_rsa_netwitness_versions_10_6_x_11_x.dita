@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="delete_duplicate_default_dashboards_in_rsa_netwitness_versions_10_6_x_11_x">
+    <title>Delete duplicate &quot;Default&quot; dashboards in RSA NetWitness versions 10.6.x &amp; 11.x</title>
+    <shortdesc>There are duplicate "Default" dashboards in the RSA NetWitness UI.</shortdesc>
+    <taskbody>
+        <context>This task provides you with steps to remove any duplicate "Default" dashboards in
+            the Dashboard section of the RSA NetWitness Platform UI.<p/></context>
+        <steps>
+            <step>
+                <cmd>Log into the RSA NetWitness UI.</cmd>
+            </step>
+            <step>
+                <cmd>Navigate to the Dashboards section of the UI.</cmd>
+                <info>
+                    <ul>
+                        <li>In 10.6.x: the "Dashboard" section is located in the top left corner of the UI.</li>
+                        <li>In 11.x: the "Dashboard" section is located in Monitor > Overview.</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Go into a "Default" dashboard.</cmd>
+            </step>
+            <step>
+                <cmd>Next to the words "Default Dashboard," there are icons regarding dashboard options.</cmd>
+                <info>
+                    <p>In 10.6.x:</p>
+                    <ul>
+                        <li>In between the "-" icon and the "Copy dashboard" icon, there is an icon with a red pencil.</li>
+                        <li>Click the red pencil to show the dashboard editing options.</li>
+                        <li>Click the option, "Restore Default Dashboard," which should clear all unnecessary/duplicate default dashboards.</li>
+                    </ul>
+                    <p>In 11.x:</p>
+                    <ul>
+                        <li>In between the "-" icon and the "Copy dashboard" icon, there is an icon with a red pencil.</li>
+                        <li>Click on that clockwise red arrow to "Restore Default Dashboards," which should clear all unnecessary/duplicate default dashboards.</li>
+                    </ul>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

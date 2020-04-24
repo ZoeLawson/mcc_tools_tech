@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="building_your_document">
+    <title>Building your Document</title>
+    <shortdesc>As you provide Acme Eye with the information needed to create your document, Acme Eye
+        tracks your progress with checkmarks along the document outline. Once all the information is
+        complete, all the data screens and outline sections will have checkmarks, and you can build
+        the document.</shortdesc>
+    <taskbody>
+        <context>
+            <p>To build your document, follow these steps:</p>
+        </context>
+        <steps>
+            <step><cmd>To begin the build process, click <b>Build</b>.</cmd>
+                <info>Acme Eye displays the Build Document screen, as shown in Figure 6-1.</info>
+                <info>
+                    <fig expanse="column">
+                        <title>Figure 6-1: Build Document Screen</title>
+                        <image href="images/build_document_screen.jpg" placement="break">
+                            <alt>Used by Screen Readers</alt>
+                        </image>
+                    </fig>
+                </info>
+            </step>
+            <step><cmd>Select a Template.</cmd>
+            <info><note>If more than one template is available for the document you are creating, select the template you wish to use. Otherwise, the template is pre-selected for you. You do not need to select a template for your proposal. Acme Eye pre-selects the Acme Proposal Template for you.</note></info>
+            </step>
+            <step><cmd>Optional: Select build order.</cmd>
+                <info><note>Within the Select Build Order window, the grey shaded list represents parts of the document that are not flexible in terms of chronological order. The non-greyed out items are flexible, and you can change the order based on your own preference.</note></info></step>
+                <step><cmd>If you prefer to change the build order, follow this step:</cmd></step>     
+                    <step><cmd>From the Select Build Order window, select the non-greyed out items and move the items order by highlighting the item and clicking on the <b>Move Up</b> or <b>Move Down</b> functionality.</cmd>
+                    </step>
+            <step><cmd>To begin the build, click <b>Next.</b></cmd>
+                <info>Acme Eye creates your document in Microsoft Word for you. While your document
+                    builds, an hourglass icon <image href="images/hourglass.jpg" placement="inline">
+                        <alt>Hourglass icon</alt>
+                    </image> appears on your Build Document screen. When your document is finished
+                    building, the hourglass icon goes away. A 2MB document builds in around 20
+                    seconds.</info>
+                <info><note>Do not attempt to multitask while the document builds.</note></info>
+            </step>
+                <step><cmd>When your document is finished building, save the document to your desktop.</cmd>
+                </step>
+        </steps>
+    </taskbody>
+</task>

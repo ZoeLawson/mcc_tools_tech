@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="default_topic">
+    <title>Default topic</title>
+    <body>
+        <p>My content goes here.</p>
+        <p>I will put all content that's reused into this topic.</p>
+        <ul>
+            <li><ph id="company">My Company</ph></li>
+            <li><ph id="product">My Product</ph></li>
+        </ul>
+    </body>
+</topic>

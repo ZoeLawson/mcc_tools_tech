@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="my_first_concept">
+    <title>My first concept</title>
+    <shortdesc>This is the short description.</shortdesc>
+    <conbody>
+        <p>This is a pargraph. <ph conref="task_from_word.dita#task_from_word/phrase"/></p>
+        <ul>
+            <li>This is a list item <ph conref="default_topic.dita#default_topic/company"/><ph
+                    conkeyref="default/product"/></li>
+            <li>This is my second list item. <p
+                    conref="my_first_reference_topic.dita#my_first_reference_topic/conref_test"
+                /></li>
+        </ul>
+        <p>This is another pargraph.</p>
+        <note>This is <uicontrol>more</uicontrol>
+            <uicontrol>another uicontrol</uicontrol>
+            <codeph>code snippet</codeph> text.</note>
+        <dl>
+            <dlentry>
+                <dt>Term</dt>
+                <dd>And a definition <p>I can include a paragraph</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>Another term</dt>
+                <dd>More definitions.</dd>
+            </dlentry>
+        </dl>
+        <table frame="all" rowsep="1" colsep="1">
+            <title>Table title</title>
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="newCol3" colnum="3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Column 1</entry>
+                        <entry>Column 2</entry>
+                        <entry>Added column</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </conbody>
+</concept>

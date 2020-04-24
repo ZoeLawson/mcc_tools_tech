@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_u1x_spt_jlb">
+    <title>Random Task</title>
+    <shortdesc></shortdesc>
+    <taskbody>
+        <prereq>`<note type="important">This is a bit of important information.</note></prereq>
+        <context>
+            <fig>
+                <title>I want a figure title</title>
+                <image placement="break" href="art/childTopics.png">
+                    <alt>Here's my alternate text</alt>
+                </image>
+            </fig>
+        </context>
+        <steps>
+            <step>
+                <cmd>Pick an option</cmd>
+                <choices>
+                    <choice>Option 1 — blah</choice>
+                    <choice>Option 2 — blarg</choice>
+                </choices>
+                <choicetable frame="all" relcolwidth="1* 1*">
+                    <chhead>
+                        <choptionhd>Options</choptionhd>
+                        <chdeschd>Description</chdeschd>
+                    </chhead>
+                    <chrow>
+                        <choption>Option 1</choption>
+                        <chdesc>blah</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Option 2</choption>
+                        <chdesc>blarg</chdesc>
+                    </chrow>
+                </choicetable>
+            </step>
+            <step importance="optional">
+                <cmd>This is the command (cmd). This is the action.</cmd>
+                <info>
+                    <p>Here is some information about your action.</p>
+                </info>
+                <stepxmp>This is a step example.</stepxmp>
+                <stepresult>
+                    <p>What happens as the result of doing the thing. e.g. The blah dialog
+                        opens.</p>
+                </stepresult>
+                <steptroubleshooting>
+                    <p>Here;s a quick workaround for something that sometimes goes wrong.</p>
+                </steptroubleshooting>
+            </step>
+        </steps>
+        <result/>
+        <tasktroubleshooting/>
+        <example/>
+        <postreq/>
+    </taskbody>
+</task>

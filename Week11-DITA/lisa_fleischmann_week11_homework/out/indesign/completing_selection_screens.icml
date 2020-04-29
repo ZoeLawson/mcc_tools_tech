@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><?aid style="50" type="snippet" readerVersion="6.0" featureSet="257" product="7.5(142)"?><?aid SnippetType="InCopyInterchange"?><Document DOMVersion="7.5" Self="d"><RootCharacterStyleGroup xmlns:local="urn:local-functions" Self="rootCharacterStyleGroup"><CharacterStyle Self="CharacterStyle/$ID/[No character style]" Name="$ID/[No character style]"><Properties><BasedOn type="string">$ID/[No character style]</BasedOn></Properties></CharacterStyle></RootCharacterStyleGroup><RootParagraphStyleGroup xmlns:local="urn:local-functions" Self="rootParagraphStyleGroup"><ParagraphStyle Self="ParagraphStyle/Topic Title 1" Name="Topic Title 1"><Properties><BasedOn type="string">$ID/[No paragraph style]</BasedOn></Properties></ParagraphStyle><ParagraphStyle Self="ParagraphStyle/Short Description" Name="Short Description"><Properties><BasedOn type="string">$ID/[No paragraph style]</BasedOn></Properties></ParagraphStyle><ParagraphStyle Self="ParagraphStyle/Body Para" Name="Body Para"><Properties><BasedOn type="string">$ID/[No paragraph style]</BasedOn></Properties></ParagraphStyle><ParagraphStyle Self="ParagraphStyle/List Number First" Name="List Number First"><Properties><BasedOn type="string">$ID/[No paragraph style]</BasedOn></Properties></ParagraphStyle><ParagraphStyle Self="ParagraphStyle/List Number" Name="List Number"><Properties><BasedOn type="string">$ID/[No paragraph style]</BasedOn></Properties></ParagraphStyle></RootParagraphStyleGroup><Story xmlns:local="urn:local-functions" Self="d20e8" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="story-d20e8" AppliedNamedGrid="n"><MetadataPacketPreference><Properties><Contents>&lt;![CDATA[]]&gt;</Contents></Properties></MetadataPacketPreference><ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Topic Title 1">
+<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"><Content>Completing Selection Screens</Content></CharacterStyleRange>
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Topic Title 1"><CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"><Br/></CharacterStyleRange></ParagraphStyleRange><ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Short Description">
+<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"><Content>Once you have completed Data Screens in Acme Eye, complete Selection Screens, including Executive Summary. Selection Screens allow you to make selections from Acme Eye database and include them in the document you are creating. Your selections tailor the document to your client's specific needs. Directions at the top of the screen help identify the type of selections you are making and their purpose. You make selections by checking a checkbox.</Content></CharacterStyleRange>
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Short Description"><CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"><Br/></CharacterStyleRange></ParagraphStyleRange><ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Body Para">
+<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"><Content>To complete the Executive Summary selection screen, follow these steps:</Content></CharacterStyleRange>
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Body Para"><CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"><Br/></CharacterStyleRange></ParagraphStyleRange><ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/List Number First">
+<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"><Content>From the Document Outline, select </Content></CharacterStyleRange>
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/List Number First">
+<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"><Content>Executive Summary.</Content></CharacterStyleRange>
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/List Number First"><CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"><Br/></CharacterStyleRange></ParagraphStyleRange><ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/List Number">
+<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"><Content>Select </Content></CharacterStyleRange>
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/List Number">
+<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"><Content>Selections for Executive Summary</Content></CharacterStyleRange>
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/List Number"><CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"><Br/></CharacterStyleRange></ParagraphStyleRange><ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/List Number">
+<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"><Content>Select the checkboxes for </Content></CharacterStyleRange>
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/List Number">
+<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"><Content>Lines of Business, Products, Customer Business Issues,</Content></CharacterStyleRange>
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/List Number">
+<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"><Content> and </Content></CharacterStyleRange>
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/List Number">
+<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"><Content>Differentiators</Content></CharacterStyleRange>
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/List Number">
+<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"><Content> that apply to your customer. Figure 5-1 shows a completed Executive Summary selections screen.</Content></CharacterStyleRange>
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/List Number"><CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"><Br/></CharacterStyleRange></ParagraphStyleRange><ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/List Number">
+<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"><Content>Click </Content></CharacterStyleRange>
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/List Number">
+<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"><Content>Next.</Content></CharacterStyleRange>
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/List Number"><CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"><Br/></CharacterStyleRange></ParagraphStyleRange></Story>
+</Document>

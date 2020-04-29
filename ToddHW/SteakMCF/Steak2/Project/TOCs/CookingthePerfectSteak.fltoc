@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc Version="1">
+    <TocEntry Title="A Guide to Cooking the Perfect Steak Indoors" Link="/Content/A Guide to Cooking the Perfect.htm" />
+    <TocEntry Title="Planning" Link="/Content/Planning.htm" />
+    <TocEntry Title="The Beef" Link="/Content/The Beef.htm" />
+    <TocEntry Title="Equipment" Link="/Content/Equipment.htm" />
+    <TocEntry Title="The Techniques" Link="/Content/The Techniques.htm">
+        <TocEntry Title="Bring steaks to room temperature" Link="/Content/The Techniques.htm" />
+        <TocEntry Title="Make certain steaks are dry" Link="/Content/The Techniques.htm" />
+        <TocEntry Title="Properly salt steaks with" Link="/Content/The Techniques.htm" />
+        <TocEntry Title="Let steaks rest for 10 minutes" Link="/Content/The Techniques.htm" />
+        <TocEntry Title="Use a meat thermometer to" Link="/Content/The Techniques.htm" />
+    </TocEntry>
+    <TocEntry Title="Cooking Steak" Link="/Content/Cooking Steak.htm">
+        <TocEntry Title="Remove cast iron pan from" Link="/Content/Cooking Steak.htm" />
+        <TocEntry Title="Salt steaks and add to cast" Link="/Content/Cooking Steak.htm" />
+        <TocEntry Title="Remove steaks from oven and" Link="/Content/Cooking Steak.htm" />
+    </TocEntry>
+    <TocEntry Title="Oven Cooking Times" Link="/Content/Cooking Steak.htm" />
+</CatapultToc>

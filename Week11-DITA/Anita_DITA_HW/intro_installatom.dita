@@ -15,8 +15,11 @@
                 <stepxmp>Anita has a Mac laptop, which is running MacOS version 10.11.6. When she
                     goes to Atom, this is what she sees: <fig id="fig_pvt_bst_jlb">
                         <title>Atom Download Button</title>
-                    </fig><image href="Images/Atom_download_image.png" placement="break"
-                        id="image_qxp_vrs_jlb"/>
+                    </fig><image placement="break"
+                        href="../../../../../Downloads/atom_download_svg.svg" align="left"
+                        id="image_pn2_zwq_llb">
+                        <alt>Atom download button</alt>
+                    </image>
                 </stepxmp>
             </step>
             <step>

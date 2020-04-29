@@ -6,6 +6,11 @@
         <topicref href="reviewing_prerequisites.dita">
             <topicref href="installing_browser_setup_script.dita">
                 <topicref href="creating_a_project.dita"/>
+                <topicref href="completing_data_screens.dita">
+                    <topicref href="customer_data_screens_task2.dita"/>
+                    <topicref href="completing_selection_screens.dita"/>
+                </topicref>
+                <topicref href="building_your_document.dita"/>
             </topicref>
         </topicref>
     </topicref>

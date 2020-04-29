@@ -12,7 +12,10 @@
         and less time in the office. Thus, it boosts your odds of closing deals and bringing in more
         revenue. </shortdesc>
     <conbody>
-        <p>conref="notes.dita#topic_acme_eye/web_based_tool"/></p>
+        <p id="conref_test">Acme Eye is a Web-based tool that is easy to use. It enables you to
+            create proposals and other client-focused documents that follow a common structure. You
+            make selections that reflect the customer’s needs. The software uses those selections to
+            create a client-centric, persuasive document in Microsoft Word.</p>
         <p>This guide includes the following sections. <ol>
             <li>1.0 Step 1: Reviewing Prerequisites</li>
             <li>2.0 Step 2: Installing Browser Setup Script &amp; Logging in</li>

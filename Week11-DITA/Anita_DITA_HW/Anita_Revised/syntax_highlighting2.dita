@@ -2,29 +2,37 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="rst_syntax_highlighting_package">
     <title>Syntax Highlighting</title>
-    <shortdesc>Syntax highlighting is an essential tool for the beginning code writer because it
-        displays source code in different colors and fonts, so you can read your code and
-        distinguish various elements more easily. Also, you will be immediately alerted of syntax
-        errors as you write because the source code will not color-code correctly. <image
-            placement="break" href="Images/Atom_Syntax.png" align="center" id="image_cpz_hvt_klb"
-        /></shortdesc>
+    <shortdesc>Follow these step-by-step instructions to set-up and use syntax highlighting. </shortdesc>
     <taskbody>
         <prereq conref="preview2.dita#preview_html/installatomprereq" id="prereq_zjb_wd3_llb"/>
-        <context>In Atom, you need to install syntax highlighting packages for each language you
+        <context>Syntax highlighting is an essential tool for the beginning code writer because it
+            displays source code in different colors and fonts, so you can read your code and
+            distinguish various elements more easily. Also, you will be immediately alerted of
+            syntax errors as you write because the source code will not color-code correctly. <image
+                placement="break" href="Images/syntax_png.png" align="center" id="image_jxf_trs_4lb">
+                <alt>HTML with and without Syntax Highlighting</alt>
+            </image>In Atom, you need to install syntax highlighting packages for each language you
             want to work in. You will install the RST syntax highlighting package and then learn how
             to enable syntax highlighting for all languages. <note>HTML and Markdown syntax
                 highlighting packages come "pre-loaded" in Atom, so you only need to install the RST
-                syntax highlighting package. </note></context>
+                syntax highlighting package. If you do not want to install the RST Syntax
+                Highlighting package, skip Step #1.</note></context>
         <steps>
             <step>
                 <cmd>Install the RST Syntax Highlighting package:</cmd>
                 <substeps id="substeps_fx5_wpn_klb">
                     <substep>
-                        <cmd>Open Atom.</cmd>
+                        <cmd>Open <uicontrol>Atom</uicontrol>.</cmd>
                     </substep>
                     <substep>
-                        <cmd>On the top menu, click <uicontrol>Atom &lt; Preferences</uicontrol>.
-                            The settings pane opens.</cmd>
+                        <cmd id="opensettings">Open <uicontrol>Settings</uicontrol> by clicking on
+                            the appropriate path for your operating systerm:</cmd>
+                        <info>
+                            <ul id="settings_list">
+                                <li>Mac: <uicontrol>Atom > Preferences</uicontrol></li>
+                                <li>Windows: <uicontrol>File > Settings</uicontrol></li>
+                            </ul>
+                        </info>
                     </substep>
                     <substep>
                         <cmd>On the left menu, click <uicontrol>Install</uicontrol>.</cmd>
@@ -32,10 +40,9 @@
                     <substep>
                         <cmd>In the <uicontrol>Search Packages</uicontrol> box, type:
                                 <userinput>language-restructedtext</userinput>. The
-                                <i>language-restructuredtext</i> package box appears. </cmd>
-                        <info>View an image of the <xref
-                                href="preview2.dita#preview_html/InstallPackageScreen">install
-                                package screen</xref>.</info>
+                                <i>language-restructuredtext</i> package box appears. View an image
+                            of the <xref href="preview2.dita#preview_html/image_packages">install
+                                packages screen</xref>.</cmd>
                     </substep>
                     <substep>
                         <cmd>Click <uicontrol>Install</uicontrol>.</cmd>

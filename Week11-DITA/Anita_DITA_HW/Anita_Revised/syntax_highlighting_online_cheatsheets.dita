@@ -2,9 +2,10 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="syntax_highlighting_onine_cheatsheets">
     <title>Online Syntax Cheatsheets</title>
-    <shortdesc>There are a lot of online cheatsheets available. Below are links to a few. Do your
-        own searches to find the sites/cheatsheets that work best for you.</shortdesc>
+    <shortdesc>Check out these links to online syntax cheatsheets.</shortdesc>
     <conbody>
+        <p>There are a lot of syntax cheatsheets and reference guides available online. Do your own
+            searches to find the cheatsheets/guides that work best for you.</p>
         <p>Markdown:</p>
         <p>
             <ul id="ul_ut4_3bw_3lb">
@@ -31,4 +32,10 @@
             </ul>
         </p>
     </conbody>
+    <related-links>
+        <link href="syntax_highlighting2.dita" format="xml">
+            <linktext>Syntax Highlighting</linktext>
+        </link>
+        <link href="Basic_Syntax_Comparison.dita"/>
+    </related-links>
 </concept>

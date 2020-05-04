@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="installatom">
-    <title>How to Download Atom</title>
-    <shortdesc>Atom is a free, open source text editor developed by GitHub. For Mac users, Atom may
-        be a good alternative to Notepad ++. </shortdesc>
+    <title>Install Atom</title>
+    <shortdesc> Step-by-step instructions to install Atom on your computer. </shortdesc>
     <taskbody>
-        <context id="context_z5q_5c3_llb">Before you can use Atom, you need to install it on your
-            computer. Follow the steps below to install Atom on your computer.</context>
+        <context id="context_z5q_5c3_llb">Atom is a free, open source text editor developed by
+            GitHub. For Mac users, Atom may be a good alternative to Notepad ++.  </context>
         <steps>
             <step>
                 <cmd>Go to <xref href="https://atom.io" format="html" scope="external"/>. Above the
                         <uicontrol>Download</uicontrol> button you should see listed your computer's
                     specific operating system (OS) and version. </cmd>
-                <stepxmp>Anita has a Mac laptop, which is running MacOS version 10.11.6. When she
-                    goes to Atom, this is what she sees: <fig id="fig_pvt_bst_jlb">
+                <stepxmp>You have a Windows laptop running Windows 10. When you go to Atom, the
+                    download button images below appears.<fig id="fig_pvt_bst_jlb">
                         <title>Atom Download Button</title>
-                    </fig><image placement="break"
-                        href="../../../../../Downloads/atom_download_svg.svg" align="left"
-                        id="image_pn2_zwq_llb">
-                        <alt>Atom download button</alt>
+                    </fig><image placement="break" href="Images/atom_download_web96dpi.png"
+                        align="left" id="image_bjl_3rs_4lb">
+                        <alt>Atom Download Button</alt>
                     </image>
                 </stepxmp>
             </step>

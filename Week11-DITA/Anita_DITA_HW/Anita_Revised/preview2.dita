@@ -2,36 +2,41 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="preview_html">
     <title>Live Preview</title>
-    <shortdesc>One of the main challenges for beginning code writers is not knowing how the code you
-        have written will render on a web page. A text editor that offers a live preview window
-        saves you time and frustration because you can see your code render <i>while you write</i>,
-        which is why live preview is an essential tool for the beginning code writer.<image
-            placement="break" href="Images/Atom_Preview4.png" align="center" id="image_jcx_zst_klb"
-        /></shortdesc>
+    <shortdesc>Step-by-step instructions to set-up and use live preview.</shortdesc>
     <taskbody>
         <prereq id="installatomprereq"><xref href="intro_installatom.dita">Atom must be
-                installed</xref> on your computer before you can install additional
-            packages.</prereq>
-        <context>In Atom, you need to install preview packages for each language you want to work
-            in. You will install preview packages and then learn how to open and close the preview
-            window in your files.<note>The Markdown preview packages comes "pre-loaded" in Atom, so
-                you only need to install the HTML and RSTpreview packages.</note></context>
+                installed</xref> on your computer before you can set-up additional
+            features.</prereq>
+        <context>A text editor that offers a live preview window saves you time and frustration. One
+            of the main challenges for beginning code writers is not knowing how the code you have
+            written will look on a web page. A live preview window renders your code <i>while you
+                write</i>, which is why live preview is an essential tool for the beginning code
+            writer. <image placement="break" href="Images/livepreview_png.png" align="center"
+                id="image_js4_mrs_4lb">
+                <alt>Markdown with Live Preview</alt>
+            </image><p>Follow the steps below to set-up and use live preview for HTML, Markdown, and
+                RST. </p><note>The Markdown preview packages comes "pre-loaded" in Atom, so you only
+                need to install the HTML and RST preview packages.</note></context>
         <steps>
             <step>
                 <cmd>Open <uicontrol>Atom</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>On the top menu, click <uicontrol>Atom &lt; Preferences</uicontrol>. </cmd>
-                <stepresult>The Settings pane opens.</stepresult>
+                <cmd conref="syntax_highlighting2.dita#rst_syntax_highlighting_package/opensettings"/>
+                <info>
+                    <ul
+                        conref="syntax_highlighting2.dita#rst_syntax_highlighting_package/settings_list"
+                        id="ul_lcr_zfs_4lb">
+                        <li/>
+                    </ul>
+                </info>
             </step>
             <step>
                 <cmd>On the left menu, click <uicontrol>Install</uicontrol>.</cmd>
             </step>
             <step>
                 <cmd>In the <codeph>Search Packages</codeph> box, type the<b> package name</b> you
-                    want to install from the <i>Preview Package Names</i> table below. <data>
-                        <title>Preview Package Names</title>
-                    </data></cmd>
+                    want to install from the table below: </cmd>
                 <choicetable frame="all" id="choicetable_b4z_pwx_jlb">
                     <chhead>
                         <choptionhd>Language</choptionhd>
@@ -52,15 +57,15 @@
                 </choicetable>
                 <stepresult>The package appears. For example, the image below shows the
                         <i>atom-html-preview</i> package box.<image placement="break"
-                        href="Images/Atom_Package_Install4.png" align="center"
-                        id="InstallPackageScreen"/><note type="tip">There are many different
-                        packages that you can install in Atom. To explore the packages, scroll
-                        through the available packages listed in <codeph>Install Packages</codeph>
-                        or type in specific search words in the <codeph>Search Packages</codeph>
-                        box. To find out more about what each package does, click on the descriptive
-                        text below the title. (You can click on the title also. The information will
-                        be the same, but it will launch in atom.io in a new browser
-                    window.)</note></stepresult>
+                        href="Images/searchpackages.png" align="center" id="image_ikn_prs_4lb">
+                        <alt>Install Packages Screen</alt>
+                    </image><note type="tip">There are many different packages that you can install
+                        in Atom. To explore the packages, scroll through the available packages
+                        listed in <codeph>Install Packages</codeph> or type in specific search words
+                        in the <codeph>Search Packages</codeph> box. To find out more about what
+                        each package does, click on the descriptive text below the title. (You can
+                        click on the title also. The information will be the same, but it will
+                        launch in atom.io in a new browser window.)</note></stepresult>
             </step>
             <step>
                 <cmd>Click <uicontrol>Install</uicontrol>. (To install additional packages, repeat
@@ -70,8 +75,8 @@
                     window. </stepresult>
             </step>
             <step>
-                <cmd><uicontrol>Open</uicontrol> a file saved in the same language as the preview
-                    package you installed. For example, if you installed
+                <cmd><uicontrol>Open</uicontrol> a file saved in the same source code language as
+                    the preview package you installed. For example, if you installed
                         <codeph>atom-html-preview</codeph>, then open a file already saved in .htm
                     or .html or open a new file and save it as an .htm or .html file.</cmd>
                 <info>
@@ -120,7 +125,7 @@
                     </table>
                 </info>
                 <stepresult>Preview now appears in a new window on the right side of your screen
-                    with your original code file on the left.<note type="important">
+                    with your original source code file on the left. <note type="important">
                         <ul id="ul_frp_b4l_klb">
                             <li>You <b>must</b> enable the preview window every time you open your
                                 file.</li>
@@ -131,10 +136,18 @@
                                 it. For example, you can open preview using a hotkeycommand and
                                 close it using a drop-down menu, and vice versa.</li>
                         </ul>
-                    </note><note type="tip">After the preview window opens, your code file window
-                        narrows and the code does <b>not</b> automatically wrap. To enable text
-                        wrapping: From the top menu, click <uicontrol>View &lt; Toggle Soft
-                            Wrap</uicontrol>.</note></stepresult>
+                    </note><note type="tip">
+                        <ul id="ul_ysg_d1s_4lb">
+                            <li>After the preview window opens, your code file window narrows and
+                                the code does <b>not</b> automatically wrap. To enable text
+                                wrapping: From the top menu, click <uicontrol>View > Toggle Soft
+                                    Wrap</uicontrol>.</li>
+                            <li>The Markdown preview window background color can be white or black.
+                                This is a toggle command. The white background is "GitHub Style." To
+                                change the background color, click <uicontrol>Packages > Markdown
+                                    Preview > Toggle GitHub Style. </uicontrol></li>
+                        </ul>
+                    </note></stepresult>
             </step>
         </steps>
     </taskbody>

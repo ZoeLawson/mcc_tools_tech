@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="whywriteguide">
+    <title>Introduction</title>
+    <shortdesc> Welcome to Atom for the Beginner: Quick Set-Up</shortdesc>
+    <conbody>
+        <p>Anyone new to reading and writing computer programming source code should use a text
+            editor with beginner-friendly features. The essential features for beginners are syntax
+            highlighting and live preview. </p>
+        <p>This guide contains:<ul id="ul_a43_m2w_nlb">
+                <li>Step-by-step instructions to:<ul id="ul_ygz_m2w_nlb">
+                        <li>Download Atom for your operating system</li>
+                        <li>Set up and use syntax highlighting for HTML, Markdown, and RST</li>
+                        <li>Set up and use live preview for HTML, Markdown, and RST</li>
+                    </ul></li>
+                <li>An explanation of Atom packages</li>
+                <li>Basic Syntax Comparison of HTML, Markdown, and RST</li>
+                <li>Links to Additional Online Syntax Cheatsheets</li>
+            </ul><note type="tip">The basic skills you learn here can be applied to other languages
+                and features in Atom.</note></p>
+    </conbody>
+</concept>

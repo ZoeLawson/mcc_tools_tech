@@ -4,12 +4,13 @@
     <title>Atom for the Beginner: Quick Set-Up</title>
     <topicref href="essentials_rev.dita"/>
     <topicref href="intro_installatom.dita"/>
-    <topicref href="preview2.dita"/>
-    <topicref href="syntax_highlighting2.dita">
+    <topicref href="preview_rev.dita"/>
+    <topicref href="syntax_highlighting_rev.dita"/>
+    <topicref href="about_packages.dita"/>
+    <topicref href="Additional_Resources.dita">
         <topicref href="Basic_Syntax_Comparison.dita"/>
         <topicref href="syntax_highlighting_online_cheatsheets.dita"/>
     </topicref>
-    <topicref href="about_packages.dita"/>
     <topicref href="about.dita"/>
 <keydef keys="test"><topicmeta><keywords><keyword>Test</keyword></keywords>
 </topicmeta></keydef>
@@ -21,4 +22,5 @@
         </topicmeta>
     </keydef>
     <keydef keys="download" href="../Images/Web_LowRes/atom_download_web96dpi.png" format="png"/>
+    <keydef keys="downloadatom" href="Images/atom_download_web96dpi.png" format="png"/>
 </map>

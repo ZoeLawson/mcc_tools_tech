@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Atom for the Beginner: Quick Set Up</mainbooktitle>
+    </booktitle>
+    <frontmatter>
+        <booklists>
+            <toc/>
+            <figurelist/>
+            <tablelist/>
+        </booklists>
+    </frontmatter>
+    <chapter href="essentials_rev.dita"/>
+    <chapter href="intro_installatom.dita"/>
+    <chapter href="syntax_highlighting_rev.dita"/>
+    <chapter href="preview_rev.dita"/>
+    <chapter href="about_packages.dita"/>
+    <chapter href="Additional_Resources.dita">
+        <topicref href="Basic_Syntax_Comparison.dita"/>
+        <topicref href="syntax_highlighting_online_cheatsheets.dita"/>
+    </chapter>
+    <chapter href="about.dita"/>
+</bookmap>

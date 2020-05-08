@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="whywriteguide">
-    <title>Introduction</title>
-    <shortdesc> Welcome to Atom for the Beginner: Quick Set-Up</shortdesc>
+    <title>Welcome</title>
+    <shortdesc> Welcome to Atom for the Beginner: Quick Set Up for HTML, Markdown, and
+        RST.</shortdesc>
     <conbody>
         <p>Anyone new to reading and writing computer programming source code should use a text
             editor with beginner-friendly features. The essential features for beginners are syntax
-            highlighting and live preview. </p>
-        <p>This guide contains:<ul id="ul_a43_m2w_nlb">
-                <li>Step-by-step instructions to:<ul id="ul_ygz_m2w_nlb">
-                        <li>Download Atom for your operating system</li>
-                        <li>Set up and use syntax highlighting for HTML, Markdown, and RST</li>
-                        <li>Set up and use live preview for HTML, Markdown, and RST</li>
-                    </ul></li>
-                <li>An explanation of Atom packages</li>
-                <li>Basic Syntax Comparison of HTML, Markdown, and RST</li>
-                <li>Links to Additional Online Syntax Cheatsheets</li>
-            </ul><note type="tip">The basic skills you learn here can be applied to other languages
-                and features in Atom.</note></p>
+            highlighting and live preview.</p>
+        <p>Syntax Highligting displays source code in different colors and fonts, so you can read
+            your code and distinguish various elements more easily.</p>
+        <p>Live Preview is a window that appears next to your source code and shows you what your
+            code will look like on a web page. It's "live" preview because the preview window
+            renders your code while you are typing. </p>
+        <p>In Atom, syntax highlighting and live preview are add-on features for many programming
+            languages. These features are easy to install and use. Atom for the Beginner: Quick Set
+            Up will show you how to install and use these features for HTML, Markdown, and RST.<note
+                type="tip">The basic skills you learn here can be applied to other programming
+                languages and features in Atom.</note></p>
     </conbody>
 </concept>

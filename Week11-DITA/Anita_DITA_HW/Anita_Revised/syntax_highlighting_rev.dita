@@ -10,7 +10,7 @@
         <context>HTML and Markdown syntax preview come pre-loaded in Atom, but RST does not. You
             will install the RST syntax highlighting package and then learn how to enable syntax
             highlighting for all of these languages. <image placement="break" align="center"
-                id="image_jxf_trs_4lb" keyref="syntax">
+                id="image_jxf_trs_4lb" keyref="Syntax300">
                 <alt>HTML with and without Syntax Highlighting</alt>
             </image></context>
         <steps>

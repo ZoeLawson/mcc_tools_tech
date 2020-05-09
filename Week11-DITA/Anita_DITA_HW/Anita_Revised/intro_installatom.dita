@@ -12,8 +12,10 @@
                         <uicontrol>Download</uicontrol> you should see listed your computer's
                     specific operating system (OS) and version. </cmd>
                 <stepxmp>For example, you have a computer running Windows 10. When you go to Atom,
-                    the image below appears.<image placement="break" keyref="download_button"
-                        align="left" alt="Atom Download button"/>
+                    the image below appears.<image placement="break" keyref="download_atom"
+                        align="left">
+                        <alt>Atom Download</alt>
+                    </image>
                 </stepxmp>
             </step>
             <step>

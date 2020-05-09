@@ -13,7 +13,7 @@
             of the main challenges for beginning code writers is not knowing how the code you have
             written will look on a web page. A "live" preview window renders your code while you
             write, which is why live preview is an essential tool for the beginning code writer.
-                <image placement="break" align="center" keyref="preview">
+                <image placement="break" align="center" keyref="Preview300">
                 <alt>HTML with Live Preview</alt>
             </image><p>Follow the steps below to set-up and use live preview for HTML, Markdown, and
                 RST. </p><note>The Markdown preview packages comes "pre-loaded" in Atom, so you only
@@ -57,7 +57,8 @@
                 </choicetable>
                 <stepresult>The package box appears. For example, the image below shows the
                         <i>atom-html-preview</i> package box.<image placement="break" align="center"
-                        id="image_ikn_prs_4lb" alt="Search Packages Screen" keyref="searchpackages">
+                        id="image_ikn_prs_4lb" alt="Search Packages Screen"
+                        keyref="SearchPackages300">
                         <alt>Install Packages Screen</alt>
                     </image><note type="tip">There are many different packages that you can install
                         in Atom. To explore the packages, scroll through the available packages

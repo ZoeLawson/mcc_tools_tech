@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Atom for the Beginner: Quick Set Up</mainbooktitle>
+    </booktitle>
+    <frontmatter>
+        <booklists>
+            <toc/>
+        </booklists>
+        <keydef keys="download_atom" href="../Anita_Revised/Images/atom_download_pdf300dpi.png" format="png"/>
+        <keydef keys="Preview300" href="../Anita_Revised/Images/livepreview_rev_300dpi.png" format="png"/>
+        <keydef keys="Preview300_6" href="../Anita_Revised/Images/livepreview_rev_300dpi_6incheswidth.png" format="png"/>
+        <keydef keys="Syntax300" href="../Anita_Revised/Images/syntax_300dpi.png" format="png"/>
+        <keydef keys="SearchPackages300" href="../Anita_Revised/Images/searchpackages300dpi.png" format="png"/>
+    </frontmatter>
+    <chapter href="about.dita"/>
+    <chapter href="essentials_rev.dita"/>
+    <chapter href="intro_installatom.dita"/>
+    <chapter href="syntax_highlighting_rev.dita"/>
+    <chapter href="preview_rev.dita"/>
+    <chapter href="about_packages.dita"/>
+    <chapter href="Basic_Syntax_Comparison.dita"/>
+    <chapter href="syntax_highlighting_online_cheatsheets.dita"/>
+</bookmap>

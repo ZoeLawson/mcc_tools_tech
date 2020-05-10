@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="about_packages">
+    <title>Atom Packages</title>
+    <shortdesc>Understanding packages opens up a world of additional features you can use in
+        Atom.</shortdesc>
+    <conbody>
+        <p>When you download Atom, it comes with a lot of features. For example, Atom comes with
+            syntax highlighting for HTML, but it doesn't come with syntax highlighting for RST. To
+            get syntax highlighting for RST, you have to install it yourself. A package is what Atom
+            calls a feature or group of features that you install after you download Atom.<ul
+                id="ul_zgw_53b_llb">
+                <li>Packages are optional. You choose what packages you want to install from Atom's
+                    package list.</li>
+                <li>Package are free. </li>
+                <li>1-click installation. No code or command line steps necessary.</li>
+                <li>Install a package anytime. </li>
+                <li>Disable a package anytime.</li>
+                <li>Access packages from the <wintitle>Settings</wintitle> panel. To access
+                        <wintitle>Settings</wintitle>, follow the appropriate path for your
+                    operating system:<ul
+                        conref="syntax_highlighting_rev.dita#syntax_highlighting_rev/settings_list">
+                        <li/>
+                    </ul></li>
+            </ul></p>
+        <note type="tip">In the <wintitle>Settings</wintitle> panel drop-down menu list, you will
+            see <wintitle>Packages</wintitle> and <wintitle>Install</wintitle>. <ul
+                id="ul_ysj_1js_4lb">
+                <li><wintitle>Packages</wintitle> lists what packages are currently installed.</li>
+                <li><wintitle>Install</wintitle> lists all additional packages available to install.
+                </li>
+            </ul>
+        </note>
+    </conbody>
+    <related-links>
+        <link href="syntax_highlighting_rev.dita" format="dita">
+            <linktext>Syntax Highlighting</linktext>
+        </link>
+        <link href="preview_rev.dita" format="dita">
+            <linktext>Live Preview</linktext>
+        </link>
+    </related-links>
+</concept>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="syntax_highlighting_rev">
+    <title>Syntax Highlighting</title>
+    <shortdesc>Follow these step-by-step instructions for set-up and use. Syntax highlighting
+        displays source code in different colors and fonts, so it's easier to distinguish code
+        elements and identify errors. </shortdesc>
+    <taskbody>
+        <prereq conref="preview_rev.dita#preview_rev/installatomprereq"/>
+        <context>HTML and Markdown syntax preview come pre-loaded in Atom, but RST does not. You
+            will install the RST syntax highlighting package and then learn how to enable syntax
+            highlighting for all of these languages. <image placement="break" align="center"
+                id="image_jxf_trs_4lb" keyref="Syntax300">
+                <alt>HTML with and without Syntax Highlighting</alt>
+            </image></context>
+        <steps>
+            <step>
+                <cmd>Install the RST Syntax Highlighting package:</cmd>
+                <substeps id="substeps_fx5_wpn_klb">
+                    <substep>
+                        <cmd>Open <wintitle>Atom</wintitle>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd id="opensettings">Open <wintitle>Settings</wintitle> by clicking on the
+                            appropriate path for your operating systerm:</cmd>
+                        <info>
+                            <ul id="settings_list">
+                                <li>Mac: <menucascade>
+                                        <uicontrol>Atom</uicontrol>
+                                        <uicontrol>Preferences</uicontrol>
+                                    </menucascade></li>
+                                <li>Windows: <menucascade>
+                                        <uicontrol>File</uicontrol>
+                                        <uicontrol>Settings</uicontrol>
+                                    </menucascade></li>
+                            </ul>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>On the left menu, click <wintitle>Install</wintitle>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>In the <uicontrol>Search Packages</uicontrol> box, type:
+                                <userinput>language-restructedtext</userinput>. The
+                            language-restructuredtext package box appears. View an image of the
+                                <xref href="preview_rev.dita">install packages screen</xref>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click <uicontrol>Install</uicontrol>.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Open a new file.</cmd>
+            </step>
+            <step>
+                <cmd>Type a few lines of html, MarkDown, or RST.</cmd>
+            </step>
+            <step>
+                <cmd>Save the file using the appropriate language file extension from the table
+                    below.</cmd>
+                <choicetable frame="all" id="choicetable_qvg_ntn_klb">
+                    <chhead>
+                        <choptionhd>Language</choptionhd>
+                        <chdeschd>File Extension</chdeschd>
+                    </chhead>
+                    <chrow>
+                        <choption>HTML</choption>
+                        <chdesc>filename.htm or filename.html</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Markdown</choption>
+                        <chdesc>filename.md</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>RST</choption>
+                        <chdesc>filename.rst</chdesc>
+                    </chrow>
+                </choicetable>
+                <stepresult>The file now appears with syntax highlighting. <note type="note">
+                        <ul id="ul_cgd_r14_klb">
+                            <li>After the initial save, the file will always re-open with syntax
+                                highlighting. </li>
+                            <li>Any previously saved .htm, .html, .md, or .rst file will open with
+                                syntax highlighting.</li>
+                            <li>To "turn off" syntax highlighting for a particular language, you
+                                will need to disable the syntax highlighting package for that
+                                language. To do that, go to <menucascade>
+                                    <uicontrol>Atom</uicontrol>
+                                    <uicontrol>Preferences</uicontrol>
+                                    <uicontrol>Packages</uicontrol>
+                                </menucascade>. You will see all of your currenlty installed
+                                packages. Find the appropriate package and click
+                                    <uicontrol>Disable</uicontrol>. </li>
+                        </ul>
+                    </note></stepresult>
+            </step>
+        </steps>
+    </taskbody>
+    <related-links>
+        <link
+            href="Basic_Syntax_Comparison.dita#syntax_highlighting_basic_syntax_comparison/table_gng_1cw_3lb">
+            <linktext>Basic Syntax Comparison Chart</linktext>
+        </link>
+        <link href="syntax_highlighting_online_cheatsheets.dita">
+            <linktext>Online Syntax Cheatsheets</linktext>
+        </link>
+    </related-links>
+</task>

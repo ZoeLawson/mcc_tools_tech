@@ -5,7 +5,7 @@
 <?xml-stylesheet type='text/css' href='file:/Applications/Oxygen%20XML%20Author/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/oxygen-print.css'?>
 <bookmap xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:oxy="http://www.oxygenxml.com/extensions/author" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:css2fo="http://www.oxygenxml.com/css2fo" xmlns:dita-ot="dita-ot.sourceforge.net/ns/201007/dita-ot" cascade="merge" class="- map/map bookmap/bookmap " ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (map bookmap) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic xnal-d) (topic markup-d xml-d)" xtrc="bookmap:1;3:10" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/PDF.ditamap" xml:lang="en"><oxy:front-page class="- front-page/front-page "><oxy:front-page-title class="- front-page/front-page-title "><booktitle xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- topic/title bookmap/booktitle ">  <mainbooktitle class="- topic/ph bookmap/mainbooktitle ">Atom for the Beginner: Quick Set Up</mainbooktitle>  </booktitle></oxy:front-page-title></oxy:front-page><opentopic:map xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- toc/toc "><oxy:toc-title class="- toc/title " empty="true"/>
     <booktitle xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/title bookmap/booktitle ">  <mainbooktitle class="- topic/ph bookmap/mainbooktitle ">Atom for the Beginner: Quick Set Up</mainbooktitle>  </booktitle>
-    <frontmatter xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- map/topicref bookmap/frontmatter "><booklists class="- map/topicref bookmap/booklists "/><?ditaot gentext?><?ditaot gentext?><?ditaot gentext?><?ditaot gentext?><?ditaot gentext?></frontmatter>
+    <frontmatter xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- map/topicref bookmap/frontmatter "><booklists class="- map/topicref bookmap/booklists "/><?ditaot gentext?><?ditaot gentext?><?ditaot gentext?><?ditaot gentext?></frontmatter>
     <chapter xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref bookmap/chapter " href="#unique_1" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="about"><resourceid appid="about" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_1" class="- topic/navtitle ">About</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Why did I write this guide?</shortdesc></topicmeta></chapter>
     <chapter xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref bookmap/chapter " href="#unique_2" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="whywriteguide"><resourceid appid="whywriteguide" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_2" class="- topic/navtitle ">Welcome</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "> Welcome to Atom for the Beginner: Quick Set Up for HTML, Markdown, and         RST.</shortdesc></topicmeta></chapter>
     <chapter xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref bookmap/chapter " href="#unique_3" type="task"><topicmeta class="- map/topicmeta " data-topic-id="installatom"><resourceid appid="installatom" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_3" class="- topic/navtitle ">Install Atom</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "> Step-by-step instructions to install Atom on your computer. </shortdesc></topicmeta></chapter>
@@ -67,7 +67,7 @@
                         <uicontrol class="+ topic/ph ui-d/uicontrol ">Download</uicontrol> you should see listed your computer's
                     specific operating system (OS) and version. </cmd>
                 <stepxmp class="- topic/itemgroup task/stepxmp ">For example, you have a computer running Windows 10. When you go to Atom,
-                    the image below appears.<image align="left" class="- topic/image " format="png" href="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/atom_download_pdf300dpi.png" keyref="download_atom" placement="break">
+                    the image below appears.<image align="left" class="- topic/image " format="png" href="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/atom_download_pdf300dpi.png" keyref="download_button" placement="break">
                         <alt class="- topic/alt ">Atom Download</alt>
                     </image>
                 </stepxmp>
@@ -112,7 +112,7 @@
             features.</prereq>
         <context class="- topic/section task/context ">HTML and Markdown syntax preview come pre-loaded in Atom, but RST does not. You
             will install the RST syntax highlighting package and then learn how to enable syntax
-            highlighting for all of these languages. <image align="center" class="- topic/image " format="png" href="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/syntax_300dpi.png" id="unique_4_Connect_42_image_jxf_trs_4lb" nd:nd-id="image_jxf_trs_4lb" keyref="Syntax300" placement="break">
+            highlighting for all of these languages. <image align="center" class="- topic/image " format="png" href="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/syntax_300dpi.png" id="unique_4_Connect_42_image_jxf_trs_4lb" nd:nd-id="image_jxf_trs_4lb" keyref="syntax" placement="break">
                 <alt class="- topic/alt ">HTML with and without Syntax Highlighting</alt>
             </image></context>
         <steps class="- topic/ol task/steps ">
@@ -206,7 +206,7 @@
             of the main challenges for beginning code writers is not knowing how the code you have
             written will look on a web page. A "live" preview window renders your code while you
             write, which is why live preview is an essential tool for the beginning code writer.
-                <image align="center" class="- topic/image " format="png" href="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/livepreview_rev_300dpi.png" keyref="Preview300" placement="break">
+                <image align="center" class="- topic/image " format="png" href="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/livepreview_rev_300dpi.png" keyref="preview" placement="break">
                 <alt class="- topic/alt ">HTML with Live Preview</alt>
             </image><p class="- topic/p ">Follow the steps below to set-up and use live preview for HTML, Markdown, and
                 RST. </p><note class="- topic/note ">The Markdown preview packages comes "pre-loaded" in Atom, so you only
@@ -250,7 +250,7 @@
                     </chrow>
                 </choicetable>
                 <stepresult class="- topic/itemgroup task/stepresult ">The package box appears. For example, the image below shows the
-                        <i class="+ topic/ph hi-d/i ">atom-html-preview</i> package box.<image align="center" alt="Search Packages Screen" class="- topic/image " format="png" href="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/searchpackages300dpi.png" id="unique_5_Connect_42_image_ikn_prs_4lb" nd:nd-id="image_ikn_prs_4lb" keyref="SearchPackages300" placement="break">
+                        <i class="+ topic/ph hi-d/i ">atom-html-preview</i> package box.<image align="center" alt="Search Packages Screen" class="- topic/image " format="png" href="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/searchpackages300dpi.png" id="unique_5_Connect_42_image_ikn_prs_4lb" nd:nd-id="image_ikn_prs_4lb" keyref="searchpackages" placement="break">
                         <alt class="- topic/alt ">Install Packages Screen</alt>
                     </image><note class="- topic/note " type="tip">There are many different packages that you can install
                         in Atom. To explore the packages, scroll through the available packages
@@ -285,9 +285,9 @@
                     <table class="- topic/table " colsep="1" frame="all" id="unique_5_Connect_42_toggle" nd:nd-id="toggle" rowsep="1">
                         <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Preview Window Toggle Commands</ph></title>
                         <tgroup class="- topic/tgroup " cols="3">
-                            <colspec align="center" class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:1;96:92" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita" style="width:18.4843%;"/>
-                            <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="2.83*" xtrc="colspec:2;97:80" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita" style="width:52.3105%;"/>
-                            <colspec align="center" class="- topic/colspec " colname="col3" colnum="3" colwidth="1.58*" xtrc="colspec:3;98:95" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita" style="width:29.2052%;"/>
+                            <colspec align="center" class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:1;95:92" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita" style="width:18.4843%;"/>
+                            <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="2.83*" xtrc="colspec:2;96:80" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita" style="width:52.3105%;"/>
+                            <colspec align="center" class="- topic/colspec " colname="col3" colnum="3" colwidth="1.58*" xtrc="colspec:3;97:95" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita" style="width:29.2052%;"/>
                             <thead class="- topic/thead ">
                                 <row class="- topic/row ">
                                     <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1">Language</entry>
@@ -298,17 +298,17 @@
                             <tbody class="- topic/tbody ">
                                 <row class="- topic/row ">
                                     <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2">HTML</entry>
-                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2"><menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:1;109:57" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Packages</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Preview HTML</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Enable Preview</uicontrol></menucascade></entry>
+                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2"><menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:1;108:57" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Packages</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Preview HTML</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Enable Preview</uicontrol></menucascade></entry>
                                     <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="2"><userinput class="+ topic/ph sw-d/userinput ">Control + Shift + H</userinput></entry>
                                 </row>
                                 <row class="- topic/row ">
                                     <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3">Markdown</entry>
-                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3"><menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:2;118:57" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Packages</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Markdown Preview</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Toggle Preview</uicontrol></menucascade></entry>
+                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3"><menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:2;117:57" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Packages</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Markdown Preview</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Toggle Preview</uicontrol></menucascade></entry>
                                     <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="3"><userinput class="+ topic/ph sw-d/userinput ">Control + Shift + M</userinput></entry>
                                 </row>
                                 <row class="- topic/row ">
                                     <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4">RST</entry>
-                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4"><menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:3;127:57" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Packages</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">reStructuredText</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Toggle Preview</uicontrol></menucascade></entry>
+                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4"><menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:3;126:57" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Packages</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">reStructuredText</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Toggle Preview</uicontrol></menucascade></entry>
                                     <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="4"><userinput class="+ topic/ph sw-d/userinput ">Control + Shift + R</userinput></entry>
                                 </row>
                             </tbody>
@@ -331,10 +331,10 @@
                         <ul class="- topic/ul " id="unique_5_Connect_42_ul_ysg_d1s_4lb" nd:nd-id="ul_ysg_d1s_4lb">
                             <li class="- topic/li ">After the preview window opens, your code file window narrows and
                                 the code does <b class="+ topic/ph hi-d/b ">not</b> automatically wrap. To enable text
-                                wrapping: From the top menu, click <menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:4;154:81" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">View</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Toggle Soft Wrap</uicontrol></menucascade>.</li>
+                                wrapping: From the top menu, click <menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:4;153:81" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">View</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Toggle Soft Wrap</uicontrol></menucascade>.</li>
                             <li class="- topic/li ">The Markdown preview window background color can be white or black.
                                 This is a toggle command. The white background is "GitHub Style." To
-                                change the background color, click <menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:5;160:81" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Packages</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Markdown Preview</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Toggle GitHub Style</uicontrol></menucascade>.</li>
+                                change the background color, click <menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:5;159:81" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Packages</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Markdown Preview</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Toggle GitHub Style</uicontrol></menucascade>.</li>
                         </ul>
                     </note></stepresult>
             </step>

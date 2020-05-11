@@ -3,8 +3,7 @@
 <map>
     <title>ditamap</title>
     <topicref href="quarantine_gardening_and_compost_projects.dita"/>
-    <topicref href="concept.dita"/>
-    <topicref href="task.dita"/>
-    <topicref href="reference.dita"/>
-    <topicref href="conref_file.dita"/>
+    <topicref href="composting.dita"/>
+    <topicref href="how_to_compost.dita"/>
+    <topicref href="glossary_reference.dita"/>
 </map>

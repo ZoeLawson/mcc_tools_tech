@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task">
+    <title>How to Compost</title>
+    <shortdesc>How to get started with composting</shortdesc>
+    <taskbody>
+        <context>How to assemble a compost pile<p>Now that you have your food scraps, you can
+            assemble your compost pile. </p></context>
+        <steps>
+            <step>
+                <cmd>Find an old trash can to put the compost in (preferrably plastic)</cmd>
+            </step>
+            <step>
+                <cmd>Cut a hole in the bottom for drainage</cmd>
+            </step>
+            <step>
+                <cmd>Add a 1:1 ratio of browns and greens in the trash can</cmd>
+                <choicetable frame="all" relcolwidth="1* 1*" id="choicetable_cxf_fgn_qlb">
+                    <chrow>
+                        <choption>Browns</choption>
+                        <chdesc>Leaves, twigs, dirt</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Greens</choption>
+                        <chdesc>Food scraps, fruit peels, vegetables, egg shells, coffee
+                            grounds</chdesc>
+                    </chrow>
+                </choicetable>
+            </step>
+            <step>
+                <cmd>Add water to the compost (enough for it to look like a moist sponge)</cmd>
+            </step>
+            <step>
+                <cmd>Mix it once a week</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

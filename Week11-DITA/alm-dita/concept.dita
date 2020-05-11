@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept">
+    <title>Composting</title>
+    <shortdesc>Basics of composting with items you already have in your home</shortdesc>
+    <conbody>
+        <p>Composting is a great way to transform your food waste into superfood compost that you
+            can use in your garden instead of throwing it away.</p>
+        <p>You'll need:<ul conref="conref_file.dita#conref_file/compost_list">
+                <li/>
+            </ul></p>
+        <p>You can compost essentially any type of plant matter. <b>Do not add meat, bones, or dairy
+                product to this compost.</b></p>
+    </conbody>
+</concept>

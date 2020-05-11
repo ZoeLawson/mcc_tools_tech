@@ -2,4 +2,9 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>ditamap</title>
+    <topicref href="quarantine_gardening_and_compost_projects.dita"/>
+    <topicref href="concept.dita"/>
+    <topicref href="task.dita"/>
+    <topicref href="reference.dita"/>
+    <topicref href="conref_file.dita"/>
 </map>

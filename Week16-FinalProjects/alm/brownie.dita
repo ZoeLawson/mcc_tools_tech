@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="brownie">
+    <title>Brownie</title>
+    <shortdesc>Taken from <xref href="https://www.kingarthurflour.com/recipes/fudge-brownies-recipe"
+            format="html" scope="external"/></shortdesc>
+    <taskbody>
+        <prereq>
+            <ul>
+                <li>4 large eggs</li>
+                <li>1 1/4 cups Dutch-processed cocoa </li>
+                <li>1 teaspoon salt</li>
+                <li>1 teaspoon baking powder</li>
+                <li>1 teaspoon espresso powder </li>
+                <li>1 tablespoon vanilla extract</li>
+                <li>1 cup unsalted butter</li>
+                <li>2 1/4 cups sugar</li>
+                <li>1 1/2 cups All-Purpose Flour</li>
+                <li>2 cups chocolate chips</li>
+                
+            </ul>
+        </prereq>
+        <steps>
+            <step>
+                <cmd>Preheat the oven to 350°F. Lightly grease a 9" x 13" pan</cmd>
+            </step>
+            <step>
+                <cmd>Crack the 4 eggs into a bowl, and beat them at medium speed with the cocoa,
+                    salt, baking powder, espresso powder (if using), and vanilla for about 1
+                    minute, or until smooth. You can do this while you're melting your butter
+                    (next step).</cmd>
+            </step>
+            <step>
+                <cmd>In a medium-sized microwave-safe bowl, or in a saucepan set over low heat,
+                    melt the butter, then add the sugar and stir to combine. Or simply combine
+                    the butter and sugar, and heat, stirring, until the butter is melted.
+                    Continue to heat (or microwave) briefly, just until the mixture is hot
+                    (about 110°F to 120°F), but not bubbling; it'll become shiny looking as you
+                    stir it. Heating the mixture to this point will dissolve more of the sugar,
+                    which will help produce a shiny top crust on your brownies.</cmd>
+            </step>
+            <step>
+                <cmd>Add the hot butter/sugar mixture to the egg/cocoa mixture, stirring until
+                    smooth.</cmd>
+            </step>
+            <step>
+                <cmd>Add the flour and chips, stirring until smooth. Again, adding the chips helps
+                    produce a shiny top crust.</cmd>
+            </step>
+            <step>
+                <cmd>Spoon the batter into a lightly greased 9" x 13" pan.</cmd>
+            </step>
+            <step>
+                <cmd>Bake the brownies for 28 to 32 minutes, until a toothpick inserted into the
+                    center comes out clean, or with just a few moist crumbs clinging to it. The
+                    brownies should feel set on the edges, and the center should look very
+                    moist, but not uncooked. Remove them from the oven and cool on a rack before
+                    cutting and serving.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

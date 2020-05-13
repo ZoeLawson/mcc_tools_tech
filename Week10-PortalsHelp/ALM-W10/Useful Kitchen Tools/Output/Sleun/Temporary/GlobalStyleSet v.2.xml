@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlobalStyleCache
+  SavedSource="file:///C:/Users/Sleun/Documents/mango/mcc_tools_tech/Week10-PortalsHelp/ALM-W10/Useful Kitchen Tools/Output/Sleun/Temporary/GlobalStyleSet v.2.xml">
+  <Media>
+    <Medium
+      Name="print" />
+    <Medium
+      Name="tablet" />
+    <Medium
+      Name="mobile" />
+  </Media>
+  <Map>
+    <Tag
+      Name="body" />
+    <Tag
+      Name="h1" />
+    <Tag
+      Name="h2" />
+    <Tag
+      Name="h3" />
+    <Tag
+      Name="h4" />
+    <Tag
+      Name="h5" />
+    <Tag
+      Name="h6" />
+    <Tag
+      Name="p">
+      <Class
+        Name="MiniTOC1" />
+      <Class
+        Name="MiniTOC2" />
+      <Class
+        Name="MiniTOC3" />
+      <Class
+        Name="MiniTOC4" />
+      <Class
+        Name="MiniTOC5" />
+      <Class
+        Name="MiniTOC6" />
+      <Class
+        Name="MiniTOC7" />
+      <Class
+        Name="MiniTOC8" />
+      <Class
+        Name="MiniTOC9" />
+      <Class
+        Name="TOC1" />
+      <Class
+        Name="TOC2" />
+      <Class
+        Name="TOC3" />
+      <Class
+        Name="TOC4" />
+      <Class
+        Name="TOC5" />
+      <Class
+        Name="TOC6" />
+      <Class
+        Name="TOC7" />
+      <Class
+        Name="TOC8" />
+      <Class
+        Name="TOC9" />
+      <Class
+        Name="IndexHeading" />
+      <Class
+        Name="Index1" />
+      <Class
+        Name="Index2" />
+      <Class
+        Name="Index3" />
+      <Class
+        Name="Index4" />
+      <Class
+        Name="Index5" />
+      <Class
+        Name="Index6" />
+      <Class
+        Name="Index7" />
+      <Class
+        Name="Index8" />
+      <Class
+        Name="Index9" />
+      <Class
+        Name="Concept" />
+      <Class
+        Name="ConceptContext" />
+      <Class
+        Name="ListOf" />
+    </Tag>
+    <Tag
+      Name="ol" />
+    <Tag
+      Name="ul" />
+    <Tag
+      Name="img" />
+    <Tag
+      Name="a">
+      <Class
+        Name="Popup" />
+      <Class
+        Name="GlossaryPageTerm" />
+      <Class
+        Name="MCBreadcrumbsLink" />
+    </Tag>
+    <Tag
+      Name="MadCap|expandingHead" />
+    <Tag
+      Name="MadCap|expandingBody" />
+    <Tag
+      Name="MadCap|dropDownHotspot" />
+    <Tag
+      Name="madcapEditorBehavior" />
+    <Tag
+      Name="select" />
+    <Tag
+      Name="input" />
+    <Tag
+      Name="textarea" />
+    <Tag
+      Name="object" />
+    <Tag
+      Name="script" />
+    <Tag
+      Name="hr" />
+    <Tag
+      Name="div">
+      <Class
+        Name="GlossaryPageEntry" />
+      <Class
+        Name="GlossaryPageTerm" />
+      <Class
+        Name="GlossaryPageDefinition" />
+      <Class
+        Name="GlossaryPageHeading" />
+      <Class
+        Name="Row-4-4-4" />
+      <Class
+        Name="Row-6-6" />
+      <Class
+        Name="Row-8-4" />
+    </Tag>
+    <Tag
+      Name="span">
+      <Class
+        Name="SearchHighlight" />
+      <Class
+        Name="SearchHighlight1" />
+      <Class
+        Name="SearchHighlight2" />
+      <Class
+        Name="SearchHighlight3" />
+      <Class
+        Name="SearchHighlight4" />
+      <Class
+        Name="SearchHighlight5" />
+      <Class
+        Name="SearchHighlight6" />
+      <Class
+        Name="SearchHighlight7" />
+      <Class
+        Name="SearchHighlight8" />
+      <Class
+        Name="SearchHighlight9" />
+      <Class
+        Name="SearchHighlight10" />
+      <Class
+        Name="SeeAlsoIndex" />
+      <Class
+        Name="SeeAlsoIndexTerms" />
+      <Class
+        Name="SeeIndex" />
+      <Class
+        Name="SeeIndexTerms" />
+      <Class
+        Name="boolean" />
+      <Class
+        Name="state" />
+    </Tag>
+    <Tag
+      Name="html">
+      <Class
+        Name="task" />
+      <Class
+        Name="concept" />
+      <Class
+        Name="reference" />
+      <Class
+        Name="topic" />
+    </Tag>
+    <Tag
+      Name="table" />
+    <Tag
+      Name="tr" />
+    <Tag
+      Name="thead" />
+    <Tag
+      Name="tbody" />
+    <Tag
+      Name="tfoot" />
+    <Tag
+      Name="th" />
+    <Tag
+      Name="td" />
+    <Tag
+      Name="section" />
+    <Tag
+      Name="caption" />
+    <Tag
+      Name="address" />
+    <Tag
+      Name="blockquote" />
+    <Tag
+      Name="pre" />
+    <Tag
+      Name="dl" />
+    <Tag
+      Name="dd" />
+    <Tag
+      Name="dt" />
+    <Tag
+      Name="center" />
+    <Tag
+      Name="menu" />
+    <Tag
+      Name="dir" />
+    <Tag
+      Name="li" />
+    <Tag
+      Name="abbr" />
+    <Tag
+      Name="acronym" />
+    <Tag
+      Name="b" />
+    <Tag
+      Name="big" />
+    <Tag
+      Name="code" />
+    <Tag
+      Name="cite" />
+    <Tag
+      Name="del" />
+    <Tag
+      Name="em" />
+    <Tag
+      Name="i" />
+    <Tag
+      Name="ins" />
+    <Tag
+      Name="kbd" />
+    <Tag
+      Name="small" />
+    <Tag
+      Name="u" />
+    <Tag
+      Name="samp" />
+    <Tag
+      Name="strike" />
+    <Tag
+      Name="strong" />
+    <Tag
+      Name="sup" />
+    <Tag
+      Name="sub" />
+    <Tag
+      Name="tt" />
+    <Tag
+      Name="var" />
+    <Tag
+      Name="article" />
+    <Tag
+      Name="aside" />
+    <Tag
+      Name="canvas" />
+    <Tag
+      Name="footer" />
+    <Tag
+      Name="header" />
+    <Tag
+      Name="nav" />
+    <Tag
+      Name="q" />
+    <Tag
+      Name="datalist" />
+    <Tag
+      Name="label" />
+    <Tag
+      Name="optgroup" />
+    <Tag
+      Name="option" />
+    <Tag
+      Name="legend" />
+    <Tag
+      Name="col" />
+    <Tag
+      Name="map" />
+    <Tag
+      Name="area" />
+    <Tag
+      Name="head" />
+    <Tag
+      Name="style" />
+    <Tag
+      Name="fieldset" />
+    <Tag
+      Name="form" />
+    <Tag
+      Name="frame" />
+    <Tag
+      Name="frameset" />
+    <Tag
+      Name="noframes" />
+    <Tag
+      Name="colgroup" />
+    <Tag
+      Name="button" />
+    <Tag
+      Name="s" />
+    <Tag
+      Name="br" />
+    <Tag
+      Name="figure" />
+    <Tag
+      Name="figcaption" />
+    <Tag
+      Name="MadCap|keyword" />
+    <Tag
+      Name="MadCap|concept" />
+    <Tag
+      Name="MadCap|variable" />
+    <Tag
+      Name="MadCap|bodyProxy" />
+    <Tag
+      Name="MadCap|pageBreak" />
+    <Tag
+      Name="MadCap|breadcrumbsProxy" />
+    <Tag
+      Name="MadCap|topicToolbarProxy" />
+    <Tag
+      Name="MadCap|miniTocProxy" />
+    <Tag
+      Name="MadCap|tocProxy" />
+    <Tag
+      Name="MadCap|indexProxy" />
+    <Tag
+      Name="MadCap|listOfProxy" />
+    <Tag
+      Name="MadCap|conceptsProxy" />
+    <Tag
+      Name="MadCap|glossaryProxy" />
+    <Tag
+      Name="MadCap|relationshipsProxy" />
+    <Tag
+      Name="MadCap|relationshipsHeading">
+      <Class
+        Name="concept" />
+      <Class
+        Name="task" />
+      <Class
+        Name="reference" />
+    </Tag>
+    <Tag
+      Name="MadCap|relationshipsItem" />
+    <Tag
+      Name="MadCap|endnotesProxy" />
+    <Tag
+      Name="MadCap|searchBarProxy" />
+    <Tag
+      Name="MadCap|menuProxy" />
+    <Tag
+      Name="MadCap|searchResultsProxy" />
+    <Tag
+      Name="MadCap|centralAccountProxy" />
+    <Tag
+      Name="MadCap|snippetText" />
+    <Tag
+      Name="MadCap|snippetBlock" />
+    <Tag
+      Name="MadCap|slideshow" />
+    <Tag
+      Name="MadCap|slide" />
+    <Tag
+      Name="MadCap|slideshowCaption" />
+    <Tag
+      Name="MadCap|slideshowBullet">
+      <Class
+        Name="active" />
+    </Tag>
+    <Tag
+      Name="MadCap|slideshowNavigationControls">
+      <Class
+        Name="Previous" />
+      <Class
+        Name="Next" />
+    </Tag>
+    <Tag
+      Name="MadCap|slideshowAutoControls">
+      <Class
+        Name="Start" />
+      <Class
+        Name="active" />
+      <Class
+        Name="Stop" />
+    </Tag>
+    <Tag
+      Name="MadCap|slideThumbnail">
+      <Class
+        Name="active" />
+    </Tag>
+    <Tag
+      Name="MadCap|model3D" />
+    <Tag
+      Name="MadCap|conditionalText" />
+    <Tag
+      Name="MadCap|section" />
+    <Tag
+      Name="MadCap|footnotesBlock" />
+    <Tag
+      Name="MadCap|footnoteBlock" />
+    <Tag
+      Name="MadCap|endnotesBlock" />
+    <Tag
+      Name="MadCap|endnoteBlock" />
+    <Tag
+      Name="MadCap|footnote" />
+    <Tag
+      Name="MadCap|conceptLink" />
+    <Tag
+      Name="MadCap|keywordLink" />
+    <Tag
+      Name="MadCap|relatedTopics" />
+    <Tag
+      Name="MadCap|glossaryTerm">
+      <Class
+        Name="Expanding" />
+      <Class
+        Name="Popup" />
+      <Class
+        Name="Hyperlink" />
+    </Tag>
+    <Tag
+      Name="MadCap|xref">
+      <Class
+        Name="TOCPageNumber" />
+      <Class
+        Name="ConceptPageNumber" />
+      <Class
+        Name="IndexPageNumber" />
+      <Class
+        Name="ListOfPageNumber" />
+      <Class
+        Name="RelLinkPageNumber" />
+    </Tag>
+    <Tag
+      Name="MadCap|annotation" />
+    <Tag
+      Name="MadCap|dropDown" />
+    <Tag
+      Name="MadCap|dropDownHead" />
+    <Tag
+      Name="MadCap|dropDownBody" />
+    <Tag
+      Name="MadCap|microContent" />
+    <Tag
+      Name="MadCap|expanding" />
+    <Tag
+      Name="MadCap|toggler" />
+    <Tag
+      Name="MadCap|popup" />
+    <Tag
+      Name="MadCap|popupHead" />
+    <Tag
+      Name="MadCap|popupBody" />
+    <Tag
+      Name="MadCap|shortcut" />
+    <Tag
+      Name="MadCap|helpControlMenu" />
+    <Tag
+      Name="MadCap|helpControlMenuItem">
+      <Class
+        Name="Highlighted" />
+    </Tag>
+    <Tag
+      Name="MadCap|helpControlList" />
+    <Tag
+      Name="MadCap|helpControlListItem" />
+    <Tag
+      Name="MadCap|helpControlListItemLink" />
+    <Tag
+      Name="MadCap|relatedTopicsControlList" />
+    <Tag
+      Name="MadCap|relatedTopicsControlListItem" />
+    <Tag
+      Name="MadCap|relatedTopicsControlListItemLink" />
+    <Tag
+      Name="MadCap|conceptLinkControlList" />
+    <Tag
+      Name="MadCap|conceptLinkControlListItem" />
+    <Tag
+      Name="MadCap|conceptLinkControlListItemLink" />
+    <Tag
+      Name="MadCap|keywordLinkControlList" />
+    <Tag
+      Name="MadCap|keywordLinkControlListItem" />
+    <Tag
+      Name="MadCap|keywordLinkControlListItemLink" />
+    <Tag
+      Name="MadCap|pageHeader">
+      <Class
+        Name="OddPage" />
+      <Class
+        Name="EvenPage" />
+      <Class
+        Name="FirstPage" />
+    </Tag>
+    <Tag
+      Name="MadCap|pageFooter">
+      <Class
+        Name="OddPage" />
+      <Class
+        Name="EvenPage" />
+      <Class
+        Name="FirstPage" />
+    </Tag>
+    <Tag
+      Name="MadCap|qrCode" />
+    <Tag
+      Name="MadCap|namedDestination" />
+    <Tag
+      Name="MadCap|codeSnippet" />
+    <Tag
+      Name="MadCap|codeSnippetCopyButton" />
+    <Tag
+      Name="MadCap|codeSnippetCaption" />
+    <Tag
+      Name="MadCap|codeSnippetBody" />
+    <Tag
+      Name="MadCap|equation" />
+  </Map>
+  <SourceUrls>
+    <Url
+      Source="Resources/Stylesheets/Styles.css" />
+    <Url
+      Source="../../../../../../../../../Program Files/MadCap Software/MadCap Flare 16/Flare.app/Resources/Schemas/xhtml.css" />
+    <Url
+      Source="../../../../../../../../../Program Files/MadCap Software/MadCap Flare 16/Flare.app/Resources/Schemas/MadCapEditor.css" />
+    <Url
+      Source="../../../../../../../../../Program Files/MadCap Software/MadCap Flare 16/Flare.app/Resources/Schemas/MadCapEditorFlare.css" />
+  </SourceUrls>
+</CatapultGlobalStyleCache>

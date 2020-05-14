@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="installatom">
+    <title>How to Download Atom</title>
+    <shortdesc>Atom is a free, open source text editor developed by GitHub. For Mac users, Atom may
+        be a good alternative to Notepad ++. </shortdesc>
+    <taskbody>
+        <context id="context_z5q_5c3_llb">Before you can use Atom, you need to install it on your
+            computer. Follow the steps below to install Atom on your computer.</context>
+        <steps>
+            <step>
+                <cmd>Go to <xref href="https://atom.io" format="html" scope="external"/>. Above the
+                        <uicontrol>Download</uicontrol> button you should see listed your computer's
+                    specific operating system (OS) and version. </cmd>
+                <stepxmp>Anita has a Mac laptop, which is running MacOS version 10.11.6. When she
+                    goes to Atom, this is what she sees: <fig id="fig_pvt_bst_jlb">
+                        <title>Atom Download Button</title>
+                    </fig><image href="Images/Atom_download_image.png" placement="break"
+                        id="image_qxp_vrs_jlb"/>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>If the the OS/version information is correct for your computer, click the
+                        <uicontrol>Download</uicontrol> button and follow the on-screen instructions
+                    to complete the installation.</cmd>
+                <info>
+                    <p>If the OS/version information is <b>NOT</b> correct or you want to download
+                        Atom for a different operating system, then follow these steps:</p>
+                </info>
+                <substeps>
+                    <substep>
+                        <cmd>On the bottom left of the screen, click on the <uicontrol>Other
+                                platforms</uicontrol> button. You will be taken to Atom's latest
+                            version release page on GitHub. You can also get there by clicking this
+                            link:  <xref href="https://github.com/atom/atom/releases/tag/v1.45.0"
+                                format="0" scope="external"/></cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click the <uicontrol>Assets</uicontrol>button to open the list of the
+                            current OS versions available to download.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>To download, click on the appropriate file name for your
+                            platform.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Open the downloaded file and follow the on-screen installation
+                            instructions.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+    </taskbody>
+</task>

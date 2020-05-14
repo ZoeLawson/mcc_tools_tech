@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="References">
+    <title>References</title>
+    <shortdesc>Glossary of Composting Items</shortdesc>
+    <refbody>
+        <!--ConRefs-->
+        <example id="compost">
+            <ul>
+                <li>Dirt</li>
+                <li>Twigs</li>
+                <li>Leaves</li>
+                <li>Grass</li>
+                <li>Cardboard</li>
+                <li>Fruit peels</li>
+                <li>Vegetable scraps</li>
+                <li>Egg shells</li>
+                <li>Coffee grounds</li>
+                <li>Napkins</li>
+            </ul>
+            
+        </example>
+    </refbody>
+</reference>

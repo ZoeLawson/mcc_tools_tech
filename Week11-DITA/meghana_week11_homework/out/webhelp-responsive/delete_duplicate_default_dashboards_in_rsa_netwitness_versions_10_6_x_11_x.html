@@ -1,0 +1,152 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en" lang="en" whc:version="22.0">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2020" /><meta name="DC.rights.owner" content="(C) Copyright 2020" /><meta name="DC.type" content="task" /><meta name="description" content="There are duplicate &#34;Default&#34; dashboards in the RSA NetWitness UI." /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="delete_duplicate_default_dashboards_in_rsa_netwitness_versions_10_6_x_11_x" />        
+      <title>Delete duplicate "Default" dashboards in RSA NetWitness versions 10.6.x &amp; 11.x</title><!--  Generated with Oxygen version 22.0, build number 2020030411.  --><meta name="wh-path2root" content="" /><meta name="wh-toc-id" content="delete_duplicate_default_dashboards_in_rsa_netwitness_versions_10_6_x_11_x-d61e23" />
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="./oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" />
+    
+    <!-- Template default styles  -->
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/topic-page.css?buildId=2020030411" />
+    
+    
+    <script type="text/javascript" src="./oxygen-webhelp/lib/jquery/jquery-3.4.1.min.js"><!----></script>
+    
+    <script data-main="./oxygen-webhelp/app/topic-page.js" src="./oxygen-webhelp/lib/requirejs/require.js"></script>
+<link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/oxygen.css?buildId=2020030411" /></head>
+
+    <body id="delete_duplicate_default_dashboards_in_rsa_netwitness_versions_10_6_x_11_x" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Jump to main content</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="22.0">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    
+                    <div class=" wh_publication_title "><a href="index.html"><span class="title">meghana_first_map</span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul xmlns:xhtml="http://www.w3.org/1999/xhtml" role="menubar" aria-label="Menu"><li role="menuitem"><span id="meghana_my_first_concept-d61e11-mi" data-tocid="meghana_my_first_concept-d61e11" data-state="leaf" class=" topicref " data-id="meghana_my_first_concept"><span class="title"><a href="meghana_my_first_concept.html">RSA NetWitness Platform 11.x Troubleshooting</a></span></span></li><li role="menuitem"><span id="delete_duplicate_default_dashboards_in_rsa_netwitness_versions_10_6_x_11_x-d61e23-mi" data-tocid="delete_duplicate_default_dashboards_in_rsa_netwitness_versions_10_6_x_11_x-d61e23" data-state="leaf" class=" topicref " data-id="delete_duplicate_default_dashboards_in_rsa_netwitness_versions_10_6_x_11_x"><span class="title"><a href="delete_duplicate_default_dashboards_in_rsa_netwitness_versions_10_6_x_11_x.html">Delete duplicate "Default" dashboards in RSA NetWitness versions 10.6.x &amp; 11.x</a></span></span></li><li role="menuitem"><span id="meghana_first_task-d61e35-mi" data-tocid="meghana_first_task-d61e35" data-state="leaf" class=" topicref " data-id="meghana_first_task"><span class="title"><a href="meghana_first_task.html">Start/Stop Capture button is disabled on the Decoder service in RSA NetWitness Platform version 11.3.x</a></span></span></li><li role="menuitem"><span id="netwitness_reference_page-d61e47-mi" data-tocid="netwitness_reference_page-d61e47" data-state="leaf" class=" topicref " data-id="netwitness_reference_page"><span class="title"><a href="netwitness_reference_page.html">RSA NetWitness Platform Key Terms</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required" /><button type="submit" class="wh_search_button" aria-label="Search"><span>Search</span></button></div></form></div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md">
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol xmlns:html="http://www.w3.org/1999/xhtml" class="d-print-none"><li><span class="home"><a href="index.html"><span>Home</span></a></span></li><li class="active"><span class="topicref" data-id="delete_duplicate_default_dashboards_in_rsa_netwitness_versions_10_6_x_11_x"><span class="title"><a href="delete_duplicate_default_dashboards_in_rsa_netwitness_versions_10_6_x_11_x.html">Delete duplicate "Default" dashboards in RSA NetWitness versions 10.6.x &amp; 11.x</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">There are duplicate "Default" dashboards in the RSA NetWitness UI.</p></span></span></span></li></ol></div>
+
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader"></span></div>
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <!-- Expand/Collapse publishing TOC 
+                             The menu button for mobile devices is copied in the output only when the publication TOC is available
+                        -->
+                        
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                    
+                    <div class="col-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title1">Delete duplicate "Default" dashboards in RSA NetWitness versions 10.6.x &amp; 11.x</h1>
+    
+    <div class="- topic/body task/taskbody body taskbody"><p class="- topic/shortdesc shortdesc">There are duplicate "Default" dashboards in the RSA NetWitness UI.</p>
+        <section class="- topic/section task/context section context">This task provides you with steps to remove any duplicate "Default" dashboards in
+            the Dashboard section of the RSA NetWitness Platform UI.<p class="- topic/p p"></p></section>
+        <section><ol class="- topic/ol task/steps ol steps"><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Log into the RSA NetWitness UI.</span>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Navigate to the Dashboards section of the UI.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <ul class="- topic/ul ul">
+                        <li class="- topic/li li">In 10.6.x: the "Dashboard" section is located in the top left corner of the UI.</li>
+                        <li class="- topic/li li">In 11.x: the "Dashboard" section is located in Monitor &gt; Overview.</li>
+                    </ul>
+                </div>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Go into a "Default" dashboard.</span>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Next to the words "Default Dashboard," there are icons regarding dashboard options.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p">In 10.6.x:</p>
+                    <ul class="- topic/ul ul">
+                        <li class="- topic/li li">In between the "-" icon and the "Copy dashboard" icon, there is an icon with a red pencil.</li>
+                        <li class="- topic/li li">Click the red pencil to show the dashboard editing options.</li>
+                        <li class="- topic/li li">Click the option, "Restore Default Dashboard," which should clear all unnecessary/duplicate default dashboards.</li>
+                    </ul>
+                    <p class="- topic/p p">In 11.x:</p>
+                    <ul class="- topic/ul ul">
+                        <li class="- topic/li li">In between the "-" icon and the "Copy dashboard" icon, there is an icon with a red pencil.</li>
+                        <li class="- topic/li li">Click on that clockwise red arrow to "Restore Default Dashboards," which should clear all unnecessary/duplicate default dashboards.</li>
+                    </ul>
+                </div>
+            </li></ol></section>
+    </div>
+</article></main></div>
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer" whc:version="22.0">
+  <div class=" footer-container mx-auto ">
+    Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">&lt;oXygen/&gt; XML WebHelp</a> - Trial Edition
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        
+    </body>
+</html>

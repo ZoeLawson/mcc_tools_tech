@@ -5,3 +5,9 @@
 *.backup.book
 *.lck
 *.mif
+**/Users/Zoe
+**/Analyzer
+**/Output
+**/*.fldb
+**/*.s3db
+**/*.cadbf

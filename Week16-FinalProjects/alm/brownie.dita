@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="brownie">
+    <title>Brownie</title>
+    <shortdesc>Faked recipe. No idea if this will work. </shortdesc>
+    <taskbody>
+        <prereq>
+            <ul>
+                <li>2 eggs</li>
+                <li>4 oz dark chocolate </li>
+                <li>1 1/2 teaspoon salt</li>
+                <li>1 teaspoon baking powder</li>
+                <li>1 tablespoon vanilla extract</li>
+                <li>1/2 cup unsalted butter</li>
+                <li>1 2/3 cups sugar</li>
+                <li>1 1/2 cups All-Purpose Flour</li>
+                <li>12 oz dark chocolate chips</li>
+                <li>1 cup dried cherries</li>
+            </ul>
+        </prereq>
+        <context>This recipie is inspired by how I doctor my mother's ultimate brownie recipe.
+            However, I didn't actually go look at the recipe to see if the proportions are
+            correct.</context>
+        <steps>
+            <step>
+                <cmd>Preheat the oven to 350°F. Lightly grease a 9" x 13" pan</cmd>
+            </step>
+            <step>
+                <cmd>Melt butter and chocolate in a pan over low heat. Remove from heat once melted
+                    and combined.</cmd>
+            </step>
+            <step>
+                <cmd>Add sugar and combine.</cmd>
+            </step>
+            <step>
+                <cmd>Add eggs, one at a time and combine.</cmd>
+            </step>
+            <step>
+                <cmd>Add vanilla to chocolate mixture.</cmd>
+            </step>
+            <step>
+                <cmd>Mix together salt, baking powder, flour, and dried cherries.</cmd>
+            </step>
+            <step>
+                <cmd>Fold dry ingredients into chocolate mixture.</cmd>
+            </step>
+            <step>
+                <cmd>Fold in chocolate chips.</cmd>
+            </step>
+            <step>
+                <cmd>Pour batter into pan and bake at 350.</cmd>
+            </step>
+            <step>
+                <cmd>Start testing for doneness after 30 minutes. The edges and top should look
+                    crusty, but the center may still be a little soft. A toothpick pushed into the
+                    center should come out mostly clean. </cmd>
+                <info>Crumbs are okay, uncooked batter is not. However, remember there may be melted
+                    chocolate chip where you're testing.</info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

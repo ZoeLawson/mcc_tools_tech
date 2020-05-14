@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="pan_volumes">
+    <title>Pan volumes</title>
+    <shortdesc>If you know the volume of your pan, you can resize recipies.</shortdesc>
+    <refbody>
+        <table frame="all">
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Pan size</entry>
+                        <entry>Volume</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Round 8 x 1 1/2 inches</entry>
+                        <entry>4 cups</entry>
+                    </row>
+                    <row>
+                        <entry>Round 9 x 1 1/2 inches</entry>
+                        <entry>6 cups</entry>
+                    </row>
+                    <row>
+                        <entry>Bundt 9 x 3 inches</entry>
+                        <entry>9 cups</entry>
+                    </row>
+                    <row>
+                        <entry>Square 8 x 8 x 1 1/2 inches</entry>
+                        <entry>6 cups</entry>
+                    </row>
+                    <row>
+                        <entry>Square 9 x 9 x 1 1/2 inches</entry>
+                        <entry>8 cups</entry>
+                    </row>
+                    <row>
+                        <entry>Rectangular 13 x 9 x 2 inches</entry>
+                        <entry>14 cups</entry>
+                    </row>
+                    <row>
+                        <entry>Muffin 2 3/4 x 1 1/2 inches</entry>
+                        <entry>½ cup</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

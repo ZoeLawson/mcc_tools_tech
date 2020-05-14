@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="CompanyName">MadCap Software</Variable>
+  <Variable
+    Comment=""
+    Name="PhoneNumber">858 123 4567</Variable>
+  <Variable
+    Name="Bon Appetit"
+    Comment=""
+    EvaluatedDefinition="cuisiner en ete 2020">cuisiner en ete 2020</Variable>
+  <Variable
+    Name="bruschetta"
+    Comment=""
+    EvaluatedDefinition="Bruschetta">Bruschetta</Variable>
+</CatapultVariableSet>

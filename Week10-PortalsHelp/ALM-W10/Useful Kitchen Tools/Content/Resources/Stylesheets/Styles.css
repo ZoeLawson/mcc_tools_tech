@@ -88,3 +88,21 @@ MadCap|dropDownHotspot
 	color: #006600;
 }
 
+table
+{
+	border-color: #5f9ea0;
+}
+
+h3.H3-drop::first-letter
+{
+	font-size: 46;
+	color: #00ffff;
+	font: Courier;
+}
+
+h3::first-letter
+{
+	font-size: 47;
+	color: 00ffff;
+}
+

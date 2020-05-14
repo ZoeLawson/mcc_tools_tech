@@ -111,6 +111,8 @@
     <Tag
       Name="MadCap|dropDownHotspot" />
     <Tag
+      Name="table" />
+    <Tag
       Name="madcapEditorBehavior" />
     <Tag
       Name="select" />
@@ -189,8 +191,6 @@
       <Class
         Name="topic" />
     </Tag>
-    <Tag
-      Name="table" />
     <Tag
       Name="tr" />
     <Tag

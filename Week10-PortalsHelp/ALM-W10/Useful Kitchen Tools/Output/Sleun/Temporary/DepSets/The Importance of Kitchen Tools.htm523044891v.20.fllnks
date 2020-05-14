@@ -4,14 +4,23 @@
   OnlyLocalStylesheets="false"
   FileTimeEstimate="0"
   FilePriority="0">
-  <Links />
-  <LongLinks />
+  <Links>
+    <Link
+      Url="Project/VariableSets/Variables.flvar" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/VariableSets/Variables.flvar" />
+  </LongLinks>
   <Anchors />
   <Keywords />
   <Concepts />
   <ConceptControlNames />
   <IndexControlNames />
-  <Variables />
+  <Variables>
+    <Variable
+      Name="Variables.Bon Appetit" />
+  </Variables>
   <FileConditions />
   <FileTags />
   <AllConditions />

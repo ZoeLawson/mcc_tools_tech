@@ -2,7 +2,7 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="syntax_highlighting_rev">
     <title>Syntax Highlighting</title>
-    <shortdesc>Follow these step-by-step instructions for set-up and use. Syntax highlighting
+    <shortdesc>Follow these step-by-step instructions for set up and use. Syntax highlighting
         displays source code in different colors and fonts, so it's easier to distinguish code
         elements and identify errors. </shortdesc>
     <taskbody>
@@ -41,9 +41,10 @@
                     </substep>
                     <substep>
                         <cmd>In the <uicontrol>Search Packages</uicontrol> box, type:
-                                <userinput>language-restructedtext</userinput>. The
-                            language-restructuredtext package box appears. View an image of the
-                                <xref href="preview_rev.dita">install packages screen</xref>.</cmd>
+                                <userinput>language-restructuredtext</userinput>. The
+                            language-restructuredtext package box appears. View an image of the<xref
+                                href="preview_rev.dita#preview_rev/search_packages_image"> install
+                                packages screen</xref>.</cmd>
                     </substep>
                     <substep>
                         <cmd>Click <uicontrol>Install</uicontrol>.</cmd>
@@ -54,7 +55,7 @@
                 <cmd>Open a new file.</cmd>
             </step>
             <step>
-                <cmd>Type a few lines of html, MarkDown, or RST.</cmd>
+                <cmd>Type a few lines of HTML, Markdown, or RST.</cmd>
             </step>
             <step>
                 <cmd>Save the file using the appropriate language file extension from the table
@@ -89,7 +90,7 @@
                                     <uicontrol>Atom</uicontrol>
                                     <uicontrol>Preferences</uicontrol>
                                     <uicontrol>Packages</uicontrol>
-                                </menucascade>. You will see all of your currenlty installed
+                                </menucascade>. You will see all of your currently installed
                                 packages. Find the appropriate package and click
                                     <uicontrol>Disable</uicontrol>. </li>
                         </ul>

@@ -70,7 +70,7 @@
                                     <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_4" css:text-align-last="justify" href="#unique_4"><css:before css:display="inline" css:link="#unique_4"><css:text>Chapter </css:text><css:counter name="toc-chapter" value="4"/><css:text/><css:text>. </css:text></css:before>Syntax
                                         Highlighting<css:after css:display="inline" css:link="#unique_4"><css:leader pattern="."/><css:target-counter url-fragment="unique_4"/></css:after></div>
                                     <div class="- map/shortdesc shortdesc" css:display="none">Follow
-                                        these step-by-step instructions for set-up and use. Syntax
+                                        these step-by-step instructions for set up and use. Syntax
                                         highlighting displays source code in different colors and
                                         fonts, so it's easier to distinguish code elements and
                                         identify errors. </div>
@@ -82,10 +82,10 @@
                                     <div appid="preview_rev" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
                                     <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_5" css:text-align-last="justify" href="#unique_5"><css:before css:display="inline" css:link="#unique_5"><css:text>Chapter </css:text><css:counter name="toc-chapter" value="5"/><css:text/><css:text>. </css:text></css:before>Live
                                         Preview<css:after css:display="inline" css:link="#unique_5"><css:leader pattern="."/><css:target-counter url-fragment="unique_5"/></css:after></div>
-                                    <div class="- map/shortdesc shortdesc" css:display="none">Step-by-step instructions for set-up and use. The Live
-                                        Preview window appears next to your source code and, while
-                                        you type, shows what your source code will look like on a
-                                        basic web page. </div>
+                                    <div class="- map/shortdesc shortdesc" css:display="none">Step-by-step instructions for set up and use. The Live
+                                        Preview window appears next to your source code and while
+                                        you type, shows you what your source code will look like on
+                                        a basic web page. </div>
                                 </div>
                             </div>
                             <div class="- map/topicref bookmap/chapter topicref chapter" css:display="block" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-top="0.5em" href="#unique_8" is-chapter="true" type="concept">
@@ -146,8 +146,7 @@
                                     here.</p>
                                 <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">I hope this guide gives you the tools to quickly start writing
                                     and previewing your work in Atom <em class="+ topic/ph hi-d/i ph i" css:display="inline" css:font-style="italic">(and gives me some practice creating
-                                        a project in all of the various tools that we are using in
-                                        class)</em>.</p>
+                                        a project in DITA)</em>.</p>
                                 <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">– Anita</p>
                             </div>
                         </article></div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" page="chapter"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif, Times, Times New Roman, Symbol, SimSun, MingLiU, MS Mincho, Arial Unicode MS" css:font-size="12px" css:min-width="100%" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/PDF.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" cascade="merge" class="- map/map bookmap/bookmap map bookmap" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:ditaarchversion="1.3" domains="(map mapgroup-d) (map bookmap) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic xnal-d) (topic markup-d xml-d)" lang="en" xml:lang="en"><article aria-labelledby="ariaid-title2" break-before="true" class="- topic/topic concept/concept topic concept nested0" css:display="block" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_2" is-chapter="true" nd:nd-id="whywriteguide" oid="whywriteguide" topicrefclass="- map/topicref bookmap/chapter ">
@@ -189,9 +188,9 @@
                                                 Above <span class="+ topic/ph ui-d/uicontrol ph uicontrol" css:display="inline" css:font-weight="bold">Download</span> you should see listed your
                                                 computer's specific operating system (OS) and
                                                 version. </span>
-                                            <div class="- topic/itemgroup task/stepxmp itemgroup stepxmp" css:display="block">For example, you have a computer
-                                                running Windows 10. When you go to Atom, the image
-                                                below appears.<br chfox:inch="true" css:display="inline"><css:after css:display="inline"><css:text>&#x2028;</css:text></css:after></br><div class="imageleft" css:display="block" css:text-align="left">
+                                            <div class="- topic/itemgroup task/stepxmp itemgroup stepxmp" css:display="block">For example, if you have a
+                                                computer running Windows 10, you will see the image
+                                                  below.<br chfox:inch="true" css:display="inline"><css:after css:display="inline"><css:text>&#x2028;</css:text></css:after></br><div class="imageleft" css:display="block" css:text-align="left">
                                                   <img align="left" alt="Atom Download" class="- topic/image image imageleft" css:display="block" css:image-resolution="120dpi" css:max-width="100%" css:oxy-alt-text="Atom Download" format="png" href="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/atom_download_pdf300dpi.png" keyref="download_button" placement="break" src="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/atom_download_pdf300dpi.png"><css:content-on-element><css:uri extracted-image-height="285" extracted-image-width="192" uri="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/atom_download_pdf300dpi.png"/></css:content-on-element></img>
                                                 </div><br chfox:inch="true" css:display="inline"><css:after css:display="inline"><css:text>&#x2028;</css:text></css:after></br>
                                             </div>
@@ -234,13 +233,13 @@
                             <h1 class="- topic/title title topictitle1" css:bookmark-level="1" css:display="block" css:font-size="2em" css:line-height="1.1em" css:margin-bottom="1em" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:oxy-pdf-tag-type="H1" css:page-break-after="avoid" id="ariaid-title4"><css:string-set name="chaptertitle"><css:text> | </css:text><css:counter name="chapter" value="4"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:before css:display="inline"><css:text>Chapter </css:text><css:counter name="chapter" value="4"/><css:text/><css:text>. </css:text></css:before><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Syntax Highlighting</span></h1>
                             <div class="- topic/body task/taskbody body taskbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
                                 <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Follow these
-                                    step-by-step instructions for set-up and use. Syntax
+                                    step-by-step instructions for set up and use. Syntax
                                     highlighting displays source code in different colors and fonts,
                                     so it's easier to distinguish code elements and identify errors. </p>
                                 <section class="- topic/section task/prereq section prereq" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect"><a class="- topic/xref xref" css:color="rgb(51 , 122 , 183)" css:display="inline" css:link="#unique_3" css:text-decoration="underline" href="#unique_3" title="Step-by-step instructions to install Atom on your computer." type="task">Atom
                                         must be
                                         installed<css:after css:display="inline" css:font-style="italic" css:link="#unique_3" css:text-decoration="underline"><css:text> (on page </css:text><css:target-counter url-fragment="unique_3"/><css:text>)</css:text></css:after></a>
-                                    on your computer before you can set-up additional
+                                    on your computer before you can set up additional
                                     features.</section>
                                 <section class="- topic/section task/context section context" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect">HTML and Markdown syntax preview
                                     come pre-loaded in Atom, but RST does not. You will install the
@@ -275,10 +274,10 @@
                                                 </li>
                                                 <li class="- topic/li task/substep li substep substepexpand" css:display="list-item" css:list-style-type="lower-alpha" css:margin-bottom="1em" css:margin-left="2em" css:margin-top="1em">
                                                   <span class="- topic/ph task/cmd ph cmd" css:display="inline">In the <span class="+ topic/ph ui-d/uicontrol ph uicontrol" css:display="inline" css:font-weight="bold">Search
-                                                  Packages</span> box, type: <kbd class="+ topic/ph sw-d/userinput ph userinput" css:display="inline" css:font-family="monospace" css:font-size="smaller">language-restructedtext</kbd>. The
+                                                  Packages</span> box, type: <kbd class="+ topic/ph sw-d/userinput ph userinput" css:display="inline" css:font-family="monospace" css:font-size="smaller">language-restructuredtext</kbd>. The
                                                   language-restructuredtext package box appears.
-                                                  View an image of the <a class="- topic/xref xref" css:color="rgb(51 , 122 , 183)" css:display="inline" css:link="#unique_5" css:text-decoration="underline" href="#unique_5" title="Step-by-step instructions for set-up and use. The Live Preview window appears next to your source code and, while you type, shows what your source code will look like on a basic web page." type="task">install packages
-                                                  screen<css:after css:display="inline" css:font-style="italic" css:link="#unique_5" css:text-decoration="underline"><css:text> (on page </css:text><css:target-counter url-fragment="unique_5"/><css:text>)</css:text></css:after></a>.</span>
+                                                  View an image of the<a class="- topic/xref xref" css:color="rgb(51 , 122 , 183)" css:display="inline" css:link="#unique_5_Connect_42_search_packages_image" css:text-decoration="underline" href="#unique_5_Connect_42_search_packages_image" type="image"> install packages
+                                                  screen<css:after css:display="inline" css:font-style="italic" css:link="#unique_5_Connect_42_search_packages_image" css:text-decoration="underline"><css:text> (on page </css:text><css:target-counter url-fragment="unique_5_Connect_42_search_packages_image"/><css:text>)</css:text></css:after></a>.</span>
                                                 </li>
                                                 <li class="- topic/li task/substep li substep substepexpand" css:display="list-item" css:list-style-type="lower-alpha" css:margin-bottom="1em" css:margin-left="2em" css:margin-top="1em">
                                                   <span class="- topic/ph task/cmd ph cmd" css:display="inline">Click <span class="+ topic/ph ui-d/uicontrol ph uicontrol" css:display="inline" css:font-weight="bold">Install</span>.</span>
@@ -289,8 +288,8 @@
                                             <span class="- topic/ph task/cmd ph cmd" css:display="inline">Open a new file.</span>
                                         </li>
                                         <li class="- topic/li task/step li step stepexpand" css:display="list-item" css:margin-bottom="1em" css:margin-left="2em" css:margin-top="1em">
-                                            <span class="- topic/ph task/cmd ph cmd" css:display="inline">Type a few lines of html,
-                                                MarkDown, or RST.</span>
+                                            <span class="- topic/ph task/cmd ph cmd" css:display="inline">Type a few lines of HTML,
+                                                Markdown, or RST.</span>
                                         </li>
                                         <li class="- topic/li task/step li step stepexpand" css:display="list-item" css:margin-bottom="1em" css:margin-left="2em" css:margin-top="1em">
                                             <span class="- topic/ph task/cmd ph cmd" css:display="inline">Save the file using the
@@ -338,7 +337,7 @@
                                                   for that language. To do that, go to <span class="+ topic/ph ui-d/menucascade ph menucascade" css:display="inline"><span class="+ topic/ph ui-d/uicontrol ph uicontrol" css:display="inline" css:font-weight="bold">Atom</span><abbr css:display="inline" css:font-weight="bold" title="and then"> &gt;
                                                   </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol" css:display="inline" css:font-weight="bold">Preferences</span><abbr css:display="inline" css:font-weight="bold" title="and then"> &gt;
                                                   </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol" css:display="inline" css:font-weight="bold">Packages</span></span>. You will see all of your
-                                                  currenlty installed packages. Find the appropriate
+                                                  currently installed packages. Find the appropriate
                                                   package and click <span class="+ topic/ph ui-d/uicontrol ph uicontrol" css:display="inline" css:font-weight="bold">Disable</span>. </li>
                                                   </ul>
                                                 </div></div>
@@ -369,13 +368,13 @@
                             <h1 class="- topic/title title topictitle1" css:bookmark-level="1" css:display="block" css:font-size="2em" css:line-height="1.1em" css:margin-bottom="1em" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:oxy-pdf-tag-type="H1" css:page-break-after="avoid" id="ariaid-title5"><css:string-set name="chaptertitle"><css:text> | </css:text><css:counter name="chapter" value="5"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:before css:display="inline"><css:text>Chapter </css:text><css:counter name="chapter" value="5"/><css:text/><css:text>. </css:text></css:before><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Live Preview</span></h1>
                             <div class="- topic/body task/taskbody body taskbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
                                 <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Step-by-step
-                                    instructions for set-up and use. The Live Preview window appears
-                                    next to your source code and, while you type, shows what your
+                                    instructions for set up and use. The Live Preview window appears
+                                    next to your source code and while you type, shows you what your
                                     source code will look like on a basic web page. </p>
                                 <section class="- topic/section task/prereq section prereq" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_5_Connect_42_installatomprereq" nd:nd-id="installatomprereq"><a class="- topic/xref xref" css:color="rgb(51 , 122 , 183)" css:display="inline" css:link="#unique_3" css:text-decoration="underline" href="#unique_3" title="Step-by-step instructions to install Atom on your computer." type="task">Atom
                                         must be
                                         installed<css:after css:display="inline" css:font-style="italic" css:link="#unique_3" css:text-decoration="underline"><css:text> (on page </css:text><css:target-counter url-fragment="unique_3"/><css:text>)</css:text></css:after></a>
-                                    on your computer before you can set-up additional
+                                    on your computer before you can set up additional
                                     features.</section>
                                 <section class="- topic/section task/context section context" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect">A text editor that offers a live
                                     preview window saves you time and frustration. One of the main
@@ -385,7 +384,7 @@
                                     preview is an essential tool for the beginning code writer. <br chfox:inch="true" css:display="inline"><css:after css:display="inline"><css:text>&#x2028;</css:text></css:after></br><div class="imagecenter" css:display="block" css:text-align="center">
                                         <img align="center" alt="HTML with Live Preview" class="- topic/image image imagecenter" css:display="block" css:image-resolution="120dpi" css:max-width="100%" css:oxy-alt-text="HTML with Live Preview" format="png" href="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/livepreview_rev_300dpi.png" keyref="preview" placement="break" src="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/livepreview_rev_300dpi.png"><css:content-on-element><css:uri extracted-image-height="724" extracted-image-width="1024" uri="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/livepreview_rev_300dpi.png"/></css:content-on-element></img>
                                     </div><br chfox:inch="true" css:display="inline"><css:after css:display="inline"><css:text>&#x2028;</css:text></css:after></br><p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Follow the steps
-                                        below to set-up and use live preview for HTML, Markdown, and
+                                        below to set up and use live preview for HTML, Markdown, and
                                         RST. </p><div class="- topic/note note note note_note" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Note"><span class="note__title" css:background-image="url('file:/Applications/Oxygen%20XML%20Author/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/img/note.svg')" css:background-position="left" css:background-repeat="no-repeat" css:display="inline" css:font-weight="bold" css:padding-bottom="4px" css:padding-left="23px" css:padding-right="4px" css:padding-top="4px">Note:</span> The Markdown
                                         preview packages comes "pre-loaded" in Atom, so you only
                                         need to install the HTML and RST preview
@@ -446,7 +445,7 @@
                                             </div>
                                             <div class="- topic/itemgroup task/stepresult itemgroup stepresult" css:display="block">The package box appears. For
                                                 example, the image below shows the <em class="+ topic/ph hi-d/i ph i" css:display="inline" css:font-style="italic">atom-html-preview</em> package box.<br chfox:inch="true" css:display="inline"><css:after css:display="inline"><css:text>&#x2028;</css:text></css:after></br><div class="imagecenter" css:display="block" css:text-align="center">
-                                                  <img align="center" alt="Install Packages Screen" class="- topic/image image imagecenter" css:display="block" css:image-resolution="120dpi" css:max-width="100%" css:oxy-alt-text="Install Packages Screen" format="png" href="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/searchpackages300dpi.png" id="unique_5_Connect_42_image_ikn_prs_4lb" keyref="searchpackages" nd:nd-id="image_ikn_prs_4lb" placement="break" src="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/searchpackages300dpi.png"><css:content-on-element><css:uri extracted-image-height="456" extracted-image-width="999" uri="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/searchpackages300dpi.png"/></css:content-on-element></img>
+                                                  <img align="center" alt="Install Packages Screen" class="- topic/image image imagecenter" css:display="block" css:image-resolution="120dpi" css:max-width="100%" css:oxy-alt-text="Install Packages Screen" format="png" href="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/searchpackages300dpi.png" id="unique_5_Connect_42_search_packages_image" keyref="searchpackages" nd:nd-id="search_packages_image" placement="break" src="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/searchpackages300dpi.png"><css:content-on-element><css:uri extracted-image-height="456" extracted-image-width="999" uri="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/searchpackages300dpi.png"/></css:content-on-element></img>
                                                 </div><br chfox:inch="true" css:display="inline"><css:after css:display="inline"><css:text>&#x2028;</css:text></css:after></br><div class="- topic/note note tip note_tip" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Note" type="tip"><span class="note__title" css:background-image="url('file:/Applications/Oxygen%20XML%20Author/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/img/tip.svg')" css:background-position="left" css:background-repeat="no-repeat" css:display="inline" css:font-weight="bold" css:padding-bottom="4px" css:padding-left="23px" css:padding-right="4px" css:padding-top="4px">Tip:</span> There
                                                   are many different packages that you can install
                                                   in Atom. To explore the packages, scroll through
@@ -460,21 +459,20 @@
                                                 window.)</div></div>
                                         </li>
                                         <li class="- topic/li task/step li step stepexpand" css:display="list-item" css:margin-bottom="1em" css:margin-left="2em" css:margin-top="1em">
-                                            <span class="- topic/ph task/cmd ph cmd" css:display="inline">Click <span class="+ topic/ph ui-d/uicontrol ph uicontrol" css:display="inline" css:font-weight="bold">Install</span>. (To install additional packages,
-                                                repeat the previous steps starting from Step
-                                                1.)</span>
+                                            <span class="- topic/ph task/cmd ph cmd" css:display="inline">Click <span class="+ topic/ph ui-d/uicontrol ph uicontrol" css:display="inline" css:font-weight="bold">Install</span>. </span>
                                             <div class="- topic/itemgroup task/stepresult itemgroup stepresult" css:display="block">After the preview package has
                                                 installed, you can open a file and open (enable) the
                                                 preview window. Continue to the next step to open
-                                                the preview window. </div>
+                                                the preview window or, to install additional
+                                                packages, repeat the previous steps starting from
+                                                Step 1. </div>
                                         </li>
                                         <li class="- topic/li task/step li step stepexpand" css:display="list-item" css:margin-bottom="1em" css:margin-left="2em" css:margin-top="1em">
-                                            <span class="- topic/ph task/cmd ph cmd" css:display="inline"><span class="+ topic/ph ui-d/uicontrol ph uicontrol" css:display="inline" css:font-weight="bold">Open</span> a file saved in the same source code
-                                                language as the preview package you installed. For
-                                                example, if you installed atom-html-preview, then
-                                                open a file already saved in .htm or .html or open a
-                                                new file and save it as an .htm or .html
-                                                file.</span>
+                                            <span class="- topic/ph task/cmd ph cmd" css:display="inline">Open a file saved in the same
+                                                source code language as the preview package you
+                                                installed. For example, if you installed <em class="+ topic/ph hi-d/i ph i" css:display="inline" css:font-style="italic">atom-html-preview</em>, then open a file already
+                                                saved in .htm or .html or open a new file and save
+                                                it as an .htm or .html file.</span>
                                             <div class="- topic/itemgroup task/info itemgroup info" css:display="block">
                                                 <div class="- topic/note note remember note_remember" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Note" type="remember"><span class="note__title" css:background-image="url('file:/Applications/Oxygen%20XML%20Author/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/img/remember.svg')" css:background-position="left" css:background-repeat="no-repeat" css:display="inline" css:font-weight="bold" css:padding-bottom="4px" css:padding-left="23px" css:padding-right="4px" css:padding-top="4px">Remember:</span>
                                                   For the preview window to open in your file, the
@@ -547,14 +545,14 @@
                                                   commands are interchangeable; you can use one
                                                   method to open the preview pane and the other
                                                   method to close it. For example, you can open
-                                                  preview using a hotkeycommand and close it using a
-                                                  drop-down menu, and vice versa.</li>
+                                                  preview using a hotkey command and close it using
+                                                  a drop-down menu, and vice versa.</li>
                                                   </ul>
                                                 </div><div class="- topic/note note tip note_tip" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Note" type="tip"><span class="note__title" css:background-image="url('file:/Applications/Oxygen%20XML%20Author/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/img/tip.svg')" css:background-position="left" css:background-repeat="no-repeat" css:display="inline" css:font-weight="bold" css:padding-bottom="4px" css:padding-left="23px" css:padding-right="4px" css:padding-top="4px">Tip:</span>
                                                   <ul class="- topic/ul ul" css:display="block" css:list-style-type="disc" css:margin-bottom="0em" css:margin-top="0em" id="unique_5_Connect_42_ul_ysg_d1s_4lb" nd:nd-id="ul_ysg_d1s_4lb">
                                                   <li class="- topic/li li" css:display="list-item" css:margin-left="2em">After the preview window
                                                   opens, your code file window narrows and the code
-                                                  does <strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">not</strong> automatically wrap. To enable text
+                                                  does not automatically wrap. To enable text
                                                   wrapping: From the top menu, click <span class="+ topic/ph ui-d/menucascade ph menucascade" css:display="inline"><span class="+ topic/ph ui-d/uicontrol ph uicontrol" css:display="inline" css:font-weight="bold">View</span><abbr css:display="inline" css:font-weight="bold" title="and then"> &gt;
                                                   </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol" css:display="inline" css:font-weight="bold">Toggle
                                                   Soft Wrap</span></span>.</li>
@@ -588,7 +586,7 @@
                                         <li class="- topic/li li" css:display="list-item" css:margin-left="2em">Packages are optional. You choose
                                             what packages you want to install from Atom's package
                                             list.</li>
-                                        <li class="- topic/li li" css:display="list-item" css:margin-left="2em">Package are free. </li>
+                                        <li class="- topic/li li" css:display="list-item" css:margin-left="2em">Packages are free. </li>
                                         <li class="- topic/li li" css:display="list-item" css:margin-left="2em">1-click installation. No code or
                                             command line steps necessary.</li>
                                         <li class="- topic/li li" css:display="list-item" css:margin-left="2em">Install a package anytime. </li>
@@ -602,7 +600,7 @@
                                             </ul></li>
                                     </ul></div>
                                 <div class="- topic/note note tip note_tip" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Note" type="tip"><span class="note__title" css:background-image="url('file:/Applications/Oxygen%20XML%20Author/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/img/tip.svg')" css:background-position="left" css:background-repeat="no-repeat" css:display="inline" css:font-weight="bold" css:padding-bottom="4px" css:padding-left="23px" css:padding-right="4px" css:padding-top="4px">Tip:</span> In the <span class="+ topic/keyword ui-d/wintitle keyword wintitle" css:display="inline" css:font-weight="bold">Settings</span>
-                                    panel drop-down menu list, you will see <span class="+ topic/keyword ui-d/wintitle keyword wintitle" css:display="inline" css:font-weight="bold">Packages</span>
+                                    drop-down menu, you will see <span class="+ topic/keyword ui-d/wintitle keyword wintitle" css:display="inline" css:font-weight="bold">Packages</span>
                                     and <span class="+ topic/keyword ui-d/wintitle keyword wintitle" css:display="inline" css:font-weight="bold">Install</span>.
                                         <ul class="- topic/ul ul" css:display="block" css:list-style-type="disc" css:margin-bottom="1.33em" css:margin-top="1.33em" id="unique_8_Connect_42_ul_ysj_1js_4lb" nd:nd-id="ul_ysj_1js_4lb">
                                         <li class="- topic/li li" css:display="list-item" css:margin-left="2em"><span class="+ topic/keyword ui-d/wintitle keyword wintitle" css:display="inline" css:font-weight="bold">Packages</span> lists what packages are currently
@@ -618,9 +616,9 @@
                                         <strong css:display="block" css:font-weight="500" css:page-break-after="avoid">Related
                                             information</strong>
                                         <ul class="linklist" css:display="block" css:list-style-type="disc" css:margin-bottom="0em" css:margin-top="0em">
-                                            <li class="linklist" css:display="list-item" css:margin-bottom="0em" css:margin-left="2em" css:margin-top="0em"><a class="- topic/link link" css:color="rgb(81 , 133 , 203)" css:display="inline-block" css:link="#unique_4" css:text-decoration="underline" format="dita" href="#unique_4" title="Follow these step-by-step instructions for set-up and use. Syntax highlighting displays source code in different colors and fonts, so it's easier to distinguish code elements and identify errors." type="task">Syntax
+                                            <li class="linklist" css:display="list-item" css:margin-bottom="0em" css:margin-left="2em" css:margin-top="0em"><a class="- topic/link link" css:color="rgb(81 , 133 , 203)" css:display="inline-block" css:link="#unique_4" css:text-decoration="underline" format="dita" href="#unique_4" title="Follow these step-by-step instructions for set up and use. Syntax highlighting displays source code in different colors and fonts, so it's easier to distinguish code elements and identify errors." type="task">Syntax
                                                   Highlighting<css:after css:display="inline" css:font-style="italic" css:link="#unique_4" css:text-decoration="underline"><css:text> (on page </css:text><css:target-counter url-fragment="unique_4"/><css:text>)</css:text></css:after></a></li>
-                                            <li class="linklist" css:display="list-item" css:margin-bottom="0em" css:margin-left="2em" css:margin-top="0em"><a class="- topic/link link" css:color="rgb(81 , 133 , 203)" css:display="inline-block" css:link="#unique_5" css:text-decoration="underline" format="dita" href="#unique_5" title="Step-by-step instructions for set-up and use. The Live Preview window appears next to your source code and, while you type, shows what your source code will look like on a basic web page." type="task">Live
+                                            <li class="linklist" css:display="list-item" css:margin-bottom="0em" css:margin-left="2em" css:margin-top="0em"><a class="- topic/link link" css:color="rgb(81 , 133 , 203)" css:display="inline-block" css:link="#unique_5" css:text-decoration="underline" format="dita" href="#unique_5" title="Step-by-step instructions for set up and use. The Live Preview window appears next to your source code and while you type, shows you what your source code will look like on a basic web page." type="task">Live
                                                   Preview<css:after css:display="inline" css:font-style="italic" css:link="#unique_5" css:text-decoration="underline"><css:text> (on page </css:text><css:target-counter url-fragment="unique_5"/><css:text>)</css:text></css:after></a></li>
                                         </ul>
                                     </div>
@@ -715,7 +713,7 @@
                                                 <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry align-center colsep-1 rowsep-1" colname="col1" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-right-style="solid" css:border-right-width="1px" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="0" css:table-row="6" css:text-align="center" css:vertical-align="top" dita-ot:x="1" dita-ot:y="7" headers="unique_6__unique_6_Connect_42_table_gng_1cw_3lb__entry__1">Image</td>
                                                 <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col2" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-right-style="solid" css:border-right-width="1px" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="1" css:table-row="6" css:vertical-align="top" dita-ot:x="2" dita-ot:y="7" headers="unique_6__unique_6_Connect_42_table_gng_1cw_3lb__entry__2">&lt;imagesrc="sourcepath"alttext="alttext"&gt;</td>
                                                 <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col3" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-right-style="solid" css:border-right-width="1px" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="2" css:table-row="6" css:vertical-align="top" dita-ot:x="3" dita-ot:y="7" headers="unique_6__unique_6_Connect_42_table_gng_1cw_3lb__entry__3"><code class="+ topic/ph pr-d/codeph ph codeph" css:display="inline" css:font-family="monospace" css:font-size="0.8em" css:oxy-pdf-tag-type="Code" css:padding-bottom="2px" css:padding-left="0" css:padding-right="0" css:padding-top="2px">![alttext](path)</code></td>
-                                                <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col4" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-right-style="solid" css:border-right-width="1px" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="3" css:table-row="6" css:vertical-align="top" dita-ot:x="4" dita-ot:y="7" headers="unique_6__unique_6_Connect_42_table_gng_1cw_3lb__entry__4"><code class="+ topic/ph pr-d/codeph ph codeph" css:display="inline" css:font-family="monospace" css:font-size="0.8em" css:oxy-pdf-tag-type="Code" css:padding-bottom="2px" css:padding-left="0" css:padding-right="0" css:padding-top="2px">..image::path</code></td>
+                                                <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry colsep-1 rowsep-1" colname="col4" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-right-style="solid" css:border-right-width="1px" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="3" css:table-row="6" css:vertical-align="top" dita-ot:x="4" dita-ot:y="7" headers="unique_6__unique_6_Connect_42_table_gng_1cw_3lb__entry__4"><code class="+ topic/ph pr-d/codeph ph codeph" css:display="inline" css:font-family="monospace" css:font-size="0.8em" css:oxy-pdf-tag-type="Code" css:padding-bottom="2px" css:padding-left="0" css:padding-right="0" css:padding-top="2px">..image:: image path</code></td>
                                             </tr>
                                             <tr class="- topic/row row" css:display="table-row" css:vertical-align="middle">
                                                 <td xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/entry entry align-center colsep-1 rowsep-1" colname="col1" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-right-style="solid" css:border-right-width="1px" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="0" css:table-row="7" css:text-align="center" css:vertical-align="top" dita-ot:x="1" dita-ot:y="8" headers="unique_6__unique_6_Connect_42_table_gng_1cw_3lb__entry__1">Link</td>
@@ -740,7 +738,7 @@
                                         <strong css:display="block" css:font-weight="500" css:page-break-after="avoid">Related
                                             information</strong>
                                         <ul class="linklist" css:display="block" css:list-style-type="disc" css:margin-bottom="0em" css:margin-top="0em">
-                                            <li class="linklist" css:display="list-item" css:margin-bottom="0em" css:margin-left="2em" css:margin-top="0em"><a class="- topic/link link" css:color="rgb(81 , 133 , 203)" css:display="inline-block" css:link="#unique_4" css:text-decoration="underline" format="dita" href="#unique_4" title="Follow these step-by-step instructions for set-up and use. Syntax highlighting displays source code in different colors and fonts, so it's easier to distinguish code elements and identify errors." type="task">Syntax
+                                            <li class="linklist" css:display="list-item" css:margin-bottom="0em" css:margin-left="2em" css:margin-top="0em"><a class="- topic/link link" css:color="rgb(81 , 133 , 203)" css:display="inline-block" css:link="#unique_4" css:text-decoration="underline" format="dita" href="#unique_4" title="Follow these step-by-step instructions for set up and use. Syntax highlighting displays source code in different colors and fonts, so it's easier to distinguish code elements and identify errors." type="task">Syntax
                                                   Highlighting<css:after css:display="inline" css:font-style="italic" css:link="#unique_4" css:text-decoration="underline"><css:text> (on page </css:text><css:target-counter url-fragment="unique_4"/><css:text>)</css:text></css:after></a></li>
                                         </ul>
                                     </div>
@@ -776,7 +774,7 @@
                                         <strong css:display="block" css:font-weight="500" css:page-break-after="avoid">Related
                                             information</strong>
                                         <ul class="linklist" css:display="block" css:list-style-type="disc" css:margin-bottom="0em" css:margin-top="0em">
-                                            <li class="linklist" css:display="list-item" css:margin-bottom="0em" css:margin-left="2em" css:margin-top="0em"><a class="- topic/link link" css:color="rgb(81 , 133 , 203)" css:display="inline-block" css:link="#unique_4" css:text-decoration="underline" format="dita" href="#unique_4" title="Follow these step-by-step instructions for set-up and use. Syntax highlighting displays source code in different colors and fonts, so it's easier to distinguish code elements and identify errors." type="task">Syntax
+                                            <li class="linklist" css:display="list-item" css:margin-bottom="0em" css:margin-left="2em" css:margin-top="0em"><a class="- topic/link link" css:color="rgb(81 , 133 , 203)" css:display="inline-block" css:link="#unique_4" css:text-decoration="underline" format="dita" href="#unique_4" title="Follow these step-by-step instructions for set up and use. Syntax highlighting displays source code in different colors and fonts, so it's easier to distinguish code elements and identify errors." type="task">Syntax
                                                   Highlighting<css:after css:display="inline" css:font-style="italic" css:link="#unique_4" css:text-decoration="underline"><css:text> (on page </css:text><css:target-counter url-fragment="unique_4"/><css:text>)</css:text></css:after></a></li>
                                         </ul>
                                     </div>

@@ -9,8 +9,8 @@
     <chapter xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref bookmap/chapter " href="#unique_1" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="about"><resourceid appid="about" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_1" class="- topic/navtitle ">About</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Why did I write this guide?</shortdesc></topicmeta></chapter>
     <chapter xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref bookmap/chapter " href="#unique_2" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="whywriteguide"><resourceid appid="whywriteguide" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_2" class="- topic/navtitle ">Welcome</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "> Welcome to Atom for the Beginner: Quick Set Up for HTML, Markdown, and         RST.</shortdesc></topicmeta></chapter>
     <chapter xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref bookmap/chapter " href="#unique_3" type="task"><topicmeta class="- map/topicmeta " data-topic-id="installatom"><resourceid appid="installatom" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_3" class="- topic/navtitle ">Install Atom</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "> Step-by-step instructions to install Atom on your computer. </shortdesc></topicmeta></chapter>
-    <chapter xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref bookmap/chapter " href="#unique_4" type="task"><topicmeta class="- map/topicmeta " data-topic-id="syntax_highlighting_rev"><resourceid appid="syntax_highlighting_rev" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_4" class="- topic/navtitle ">Syntax Highlighting</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Follow these step-by-step instructions for set-up and use. Syntax highlighting         displays source code in different colors and fonts, so it's easier to distinguish code         elements and identify errors. </shortdesc></topicmeta></chapter>
-    <chapter xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref bookmap/chapter " href="#unique_5" type="task"><topicmeta class="- map/topicmeta " data-topic-id="preview_rev"><resourceid appid="preview_rev" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_5" class="- topic/navtitle ">Live Preview</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Step-by-step instructions for set-up and use. The Live Preview window appears next to         your source code and, while you type, shows what your source code will look like on a basic         web page. </shortdesc></topicmeta></chapter>
+    <chapter xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref bookmap/chapter " href="#unique_4" type="task"><topicmeta class="- map/topicmeta " data-topic-id="syntax_highlighting_rev"><resourceid appid="syntax_highlighting_rev" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_4" class="- topic/navtitle ">Syntax Highlighting</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Follow these step-by-step instructions for set up and use. Syntax highlighting         displays source code in different colors and fonts, so it's easier to distinguish code         elements and identify errors. </shortdesc></topicmeta></chapter>
+    <chapter xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref bookmap/chapter " href="#unique_5" type="task"><topicmeta class="- map/topicmeta " data-topic-id="preview_rev"><resourceid appid="preview_rev" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_5" class="- topic/navtitle ">Live Preview</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Step-by-step instructions for set up and use. The Live Preview window appears next to         your source code and while you type, shows you what your source code will look like on a         basic web page. </shortdesc></topicmeta></chapter>
     <chapter xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref bookmap/chapter " href="#unique_8" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="about_packages"><resourceid appid="about_packages" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_8" class="- topic/navtitle ">Atom Packages</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Understanding packages opens up a world of additional features you can use in         Atom.</shortdesc></topicmeta></chapter>
     <chapter xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref bookmap/chapter " href="#unique_6" type="reference"><topicmeta class="- map/topicmeta " data-topic-id="syntax_highlighting_basic_syntax_comparison"><resourceid appid="syntax_highlighting_basic_syntax_comparison" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_6" class="- topic/navtitle ">Basic Syntax Comparison</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Use this table as a quick reference for HTML, Markdown, and RST. </shortdesc></topicmeta></chapter>
     <chapter xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref bookmap/chapter " href="#unique_7" type="reference"><topicmeta class="- map/topicmeta " data-topic-id="syntax_highlighting_onine_cheatsheets"><resourceid appid="syntax_highlighting_onine_cheatsheets" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_7" class="- topic/navtitle ">Online Cheatsheets</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Check out these links to online syntax cheatsheets.</shortdesc></topicmeta></chapter>
@@ -33,8 +33,7 @@
             preview to appear in my documents. It took some time to figure out how to enable those
             features, so I want to save other beginners time by sharing my learnings here.</p>
         <p class="- topic/p ">I hope this guide gives you the tools to quickly start writing and previewing your work
-            in Atom <i class="+ topic/ph hi-d/i ">(and gives me some practice creating a project in all of the various tools
-                that we are using in class)</i>.</p>
+            in Atom <i class="+ topic/ph hi-d/i ">(and gives me some practice creating a project in DITA)</i>.</p>
         <p class="- topic/p ">– Anita</p>
     </conbody>
 </concept><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_2" topicrefclass="- map/topicref bookmap/chapter " nd:nd-id="whywriteguide" oid="whywriteguide">
@@ -66,8 +65,8 @@
                 <cmd class="- topic/ph task/cmd ">Go to <xref class="- topic/xref " format="html" href="https://atom.io" scope="external"/>. Above
                         <uicontrol class="+ topic/ph ui-d/uicontrol ">Download</uicontrol> you should see listed your computer's
                     specific operating system (OS) and version. </cmd>
-                <stepxmp class="- topic/itemgroup task/stepxmp ">For example, you have a computer running Windows 10. When you go to Atom,
-                    the image below appears.<image align="left" class="- topic/image " format="png" href="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/atom_download_pdf300dpi.png" keyref="download_button" placement="break">
+                <stepxmp class="- topic/itemgroup task/stepxmp ">For example, if you have a computer running Windows 10, you will see the
+                    image below.<image align="left" class="- topic/image " format="png" href="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/atom_download_pdf300dpi.png" keyref="download_button" placement="break">
                         <alt class="- topic/alt ">Atom Download</alt>
                     </image>
                 </stepxmp>
@@ -103,12 +102,12 @@
     </taskbody>
 </task><task xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic task/task " id="unique_4" topicrefclass="- map/topicref bookmap/chapter " nd:nd-id="syntax_highlighting_rev" oid="syntax_highlighting_rev">
     <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Syntax Highlighting</ph></title>
-    <shortdesc class="- topic/shortdesc ">Follow these step-by-step instructions for set-up and use. Syntax highlighting
+    <shortdesc class="- topic/shortdesc ">Follow these step-by-step instructions for set up and use. Syntax highlighting
         displays source code in different colors and fonts, so it's easier to distinguish code
         elements and identify errors. </shortdesc>
     <taskbody class="- topic/body task/taskbody ">
         <prereq class="- topic/section task/prereq "><xref class="- topic/xref " href="#unique_3" type="task"><?ditaot usertext?>Atom must be
-            installed<?ditaot genshortdesc?><desc class="- topic/desc "> Step-by-step instructions to install Atom on your computer. </desc></xref> on your computer before you can set-up additional
+                installed<?ditaot genshortdesc?><desc class="- topic/desc "> Step-by-step instructions to install Atom on your computer. </desc></xref> on your computer before you can set up additional
             features.</prereq>
         <context class="- topic/section task/context ">HTML and Markdown syntax preview come pre-loaded in Atom, but RST does not. You
             will install the RST syntax highlighting package and then learn how to enable syntax
@@ -137,9 +136,9 @@
                     </substep>
                     <substep class="- topic/li task/substep ">
                         <cmd class="- topic/ph task/cmd ">In the <uicontrol class="+ topic/ph ui-d/uicontrol ">Search Packages</uicontrol> box, type:
-                                <userinput class="+ topic/ph sw-d/userinput ">language-restructedtext</userinput>. The
-                            language-restructuredtext package box appears. View an image of the
-                                <xref class="- topic/xref " href="#unique_5" type="task"><?ditaot usertext?>install packages screen<?ditaot genshortdesc?><desc class="- topic/desc ">Step-by-step instructions for set-up and use. The Live Preview window appears next to         your source code and, while you type, shows what your source code will look like on a basic         web page. </desc></xref>.</cmd>
+                                <userinput class="+ topic/ph sw-d/userinput ">language-restructuredtext</userinput>. The
+                            language-restructuredtext package box appears. View an image of the<xref class="- topic/xref " href="#unique_5_Connect_42_search_packages_image" type="image"><?ditaot usertext?> install
+                                packages screen</xref>.</cmd>
                     </substep>
                     <substep class="- topic/li task/substep ">
                         <cmd class="- topic/ph task/cmd ">Click <uicontrol class="+ topic/ph ui-d/uicontrol ">Install</uicontrol>.</cmd>
@@ -150,7 +149,7 @@
                 <cmd class="- topic/ph task/cmd ">Open a new file.</cmd>
             </step>
             <step class="- topic/li task/step ">
-                <cmd class="- topic/ph task/cmd ">Type a few lines of html, MarkDown, or RST.</cmd>
+                <cmd class="- topic/ph task/cmd ">Type a few lines of HTML, Markdown, or RST.</cmd>
             </step>
             <step class="- topic/li task/step ">
                 <cmd class="- topic/ph task/cmd ">Save the file using the appropriate language file extension from the table
@@ -181,7 +180,7 @@
                                 syntax highlighting.</li>
                             <li class="- topic/li ">To "turn off" syntax highlighting for a particular language, you
                                 will need to disable the syntax highlighting package for that
-                                language. To do that, go to <menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:3;88:74" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/syntax_highlighting_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Atom</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Preferences</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Packages</uicontrol></menucascade>. You will see all of your currenlty installed
+                                language. To do that, go to <menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:3;89:74" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/syntax_highlighting_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Atom</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Preferences</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Packages</uicontrol></menucascade>. You will see all of your currently installed
                                 packages. Find the appropriate package and click
                                     <uicontrol class="+ topic/ph ui-d/uicontrol ">Disable</uicontrol>. </li>
                         </ul>
@@ -195,12 +194,12 @@
     </related-links>
 </task><task xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic task/task " id="unique_5" topicrefclass="- map/topicref bookmap/chapter " nd:nd-id="preview_rev" oid="preview_rev">
     <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Live Preview</ph></title>
-    <shortdesc class="- topic/shortdesc ">Step-by-step instructions for set-up and use. The Live Preview window appears next to
-        your source code and, while you type, shows what your source code will look like on a basic
-        web page. </shortdesc>
+    <shortdesc class="- topic/shortdesc ">Step-by-step instructions for set up and use. The Live Preview window appears next to
+        your source code and while you type, shows you what your source code will look like on a
+        basic web page. </shortdesc>
     <taskbody class="- topic/body task/taskbody ">
         <prereq class="- topic/section task/prereq " id="unique_5_Connect_42_installatomprereq" nd:nd-id="installatomprereq"><xref class="- topic/xref " href="#unique_3" type="task"><?ditaot usertext?>Atom must be
-            installed<?ditaot genshortdesc?><desc class="- topic/desc "> Step-by-step instructions to install Atom on your computer. </desc></xref> on your computer before you can set-up additional
+                installed<?ditaot genshortdesc?><desc class="- topic/desc "> Step-by-step instructions to install Atom on your computer. </desc></xref> on your computer before you can set up additional
             features.</prereq>
         <context class="- topic/section task/context ">A text editor that offers a live preview window saves you time and frustration. One
             of the main challenges for beginning code writers is not knowing how the code you have
@@ -208,7 +207,7 @@
             write, which is why live preview is an essential tool for the beginning code writer.
                 <image align="center" class="- topic/image " format="png" href="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/livepreview_rev_300dpi.png" keyref="preview" placement="break">
                 <alt class="- topic/alt ">HTML with Live Preview</alt>
-            </image><p class="- topic/p ">Follow the steps below to set-up and use live preview for HTML, Markdown, and
+            </image><p class="- topic/p ">Follow the steps below to set up and use live preview for HTML, Markdown, and
                 RST. </p><note class="- topic/note ">The Markdown preview packages comes "pre-loaded" in Atom, so you only
                 need to install the HTML and RST preview packages.</note></context>
         <steps class="- topic/ol task/steps ">
@@ -250,7 +249,7 @@
                     </chrow>
                 </choicetable>
                 <stepresult class="- topic/itemgroup task/stepresult ">The package box appears. For example, the image below shows the
-                        <i class="+ topic/ph hi-d/i ">atom-html-preview</i> package box.<image align="center" alt="Search Packages Screen" class="- topic/image " format="png" href="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/searchpackages300dpi.png" id="unique_5_Connect_42_image_ikn_prs_4lb" nd:nd-id="image_ikn_prs_4lb" keyref="searchpackages" placement="break">
+                        <i class="+ topic/ph hi-d/i ">atom-html-preview</i> package box.<image align="center" alt="Search Packages Screen" class="- topic/image " format="png" href="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/Images/searchpackages300dpi.png" id="unique_5_Connect_42_search_packages_image" nd:nd-id="search_packages_image" keyref="searchpackages" placement="break">
                         <alt class="- topic/alt ">Install Packages Screen</alt>
                     </image><note class="- topic/note " type="tip">There are many different packages that you can install
                         in Atom. To explore the packages, scroll through the available packages
@@ -261,17 +260,17 @@
                         will launch in atom.io in a new browser window.)</note></stepresult>
             </step>
             <step class="- topic/li task/step ">
-                <cmd class="- topic/ph task/cmd ">Click <uicontrol class="+ topic/ph ui-d/uicontrol ">Install</uicontrol>. (To install additional packages, repeat
-                    the previous steps starting from Step 1.)</cmd>
+                <cmd class="- topic/ph task/cmd ">Click <uicontrol class="+ topic/ph ui-d/uicontrol ">Install</uicontrol>. </cmd>
                 <stepresult class="- topic/itemgroup task/stepresult ">After the preview package has installed, you can open a file and open
                     (enable) the preview window. Continue to the next step to open the preview
-                    window. </stepresult>
+                    window or, to install additional packages, repeat the previous steps starting
+                    from Step 1. </stepresult>
             </step>
             <step class="- topic/li task/step ">
-                <cmd class="- topic/ph task/cmd "><uicontrol class="+ topic/ph ui-d/uicontrol ">Open</uicontrol> a file saved in the same source code language as
-                    the preview package you installed. For example, if you installed
-                    atom-html-preview, then open a file already saved in .htm or .html or open a new
-                    file and save it as an .htm or .html file.</cmd>
+                <cmd class="- topic/ph task/cmd ">Open a file saved in the same source code language as the preview package you
+                    installed. For example, if you installed <i class="+ topic/ph hi-d/i ">atom-html-preview</i>, then open a
+                    file already saved in .htm or .html or open a new file and save it as an .htm or
+                    .html file.</cmd>
                 <info class="- topic/itemgroup task/info ">
                     <note class="- topic/note " type="remember">For the preview window to open in your file, the file must
                         have already been saved with the appropriate file extension (.htm, .html,
@@ -285,9 +284,9 @@
                     <table class="- topic/table " colsep="1" frame="all" id="unique_5_Connect_42_toggle" nd:nd-id="toggle" rowsep="1">
                         <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Preview Window Toggle Commands</ph></title>
                         <tgroup class="- topic/tgroup " cols="3">
-                            <colspec align="center" class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:1;95:92" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita" style="width:18.4843%;"/>
-                            <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="2.83*" xtrc="colspec:2;96:80" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita" style="width:52.3105%;"/>
-                            <colspec align="center" class="- topic/colspec " colname="col3" colnum="3" colwidth="1.58*" xtrc="colspec:3;97:95" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita" style="width:29.2052%;"/>
+                            <colspec align="center" class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:1;96:92" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita" style="width:18.4843%;"/>
+                            <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="2.83*" xtrc="colspec:2;97:80" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita" style="width:52.3105%;"/>
+                            <colspec align="center" class="- topic/colspec " colname="col3" colnum="3" colwidth="1.58*" xtrc="colspec:3;98:95" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita" style="width:29.2052%;"/>
                             <thead class="- topic/thead ">
                                 <row class="- topic/row ">
                                     <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1">Language</entry>
@@ -298,17 +297,17 @@
                             <tbody class="- topic/tbody ">
                                 <row class="- topic/row ">
                                     <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2">HTML</entry>
-                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2"><menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:1;108:57" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Packages</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Preview HTML</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Enable Preview</uicontrol></menucascade></entry>
+                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2"><menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:1;109:57" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Packages</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Preview HTML</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Enable Preview</uicontrol></menucascade></entry>
                                     <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="2"><userinput class="+ topic/ph sw-d/userinput ">Control + Shift + H</userinput></entry>
                                 </row>
                                 <row class="- topic/row ">
                                     <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3">Markdown</entry>
-                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3"><menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:2;117:57" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Packages</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Markdown Preview</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Toggle Preview</uicontrol></menucascade></entry>
+                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3"><menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:2;118:57" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Packages</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Markdown Preview</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Toggle Preview</uicontrol></menucascade></entry>
                                     <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="3"><userinput class="+ topic/ph sw-d/userinput ">Control + Shift + M</userinput></entry>
                                 </row>
                                 <row class="- topic/row ">
                                     <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4">RST</entry>
-                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4"><menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:3;126:57" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Packages</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">reStructuredText</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Toggle Preview</uicontrol></menucascade></entry>
+                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4"><menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:3;127:57" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Packages</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">reStructuredText</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Toggle Preview</uicontrol></menucascade></entry>
                                     <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="4"><userinput class="+ topic/ph sw-d/userinput ">Control + Shift + R</userinput></entry>
                                 </row>
                             </tbody>
@@ -324,17 +323,17 @@
                                 commands.</li>
                             <li class="- topic/li ">Hotkey and drop-down menu commands are interchangeable; you can use
                                 one method to open the preview pane and the other method to close
-                                it. For example, you can open preview using a hotkeycommand and
+                                it. For example, you can open preview using a hotkey command and
                                 close it using a drop-down menu, and vice versa.</li>
                         </ul>
                     </note><note class="- topic/note " type="tip">
                         <ul class="- topic/ul " id="unique_5_Connect_42_ul_ysg_d1s_4lb" nd:nd-id="ul_ysg_d1s_4lb">
                             <li class="- topic/li ">After the preview window opens, your code file window narrows and
-                                the code does <b class="+ topic/ph hi-d/b ">not</b> automatically wrap. To enable text
-                                wrapping: From the top menu, click <menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:4;153:81" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">View</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Toggle Soft Wrap</uicontrol></menucascade>.</li>
+                                the code does not automatically wrap. To enable text wrapping: From
+                                the top menu, click <menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:4;154:66" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">View</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Toggle Soft Wrap</uicontrol></menucascade>.</li>
                             <li class="- topic/li ">The Markdown preview window background color can be white or black.
                                 This is a toggle command. The white background is "GitHub Style." To
-                                change the background color, click <menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:5;159:81" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Packages</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Markdown Preview</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Toggle GitHub Style</uicontrol></menucascade>.</li>
+                                change the background color, click <menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:5;160:81" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/preview_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Packages</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Markdown Preview</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Toggle GitHub Style</uicontrol></menucascade>.</li>
                         </ul>
                     </note></stepresult>
             </step>
@@ -351,7 +350,7 @@
             calls a feature or group of features that you install after you download Atom.<ul class="- topic/ul " id="unique_8_Connect_42_ul_zgw_53b_llb" nd:nd-id="ul_zgw_53b_llb">
                 <li class="- topic/li ">Packages are optional. You choose what packages you want to install from Atom's
                     package list.</li>
-                <li class="- topic/li ">Package are free. </li>
+                <li class="- topic/li ">Packages are free. </li>
                 <li class="- topic/li ">1-click installation. No code or command line steps necessary.</li>
                 <li class="- topic/li ">Install a package anytime. </li>
                 <li class="- topic/li ">Disable a package anytime.</li>
@@ -362,8 +361,8 @@
                                 <li class="- topic/li ">Windows: <menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:2;32:59" xtrf="file:/Users/fasabw/Documents/mygit/mcc_tools_tech/Week11-DITA/Anita_DITA_HW/Anita_Revised/syntax_highlighting_rev.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">File</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Settings</uicontrol></menucascade></li>
                             </ul></li>
             </ul></p>
-        <note class="- topic/note " type="tip">In the <wintitle class="+ topic/keyword ui-d/wintitle ">Settings</wintitle> panel drop-down menu list, you will
-            see <wintitle class="+ topic/keyword ui-d/wintitle ">Packages</wintitle> and <wintitle class="+ topic/keyword ui-d/wintitle ">Install</wintitle>. <ul class="- topic/ul " id="unique_8_Connect_42_ul_ysj_1js_4lb" nd:nd-id="ul_ysj_1js_4lb">
+        <note class="- topic/note " type="tip">In the <wintitle class="+ topic/keyword ui-d/wintitle ">Settings</wintitle> drop-down menu, you will see
+                <wintitle class="+ topic/keyword ui-d/wintitle ">Packages</wintitle> and <wintitle class="+ topic/keyword ui-d/wintitle ">Install</wintitle>. <ul class="- topic/ul " id="unique_8_Connect_42_ul_ysj_1js_4lb" nd:nd-id="ul_ysj_1js_4lb">
                 <li class="- topic/li "><wintitle class="+ topic/keyword ui-d/wintitle ">Packages</wintitle> lists what packages are currently installed.</li>
                 <li class="- topic/li "><wintitle class="+ topic/keyword ui-d/wintitle ">Install</wintitle> lists all additional packages available to install.
                 </li>
@@ -371,8 +370,8 @@
         </note>
     </conbody>
     <related-links class="- topic/related-links ">
-        <link class="- topic/link " format="dita" href="#unique_4" type="task"><?ditaot usertext?><linktext class="- topic/linktext ">Syntax Highlighting</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">Follow these step-by-step instructions for set-up and use. Syntax highlighting         displays source code in different colors and fonts, so it's easier to distinguish code         elements and identify errors. </desc></link>
-        <link class="- topic/link " format="dita" href="#unique_5" type="task"><?ditaot usertext?><linktext class="- topic/linktext ">Live Preview</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">Step-by-step instructions for set-up and use. The Live Preview window appears next to         your source code and, while you type, shows what your source code will look like on a basic         web page. </desc></link>
+        <link class="- topic/link " format="dita" href="#unique_4" type="task"><?ditaot usertext?><linktext class="- topic/linktext ">Syntax Highlighting</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">Follow these step-by-step instructions for set up and use. Syntax highlighting         displays source code in different colors and fonts, so it's easier to distinguish code         elements and identify errors. </desc></link>
+        <link class="- topic/link " format="dita" href="#unique_5" type="task"><?ditaot usertext?><linktext class="- topic/linktext ">Live Preview</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">Step-by-step instructions for set up and use. The Live Preview window appears next to         your source code and while you type, shows you what your source code will look like on a         basic web page. </desc></link>
     </related-links>
 </concept><reference xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic       reference/reference " id="unique_6" topicrefclass="- map/topicref bookmap/chapter " nd:nd-id="syntax_highlighting_basic_syntax_comparison" oid="syntax_highlighting_basic_syntax_comparison">
     <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Basic Syntax Comparison</ph></title>
@@ -456,7 +455,7 @@
                         <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7">Image</entry>
                         <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7">&lt;imagesrc="sourcepath"alttext="alttext"&gt;</entry>
                         <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="7"><codeph class="+ topic/ph pr-d/codeph ">![alttext](path)</codeph></entry>
-                        <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="7"><codeph class="+ topic/ph pr-d/codeph ">..image::path</codeph></entry>
+                        <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="7"><codeph class="+ topic/ph pr-d/codeph ">..image:: image path</codeph></entry>
                     </row>
                     <row class="- topic/row ">
                         <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="8">Link</entry>
@@ -468,7 +467,7 @@
             </tgroup>
         </table></section></refbody>
     <related-links class="- topic/related-links ">
-        <link class="- topic/link " format="dita" href="#unique_4" type="task"><?ditaot usertext?><linktext class="- topic/linktext ">Syntax Highlighting</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">Follow these step-by-step instructions for set-up and use. Syntax highlighting         displays source code in different colors and fonts, so it's easier to distinguish code         elements and identify errors. </desc></link>
+        <link class="- topic/link " format="dita" href="#unique_4" type="task"><?ditaot usertext?><linktext class="- topic/linktext ">Syntax Highlighting</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">Follow these step-by-step instructions for set up and use. Syntax highlighting         displays source code in different colors and fonts, so it's easier to distinguish code         elements and identify errors. </desc></link>
         <link class="- topic/link " href="#unique_7" type="reference"><?ditaot gentext?><linktext class="- topic/linktext ">Online Cheatsheets</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">Check out these links to online syntax cheatsheets.</desc></link>
     </related-links>
 </reference><reference xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic       reference/reference " id="unique_7" topicrefclass="- map/topicref bookmap/chapter " nd:nd-id="syntax_highlighting_onine_cheatsheets" oid="syntax_highlighting_onine_cheatsheets">
@@ -488,7 +487,7 @@
                 </dlentry>
             </dl></section></refbody>
     <related-links class="- topic/related-links ">
-        <link class="- topic/link " format="dita" href="#unique_4" type="task"><?ditaot usertext?><linktext class="- topic/linktext ">Syntax Highlighting</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">Follow these step-by-step instructions for set-up and use. Syntax highlighting         displays source code in different colors and fonts, so it's easier to distinguish code         elements and identify errors. </desc></link>
+        <link class="- topic/link " format="dita" href="#unique_4" type="task"><?ditaot usertext?><linktext class="- topic/linktext ">Syntax Highlighting</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">Follow these step-by-step instructions for set up and use. Syntax highlighting         displays source code in different colors and fonts, so it's easier to distinguish code         elements and identify errors. </desc></link>
         <link class="- topic/link " href="#unique_6" type="reference"><?ditaot gentext?><linktext class="- topic/linktext ">Basic Syntax Comparison</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">Use this table as a quick reference for HTML, Markdown, and RST. </desc></link>
     </related-links>
 </reference></bookmap>

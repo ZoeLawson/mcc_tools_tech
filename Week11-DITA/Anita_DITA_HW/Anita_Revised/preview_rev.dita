@@ -2,12 +2,12 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="preview_rev">
     <title>Live Preview</title>
-    <shortdesc>Step-by-step instructions for set-up and use. The Live Preview window appears next to
-        your source code and, while you type, shows what your source code will look like on a basic
-        web page. </shortdesc>
+    <shortdesc>Step-by-step instructions for set up and use. The Live Preview window appears next to
+        your source code and while you type, shows you what your source code will look like on a
+        basic web page. </shortdesc>
     <taskbody>
         <prereq id="installatomprereq"><xref href="intro_installatom.dita">Atom must be
-            installed</xref> on your computer before you can set-up additional
+                installed</xref> on your computer before you can set up additional
             features.</prereq>
         <context>A text editor that offers a live preview window saves you time and frustration. One
             of the main challenges for beginning code writers is not knowing how the code you have
@@ -15,7 +15,7 @@
             write, which is why live preview is an essential tool for the beginning code writer.
                 <image placement="break" align="center" keyref="preview">
                 <alt>HTML with Live Preview</alt>
-            </image><p>Follow the steps below to set-up and use live preview for HTML, Markdown, and
+            </image><p>Follow the steps below to set up and use live preview for HTML, Markdown, and
                 RST. </p><note>The Markdown preview packages comes "pre-loaded" in Atom, so you only
                 need to install the HTML and RST preview packages.</note></context>
         <steps>
@@ -57,7 +57,8 @@
                 </choicetable>
                 <stepresult>The package box appears. For example, the image below shows the
                         <i>atom-html-preview</i> package box.<image placement="break" align="center"
-                        id="image_ikn_prs_4lb" alt="Search Packages Screen" keyref="searchpackages">
+                        id="search_packages_image" alt="Search Packages Screen"
+                        keyref="searchpackages">
                         <alt>Install Packages Screen</alt>
                     </image><note type="tip">There are many different packages that you can install
                         in Atom. To explore the packages, scroll through the available packages
@@ -68,17 +69,17 @@
                         will launch in atom.io in a new browser window.)</note></stepresult>
             </step>
             <step>
-                <cmd>Click <uicontrol>Install</uicontrol>. (To install additional packages, repeat
-                    the previous steps starting from Step 1.)</cmd>
+                <cmd>Click <uicontrol>Install</uicontrol>. </cmd>
                 <stepresult>After the preview package has installed, you can open a file and open
                     (enable) the preview window. Continue to the next step to open the preview
-                    window. </stepresult>
+                    window or, to install additional packages, repeat the previous steps starting
+                    from Step 1. </stepresult>
             </step>
             <step>
-                <cmd><uicontrol>Open</uicontrol> a file saved in the same source code language as
-                    the preview package you installed. For example, if you installed
-                    atom-html-preview, then open a file already saved in .htm or .html or open a new
-                    file and save it as an .htm or .html file.</cmd>
+                <cmd>Open a file saved in the same source code language as the preview package you
+                    installed. For example, if you installed <i>atom-html-preview</i>, then open a
+                    file already saved in .htm or .html or open a new file and save it as an .htm or
+                    .html file.</cmd>
                 <info>
                     <note type="remember">For the preview window to open in your file, the file must
                         have already been saved with the appropriate file extension (.htm, .html,
@@ -143,14 +144,14 @@
                                 commands.</li>
                             <li>Hotkey and drop-down menu commands are interchangeable; you can use
                                 one method to open the preview pane and the other method to close
-                                it. For example, you can open preview using a hotkeycommand and
+                                it. For example, you can open preview using a hotkey command and
                                 close it using a drop-down menu, and vice versa.</li>
                         </ul>
                     </note><note type="tip">
                         <ul id="ul_ysg_d1s_4lb">
                             <li>After the preview window opens, your code file window narrows and
-                                the code does <b>not</b> automatically wrap. To enable text
-                                wrapping: From the top menu, click <menucascade>
+                                the code does not automatically wrap. To enable text wrapping: From
+                                the top menu, click <menucascade>
                                     <uicontrol>View</uicontrol>
                                     <uicontrol>Toggle Soft Wrap</uicontrol>
                                 </menucascade>.</li>

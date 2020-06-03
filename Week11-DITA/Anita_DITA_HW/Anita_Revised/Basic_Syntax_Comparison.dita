@@ -82,7 +82,7 @@
                         <entry>Image</entry>
                         <entry>&lt;imagesrc="sourcepath"alttext="alttext"></entry>
                         <entry><codeph>![alttext](path)</codeph></entry>
-                        <entry><codeph>..image::path</codeph></entry>
+                        <entry><codeph>..image:: image path</codeph></entry>
                     </row>
                     <row>
                         <entry>Link</entry>

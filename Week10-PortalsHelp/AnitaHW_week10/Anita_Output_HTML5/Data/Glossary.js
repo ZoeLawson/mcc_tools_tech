@@ -1,1 +1,0 @@
-define({numchunks:1,prefix:'Glossary_Chunk',terms:[{t:'Consectetur',c:0},{t:'Ipsum',c:0},{t:'Lorem',c:0},{t:'Maecenas',c:0},{t:'Maximus',c:0}]});

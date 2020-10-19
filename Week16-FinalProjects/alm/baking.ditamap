@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map>
-    <title>Baking</title>
-    <topicref href="Cupcakes.dita"/>
-    <topicref href="brownie.dita"/>
-    <topicref href="pan_volumes.dita"/>
-</map>

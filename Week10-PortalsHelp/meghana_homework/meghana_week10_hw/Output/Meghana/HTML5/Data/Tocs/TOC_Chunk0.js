@@ -1,1 +1,0 @@
-define({'/Content/Article.htm':{i:[0],t:['In RSA NetWitness version 11.3.x, queries in Investigate \u003e Navigate are automatically modified.'],b:['']},'/Content/Release-Notes.htm':{i:[1],t:['Release Notes'],b:['']},'/Content/System-Requirements.htm':{i:[2],t:['System Requirements'],b:['']}});

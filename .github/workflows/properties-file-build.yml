@@ -16,11 +16,12 @@ jobs:
     - name: Install libsaxonb-java
       run: sudo apt-get install libsaxonb-java
     - name: Run transform
-      run: saxonb-xslt -s:'Week02-ProgressiveInfo/Homework/xsl/dummy.xml' -xsl:'Week02-ProgressiveInfo/Homework/xsl/BuildLoginPage.xslt' -o:'ZoeLawson.html' propertiesFile='../ZoeLawson.properties'
+      run: saxonb-xslt -s:'Week02-ProgressiveInfo/Homework/xsl/dummy.xml' -xsl:'Week02-ProgressiveInfo/Homework/xsl/BuildLoginPage.xslt' -o:'Week02-ProgressiveInfo/Homework/ZoeLawson.html' propertiesFile='../ZoeLawson.properties'
     - name: Upload transform output
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v2.3.1
       with:
-        path: 'ZoeLawson.html'
+        name: ZoeHomework
+        path: 'Week02-ProgressiveInfo/Homework'
     - name: Deploy Output to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:

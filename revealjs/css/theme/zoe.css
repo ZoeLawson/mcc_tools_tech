@@ -319,6 +319,15 @@ br {
 .small {
   font-size: 24pt; }
 
+.tofit {
+  font-size: 36px; }
+
+.tofitmore {
+  font-size: 32px; }
+
+.tofitevenmore {
+  font-size: 28px; }
+
 .present {
   height: 100%; }
 

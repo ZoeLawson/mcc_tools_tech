@@ -27,4 +27,3 @@ jobs:
       with:
         GITHUB_TOKEN: $zll
         BRANCH: Winter2022_output
-        folder: Week02-ProgresiveInfo

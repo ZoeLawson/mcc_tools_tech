@@ -16,7 +16,7 @@ jobs:
     - name: Install libsaxonb-java
       run: sudo apt-get install libsaxonb-java
     - name: Run transform
-      run: saxonb-xslt -s:'Week02-ProgressiveInfo/Homework/xsl/dummy.xml' -xsl:'Week02-ProgressiveInfo/Homework/xsl/BuildLoginPage.xslt' -o:'ZoeLawson.html' propertiesFile='Week02-ProgressiveInfo/Homework/ZoeLawson.properties'
+      run: saxonb-xslt -s:'Week02-ProgressiveInfo/Homework/xsl/dummy.xml' -xsl:'Week02-ProgressiveInfo/Homework/xsl/BuildLoginPage.xslt' -o:'ZoeLawson.html' propertiesFile='../ZoeLawson.properties'
     - name: Upload transform output
       uses: actions/upload-artifact@v2
       with:

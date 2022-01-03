@@ -20,7 +20,7 @@ jobs:
     - name: what is here
       run: ls
     - name: Run transform
-      run: xsltproc 'Week02-ProgressiveInfo/Homework/xsl/BuildLoginPage.xsl' 'Week02-ProgressiveInfo/Homework/xsl/dummy.xml' -o 'ZoeLawson.html' --param 'propertiesFile' 'Week02-ProgressiveInfo/Homework/ZoeLawson.properties'
+      run: xsltproc 'Week02-ProgressiveInfo/Homework/xsl/BuildLoginPage.xslt' 'Week02-ProgressiveInfo/Homework/xsl/dummy.xml' -o 'ZoeLawson.html' --param 'propertiesFile' 'Week02-ProgressiveInfo/Homework/ZoeLawson.properties'
     - name: Upload DITA Output to a ZIP file
       uses: actions/upload-artifact@v2
       with:

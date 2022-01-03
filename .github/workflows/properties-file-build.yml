@@ -1,0 +1,7 @@
+name: CI
+'on':
+  push:
+    branches:
+      - Winter2022
+      paths:
+      - 'Week02-ProgressiveInfo/Homework/ZoeLawson.properties'

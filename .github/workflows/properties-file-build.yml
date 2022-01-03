@@ -2,9 +2,9 @@ name: properties to HTML
 'on':
   push:
     branches:
-      - Winter2022
-      paths:
-      - 'Week02-ProgressiveInfo/Homework/ZoeLawson.properties'
+    - Winter2022
+    paths:
+    - 'Week02-ProgressiveInfo/Homework/ZoeLawson.properties'
 jobs:
   transform:
     name: Transform Java Properties file to HTML example
@@ -19,8 +19,8 @@ jobs:
       with:
         path: 'ZoeLawson.html'
     - name: Deploy Output to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@3.7.1
-        with:
-          GITHUB_TOKEN: $zll
-          BRANCH: Winter2022_output
-          folder: Week02-ProgresiveInfo
+      uses: JamesIves/github-pages-deploy-action@3.7.1
+      with:
+        GITHUB_TOKEN: $zll
+        BRANCH: Winter2022_output
+        folder: Week02-ProgresiveInfo

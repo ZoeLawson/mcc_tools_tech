@@ -1,7 +1,26 @@
-name: CI
+name: properties to HTML
 'on':
   push:
     branches:
       - Winter2022
       paths:
       - 'Week02-ProgressiveInfo/Homework/ZoeLawson.properties'
+jobs:
+  transform:
+    name: Transform Java Properties file to HTML example
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2.4.0
+    - name: Run transform
+      run: xsltproc 'Week02-ProgressiveInfo/Homework/xsl/BuildLoginPage.xsl' 'Week02-ProgressiveInfo/Homework/xsl/dummy.xml' -o 'ZoeLawson.html' --param 'propertiesFile' 'Week02-ProgressiveInfo/Homework/ZoeLawson.properties'
+    - name: Upload DITA Output to a ZIP file
+      uses: actions/upload-artifact@v2
+      with:
+        path: 'ZoeLawson.html'
+    - name: Deploy Output to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: $zll
+          BRANCH: Winter2022_output
+          folder: Week02-ProgresiveInfo

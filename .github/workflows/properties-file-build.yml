@@ -13,8 +13,8 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2.4.0
-    - name: Install xsltproc
-      run: sudo apt-get install libsaxonb-java
+    - name: Install libsaxonb-xslt
+      run: sudo apt-get install libsaxonb-xslt
     - name: Run transform
       run: libsaxonb-xslt -s:'Week02-ProgressiveInfo/Homework/xsl/dummy.xml' -xsl:'Week02-ProgressiveInfo/Homework/xsl/BuildLoginPage.xslt' -o:'ZoeLawson.html' propertiesFile='Week02-ProgressiveInfo/Homework/ZoeLawson.properties'
     - name: Upload transform output

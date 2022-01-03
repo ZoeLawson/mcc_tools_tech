@@ -1,10 +1,11 @@
 name: properties to HTML
 'on':
-  push:
-    branches:
-    - Winter2022
-    paths:
-    - 'Week02-ProgressiveInfo/Homework/ZoeLawson.properties'
+   workflow_dispatch:
+#  push:
+#    branches:
+#    - Winter2022
+#    paths:
+#    - 'Week02-ProgressiveInfo/Homework/ZoeLawson.properties'
 jobs:
   transform:
     name: Transform Java Properties file to HTML example
@@ -14,6 +15,10 @@ jobs:
       uses: actions/checkout@v2.4.0
     - name: Install xsltproc
       run: sudo apt-get install -y xsltproc
+    - name: Where am I
+      run: pwd
+    - name: what is here
+      run: ls
     - name: Run transform
       run: xsltproc 'Week02-ProgressiveInfo/Homework/xsl/BuildLoginPage.xsl' 'Week02-ProgressiveInfo/Homework/xsl/dummy.xml' -o 'ZoeLawson.html' --param 'propertiesFile' 'Week02-ProgressiveInfo/Homework/ZoeLawson.properties'
     - name: Upload DITA Output to a ZIP file

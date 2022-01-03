@@ -14,14 +14,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2.4.0
     - name: Install xsltproc
-      run: sudo apt-get install -y xsltproc
-    - name: Where am I
-      run: pwd
-    - name: what is here
-      run: ls
+      run: sudo apt-get install libsaxonb-java
     - name: Run transform
-      run: xsltproc 'Week02-ProgressiveInfo/Homework/xsl/BuildLoginPage.xslt' 'Week02-ProgressiveInfo/Homework/xsl/dummy.xml' -o 'ZoeLawson.html' --param 'propertiesFile' 'Week02-ProgressiveInfo/Homework/ZoeLawson.properties'
-    - name: Upload DITA Output to a ZIP file
+      run: libsaxonb-xslt -s:'Week02-ProgressiveInfo/Homework/xsl/dummy.xml' -xsl:'Week02-ProgressiveInfo/Homework/xsl/BuildLoginPage.xslt' -o:'ZoeLawson.html' propertiesFile='Week02-ProgressiveInfo/Homework/ZoeLawson.properties'
+    - name: Upload transform output
       uses: actions/upload-artifact@v2
       with:
         path: 'ZoeLawson.html'

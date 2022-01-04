@@ -23,7 +23,8 @@ jobs:
         name: ZoeHomework
         path: 'Week02-ProgressiveInfo/Homework'
     - name: Deploy Output to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@3.7.1
+      uses: JamesIves/github-pages-deploy-action@4.1.8
       with:
         GITHUB_TOKEN: $zll
         BRANCH: Winter2022_output
+        folder: .

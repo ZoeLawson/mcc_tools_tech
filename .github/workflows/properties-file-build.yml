@@ -1,11 +1,11 @@
 name: properties to HTML
 'on':
-   workflow_dispatch:
-#  push:
-#    branches:
-#    - Winter2022
-#    paths:
-#    - 'Week02-ProgressiveInfo/Homework/ZoeLawson.properties'
+#   workflow_dispatch:
+  push:
+    branches:
+    - Winter2022
+    paths:
+    - 'Week02-ProgressiveInfo/Homework/ZoeLawson.properties'
 jobs:
   transform:
     name: Transform Java Properties file to HTML example

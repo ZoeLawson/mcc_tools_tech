@@ -1,1 +1,0 @@
-This is a file proving I can use Git!

@@ -6,7 +6,7 @@
          display: block;
          margin: auto;
          font-family: Century Gothic;
-         width: 600pt;
+         width: 850pt;
          height: 300pt;
          border: solid medium black;
          background-color: #e6e6ff;
@@ -29,9 +29,28 @@
          }
          div.login_form {
          display: block;
-         float: right;
+         float: left;
          width: 399pt;
          }
+		 div.helpbar {
+		   display: block;
+		   width: 240pt;
+		   float: right;
+		 }
+		 p.help {
+		   display: none;
+		   background-color: #e6e6ff;
+		   color: black;
+		   background-image: none;
+		   font-weight: normal;
+		   text-align: left;
+		   border: solid thin black;
+		   margin-top: 100px;
+		   height: 233px;
+		   padding-top: 12pt;
+		   padding-left: 12pt;
+		   padding-right: 12pt;
+		 }
          h1 {
          font-size: 24pt;
          font-weight: bold;
@@ -55,15 +74,25 @@
          display: inline;
          margin-left: 12pt;
          }
-         a {
+         span.link {
          color: blue;
          font-size: 14pt;
          }
          
       </style>
+	  <script>
+	    function openHlp(hlpid) {
+			var x = document.getElementById(hlpid);
+			if (x.style.display == "none") {
+				x.style.display = "block";
+			  } else {
+				x.style.display = "none";
+			  }
+		}
+	  </script>
    </head>
    <body>
-      <div class="container">
+      <div class="container" id="container">
          <div class="logo">
             <p>Cool Graphic Here</p>
          </div>
@@ -73,19 +102,24 @@
                <fieldset>
                   <legend>Something witty here</legend>
                   <label for="username">UserName</label>
-                  <input id="username" type="text"></input>
-                  <img src="help.png" title="Enter user name"></img>
+                  <input id="username" type="text" title="Enter user name"/>
+                  <img src="help.png" onclick="openHlp('usr')"/>
                   <br></br>
                   <label for="password">Password</label>
-                  <input id="password" type="text"></input>
-                  <img src="help.png" title="Enter password"></img>
+                  <input id="password" type="text" title="Enter password"/>
+                  <img src="help.png" onclick="openHlp('pswd')"/>
                   <br></br>
                   <input type="submit" value="Submit"></input>
                   <br></br>
-                  <a>Reset passwrd</a>
+                  <span class="link">Reset passwrd</span>
                </fieldset>
             </form>
          </div>
-      </div>
+		  <div id="help" class="helpbar">
+			<p id="usr" class="help">Your user name is the 8 character string assigned to you when IT set up your account.</p>
+			<p id="pswd" class="help">If you have forgotten your password, click Reset password.</p>
+		  </div>
+	  </div>
+	  
    </body>
 </html>

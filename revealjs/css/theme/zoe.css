@@ -343,3 +343,7 @@ br {
   padding-bottom: 12px;
   margin-top: 12px;
   border-top: solid thin #a23; }
+
+.uicontrol {
+    font-weight: bold;
+}

@@ -1,3 +1,6 @@
 Text file for homework - class one   
 
 TXT   file format
+
+The RTF file format creates alot of extra junk.
+The TXT file format is much cleaner.

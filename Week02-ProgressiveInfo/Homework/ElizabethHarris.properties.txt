@@ -1,11 +1,11 @@
 LoginPage=Login
-legend=Something witty here
+legend=Basic login window
 Username=UserName
 UserName_Tip=Enter user name
 UserName_Help=Your user name is your username.
 Passwrd=Password
 Password_Tip=Enter password
-Password_Help=Keep your passord private.
+Password_Help=Must be 8 characters, with one special character.
 Submit_btn=Submit
-FixPassword=Reset passwrd
+FixPassword=Forgot your password?
 Graphic=none

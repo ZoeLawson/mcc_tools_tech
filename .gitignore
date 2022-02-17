@@ -1,6 +1,7 @@
 #ignore some Windows system files
 .DS_Store
 ~*.dotx
+~*.docx
 *.backup.fm
 *.backup.book
 *.lck

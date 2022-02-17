@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><html>
    <head>
-      <title>My Login Page</title>
+      <title>Login</title>
       <style> div.container { display: block; margin: auto;
          font-family: Century Gothic; width: 850pt; height: 300pt; border: solid medium
          black; background-color: #e6e6ff; } div.logo { display: block; width: 199pt;
@@ -29,15 +29,15 @@
    </head>
    <body>
       <div class="container">
-         <div>
-            <img class="imglogo" src="images/CoolGraphic.png"></img>
+         <div class="logo">
+            <p>Cool Graphic Here</p>
          </div>
          <div class="login_form">
-            <h1>My Login Page</h1>
+            <h1>Login</h1>
             <form>
                <fieldset>
-                  <legend>Something witty here not really</legend>
-                  <label for="username">User Name</label>
+                  <legend>Basic login window</legend>
+                  <label for="username">UserName</label>
                   <input id="username" type="text" title="Enter user name"></input>
                   <img src="help.png" onclick="openHlp('usr')"></img>
                   <br></br>
@@ -47,15 +47,14 @@
                   <br></br>
                   <input type="submit" value="Submit"></input>
                   <br></br>
-                  <a>Reset passwrd</a>
+                  <a>Forgot your password?</a>
                </fieldset>
             </form>
          </div>
          <div id="help" class="helpbar">
             <p id="usr" class="help">Your user name is your username.</p>
-            <p id="pswd" class="help">Keep your passord private.</p>
+            <p id="pswd" class="help">Must be 8 characters, with one special character.</p>
          </div>
       </div>
    </body>
 </html>
-© 2022 GitHub, Inc.

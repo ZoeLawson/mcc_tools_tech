@@ -349,3 +349,7 @@ br {
 .uicontrol {
     font-weight: bold;
 }
+
+.filepath {
+    font-family: monospace;
+}

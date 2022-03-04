@@ -32,3 +32,6 @@ paragraph
      
    * Continued bullet
 1. continued list
+
+This is a change made on my local computer.
+

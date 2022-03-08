@@ -3,7 +3,7 @@ body {
 }
 
 img {
-  opacity: 1.0; b
+  opacity: 1.0;
 }
 
 img:hover {
@@ -40,12 +40,12 @@ font-family: Tahoma, Verdana, sans-serif;
 table {
 
   border: 1px solid;
-  text-align: center
+  text-align: center;
 }
 
 
 <style>
 ul.b {
-  list-style-type: square
+  list-style-type: square;
 }
 </style>

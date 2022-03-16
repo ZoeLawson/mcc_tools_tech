@@ -4,6 +4,15 @@ body {
 }
 
 
+img {
+  opacity: 1.0;
+}
+
+img:hover {
+  opacity: .5;
+}
+
+
 h1 {
   color: navy;
   font-size: 30px;
@@ -44,8 +53,3 @@ table, th, td  {
   text-align: center;
 }
 
-<style>
-ul.b {
-  list-style-type: circle;
-}
-</style>

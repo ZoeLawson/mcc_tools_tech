@@ -6,13 +6,13 @@
         <meta name="copyright" content="(C) Copyright 2022"></meta>
         <meta name="DC.rights.owner" content="(C) Copyright 2022"></meta>
         <meta name="DC.type" content="concept"></meta>
-        <meta name="DC.title" content="Automation"></meta>
+        <meta name="DC.title" content="Automation and Templates"></meta>
         <meta name="abstract" content=""></meta>
         <meta name="description" content=""></meta>
         <meta name="DC.format" content="XHTML"></meta>
         <meta name="DC.identifier" content="title_slide"></meta>
         <link rel="stylesheet" type="text/css" href="commonltr.css"></link>
-        <title>Automation</title>
+        <title>Automation and Templates</title>
         <meta name="apple-mobile-web-app-capable" content="yes"></meta><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></meta><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"></meta><link rel="stylesheet" href="../revealjs/css/reveal.css"></link><link rel="stylesheet" href="../revealjs/css/theme/zoe.css" id="theme"></link><link href="../revealjs/lib/css/zenburn.css" rel="stylesheet"></link><script>
             var link = document.createElement( 'link' );
             link.rel = 'stylesheet';
@@ -24,7 +24,7 @@
 </head>
         <body><div class="reveal"><div class="slides">
         <section>
-    <h1 class="title topictitle1" id="ariaid-title1">Automation</h1>
+    <h1 class="title topictitle1" id="ariaid-title1">Automation and Templates</h1>
         
     
     <div class="body conbody"><p class="shortdesc"></p>
@@ -33,67 +33,110 @@
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title2">Welcome to web conferencing</h1>
-        
-    <div class="body conbody">
-        <br></br><div class="imagecenter"><img class="image imagecenter" src="art/confBingo.jpg" height="516" width="640"></img></div><br></br>
-    </div>
-        
-<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title3">Why automation?</h1>
+    <h1 class="title topictitle1" id="ariaid-title2">Why automation?</h1>
         
     <div class="body conbody">
         <ul class="ul">
             <li class="li">Tech writing is very repetitious</li>
         
-            <li class="li">Many tools are not overly WYSIWYG</li>
+            <li class="li">Many tools (Markdown, ReST, DITA, Docbook) are not overly WYSIWYG</li>
+        
+            <li class="li">Humans make mistakes</li>
+        
+            <li class="li">Your output needs to go into a build, might as well have your own...</li>
+        
+            <li class="li">I'm lazy (or efficient)</li>
         
         </ul>
         
     </div>
         
-<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title4">Publishing FrameMaker</h1>
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section><section>
+    <h1 class="title topictitle1" id="ariaid-title3">Publishing FrameMaker</h1>
         
     
     <div class="body conbody"><p class="shortdesc">From my memory...</p>
         
-        <ul class="ul">
+        <ol class="ol">
             <li class="li">Open all files in the book.</li>
         
-            <li class="li">Update the book. (Fix all the issues)</li>
+            <li class="li">Update the book.</li>
         
-            <li class="li">Save as PDF.</li>
+            <li class="li">Publish to PDF.</li>
         
-            <li class="li">Finalize the PDF (set document properties, etc.)</li>
+            <li class="li">Finalize the PDF. </li>
+        
+        </ol>
+        
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title4">What that might actually be...</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Update book might actually entail:</p>
+        
+        <ul class="ul">
+            <li class="li">Fixing broken xrefs.</li>
+        
+            <li class="li">Reimporting templates to fix color definitions, etc.</li>
+        
+            <li class="li">Paging through the book to confirm some page break overrides didn't get lost.</li>
+        
+            <li class="li">Some number of manual tweaks because of template hiccups</li>
+        
+            <li class="li">Fix conditions</li>
         
         </ul>
         
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title5">Not so bad</h1>
+    <h2 class="title topictitle2" id="ariaid-title5">And that's not all</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc">For PDF output there's usually a bunch of tweaking:</p>
+        
+        <ul class="ul">
+            <li class="li">If you have roman numerals for preface pages, confirming the PDF numbering
+                aligns</li>
+        
+            <li class="li">Setting the PDF document properties of title, author, subject, keywords</li>
+        
+            <li class="li">Setting default display properties (fit to page, filename vs document title)</li>
+        
+            <li class="li">Security settings</li>
+        
+        </ul>
+        
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title6">Not so bad</h1>
         
     
     <div class="body conbody"><p class="shortdesc">That doesn't sound so bad, until...</p>
         
         <ul class="ul">
-            <li class="li">You have a book with 20+ chapters.</li>
+            <li class="li">You have a book with 20+ chapters, and two finicky chapters that are split because
+                they're too large in a 1200 page reference book.</li>
         
             <li class="li">You forgot to tweak a condition setting.</li>
         
-            <li class="li">There's some other last minute change</li>
+            <li class="li">You catch a typo you missed.</li>
+        
+            <li class="li">There's some other last minute change.</li>
         
         </ul>
         
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title6">Maybe it is that bad</h1>
+    <h1 class="title topictitle1" id="ariaid-title7">Maybe it is that bad</h1>
         
     <div class="body conbody">
         <ul class="ul">
-            <li class="li">You have to make sure your laptop<ul class="ul">
+            <li class="li">You have to make sure your laptop:<ul class="ul">
                     <li class="li">Has the correct version of software.</li>
         
                     <li class="li">Has the correct version of templates.</li>
@@ -105,19 +148,23 @@
         
         </ul>
         
+        <p class="p">My current workplace has people marking off 8 work days for PDF production per
+            release.</p>
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title7">Enter automation</h1>
+    <h1 class="title topictitle1" id="ariaid-title8">Enter automation</h1>
         
     
     <div class="body conbody"><p class="shortdesc">Take advantage of computers.</p>
         
-        <p class="p">Computers are designed to do repetative tasks.</p>
+        <p class="p">Computers are designed to do repetitive tasks.</p>
+        <p class="p">Build early, build often.</p>
+        <p class="p">Catch mistakes sooner.</p>
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title8">What automation can do</h1>
+    <h1 class="title topictitle1" id="ariaid-title9">What automation can do</h1>
         
     <div class="body conbody">
         <ul class="ul">
@@ -136,22 +183,24 @@
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title9">Build system advantages</h1>
+    <h1 class="title topictitle1" id="ariaid-title10">Build system advantages</h1>
         
     <div class="body conbody">
         <ul class="ul">
             <li class="li">Everyone is using the same set of templates and software</li>
         
-            <li class="li">All builds are the same each time</li>
+            <li class="li">The settings for the output are the same each time</li>
         
-            <li class="li">Can be scheduled/run automagically</li>
+            <li class="li">Can be scheduled or run automagically when the source changes</li>
+        
+            <li class="li">Computer handles a quantity of the fiddly bits</li>
         
         </ul>
         
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title10">Can include quality control</h1>
+    <h1 class="title topictitle1" id="ariaid-title11">Can include quality control</h1>
         
     <div class="body conbody">
         <p class="p">You can automate more than just making things and putting them places.</p>
@@ -171,7 +220,7 @@
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section><section>
-    <h1 class="title topictitle1" id="ariaid-title11">What can a script do?</h1>
+    <h1 class="title topictitle1" id="ariaid-title12">What can a script do?</h1>
         
     
     <div class="body conbody"><p class="shortdesc">Yes. It can do that. (If you know how to code it)</p>
@@ -190,7 +239,7 @@
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h2 class="title topictitle2" id="ariaid-title12">For example</h2>
+    <h2 class="title topictitle2" id="ariaid-title13">For example</h2>
         
     <div class="body conbody">
         <ol class="ol">
@@ -209,7 +258,7 @@
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h2 class="title topictitle2" id="ariaid-title13">A few scripting languages</h2>
+    <h2 class="title topictitle2" id="ariaid-title14">A few scripting languages</h2>
         
     
     <div class="body conbody"><p class="shortdesc">This is just a smattering. They keep inventing new ones.</p>
@@ -230,35 +279,188 @@
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section><section>
-    <h1 class="title topictitle1" id="ariaid-title14">Jenkins</h1>
+    <h1 class="title topictitle1" id="ariaid-title15">Automation tools</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">There are an infinite number out there</p>
+        
+        <ul class="ul">
+            <li class="li">Jenkins</li>
+        
+            <li class="li">Github Actions</li>
+        
+            <li class="li">GitLab CI/CD</li>
+        
+            <li class="li">Many others I haven't worked with such as Bamboo, Travis, etc.</li>
+        
+            <li class="li">Funky weird home grown things</li>
+        
+        </ul>
+        
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title16">Jenkins</h2>
         
     <div class="body conbody">
         <p class="p"><a class="xref" href="https://jenkins.io/" target="_blank">https://jenkins.io/</a></p>
         <p class="p">Open source continuous integration and continuous delivery tool.</p>
         <p class="p">Huge community of developers donating plugins.</p>
         <p class="p">Can drag and drop build a build system without a lot of coding ability.</p>
+        <p class="p">Or use Pipelines and code it more directly.</p>
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h2 class="title topictitle2" id="ariaid-title15">Jenkins Demo</h2>
+    <h2 class="title topictitle2" id="ariaid-title17">GitHub Actions</h2>
         
     
-    <div class="body conbody"><p class="shortdesc"></p>
+    <div class="body conbody"><p class="shortdesc">Part of most GitHub accounts</p>
         
-        <p class="p"></p>
+        <p class="p">Free accounts get a limited number of builds a month.</p>
+        <p class="p">Can integrate with other GitHub projects.</p>
+        <p class="p">For example, I hosted the dita-ot plugin I use to build the handouts and can integrate it
+            with a GitHub action to automatically build output.</p>
+        <p class="p">How the week 2 homework generated HTML pages. </p>
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title16">Continuing with FrameMaker</h1>
+    <h1 class="title topictitle1" id="ariaid-title18">Why do you care?</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">It can make your life easier.</p>
+        
+        <p class="p">I do not expect you to learn how to automate a doc build process.</p>
+        <ul class="ul">
+            <li class="li">Know it exists, and understand how you can trigger builds</li>
+        
+            <li class="li">Know it's possible to automate things, if you want to learn more</li>
+        
+        </ul>
+        
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title19">Templates</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">I've inflicted templates upon you, but I haven't talk about making one.</p>
+        
+        <p class="p">(There's a bit in the Week3\Word.pdf)</p>
+        <p class="p">A good template is hard.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title20">Things to consider</h1>
+        
+    <div class="body conbody">
+        <p class="p">What are your outputs? Do you want them to look similar?</p>
+        <p class="p">Does your tooling enable you to share formatting between outputs?</p>
+        <p class="p">Do you want to set it up semantically or by display?</p>
+        <p class="p">Are there accessibility/usability considerations?</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title21">Semantic vs Display</h1>
+        
+    <div class="body conbody">
+        <p class="p">Semantic - Create styles based on use. </p>
+        <p class="p">You may have many styles that look the same, but if a style changes it might be easier to
+            update. </p>
+        <p class="p">For example: uicontrol, wintitle, userinput, keyboard</p>
+        <p class="p">Display - Create styles based on formatting.</p>
+        <p class="p">One style per display, but user's have to remember to apply the right ones.</p>
+        <p class="p">For example: bold, monospace</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title22">Template requirements - Structure</h1>
+        
+    <div class="body conbody">
+        <p class="p">PDF - cover, end papers, title page, legal notices, toc, preface, parts, chapters,
+            appendix, index, back cover</p>
+        <p class="p">HTML - landing page, navigation</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title23">Template requirements - foundation</h1>
+        
+    <div class="body conbody">
+        <p class="p">Fonts: titles, regular, special (e.g. monospace)</p>
+        <p class="p">Color palette</p>
+        <p class="p">Font sizes</p>
+        <p class="p">Paragraph spacing (line spacing and margins)</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title24">Template requirements - page layout</h1>
+        
+    <div class="body conbody">
+        <p class="p">Page size (even in HTML, how to handle variable widths)</p>
+        <p class="p">Header and Footer contents</p>
+        <p class="p">Columns</p>
+        <p class="p">Side heads</p>
+        <p class="p">Rotated pages?</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title25">Template requirements - block content</h1>
+        
+    <div class="body conbody">
+        <p class="p">Paragraphs: indent levels, page wide/column wide</p>
+        <p class="p">Lists: ordered, unordered, without bullets, amount of nesting you support.</p>
+        <p class="p">(Don't forget two digit or 3 digit spacing issues)</p>
+        <p class="p">Specialty: Code samples, messages, sidebars</p>
+        <p class="p">Content specific: quizzes, check lists</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title26">Template requirements - more blocks</h1>
+        
+    <div class="body conbody">
+        <p class="p">Images: stand alone, inline, run-in. Figure captions?</p>
+        <p class="p">Tables:  ruling, shading, oh my! Table captions?</p>
+        <p class="p">Examples? Equations?</p>
+        <p class="p">Footnotes?</p>
+        <p class="p">Semantic things? Specialty intros?</p>
+        <p class="p">Don't forget about other specialty/generated formats such as TOC and Index.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title27">Template requirements - inline</h1>
+        
+    <div class="body conbody">
+        <p class="p">If you go for semantic formatting, there will be many inline options</p>
+        <p class="p">Standard: Bold, Italic, Bold+Italic, Links, monospace</p>
+        <p class="p">There will probably be a number of character styles that are necessary for template
+            layout such as page numbers, chapter numbers, bullet characters, etc.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title28">Template experiences</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">You will forget something.</p>
+        
+        <p class="p">No one will like all of your choices.</p>
+        <p class="p">Templates grow and change over time.</p>
+        <p class="p">There will be at least one thing you can't figure out how to fix. (I don't know why that
+            doesn't align right. It's supposed to...)</p>
+        <p class="p">If your template allows for it, document/comment it!</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title29">Continuing with FrameMaker</h1>
         
     
     <div class="body conbody"><p class="shortdesc"></p>
         
-        <p class="p"></p>
+        <p class="p">Body pages</p>
+        <p class="p">Master pages</p>
+        <p class="p">Reference pages</p>
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title17">Week 9 Homework</h1>
+    <h1 class="title topictitle1" id="ariaid-title30">Week 9 Homework</h1>
         
     <div class="body conbody">
         <ul class="ul">

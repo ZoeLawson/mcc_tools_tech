@@ -23,6 +23,6 @@ How is reStructuredText Useful?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 restructuredText is useful for in-line documentation, for quickly creating simple webpages, and for standalone documents. 
 
-**Primary Goal**
+**Primary Objective*
 
   to define and implement a markup syntax for use in Python docstrings that is accessible and yet powerful enough for non-trivial use. 

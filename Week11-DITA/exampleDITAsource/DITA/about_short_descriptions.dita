@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="about_short_descriptions">
+    <title>About short descriptions</title>
+    <shortdesc>Every topic can have a short description, and should.</shortdesc>
+    <conbody>
+        <p>Use the <xmlelement>shortdesc</xmlelement> element to provide a short description of your
+            topic. It's more than just the introduction to your topic. Many DITA processors take the
+            short description and use it with links. For example, if you transform your content into
+            HTML, the short description content could be a popup when you hover over a link.</p>
+        <image placement="break" href="art/linkPopup.png" align="center"/>
+        <p>You can also configure DITA topics to generate various types of automatic links. These
+            links can also pull in the short description.</p>
+        <image placement="break" href="art/childTopics.png" align="center"/>
+        <p>Learning to write short descriptions is an artform, similar to a first paragraph in a
+            news story. It is well worth practicing.</p>
+        <ul>
+            <li><xref
+                    href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/Artefact/Syntax_and_Markup/c_Guidelines_for_Crafting_Short_Descriptions.html"
+                    format="html" scope="external"/></li>
+            <li><xref
+                    href="https://www.oasis-open.org/committees/download.php/57803/DITA-Adoption_2016_Writing-Effective-Short-Descriptions.pdf"
+                    format="pdf" scope="external"/></li>
+            <li/>
+        </ul>
+    </conbody>
+</concept>

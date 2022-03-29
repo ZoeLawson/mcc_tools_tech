@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="my_first_task_topic">
+    <title>My first task topic</title>
+    <shortdesc>Another short description.</shortdesc>
+    <taskbody>
+        <prereq>A list of things I need before I do my procedure. <ph keyref="newProduct"/> does
+            amazing things.<p
+                conref="my_first_reference_topic.dita#my_first_reference_topic/conref_test"
+            /></prereq>
+        <context><p>A few tips you need for the task. Why you would complete this task. <ph
+                    conkeyref="default/product"/></p><image placement="break"
+                href="../exampleDITAsource/DITA/art/linkPopup.png">
+                <alt>Used by screen readers</alt>
+            </image><image keyref="sample_path"/></context>
+        <steps>
+            <step>
+                <cmd>This is a thing to do. Click the <uicontrol>thing</uicontrol>.</cmd>
+                <choices>
+                    <choice>put your list values here.</choice>
+                </choices>
+                <choicetable frame="all" relcolwidth="1* 1*">
+                    <chhead>
+                        <choptionhd>Option</choptionhd>
+                        <chdeschd>Description</chdeschd>
+                    </chhead>
+                    <chrow>
+                        <choption>option 1</choption>
+                        <chdesc>blah blah</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption/>
+                        <chdesc/>
+                    </chrow>
+                </choicetable>
+                <stepresult>The <wintitle>name of dialog</wintitle> dialog opens.</stepresult>
+            </step>
+            <step>
+                <cmd>And here's the next step.</cmd>
+            </step>
+        </steps>
+        <result>This is the thing that happened.</result>
+        <postreq>Go on to the next task.</postreq>
+    </taskbody>
+</task>

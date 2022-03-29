@@ -1,0 +1,17 @@
+h1,h2,h3	{
+     color: Blue;
+}
+
+.example  {
+	color: Dark Blue;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: lightblue;
+}
+
+table {
+    width: 50%;
+}
+

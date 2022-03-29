@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="week_11_homework">
+    <title>Week 11 homework</title>
+    <shortdesc>Document a thing using DITA</shortdesc>
+    <conbody>
+        <p>Download a trial of Oxygen Author: <xref
+                href="https://www.oxygenxml.com/xml_author/download_oxygenxml_author.html"
+                format="html" scope="external"/></p>
+        <p>Create a ditamap.</p>
+        <p>Add at least 3 topics to the ditamap. Write one task topic, one concept topic, and one
+            reference topic.</p>
+        <p>Include some semantic tagging.</p>
+        <p>Include a conref or a keyref.</p>
+    </conbody>
+</concept>

@@ -1,4 +1,0 @@
-Here's a sample text file saying it worked
-And look, I've made a change
-And yet another change
-Live demo change 3 Feb 2022

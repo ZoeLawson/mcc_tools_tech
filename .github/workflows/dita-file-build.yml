@@ -3,8 +3,6 @@ name: DITA to PDF
   push:
     branches:
       - dita_test
-    paths:
-      - 'Week11-DITA/Homework'
 jobs:
   transform:
     name: Transform a DITAMAP to a PDF

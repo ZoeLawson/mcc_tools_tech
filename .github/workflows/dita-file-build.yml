@@ -2,7 +2,7 @@ name: DITA to PDF
 'on':
   push:
     branches:
-    - Winter2022
+    - dita_test
     paths:
     - 'Week11-DITA/Homework/*'
 jobs:

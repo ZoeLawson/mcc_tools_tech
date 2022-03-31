@@ -2,9 +2,9 @@ name: DITA to PDF
 'on':
   push:
     branches:
-    - Winter2022
+      - dita_test
     paths:
-    - 'Week11-DITA/Homework/*'
+      - 'Week11-DITA/Homework/*'
 jobs:
   transform:
     name: Transform a DITAMAP to a PDF
@@ -18,7 +18,7 @@ jobs:
           install: dita install https://github.com/ZoeLawson/DITAStuff/raw/mcc/plugins/mcchandout.zip
           input: Week11-DITA/Homework/ZoeLawson.ditamap
           transtype: mcchandout
-          output-path: Week11-DITA/Homework/Zoe/out
+          output-path: out
       - name: Upload transform output
         uses: actions/upload-artifact@v2.3.1
         with:

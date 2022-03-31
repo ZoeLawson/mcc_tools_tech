@@ -4,7 +4,7 @@ name: DITA to PDF
     branches:
     - Winter2022
     paths:
-    - 'Week11-DITA/Homework/ZoeLawson.ditamap'
+    - 'Week11-DITA/Homework/*'
 jobs:
   transform:
     name: Transform a DITAMAP to a PDF

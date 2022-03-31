@@ -8,8 +8,8 @@ Provide the relative path for the following:
 1. From your week 1 homework file to your week 5 homework file.
 1. From the week 5 PDF handout to your week 5 homework.
 
-../Week06-LightweightMarkup/week6_Lightweight_markup
-../Handouts/git_cheatsheet.pdf
-../Week02-ProgressiveInfo/Homework
-Week05-AgileHTML/Homework
-../Homework.txt
+../Week06-LightweightMarkup/week6_Lightweight_markup.html
+../Handouts../git_cheatsheet.pdf
+../Week02-ProgressiveInfo../JulioMadrid.html
+Week01-IntroGitHub/Homework../Week05-AgileHTML../JulioMadrid.html
+Homework/JulioMadrid.html

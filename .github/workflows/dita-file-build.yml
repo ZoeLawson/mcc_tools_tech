@@ -16,7 +16,7 @@ jobs:
           install: dita install https://github.com/ZoeLawson/DITAStuff/raw/mcc/plugins/mcchandout.zip
           input: Week11-DITA/Homework/ZoeLawson.ditamap
           transtype: mcchandout
-          output-path: out
+          output-path: .
       - name: Upload transform output
         uses: actions/upload-artifact@v2.3.1
         with:
@@ -25,5 +25,5 @@ jobs:
       - name: Deploy Output to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.8
         with:
-          BRANCH: Winter2022_output
+          BRANCH: dita_test
           folder: .

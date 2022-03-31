@@ -1,6 +1,7 @@
 #ignore some Windows system files
 .DS_Store
 ~*.dotx
+~*.docx
 *.backup.fm
 *.backup.book
 *.lck
@@ -11,3 +12,9 @@
 **/*.fldb
 **/*.s3db
 **/*.cadbf
+**/*.*~
+**/*.bak
+**/~*.dotx
+**/~*.docx
+**/*.backup
+**/~*

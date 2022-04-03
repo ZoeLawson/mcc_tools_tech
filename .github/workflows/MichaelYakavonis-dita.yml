@@ -2,7 +2,7 @@ name: DITA to PDF
 'on':
   push:
     branches:
-      - dita_test
+      - Winter2022
     paths:
       - 'Week11-DITA/Homework/MichaelYakavonis.ditamap'
       - 'Week11-DITA/Homework/Michael/**'
@@ -23,5 +23,5 @@ jobs:
       - name: Deploy Output to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.8
         with:
-          BRANCH: dita_test
+          BRANCH: Winter2022
           folder: .

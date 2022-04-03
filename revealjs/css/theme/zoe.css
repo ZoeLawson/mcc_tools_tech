@@ -353,3 +353,12 @@ br {
 .filepath {
     font-family: monospace;
 }
+
+.red {
+    color: #a23;
+}
+
+.green {
+    color: green;
+}
+}

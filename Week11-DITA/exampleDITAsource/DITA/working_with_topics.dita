@@ -4,7 +4,35 @@
     <title>Working with topics</title>
     <shortdesc>Topics are the heart and soul of your content.</shortdesc>
     <conbody>
-        <p>DITA is a many layered onion. It can do many, many things, but you don't need to learn
-            all of it all at once.</p>
+        <p>A topic is your basic building block. A topic should be one unit of content that contains
+            a single idea. </p>
+        <p>The theory is that you write a whole bunch of topics, and then you organize your topics
+            into output, such as a book or help. By making lots of small chunks, you can mix and
+            match the building blocks as needed.</p>
+        <p>Basic DITA has three main types of topics: concepts, tasks, and reference.</p>
+        <dl>
+            <dlentry>
+                <dt>Concept</dt>
+                <dd>About a thing. Information you want people to know before they try to do a
+                        thing.<p>This topic type is the least restrictive. It's generally a blob of
+                        text, with assorted lists, tables, and images as necessary.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>Task</dt>
+                <dd>How to do a thing. The core of this topic type is
+                        <xmlelement>steps</xmlelement>.<p>This topic is the most restrictive. There
+                        are many specialized sections to help you make consistent presentation of
+                        procedures.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>Reference</dt>
+                <dd>Stuff about a thing you want to look up. A concept tells you the general
+                    "about", such as how a process works. A reference topic contains specific
+                    details you want to look up, such as valid values for a property. A general rule
+                    of thumb is if the information might fit into a table, it should be a reference
+                    topic. <p>Reference topics are a bit more restrictive than concepts, but not as
+                        detailed as a task.</p></dd>
+            </dlentry>
+        </dl>
     </conbody>
 </concept>

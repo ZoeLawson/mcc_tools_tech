@@ -51,21 +51,100 @@
   <h1 class="title topictitle1" id="ariaid-title3">More building blocks</h1>
         
   <div class="body">
-	<ul class="ul">
-		<li class="li">
-			<p class="p">Small chunks that can be translated in small chunks</p>
-		</li>
+		<p class="p">Smaller blocks possible to reuse specific paragraphs, words, chunks of content</p>
+		<p class="p">The <dfn class="term">conref</dfn>, or content reference.</p>
+		<p class="p">Most every element in DITA can be provided an ID.</p>
+		<p class="p">Most every element in DITA can reference the ID of a same element. The content of the
+			element is replaced by the content of the element with the ID.</p>
+		<p class="p">Easy to reuse a note, paragraph, step, etc.</p>	
+  </div>
         
-		<li class="li">
-			<p class="p">Smaller blocks possible to reuse specific paragraphs, words, chunks of content</p>
-		</li>
+ <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section><section>
+  <h1 class="title topictitle1" id="ariaid-title4">Modifying blocks</h1>
         
-	</ul>
-        	
+  <div class="body">
+		<p class="p">Reusing blocks is great, but a lot of the time, you can't just reuse it.</p>
+		<ul class="ul">
+			<li class="li">Tweaking titles</li>
+        
+			<li class="li">Conditional text</li>
+        
+			<li class="li">Keys</li>
+        
+			<li class="li">Conref push</li>
+        
+		</ul>
+        
   </div>
         
  <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-  <h1 class="title topictitle1" id="ariaid-title4">Extensible</h1>
+  <h2 class="title topictitle2" id="ariaid-title5">Tweaking titles</h2>
+        
+  <div class="body">
+		<p class="p">When defining a title, you can provide <code class="keyword markupname xmlelement">&lt;titlealts&gt;</code> and provide</p>
+		<ul class="ul">
+			<li class="li"><code class="keyword markupname xmlelement">&lt;navtitle&gt;</code> — An alternative title to use in any table of
+				contents or navigation</li>
+        
+			<li class="li"><code class="keyword markupname xmlelement">&lt;searchtitle&gt;</code> — An alternative title to use in search
+				results</li>
+        
+		</ul>
+        
+		<p class="p">You can provide <code class="keyword markupname xmlelement">&lt;titlealts&gt;</code> in topics <em class="ph i">and</em> in ditamaps. </p>
+	</div>
+        
+ <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title6">Conditional text</h2>
+        
+    
+    <div class="body conbody small"><p class="shortdesc small">Include, exclude, and flag text</p>
+        
+        <p class="p">Almost every element can take one of the <dfn class="term">profiling</dfn> attributes:</p>
+        <p class="p"><code class="keyword markupname xmlatt">@audience</code>, <code class="keyword markupname xmlatt">@deliveryTarget</code>, <code class="keyword markupname xmlatt">@otherprops</code>,
+                <code class="keyword markupname xmlatt">@platform</code>, <code class="keyword markupname xmlatt">@product</code>, <code class="keyword markupname xmlatt">@props</code></p>
+        <p class="p">You can define values for these attributes, and then include and exclude content based on
+            the values.</p>
+        <p class="p">You can also do other processing, such as make all <code class="keyword markupname xmlatt">@audience</code>="expert"
+            content appear with a different background color.</p>
+        <p class="p">There is also the <code class="keyword markupname xmlatt">@rev</code> attribute which can be used for flagging,
+            only.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+  <h2 class="title topictitle2" id="ariaid-title7">Keys</h2>
+        
+  <div class="body">
+		<p class="p">Keys are a very powerful mechanism in DITA.</p>
+		<p class="p">A key is an addressing method, defined in ditamaps. </p>
+		<p class="p">Generally, use keys for a link destination or a short text string.</p>
+	<ul class="ul">
+		<li class="li">Have a key for "product", so in topics about a shared component, you use the product key.</li>
+        
+			<li class="li">Have a set of keys that link to images. The help map links to low resolution files,
+				the PDF links to high resolution files.</li>
+        
+	</ul>
+        
+  </div>
+        
+ <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+  <h2 class="title topictitle2" id="ariaid-title8">Conref push</h2>
+        
+  <div class="body tofit">
+		<p class="p">Normally, when you use a conref, you replace the current element with the content of some
+			other element.</p>
+		<p class="p">With conref push, you can insert (or replace) content before or after an element with an
+			ID.</p>
+		<p class="p">For example, you set up reference topics that always have an
+				<code class="keyword markupname xmlelement">&lt;example&gt;</code> section with an <code class="keyword markupname xmlatt">@id</code> that equals
+					<kbd class="ph userinput">example_<var class="keyword varname">commandname</var></kbd>.</p>
+		<p class="p">In a specific output, you can insert an extra section that's required for an OEM version
+			of the application.</p>
+	</div>
+        
+ <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+  <h1 class="title topictitle1" id="ariaid-title9">Extensible</h1>
         
   <div class="body">
 	<ul class="ul">
@@ -86,54 +165,7 @@
   </div>
         
  <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-  <h1 class="title topictitle1" id="ariaid-title5">Modifying blocks</h1>
-        
-  <div class="body">
-	<ul class="ul">
-		<li class="li">
-			<p class="p">&lt;titlealts&gt;</p>
-			<p class="p">You can change the title of your topic via the ditamap, have one title in the topic, and a different in the table of contents, and a still different one in search results.</p>
-			<p class="p">For example, shorter title in the TOC, but make sure you include the product name in search results</p>
-		</li>
-        
-	</ul>
-        
-  </div>
-        
- <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-  <h1 class="title topictitle1" id="ariaid-title6">More modifying blocks</h1>
-        
-  <div class="body">
-	<ul class="ul">
-		<li class="li">
-			<p class="p">With keys, you can easily change references in the same content based on ditamap</p>
-			<p class="p">Super useful for product names, especially for different components with a shared installation guide</p>
-			<p class="p">For image references, can have high res for PDF and lower res for web</p>
-		</li>
-        
-	</ul>
-        
-  </div>
-        
- <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-  <h1 class="title topictitle1" id="ariaid-title7">Still more modifying blocks</h1>
-        
-  <div class="body">
-	<ul class="ul">
-			<li class="li">
-				<p class="p">With conref push, you can insert information into topics</p>
-			</li>
-        
-			<li class="li">
-				<p class="p">With ditaval, you can filter your output and have conditional text</p>
-			</li>
-        
-		</ul>
-        
-  </div>
-        
- <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-  <h1 class="title topictitle1" id="ariaid-title8">Open standard</h1>
+  <h1 class="title topictitle1" id="ariaid-title10">Open standard</h1>
         
   <div class="body">
 	<ul class="ul">
@@ -157,7 +189,7 @@
   </div>
         
  <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-  <h1 class="title topictitle1" id="ariaid-title9">Why DITA?</h1>
+  <h1 class="title topictitle1" id="ariaid-title11">Why DITA?</h1>
         
   <div class="body">
 	<p class="p">Small topics are building blocks to reuse</p>
@@ -165,10 +197,11 @@
 	<p class="p">Open source standard that can "easily" be used elsewhere</p>
 	<p class="p">Extensible</p>
 		<p class="p">Really, really powerful</p>
+		<p class="p">If you have someone who can work with open source tools, "cheap" to implement</p>
   </div>
         
  <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-  <h1 class="title topictitle1" id="ariaid-title10">Why Not</h1>
+  <h1 class="title topictitle1" id="ariaid-title12">Why Not</h1>
         
   <div class="body">
 	<ul class="ul">
@@ -183,12 +216,14 @@
 					longer sharable.</p>
 		</li>
         
+			<li class="li">Some of the easy to use DITA publishing tools are expensive</li>
+        
 	</ul>
         
   </div>
         
  <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-  <h1 class="title topictitle1" id="ariaid-title11">Word to the wise</h1>
+  <h1 class="title topictitle1" id="ariaid-title13">Word to the wise</h1>
         
   <div class="body">
 		<p class="p">Just becaused you can doesn't mean you should</p>
@@ -198,7 +233,7 @@
   </div>
         
  <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section><section>
-    <h1 class="title topictitle1" id="ariaid-title12">DITA basics</h1>
+    <h1 class="title topictitle1" id="ariaid-title14">DITA basics</h1>
         
     
     <div class="body conbody"><p class="shortdesc">XML file format</p>
@@ -214,7 +249,7 @@
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h2 class="title topictitle2" id="ariaid-title13">DITA files</h2>
+    <h2 class="title topictitle2" id="ariaid-title15">DITA files</h2>
         
     
     <div class="body conbody"><p class="shortdesc">All content must be valid.</p>
@@ -225,7 +260,7 @@
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h2 class="title topictitle2" id="ariaid-title14">DITA Standard</h2>
+    <h2 class="title topictitle2" id="ariaid-title16">DITA Standard</h2>
         
     
     <div class="body conbody"><p class="shortdesc">Based on Structured Authoring.</p>
@@ -243,7 +278,7 @@
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section><section>
-    <h1 class="title topictitle1" id="ariaid-title15">Topics</h1>
+    <h1 class="title topictitle1" id="ariaid-title17">Topics</h1>
         
     
     <div class="body conbody"><p class="shortdesc">In general, one file equals one topic.</p>
@@ -252,7 +287,7 @@
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h2 class="title topictitle2" id="ariaid-title16">Concept</h2>
+    <h2 class="title topictitle2" id="ariaid-title18">Concept</h2>
         
     
     <div class="body conbody"><p class="shortdesc">About a thing.</p>
@@ -262,7 +297,7 @@
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h2 class="title topictitle2" id="ariaid-title17">Task</h2>
+    <h2 class="title topictitle2" id="ariaid-title19">Task</h2>
         
     
     <div class="body conbody"><p class="shortdesc">Procedure to do the thing.</p>
@@ -272,7 +307,7 @@
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h2 class="title topictitle2" id="ariaid-title18">Reference</h2>
+    <h2 class="title topictitle2" id="ariaid-title20">Reference</h2>
         
     
     <div class="body conbody"><p class="shortdesc">Stuff you want to look up about a thing.</p>
@@ -293,7 +328,7 @@
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h2 class="title topictitle2" id="ariaid-title19">Troubleshooting</h2>
+    <h2 class="title topictitle2" id="ariaid-title21">Troubleshooting</h2>
         
     
     <div class="body conbody"><p class="shortdesc">A specialization for trying to fix things yourself</p>
@@ -314,7 +349,7 @@
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title20">Semantic tagging</h1>
+    <h1 class="title topictitle1" id="ariaid-title22">Semantic tagging</h1>
         
     
     <div class="body conbody"><p class="shortdesc">Instead of applying styles, take information about what it is.</p>
@@ -327,8 +362,8 @@
                 <code class="keyword markupname xmlelement">&lt;parmname&gt;</code>, <code class="keyword markupname xmlelement">&lt;codeph&gt;</code>, etc.</p>
     </div>
         
-<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title21">Conrefs and Keys</h1>
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section><section>
+    <h1 class="title topictitle1" id="ariaid-title23">Conrefs and Keys</h1>
         
     
     <div class="body conbody"><p class="shortdesc">The next phase of reuse.</p>
@@ -343,16 +378,84 @@
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title22">Week 11 Homework</h1>
+    <h2 class="title topictitle2" id="ariaid-title24">Example conref</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Source item</p>
+        
+        <pre class="pre codeblock"><code>&lt;p id="reuseme"&gt;This text is reused&lt;/p&gt;</code></pre>
+        <p class="p">To reuse this paragraph somewhere:</p>
+        <pre class="pre codeblock"><code><span class="ph fas fa-check-circle green"></span> &lt;p conref="path/to/topic.dita#topic_id/reuseme"/&gt;</code></pre>
+        <p class="p">Most DITA editors have tools to help you insert the conref.</p>
+        <p class="p">Remember, you have to use the same element. The following does not work:</p>
+        <pre class="pre codeblock"><code><span class="ph fas fa-times-circle red"></span> &lt;note conref="path/to/topic.dita#topic_id/reuseme"/&gt;</code></pre>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title25">Conkeyref</h2>
+        
+    
+    <div class="body conbody small"><p class="shortdesc tofit">Conrefs are fantastic...except you are constantly inserting the
+        path to a DITA topic.</p>
+        
+        <p class="p">If you have a shared topic used by everyone with your legal warnings or product names,
+            you may have hundreds or thousands of references to the file containing the conrefs.</p>
+        <p class="p">If you need to rename or move that file, you now have to update hundreds or thousands of
+            references.</p>
+        <p class="p">Instead, use a <dfn class="term">conkeyref</dfn>. </p>
+        <p class="p">Same as a conref, except you define the path to the file as a key in your map.</p>
+        <pre class="pre codeblock"><code>&lt;p conkeyref="keyaname/id"/&gt;</code></pre>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title26">Conrefs and conditions</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc">You can use conditions and keys in content you reference.</p>
+        
+        <p class="p">One conref, many products</p>
+        <pre class="pre codeblock"><code>&lt;ph id="productName"&gt;&lt;ph product="prodA"&gt;Product Alpha&lt;/ph&gt;
+&lt;ph product="prodB"&gt;Product Bravo&lt;/ph&gt;
+&lt;ph product="prodC"&gt;Product Charlie&lt;/ph&gt;&lt;/ph&gt;</code></pre>
+        <p class="p">Then, whenever I want to insert the product name in a topic used in all three products,
+            all I insert is</p>
+        <pre class="pre codeblock"><code>&lt;ph conkeyref="conreffile/productName"/&gt;</code></pre>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title27">Example key phrase</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Keys are defined in maps.</p>
+        
+        <p class="p">To define a string in a map file:</p>
+        <pre class="pre codeblock small"><code>&lt;keydef keys="key_name"&gt;
+    &lt;topicmeta&gt;
+        &lt;keywords&gt;
+            &lt;keyword&gt;Words from a key&lt;/keyword&gt;
+        &lt;/keywords&gt;
+    &lt;/topicmeta&gt;
+&lt;/keydef&gt;</code></pre>
+        <p class="p">Then, in any topic in that map, all you need to insert is</p>
+        <pre class="pre codeblock"><code>&lt;ph keyref="key_name"/&gt;
+or
+&lt;keyword keyref="key_name"/&gt;</code></pre>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title28">Week 11 Homework</h1>
         
     
     <div class="body conbody"><p class="shortdesc">Document a thing using DITA</p>
         
+        <p class="p">I created ditamaps for you, and folders for your files.</p>
+        <p class="p">When you push your files to GitHub, it should automatically build a PDF in
+                <span class="ph filepath">mcchandout</span>.</p>
         <p class="p">See the DITA.pdf for details.</p>
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
-  <h1 class="title topictitle1" id="ariaid-title23">Resources</h1>
+  <h1 class="title topictitle1" id="ariaid-title29">Resources</h1>
         
   <div class="body">
 	<ul class="ul">

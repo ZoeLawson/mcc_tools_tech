@@ -2,7 +2,7 @@ name: DITA to PDF
 'on':
   push:
     branches:
-      - dita_test
+      - Winter2022
     paths:
       - 'Week11-DITA/Homework/StephenBrown.ditamap'
       - 'Week11-DITA/Homework/Stephen/**'
@@ -20,13 +20,8 @@ jobs:
           input: Week11-DITA/Homework/StephenBrown.ditamap
           transtype: mcchandout
           output-path: .
-      - name: Upload transform output
-        uses: actions/upload-artifact@v2.3.1
-        with:
-          name: StephenHomework
-          path: 'Week11-DITA/Homework/Stephen/out'
       - name: Deploy Output to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.8
         with:
-          BRANCH: dita_test
+          BRANCH: Winter2022
           folder: .

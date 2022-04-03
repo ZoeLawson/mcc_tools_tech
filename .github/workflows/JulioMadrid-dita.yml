@@ -1,0 +1,32 @@
+name: DITA to PDF
+'on':
+  push:
+    branches:
+      - dita_test
+    paths:
+      - 'Week11-DITA/Homework/JulioMadrid.ditamap'
+      - 'Week11-DITA/Homework/Julio/**'
+jobs:
+  transform:
+    name: Transform a DITAMAP to a PDF
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+      - name: Build PDF
+        uses: dita-ot/dita-ot-action@master
+        with:
+          install: dita install https://github.com/ZoeLawson/DITAStuff/raw/mcc/plugins/mcchandout.zip
+          input: Week11-DITA/Homework/JulioMadrid.ditamap
+          transtype: mcchandout
+          output-path: .
+      - name: Upload transform output
+        uses: actions/upload-artifact@v2.3.1
+        with:
+          name: JulioHomework
+          path: 'Week11-DITA/Homework/Julio/out'
+      - name: Deploy Output to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.8
+        with:
+          BRANCH: dita_test
+          folder: .

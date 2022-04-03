@@ -4,7 +4,6 @@
     <title>Topic</title>
     <shortdesc>This is a sample topic.</shortdesc>
     <conbody>
-        <p>Making a change. And again.</p>
-        <p>Making another change</p>
+        <p>This is the <xmlelement>conbody</xmlelement>.</p>
     </conbody>
 </concept>

@@ -16,7 +16,7 @@ jobs:
       - name: Build PDF
         uses: dita-ot/dita-ot-action@master
         with:
-          install: dita install https://github.com/JulioMadrid/DITAStuff/raw/mcc/plugins/mcchandout.zip
+          install: dita install https://github.com/ZoeLawson/DITAStuff/raw/mcc/plugins/mcchandout.zip
           input: Week11-DITA/Homework/JulioMadrid.ditamap
           transtype: mcchandout
           output-path: .

@@ -20,11 +20,6 @@ jobs:
           input: Week11-DITA/Homework/MichaelYakavonis.ditamap
           transtype: mcchandout
           output-path: .
-      - name: Upload transform output
-        uses: actions/upload-artifact@v2.3.1
-        with:
-          name: MichaelHomework
-          path: 'Week11-DITA/Homework/Michael/out'
       - name: Deploy Output to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.8
         with:

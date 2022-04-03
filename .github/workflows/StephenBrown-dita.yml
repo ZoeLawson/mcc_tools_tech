@@ -4,8 +4,8 @@ name: DITA to PDF
     branches:
       - dita_test
     paths:
-      - 'Week11-DITA/Homework/ZoeLawson.ditamap'
-      - 'Week11-DITA/Homework/Zoe/**'
+      - 'Week11-DITA/Homework/StephenBrown.ditamap'
+      - 'Week11-DITA/Homework/Stephen/**'
 jobs:
   transform:
     name: Transform a DITAMAP to a PDF
@@ -16,15 +16,15 @@ jobs:
       - name: Build PDF
         uses: dita-ot/dita-ot-action@master
         with:
-          install: dita install https://github.com/ZoeLawson/DITAStuff/raw/mcc/plugins/mcchandout.zip
-          input: Week11-DITA/Homework/ZoeLawson.ditamap
+          install: dita install https://github.com/StephenBrown/DITAStuff/raw/mcc/plugins/mcchandout.zip
+          input: Week11-DITA/Homework/StephenBrown.ditamap
           transtype: mcchandout
           output-path: .
       - name: Upload transform output
         uses: actions/upload-artifact@v2.3.1
         with:
-          name: ZoeHomework
-          path: 'Week11-DITA/Homework/Zoe/out'
+          name: StephenHomework
+          path: 'Week11-DITA/Homework/Stephen/out'
       - name: Deploy Output to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.8
         with:

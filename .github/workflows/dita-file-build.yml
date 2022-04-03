@@ -4,8 +4,8 @@ name: DITA to PDF
     branches:
       - dita_test
     paths:
-      - 'Week11-DITA/Homework/ZoeLawson.ditamap'
-      - 'Week11-DITA/Homework/Zoe/**'
+      - 'Week11-DITA/Homework/*.ditamap'
+      - 'Week11-DITA/Homework/**'
 jobs:
   transform:
     name: Transform a DITAMAP to a PDF

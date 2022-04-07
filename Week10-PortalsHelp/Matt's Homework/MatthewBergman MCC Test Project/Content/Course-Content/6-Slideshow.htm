@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Slideshow</h1>
+        <p class="note"><span class="Emphasis">Note: </span>Since slides aren't supported in PDF output, we just created snippets with the content and used regular text. Then we applied conditions to the different areas.</p>
+        <p>Here are some famous people from Austin.</p>
+        <MadCap:slideshow MadCap:InfiniteLoop="True" MadCap:AutoDirection="next" MadCap:Pause="4000" MadCap:Mode="horizontal" MadCap:Speed="500" MadCap:SlideWidth="700px" MadCap:conditions="Default.OnlineOnly">
+            <MadCap:slide>
+                <MadCap:snippetBlock src="../Resources/Snippets/Famous-People/Drew-Brees.flsnp" />
+            </MadCap:slide>
+            <MadCap:slide>
+                <MadCap:snippetBlock src="../Resources/Snippets/Famous-People/Sandra-Bullock.flsnp" />
+                <p>&#160;</p>
+            </MadCap:slide>
+            <MadCap:slide>
+                <MadCap:snippetBlock src="../Resources/Snippets/Famous-People/Walter-Cronkite.flsnp" />
+            </MadCap:slide>
+            <MadCap:slide>
+                <MadCap:snippetBlock src="../Resources/Snippets/Famous-People/Farrah-Fawcett.flsnp" />
+            </MadCap:slide>
+        </MadCap:slideshow>
+        <MadCap:snippetBlock src="../Resources/Snippets/Famous-People/Drew-Brees.flsnp" MadCap:conditions="Default.PrintOnly" />
+        <MadCap:snippetBlock src="../Resources/Snippets/Famous-People/Sandra-Bullock.flsnp" MadCap:conditions="Default.PrintOnly" />
+        <MadCap:snippetBlock src="../Resources/Snippets/Famous-People/Walter-Cronkite.flsnp" MadCap:conditions="Default.PrintOnly" />
+        <MadCap:snippetBlock src="../Resources/Snippets/Famous-People/Farrah-Fawcett.flsnp" MadCap:conditions="Default.PrintOnly" />
+    </body>
+</html>

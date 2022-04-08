@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="4"
+  SkinType="Component"
+  Comment="eLearning Toolbar skin"
+  ComponentType="ELearningToolbar"
+  EnableResponsiveOutput="True">
+</CatapultSkin>

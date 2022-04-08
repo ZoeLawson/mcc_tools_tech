@@ -1,0 +1,3 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultProject Version="1" MasterStylesheet="/Content/Resources/Stylesheets/Styles.css" MasterStylesheetOverride="True" xml:lang="en-us" Comment="This template is designed to be used for an online eLearning course, as well as to produce PDF teacher and student versions. It provides examples of some of the kinds of content you can create, as well as interactive questions and answers in knowledge checks and tests. You can generate zip packages and upload them to an external learning management system, to track test scores and course completion." MasterToc="/Project/TOCs/Online-TOC.fltoc">
+</CatapultProject>

@@ -9,5 +9,8 @@
                 Manager</wintitle> displays your map file in a hierarchical way. You can easily add
             new topics, reorganize your topics, and open topics to edit them from the <wintitle>DITA
                 Maps Manager</wintitle>.</p>
+        <p>Please remember that maps can do a whole lot more (relationship tables, key definitions,
+            etc.), but for 90% of your DITA career, it's the file you use to control the structure
+            of your topics.</p>
     </conbody>
 </concept>

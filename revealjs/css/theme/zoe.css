@@ -349,3 +349,16 @@ br {
 .uicontrol {
     font-weight: bold;
 }
+
+.filepath {
+    font-family: monospace;
+}
+
+.red {
+    color: #a23;
+}
+
+.green {
+    color: green;
+}
+}

@@ -7,10 +7,20 @@
         <p>Download a trial of Oxygen Author: <xref
                 href="https://www.oxygenxml.com/xml_author/download_oxygenxml_author.html"
                 format="html" scope="external"/></p>
-        <p>Create a ditamap.</p>
-        <p>Add at least 3 topics to the ditamap. Write one task topic, one concept topic, and one
-            reference topic.</p>
-        <p>Include some semantic tagging.</p>
-        <p>Include a conref or a keyref.</p>
+        <p> I created a ditamap for each of you in the <filepath>Week11-DITA/Homework</filepath>
+            folder. I also created a folder for each of you in the <filepath>Homework</filepath>
+            folder for your topics. </p>
+        <p>Minimally:</p>
+        <p> Using your ditamap, create at least three new topics.</p>
+        <ul>
+            <li>A concept</li>
+            <li>A task</li>
+            <li>A reference</li>
+        </ul>
+        <p>Use some semantic tagging as you author your content.</p>
+        <p>If you can, document a thing using DITA in your ditamap. </p>
+        <p>Assuming all automation works correctly, when you commit and push your changes to GitHub,
+            a GitHub action starts to generate a PDF.</p>
+        <p>The resulting PDF should appear in <filepath>mcchandout</filepath>.</p>
     </conbody>
 </concept>

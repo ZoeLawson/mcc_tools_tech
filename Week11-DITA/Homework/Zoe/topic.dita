@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="topic">
+    <title>Topic</title>
+    <shortdesc>This is a sample topic.</shortdesc>
+    <conbody>
+        <p>This is the <xmlelement>conbody</xmlelement>.</p>
+    </conbody>
+</concept>

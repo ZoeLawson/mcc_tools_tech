@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="topic">
+    <title>My First Concept</title>
+    <shortdesc>This is a sample concept topic. This is the short description.</shortdesc>
+    <conbody>
+        <p>A first paragraph in a concept.</p>
+        <ul>
+            <li>First item in an unordered list.</li>
+            <li>Second item<p>With a nested paragraph.</p></li>
+            <li>A third line item.</li>
+        </ul>
+        <p>Concepts are intended for descriptive content. You can put whatever you want inside of a
+                <xmlelement>conbody</xmlelement>, but in general, you should stick to conceptual
+            information. All the background about how a thing works.</p>
+        <p>If you want to describe how to do a thing, use a task topic. If you want to describe
+            details about the values allowed in a dialog box, use a reference topic.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas, felis et
+            facilisis auctor, dui est tempor leo, posuere luctus libero mi a libero. Praesent
+            posuere, dolor sed tempor volutpat, justo sapien viverra ante, ullamcorper interdum odio
+            tellus posuere tellus. Nulla in faucibus nulla. </p>
+    </conbody>
+</concept>

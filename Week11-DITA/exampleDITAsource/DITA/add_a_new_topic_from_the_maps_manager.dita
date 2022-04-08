@@ -52,7 +52,10 @@
             <step conref="create_a_map_in_oxygen.dita#create_a_map_in_oxygen/title"><cmd/></step>
             <step>
                 <cmd conref="create_a_map_in_oxygen.dita#create_a_map_in_oxygen/filename"/>
-                <info>The file name is auto-generated based on the title for the topic.</info>
+                <info><p>Double-check your path. There is a folder for you in the
+                            <filepath>Week11-DITA/Homework</filepath> folder. Make sure you are
+                        saving your files in your folder.</p>The file name is auto-generated based
+                    on the title for the topic.</info>
                 <stepxmp>For example, the title <userinput>My first concept</userinput> becomes
                         <filepath>my_first_concept.dita</filepath>.</stepxmp>
             </step>

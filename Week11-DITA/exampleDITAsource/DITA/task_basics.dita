@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="task_basics">
+    <title>Task basics</title>
+    <shortdesc>A task topic contains all the information on how to do a thing.</shortdesc>
+    <conbody>
+        <p>Task topics are the most specialized of the basic DITA topic types. They take a bit to
+            get used to, but are pretty powerful.</p>
+        <p>A task topic must contain the following:</p>
+        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"&gt;
+&lt;task id="All_topics_must_have_an_id">
+    &lt;title>Topic title&lt;/title>
+    &lt;shortdesc>The short description of the topic&lt;/shortdesc>
+    &lt;taskbody>
+        &lt;prereq>Optional section&lt;/prereq>
+        &lt;context>Optional section&lt;/context>
+        &lt;steps>Optional section&lt;/steps>
+        &lt;result>Optional section&lt;/result>
+        &lt;tasktroubleshooting>Optional section&lt;/tasktroubleshooting>
+        &lt;example>Optional section&lt;/example>
+        &lt;postreq>Optional section&lt;/postreq>
+    &lt;/taskbody>
+&lt;/task></codeblock>
+        <dl>
+            <dlentry>
+                <dt><xmlelement>task</xmlelement></dt>
+                <dd>The root element for the task topic.</dd>
+            </dlentry>
+            <dlentry>
+                <dt><xmlelement>title</xmlelement></dt>
+                <dd>All topics must have a title. Unless you provide
+                        <xmlelement>titlealts</xmlelement> (alternative titles for search results or
+                    navigation), the content of this element shows up wherever you link to this
+                    topic. The <xmlelement>title</xmlelement> appears in the topic as the heading,
+                    in the table of contents, and as the generated text in links to this topic.</dd>
+            </dlentry>
+            <dlentry>
+                <dt><xmlelement>shortdesc</xmlelement></dt>
+                <dd>While not required, the short description  really, really should be. See <xref
+                        href="about_short_descriptions.dita"/>.</dd>
+            </dlentry>
+            <dlentry>
+                <dt><xmlelement>taskbody</xmlelement></dt>
+                <dd>Container for the content, or body, of the topic. The
+                        <xmlelement>taskbody</xmlelement> is restricted and you can only add one of
+                    the following:<ul>
+                        <li><xmlelement>prereq</xmlelement> — Prerequisites. This block can contain
+                            any basic authoring elements. The intention of this section is to list
+                            items you need or things you have to do before doing this
+                            procedure.</li>
+                        <li><xmlelement>context</xmlelement> — A brief context about the procedure.
+                            What are you doing and why. Basically, a mini-concept in your task. This
+                            block can contain nay basic authoring elements.</li>
+                        <li><xmlelement>steps</xmlelement> — The heart of the procedure. These are
+                            the steps to do the thing. There are actually three types of steps: <ul>
+                                <li><xmlelement>steps</xmlelement> — an ordered list of actions. Can
+                                    only contain <xmlelement>step</xmlelement> elements. Super fancy
+                                        <xmlelement>ol</xmlelement>. See <xref
+                                        href="#task_basics/step"/>.</li>
+                                <li><xmlelement>steps-unordered</xmlelement> — an unordered list of
+                                    actions. <xmlelement>step</xmlelement> elements. Super fancy
+                                        <xmlelement>ul</xmlelement> See <xref
+                                        href="#task_basics/step"/>. I use this a lot when I have a
+                                    single-step procedure, or when describing 3 ways to do a thing,
+                                    such as how you can select <menucascade>
+                                        <uicontrol>Edit</uicontrol>
+                                        <uicontrol>Copy</uicontrol>
+                                    </menucascade>, right-click and select
+                                        <uicontrol>Copy</uicontrol> from the context menu, or press
+                                        <uicontrol outputclass="keyboard">CTRL+C</uicontrol>.</li>
+                                <li><xmlelement>steps-informal</xmlelement> — a blob of text where
+                                    you can use any of the basic authoring elements.</li>
+                            </ul>
+                        </li>
+                        <li><xmlelement>results</xmlelement> — A container for the results of the
+                            procedure as a whole. This block can contain any basic authoring
+                            elements.</li>
+                        <li><xmlelement>tasktroubleshooting</xmlelement> — A container for common
+                            issues and other troubleshooting information for the procedure as a
+                            whole. This block can contain any basic authoring elements.</li>
+                        <li><xmlelement>example</xmlelement> — A container for an example. This
+                            block can contain any basic authoring elements.</li>
+                        <li><xmlelement>postreq</xmlelement> — A container for what to do next. This
+                            block can contain any basic authoring elements.</li>
+                    </ul></dd>
+            </dlentry>
+        </dl>
+        <p>Many processors provide default headings for each of the task sections that you can use
+            if you wish. </p>
+        <section id="step">
+            <title>The <xmlelement>step</xmlelement></title>
+            <p>This is probably the most restrictive element out there. It can be a pain to learn,
+                because there are a lot of restrictions. However, once you get a hang of it, it's
+                useful.</p>
+            <codeblock>&lt;step>
+    &lt;cmd>The action, or command, to perform.&lt;/cmd>
+    &lt;info>Information about the step&lt;/info>
+    &lt;choices>
+        &lt;choice>List of options to choose from&lt;/choice>
+        &lt;choice>Option 2&lt;/choice>
+        &lt;choice>There's also a &lt;choicetable> if you prefer a table&lt;/choice>
+    &lt;/choices>
+    &lt;stepxmp>A step example&lt;/stepxmp>
+    &lt;stepresult>The step result&lt;/stepresult>
+    &lt;steptroubleshooting>Troubleshooting info for this step&lt;/steptroubleshooting>
+&lt;/step>
+&lt;step>
+    &lt;cmd>Do step two.&lt;/cmd>
+    &lt;info>Which has additional steps.&lt;/info>
+    &lt;substeps>
+         &lt;substep>&lt;cmd>You can have only one level of substeps&lt;/substep>
+         &lt;substep>&lt;cmd>substeps work like steps with the same options&lt;/substep>
+    &lt;/substeps>
+&lt;/step>
+</codeblock>
+            <dl>
+                <dlentry>
+                    <dt><xmlelement>step</xmlelement></dt>
+                    <dd>A container for an entire step. It's related to a
+                            <xmlelement>li</xmlelement>. There are a limited number of elements you
+                        can use here, and they have to be in a specific order.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><xmlelement>cmd</xmlelement></dt>
+                    <dd>A required element for the <xmlelement>step</xmlelement>. This command
+                        contains the action of the step, such as <q>Click
+                            <uicontrol>OK</uicontrol>.</q> You can use most of the inline elements
+                        in this block.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><xmlelement>info</xmlelement></dt>
+                    <dd>A container for information about the step. You can use most of the basic
+                        authoring elements, but not new sections.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><xmlelement>choices</xmlelement></dt>
+                    <dd>A list of options or things you can choose from. This is a specialization of
+                            <xmlelement>ul</xmlelement>. <xmlelement>choices</xmlelement> contain
+                            <xmlelement>choice</xmlelement> elements. Generally rendered as an
+                        unordered list.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><xmlelement>choicetable</xmlelement></dt>
+                    <dd>A specialized table for a list of options. </dd>
+                </dlentry>
+                <dlentry>
+                    <dt><xmlelement>stepxmp</xmlelement></dt>
+                    <dd>A step example. If you start writing <q>For example, enter your
+                                <userinput>username</userinput>,</q> you probably want to be using a
+                            <xmlelement>stepxmp</xmlelement>.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><xmlelement>stepresult</xmlelement></dt>
+                    <dd>The result of the specific step. Your <q>The widget dialog box opens.</q>
+                        goes here.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><xmlelement>step​troubleshooting</xmlelement></dt>
+                    <dd>Short troubleshooting you might want to add for the particular step. <q>If
+                            the row is in edit mode, this operation fails. Click outside of the cell
+                            to exit edit mode and select the row again.</q> could go into a
+                            <xmlelement>steptroubleshooting</xmlelement>.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><xmlelement>substeps</xmlelement></dt>
+                    <dd>Currently, DITA only allows for one set of substeps. The theory was that
+                        generally, nested substeps gets gnarly and you want to re-write anyway. A
+                            <xmlelement>step</xmlelement> can contain one set of
+                            <xmlelement>substeps</xmlelement>. <xmlelement>substeps</xmlelement>
+                        contains <xmlelement>substep</xmlelement> elements that work just like
+                            <xmlelement>step</xmlelement> elements, except you can't add additional
+                            <xmlelement>substeps</xmlelement>.</dd>
+                </dlentry>
+            </dl>
+        </section>
+    </conbody>
+</concept>

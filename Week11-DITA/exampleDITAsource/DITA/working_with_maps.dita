@@ -12,6 +12,9 @@
                     <p>A map style ditamap is just a table of contents. You can add a title, but not
                         much else. You can create a hierarchy of topics.</p>
                     <p>Used with non-PDF content, such as HTML output, or to reuse.</p>
+                    <p>Maps are also used for all the non-TOC things you can do with ditamaps,
+                        including key definitions, relationship-tables, constraints, etc., but those
+                        are advanced topics.</p>
                 </dd>
             </dlentry>
             <dlentry>
@@ -20,11 +23,9 @@
                     <p>Intended for use with books. Bookmaps contain a lot of metadata to create all
                         the front and back matter of a book, such as titles, sub-titles, publisher
                         information, copyright information. You can also add specific references for
-                        chapters, appendicies, table of contents, index, and so on.</p>
+                        chapters, appendices, table of contents, index, and so on.</p>
                 </dd>
             </dlentry>
         </dl>
-        <p>There are other styles of maps, but 95% of the time you only work with bookmaps and
-            maps.</p>
     </conbody>
 </concept>

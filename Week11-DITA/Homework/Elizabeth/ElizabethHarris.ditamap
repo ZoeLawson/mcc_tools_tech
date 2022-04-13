@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Elizabeth Harris</mainbooktitle>
+        <booktitlealt>Week 11</booktitlealt>
+    </booktitle>
+    <bookmeta>
+        <author>Elizabeth Harris</author>
+        <prodinfo>
+            <prodname>Tools and Technologies for Tech Writers 2022</prodname>
+            <vrmlist>
+                <vrm version="1" release="0" modification="0"/>
+            </vrmlist>
+        </prodinfo>
+        <bookrights>
+            <copyrfirst>
+                <year>2022</year>
+            </copyrfirst>
+            <bookowner>
+                <person>Elizabeth Harris</person>
+                <organization>MIDDLESEX Community College</organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter>
+        <notices href="common/notices_dita.dita" toc="no"/>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter href="Elizabeth/topic.dita"/>
+</bookmap>

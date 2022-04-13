@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+  <ConditionTag
+    Comment=""
+    Name="OnlineOnly"
+    BackgroundColor="Blue"
+    OriginalName="OnlineOnly" />
+  <ConditionTag
+    Comment=""
+    Name="PrintOnly"
+    BackgroundColor="Red" />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="Test"
+    Comment=""
+    OriginalName="Test" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="KnowledgeCheck"
+    Comment=""
+    OriginalName="KnowledgeCheck" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="KnowledgeCheckOnly"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00bfff"
+    Name="CombinationCourseOnly"
+    Comment=""
+    OriginalName="CombinationCourseOnly" />
+  <ConditionTag
+    BackgroundColor="#ff1493"
+    Name="TestOnly"
+    Comment=""
+    OriginalName="TestOnly" />
+</CatapultConditionTagSet>

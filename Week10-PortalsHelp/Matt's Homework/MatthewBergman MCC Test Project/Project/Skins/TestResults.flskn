@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="3"
+  SkinType="Component"
+  Comment="HTML5 Test Results skin"
+  ComponentType="TestResults"
+  EnableResponsiveOutput="True"
+  ShowPassFail="true"
+  ShowScore="true"
+  ShowQuestions="true"
+  ShowUserAnswers="true"
+  ShowCorrectAnswers="true"
+  ShowQuestionFeedback="true"
+  ScoreType="PercentageCorrect">
+</CatapultSkin>

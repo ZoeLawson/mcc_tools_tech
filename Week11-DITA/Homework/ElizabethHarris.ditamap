@@ -29,5 +29,9 @@
             <toc/>
         </booklists>
     </frontmatter>
-    <chapter href="Elizabeth/topic.dita"/>
+    <chapter href="Elizabeth/topic.dita">
+        <topicref href="Elizabeth/topics/Virtual%20Terminal.dita"/>
+        <topicref href="Elizabeth/tasks/Credit%20Card%20Present.dita"/>
+        <topicref href="Elizabeth/tasks/Credit%20Card%20Not%20Present.dita"/>
+    </chapter>
 </bookmap>

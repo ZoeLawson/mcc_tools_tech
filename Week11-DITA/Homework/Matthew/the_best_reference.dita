@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="the_best_reference">
+    <title> Reference Topics</title>
+    <shortdesc>More information about grass!</shortdesc>
+    <refbody>
+        <table frame="all" rowsep="1" colsep="1" id="table_aw5_czh_ftb">
+            <title>Edible Grass</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Edible</entry>
+                        <entry>Not Edible</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Golf Course (Fairway)</entry>
+                        <entry>Golf Course (Green)</entry>
+                    </row>
+                    <row>
+                        <entry>Lawn</entry>
+                        <entry>Plastic</entry>
+                    </row>
+                    <row>
+                        <entry>Forest</entry>
+                        <entry>Detroit</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

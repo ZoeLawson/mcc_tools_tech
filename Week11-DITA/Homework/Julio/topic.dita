@@ -2,18 +2,21 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="topic">
     <title>My First Concept</title>
-    <shortdesc>This is a sample concept topic. This is the short description.</shortdesc>
+    <shortdesc>The Laser D project involves extracting millions of corporate document files from
+        thousands of discs within certain time constraints.</shortdesc>
     <conbody>
-        <p>A first paragraph in a concept.</p>
+        <p>Here are some things about the Laser D project:</p>
         <ul>
-            <li>First item in an unordered list.</li>
-            <li>Second item<p>With a nested paragraph.</p></li>
-            <li>A third line item.</li>
+            <li>The primary goal of the Laser D project is to extract and index corporate document
+                files from your library’s Laser D collection within 9-12 months. </li>
+            <li> These files must be transferred from compact discs (CDs) and saved
+                electronically.</li>
+            <li>The Laser D collection contains U.S and international public company reports from
+                filing public companies. <p>MBA students need these reports for their academic
+                    research, but these documents are in danger of erasure due to the obsolescence
+                    of their media and software</p></li>
         </ul>
-        <p>Concepts are intended for descriptive content. You can put whatever you want inside of a
-                <xmlelement>conbody</xmlelement>, but in general, you should stick to conceptual
-            information. All the background about how a thing works.</p>
-        <p>If you want to describe how to do a thing, use a task topic. If you want to describe
-            details about the values allowed in a dialog box, use a reference topic.</p>
+        <p>Upon completion of this project, graduate students will have access to the entire
+            collection of reports</p>
     </conbody>
 </concept>

@@ -4,6 +4,10 @@
     <title>Topic</title>
     <shortdesc>This is a sample topic.</shortdesc>
     <conbody>
+<<<<<<< HEAD
         <p>This is the <xmlelement>conbody</xmlelement>.</p>
+=======
+        <p>Making a change. And again.</p>
+>>>>>>> upstream/Winter2022_output
     </conbody>
 </concept>

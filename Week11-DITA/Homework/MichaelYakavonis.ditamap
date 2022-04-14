@@ -29,5 +29,9 @@
             <toc/>
         </booklists>
     </frontmatter>
-    <chapter href="Michael/topic.dita"/>
+    <chapter href="Michael/topic.dita">
+        <topicref href="Michael/capturing_an_image_in_snagit.dita"/>
+        <topicref href="Michael/manipulating_an_image.dita"/>
+        <topicref href="Michael/what_is_an_agile_scrum_environment.dita"/>
+    </chapter>
 </bookmap>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="the_best_task">
+    <title>Touching grass</title>
+    <shortdesc>Here, you will learn how to touch grass.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Touching grass is the most important way to tell if your lawn is full of healthy
+                grass. It's also a great way to get some fresh air.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Step onto your grassy lawn.</cmd>
+            </step>
+            <step>
+                <cmd>Kneel down.</cmd>
+            </step>
+            <step>
+                <cmd>Plant your hands firmly down onto the grass.</cmd>
+            </step>
+            <step>
+                <cmd>Feel for any abnoralities with the grass. Is it hot? Cold? Wet? Dry?</cmd>
+            </step>
+            <step>
+                <cmd>Stand back up. You have now just touched grass!</cmd>
+            </step>
+            <stepsection>
+                <p>
+                    <note id="note_tzw_pxh_ftb">If you want to tell someone online that they should
+                        go outside in a mean way, tell them to touch grass. Don't tell friends and
+                        family to do this. </note>
+                </p>
+            </stepsection>
+        </steps>
+    </taskbody>
+</task>

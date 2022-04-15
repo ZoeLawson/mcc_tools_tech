@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="a_task">
+    <title>A task</title>
+    <shortdesc>Another shortdesc</shortdesc>
+    <taskbody>
+        <prereq>
+            <p>Make sure you perform these tasks first:</p>
+            <ul>
+                <li>Do this</li>
+                <li>and this</li>
+                <li>and another thing</li>
+            </ul>
+        </prereq>
+        <context>
+            <p/>
+        </context>
+        <steps>
+            <step>
+                <cmd>Do the thing by clicking <uicontrol>button</uicontrol>.</cmd>
+                <info>Information about the step.</info>
+                <choices>
+                    <choice>option 1</choice>
+                    <choice>option 2</choice>
+                </choices>
+                <choicetable frame="all" relcolwidth="1* 1*">
+                    <chhead>
+                        <choptionhd>option</choptionhd>
+                        <chdeschd>description</chdeschd>
+                    </chhead>
+                    <chrow>
+                        <choption>option 1</choption>
+                        <chdesc>short explantaion. with link to more. <xref
+                                href="../../exampleDITAsource/DITA/insert_a_link_to_another_topic.dita"
+                            /></chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption/>
+                        <chdesc/>
+                    </chrow>
+                    <chrow>
+                        <choption/>
+                        <chdesc/>
+                    </chrow>
+                </choicetable>
+                <stepxmp>insert an example.</stepxmp>
+                <stepresult>The <wintitle>sprocket</wintitle> dialog box opens.</stepresult>
+                <steptroubleshooting>If it doesn't, click the other thing.</steptroubleshooting>
+            </step>
+            <step>
+                <cmd>Step 2.</cmd>
+            </step>
+        </steps>
+        <result>Here is what happens.</result>
+        <postreq>Do the next thing.</postreq>
+    </taskbody>
+</task>

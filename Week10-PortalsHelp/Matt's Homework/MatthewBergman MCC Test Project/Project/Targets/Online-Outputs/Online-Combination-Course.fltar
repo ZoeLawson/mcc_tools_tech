@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Online course with both knowledge check and test"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterPage="/Content/Resources/TemplatePages/Course-Topics.flmsp"
+  ConditionTagExpression="include[Default.CombinationCourseOnly or Default.KnowledgeCheck or Default.OnlineOnly or Default.Test], exclude[Default.KnowledgeCheckOnly or Default.PrintOnly or Default.TestOnly]"
+  ShowMadCapBacklink="true"
+  MasterToc="/Project/TOCs/Online-TOC.fltoc"
+  ELearningToolbarSkin="../../Skins/eLearning.flskn"
+  LmsStandard="SCORM_2004"
+  CourseTrackingType="Use Test Result"
+  Skin="(none)"
+  LmsCourseTrackingType="TestResult">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+</CatapultTarget>

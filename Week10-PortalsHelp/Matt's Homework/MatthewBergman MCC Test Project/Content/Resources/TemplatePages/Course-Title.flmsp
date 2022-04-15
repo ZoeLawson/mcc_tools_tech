@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../Snippets/Page-Header.flsnp" />
+        <div class="topic-hero" MadCap:conditions="Default.OnlineOnly">
+            <h1>Austin, Texas eLearning Course</h1>
+        </div>
+        <div class="Body-Content">
+            <MadCap:bodyProxy />
+        </div>
+    </body>
+</html>

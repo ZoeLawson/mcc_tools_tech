@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="what_is_an_agile_scrum_environment" audience="novice">
+    <title>What is an Agile (Scrum) environment?</title>
+    <shortdesc>Offers a quick tutorial on Agile/Scrum methodology</shortdesc>
+    <refbody>
+        <section id="section_dqc_bv5_2tb" audience="novice">
+            <p> A type of software organization structured around continuous enhancement projects
+                completed in pre-scheduled cycles, known as <i>sprints</i>.<filepath>For more Agile
+                    resources, go here </filepath></p>
+            <dl id="dl_vhh_4v5_2tb">
+                <dlentry>
+                    <dt>Kanban</dt>
+                    <dd>A popular framework used to show transparency of active projects within an
+                        Agile environment</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Acceptance Criteria</dt>
+                    <dd>Put simply, a complete list of scenarios that must appear in order for the
+                        (business) User to approve a dev. ticket</dd>
+                </dlentry>
+            </dl>
+            <p>As you might have guessed, a Company's software is never a finished product. It is
+                constantly undergoing fixes, enhancements, and testing. One purpose of Agile
+                methodology is to <u>seamlessly and efficiently</u> inplement these improvements.
+                Agile is appealing because it is consistent and process driven. It is a well-oiled
+                machine.</p>
+            <fig id="fig_ns4_lz5_2tb">
+                <title>A well-oiled machine</title>
+                <image placement="break" href="../../../../../Picture2.jpg" align="center"
+                    id="image_os4_lz5_2tb">
+                    <alt>Image of people holding up cogs in a coordinated fashion</alt>
+                </image>
+            </fig>
+            <p><b><term>Scrum</term></b> is a popular type of Agile methodology. <keyword>See Scrum
+                    Master</keyword> The typical Scrum process centers around the following four
+                steps:</p>
+            <ol id="ol_cgx_zkc_ftb">
+                <li>Sprint Planning</li>
+                <li>Daily Scrum</li>
+                <li>Sprint Review</li>
+                <li>Sprint retrospective</li>
+            </ol>
+        </section>
+    </refbody>
+</reference>

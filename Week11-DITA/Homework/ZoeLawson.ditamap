@@ -29,5 +29,8 @@
             <toc/>
         </booklists>
     </frontmatter>
-    <chapter href="Zoe/topic.dita"/>
+    <chapter href="Zoe/topic.dita">
+        <topicref href="Zoe/my_first_reference.dita"/>
+        <topicref href="Zoe/task.dita"/>
+    </chapter>
 </bookmap>

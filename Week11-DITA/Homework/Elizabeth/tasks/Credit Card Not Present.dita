@@ -4,7 +4,9 @@
     <title>Credit Card Not Present</title>
     <shortdesc>The credit card is not physically present during the transaction.</shortdesc>
     <taskbody>
-        <context/>
+        <context>
+            <p></p>
+        </context>
         <steps>
             <step>
                 <cmd>You can use this option to process a credit card when the card is not

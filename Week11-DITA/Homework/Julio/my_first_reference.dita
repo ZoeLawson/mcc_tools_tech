@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="my_first_reference">
+    <title>My First Reference</title>
+    <shortdesc>Laser D and SAS Macros are essential products in the Laser D project.</shortdesc>
+    <refbody>
+        <section id="section_kkk_kx1_ftb">
+            <p>Here are basic details about Laser D and SAS Macros:</p>
+            <dl id="dl_zzb_wx1_ftb">
+                <dlentry>
+                    <dt>Laser D</dt>
+                    <dd>Laser D is a computer-based storage that provides access to corporate
+                        documents filed with the SEC.<p>You can find more on Laser D in
+                                <filepath>C:\Users\J.Madrid\Downloads\LaserD</filepath>.</p><p><uicontrol>Field
+                                name</uicontrol><wintitle>Dialogue box
+                                names</wintitle><userinput>Enter this</userinput><varname>For
+                                variables</varname></p></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>SAS Macros</dt>
+                    <dd>
+                        <p>SAS Macros avoids repetitive sections of code and allows them to be
+                            resuesed again when needed.</p>
+                    </dd>
+                    <dd>
+                        <p>SAS Macros does the "dirty" work of automating the extraction of millions
+                            of corporate document files.</p>
+                    </dd>
+                </dlentry>
+            </dl>
+            <draft-comment author="J. Madrid">Documenting in DITA is fun.</draft-comment>
+        </section>
+    </refbody>
+</reference>

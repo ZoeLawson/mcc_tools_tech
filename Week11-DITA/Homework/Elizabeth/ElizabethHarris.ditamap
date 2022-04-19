@@ -2,7 +2,7 @@
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 <bookmap>
     <booktitle>
-        <mainbooktitle>Elizabeth Harris</mainbooktitle>
+        <mainbooktitle>USE THIS ONE Elizabeth Harris</mainbooktitle>
         <booktitlealt>Week 11</booktitlealt>
     </booktitle>
     <bookmeta>
@@ -29,11 +29,5 @@
             <toc/>
         </booklists>
     </frontmatter>
-    <chapter href="Elizabeth/topic.dita">
-        <topicref href="Elizabeth/topics/BBMS.dita"/>
-        <topicref href="Elizabeth/topics/Virtual%20Terminal.dita"/>
-        <topicref href="Elizabeth/tasks/Credit%20Card%20Present.dita"/>
-        <topicref href="Elizabeth/tasks/Credit%20Card%20Not%20Present.dita"/>
-        <topicref href="Elizabeth/tasks/Glossary.dita"/>
-    </chapter>
+    <chapter href="Elizabeth/topic.dita"/>
 </bookmap>

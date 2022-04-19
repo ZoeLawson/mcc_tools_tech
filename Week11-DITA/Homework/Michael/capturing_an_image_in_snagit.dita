@@ -28,5 +28,9 @@
                     is located within the illuminated portion of the screen</cmd>
             </step>
         </steps>
+        <result id="result_zwh_rvs_gtb">A dotted crosshairs spans the screen</result>
     </taskbody>
 </task>
+<!--May be useful to include a brief video here
+
+-->

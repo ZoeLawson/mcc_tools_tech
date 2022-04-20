@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="lights">
+    <title>Lights</title>
+    <shortdesc></shortdesc>
+    <taskbody>
+        <context>
+            <p>All of the lights should be turned on and checked for burnt out bulbs. Check the low and high beam headlights, the passing lights, and taillight. 
+                 </p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Pull the hand brake lever to make sure that the brake lights illuminate when the brakes are engaged.</cmd>
+            </step>
+            <step>
+                <cmd>Depress the rear-brake foot pedal and check the rear brake light function.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

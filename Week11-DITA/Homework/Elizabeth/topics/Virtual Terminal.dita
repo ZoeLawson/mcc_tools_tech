@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ui">
+  <title>Virtual Terminal</title>
+  <shortdesc>While at remote events, you can use the virtual terminal to authorize and process
+    transactions directly through your <b><i>Blackbaud Merchant Services </i></b>account. </shortdesc>
+  <body>
+    <p>There are two transaction types<ul id="ul_qqf_551_ftb">
+        <li>card-present</li>
+        <li>card-not-present.</li>
+      </ul></p>
+  </body>
+</topic>

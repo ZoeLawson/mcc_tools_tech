@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="capturing_an_image_in_snagit">
+    <title>Capturing an image in SnagIt</title>
+    <shortdesc>The following teaches SnagIt newbies best practices for using the image capture
+        software</shortdesc>
+    <taskbody>
+        <context audience="expert">Assuming you're familiar with the basics, skip to "Manipulating
+            an Image" section<p>When SnagIt first launches, a command menu displays on your screen.
+                From here, you can configure several pre-capture filters and other settings, or
+                advance directly to the Editing module</p></context>
+        <steps>
+            <step>
+                <cmd>To immediately enter screen capturing mode, click the Red 'Capture'
+                    button</cmd>
+                <info>
+                    <fig id="fig_i1b_vc4_2tb">
+                        <title>SnagIt Main Screen</title>
+                        <image placement="break" href="../../../../../Picture1.jpg" align="center"
+                            id="image_j1b_vc4_2tb">
+                            <alt>Image of dialog box when SnagIt first launches</alt>
+                        </image>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>To select the area you wish to include in the capture, hover until all content
+                    is located within the illuminated portion of the screen</cmd>
+            </step>
+        </steps>
+        <result id="result_zwh_rvs_gtb">A dotted crosshairs spans the screen</result>
+    </taskbody>
+</task>
+<!--May be useful to include a brief video here
+
+-->

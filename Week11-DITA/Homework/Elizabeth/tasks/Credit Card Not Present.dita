@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_fcw_1x1_ftb">
+    <title>Credit Card Not Present</title>
+    <shortdesc>The credit card is not physically present during the transaction.</shortdesc>
+    <taskbody>
+        <context/>
+        <steps>
+            <step>
+                <cmd>You can use this option to process a credit card when the card is not
+                    physically available.</cmd>
+            </step>
+            <step>
+                <cmd>In these instances the credit card information is mailed or provided over the
+                    phone.</cmd>
+                <stepresult>
+                    <p>The virtual terminal does not automatically provide acknowledgment or report
+                        information to your Blackbaud programs. You will need to export this
+                        information from the web portal.</p>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

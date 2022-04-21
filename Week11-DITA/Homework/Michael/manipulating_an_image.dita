@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="manipulating_an_image">
+    <title>Manipulating an Image</title>
+    <body>
+        <p>SnagIt features various image formatting and annotation options. Below are selected
+            examples to familiarize yourself with major features. For thorough descriptions of all
+            features, reference <xref
+                href="https://www.techsmith.com/screen-capture.html?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=46168211&amp;utm_content=21497707811&amp;utm_term=techsmith&amp;gclid=CjwKCAjw6dmSBhBkEiwA_W-EoDmmdg3g-ecfWCf5MBVimqBLzyitZlS34jcCs07pl0wRffzNZR1dDRoCwvMQAvD_BwE"
+                format="html" scope="external">TechSmith's</xref> available documentation and video
+            tutorials</p>
+        <simpletable frame="all" relcolwidth="1* 1*" id="simpletable_ayz_pnc_ftb">
+            <sthead>
+                <stentry>Effect name</stentry>
+                <stentry>What's it do?</stentry>
+            </sthead>
+            <strow>
+                <stentry>Arrow</stentry>
+                <stentry>Points out a specific feature or area within the image</stentry>
+            </strow>
+            <strow>
+                <stentry>Callout</stentry>
+                <stentry>Emphasizes a certain element within the content</stentry>
+            </strow>
+            <strow>
+                <stentry>Text</stentry>
+                <stentry>Details the action to be taken, or in the case of a software bug,
+                    identifies what is supposed to occur</stentry>
+            </strow>
+            <strow>
+                <stentry>Shape</stentry>
+                <stentry>Highlights an object referenced in the body of yoursupport ticket</stentry>
+            </strow>
+            <strow>
+                <stentry>Cut Out</stentry>
+                <stentry>Removes an irrelevant portion of the image, or joins together disconnected
+                    content</stentry>
+            </strow>
+            <strow>
+                <stentry>Eraser</stentry>
+                <stentry>Remove portions of the graphic entirely, or reverse an edit you already
+                    made</stentry>
+            </strow>
+        </simpletable>
+        <p><b>Optimizing SnagIt for the Support Associate role at XYZ Company</b></p>
+        <p>Although the development team writes the database scripts behind the scenes that keep our
+            software running, they will not always be as expert as you from the UI perspective. So,
+            while your ticket may seem obvious, do not look past some of the ways SnagIt can
+            minimize misinterpretation and drive home a point. Let's explore specific features from
+            the preceding list you will access often in your role, and describe the scenarios where
+            they will be most useful</p>
+        <ul id="ul_jsv_spc_ftb">
+            <li><b>Cut Out</b> - Cut Out will prove especially helpful when Clients request an
+                enhancement to the UI. With Cut Out, you can assist developers in visualizing how
+                they should best approach the ticket and demonstrate how the end result should
+                appear</li>
+            <li><b>Text</b> - Text is one of SnagIt's more versatile effects. If a Client reports a
+                software bug, development will need to understand exactly which area is
+                malfunctioning, and sometimes objects (such as an arrow) cannot fully depict the
+                error. Text is also handy in telling a User's story. In other words, describing the
+                sequence of events behind the User's ultimate goal</li>
+            <li>
+                <p/>
+            </li>
+        </ul>
+    </body>
+</topic>

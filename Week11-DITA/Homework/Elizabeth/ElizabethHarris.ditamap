@@ -2,11 +2,11 @@
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 <bookmap>
     <booktitle>
-        <mainbooktitle>Michael Yakavonis</mainbooktitle>
+        <mainbooktitle>USE THIS ONE Elizabeth Harris</mainbooktitle>
         <booktitlealt>Week 11</booktitlealt>
     </booktitle>
     <bookmeta>
-        <author>Michael Yakavonis</author>
+        <author>Elizabeth Harris</author>
         <prodinfo>
             <prodname>Tools and Technologies for Tech Writers 2022</prodname>
             <vrmlist>
@@ -18,7 +18,7 @@
                 <year>2022</year>
             </copyrfirst>
             <bookowner>
-                <person>Michael Yakavonis</person>
+                <person>Elizabeth Harris</person>
                 <organization>MIDDLESEX Community College</organization>
             </bookowner>
         </bookrights>
@@ -29,9 +29,5 @@
             <toc/>
         </booklists>
     </frontmatter>
-    <chapter href="Michael/topic.dita">
-        <topicref href="Michael/capturing_an_image_in_snagit.dita"/>
-        <topicref href="Michael/manipulating_an_image.dita"/>
-        <topicref href="Michael/what_is_an_agile_scrum_environment.dita"/>
-    </chapter>
+    <chapter href="Elizabeth/topic.dita"/>
 </bookmap>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_yts_sv1_ftb">
+    <title>Credit Card Present</title>
+    <shortdesc>The credit card is physically present during the transaction.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Use a Universal Serial Bus (USB) or unencrypted magnetic stripe reader (MSR) to
+                    swipe the credit card.</cmd>
+            </step>
+            <step>
+                <cmd>When you swipe the credit card, most of the fields will automatically
+                    populate.</cmd>
+            </step>
+            <step>
+                <cmd>You may need to add some missing information manually.</cmd>
+            </step>
+            <step>
+                <cmd>The credit card owner must electronically sign to authorize the
+                    transaction.</cmd>
+                <stepresult>
+                    <p>Once the transaction is complete, acknowledgement and reporting information
+                        will be automatically generated. </p>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

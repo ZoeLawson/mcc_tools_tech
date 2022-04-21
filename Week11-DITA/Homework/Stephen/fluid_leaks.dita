@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="fluid_leaks">
+    <title>Fluid Leaks</title>
+    <shortdesc></shortdesc>
+    <taskbody>
+        <context>
+            <p>With the engine running, check for any fluid leaks. 
+               Pay attention to the front forks and make sure no fluid is leaking onto the tire, the brake pads or the brakes. Check for gasoline leaks or oil leaks as the engine idles. Any leaking fluid can cause brake loss, slippery conditions, and chance of fire. </p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Mount the motorcycle with the kickstand down. With both hands on the handlegrips, press down on the front suspension forks.</cmd>
+            </step>
+        </steps>
+        <result>Demount the motorcycle and check the front forks for fluid leaks.</result>
+        <tasktroubleshooting>Start the motorcycle. Turn the key to on and press the ignition button. Check the ground for gas or oil leaks.</tasktroubleshooting>
+        </taskbody>
+</task>

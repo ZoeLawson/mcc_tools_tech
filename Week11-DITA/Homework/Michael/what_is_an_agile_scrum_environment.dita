@@ -7,7 +7,8 @@
         <section id="section_dqc_bv5_2tb" audience="novice">
             <p> A type of software organization structured around continuous enhancement projects
                 completed in pre-scheduled cycles, known as <i>sprints</i>.<filepath>For more Agile
-                    resources, go here </filepath></p>
+                    resources, go here </filepath><draft-comment author="mjyak">Will Jessie's Wiki
+                    be ready to link here by product launch?</draft-comment></p>
             <dl id="dl_vhh_4v5_2tb">
                 <dlentry>
                     <dt>Kanban</dt>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="kickstand_check">
+    <title>Kickstand</title>
+    <shortdesc></shortdesc>
+    <taskbody>
+        <context>
+            <p>The kickstand is crucial for any motorcycle. An often overlooked safety feature, the kickstand holds the bike upright for dismounting and also for safely parking the motorcycle. A loose or faulty kickstand can collapse when the motorcycle is parked causing damage when the motorcycle tips over. A faulty spring mechanism can cause the kickstand to retract during riding and potentially cause an accident if the kickstand catches the ground or an obstacle. Both of these situations can cause a range of problems from scratches to bodily harm.
+                Make sure the kickstand footpad is not loose.
+                
+                Check that the spring mechanism is working properly. When the kickstand is retracted up to the frame, it should hold the kickstand tightly against the frame. If there is any motion downward or the spring is loose or fatigued, resolve the issue.
+                
+                Check all Kickstand bolts for corrosion and motion. The bolts should be tight.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>With the motorcyle upright, lower the kickstand and retract the kickstand. Observe the spring mechanism function.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

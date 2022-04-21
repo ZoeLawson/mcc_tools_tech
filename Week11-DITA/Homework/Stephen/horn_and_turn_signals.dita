@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="horn_and_turn_signals">
+    <title>Horn and turn signals</title>
+    <shortdesc>Safety check for horn</shortdesc>
+    <taskbody>
+        <context>
+            <p>The horn is an essential safety device that alerts other drivers to your presence. Motorcycles are often not seen by other drivers, the horn can be used to avoid potential accidents. Make sure the horn is functioning normally and the button is responsive.
+               Turn signals provide information to drivers about your intentions. They let the other driver know you are about to turn. They are also used for the hazard lights. Check that both the right and left turn signals work independently, and both illuminate when the hazard lights are engaged. </p>
+        </context>
+        <steps>
+            <step>
+                <cmd>The turn signals are on the left side grip handle. Toggle the button left and right and check the lights for illumination.</cmd>
+            </step>
+            <step>
+                <cmd>Press the horn button. It is usually located on the left handgrip.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

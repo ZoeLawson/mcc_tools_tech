@@ -10,7 +10,10 @@
         </context>
         <steps>
             <step>
-                <cmd>Mount the motorcycle with the kickstand down. With both hands on the handlegrips, press down on the front suspension forks.</cmd>
+                <cmd>Mount the motorcycle with the kickstand down.</cmd>
+            </step>    
+            <step>
+                <cmd>With both hands on the handlegrips, press down on the front suspension forks.</cmd>
             </step>
         </steps>
         <result>Demount the motorcycle and check the front forks for fluid leaks.</result>

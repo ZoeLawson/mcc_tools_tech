@@ -29,7 +29,9 @@
             <toc/>
         </booklists>
     </frontmatter>
-    <chapter href="Stephen/motorcycle_pre_ride_safety_check.dita"/>
+    <chapter href="Stephen/topic.dita">
+        <topicref href="Stephen/motorcycle_pre_ride_safety_check.dita"/>
+    </chapter>
     <chapter href="Stephen/horn_and_turn_signals.dita"/>
     <chapter href="Stephen/kickstand_check.dita"/>
     <chapter href="Stephen/lights.dita"/>

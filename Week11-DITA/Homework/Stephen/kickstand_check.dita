@@ -14,9 +14,7 @@
         </context>
         <steps>
             <step>
-                <cmd>With the motorcyle upright, lower and retract the kickstand.</cmd>
-            </step>
-            <step><cmd>Observe the spring mechanism function.</cmd>
+                <cmd>With the motorcyle upright, lower the kickstand and retract the kickstand. Observe the spring mechanism function.</cmd>
             </step>
         </steps>
     </taskbody>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="CompanyName"
+    EvaluatedDefinition="My Company Name, LLC">My Company Name, LLC</Variable>
+  <Variable
+    Comment=""
+    Name="PhoneNumber">858 123 4567</Variable>
+  <Variable
+    Name="Email"
+    Comment=""
+    EvaluatedDefinition="info@yourcompany.com">info@yourcompany.com</Variable>
+  <Variable
+    Name="StreetAddress"
+    Comment=""
+    EvaluatedDefinition="1234 Lorem Ipsum Ave.">1234 Lorem Ipsum Ave.</Variable>
+  <Variable
+    Name="CityStateZip"
+    Comment=""
+    EvaluatedDefinition="La Jolla, CA 92037">La Jolla, CA 92037</Variable>
+</CatapultVariableSet>

@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="3"
+  SkinType="WebHelp2"
+  Comment="HTML5 Default Tripane skin"
+  Anchors="Width,Height"
+  Width="800"
+  Height="600"
+  Top="0"
+  Left="0"
+  Bottom="0"
+  Right="0"
+  Tabs="TOC"
+  DefaultTab="TOC"
+  UseBrowserDefaultSize="True"
+  UseDefaultBrowserSetup="True"
+  EnableResponsiveOutput="True"
+  AutoSyncTOC="true"
+  RemoveImagesOnSave="true">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Main Page">
+        <Properties>
+          <Property
+            Name="BackgroundImage">none</Property>
+          <Property
+            Name="BackgroundColor">#076685</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Logo">
+        <Properties>
+          <Property
+            Name="BackgroundImage">url('Logo.png')</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Header">
+        <Properties>
+          <Property
+            Name="Height">100px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Bar">
+        <Properties>
+          <Property
+            Name="BorderTopLeftRadius">0px</Property>
+          <Property
+            Name="BorderTopRightRadius">0px</Property>
+          <Property
+            Name="BorderBottomRightRadius">0px</Property>
+          <Property
+            Name="BorderBottomLeftRadius">0px</Property>
+          <Property
+            Name="BorderTop">solid 0px #303335</Property>
+          <Property
+            Name="BorderRight">solid 0px #303335</Property>
+          <Property
+            Name="BorderBottom">solid 0px #303335</Property>
+          <Property
+            Name="BorderLeft">solid 0px #303335</Property>
+          <Property
+            Name="BoxShadowColor">#b9bec1</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Input">
+        <Properties>
+          <Property
+            Name="BackgroundGradient">vertical #ffffff #ffffff</Property>
+          <Property
+            Name="BackgroundColor">#45494c</Property>
+          <Property
+            Name="Color">#45494c</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Submit Button">
+        <Properties>
+          <Property
+            Name="BackgroundGradient">vertical #ffffff #ffffff</Property>
+          <Property
+            Name="BackgroundImage">url('icon-searchGray-17x17.png')</Property>
+          <Property
+            Name="BorderLeft">solid 0px #303335</Property>
+          <Property
+            Name="BackgroundColor">#45494c</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Filter">
+        <Properties>
+          <Property
+            Name="Color">#303335</Property>
+          <Property
+            Name="BackgroundGradient">vertical #ffffff #ffffff</Property>
+          <Property
+            Name="BorderLeft">solid 0px #d0d3d5</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Navigation Panel">
+        <Properties>
+          <Property
+            Name="BorderTop">solid 0px #d0d3d5</Property>
+          <Property
+            Name="BorderRight">solid 0px #d0d3d5</Property>
+          <Property
+            Name="BorderLeft">solid 0px #d0d3d5</Property>
+          <Property
+            Name="BackgroundColor">#cde0e7</Property>
+        </Properties>
+        <Classes>
+          <StyleClass
+            Name="TOC">
+            <Properties>
+              <Property
+                Name="TopicIcon">url('icon-page-gray-17x17.png')</Property>
+              <Property
+                Name="OpenBookIcon">url('book_17x17.png')</Property>
+              <Property
+                Name="ClosedBookIcon">url('book_17x17.png')</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="Index">
+            <Properties>
+              <Property
+                Name="ExpandedEntryIcon">url('arrowTurn.png')</Property>
+              <Property
+                Name="CollapsedEntryIcon">url('arrow.png')</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Style
+        Name="Navigation Panel Item">
+        <Properties>
+          <Property
+            Name="Color">#45494c</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Navigation Panel Item (selected)">
+        <Properties>
+          <Property
+            Name="BackgroundColor">transparent</Property>
+          <Property
+            Name="FontWeight">bold</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Navigation Panel Item (hover)">
+        <Properties>
+          <Property
+            Name="BackgroundColor">transparent</Property>
+          <Property
+            Name="FontWeight">bold</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Navigation Tab (active)">
+        <Properties>
+          <Property
+            Name="BorderTopLeftRadius">0px</Property>
+          <Property
+            Name="BorderTopRightRadius">0px</Property>
+          <Property
+            Name="BorderRight">solid 0px #45494c</Property>
+          <Property
+            Name="BackgroundColor">#cde0e7</Property>
+          <Property
+            Name="BackgroundGradient">vertical #cde0e7 #cde0e7</Property>
+          <Property
+            Name="Color">#45494c</Property>
+        </Properties>
+        <Classes>
+          <StyleClass
+            Name="TOC">
+            <Properties>
+              <Property
+                Name="NavigationTabIcon">url('icon-contents-gray-17x17.png')</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="Index">
+            <Properties>
+              <Property
+                Name="NavigationTabIcon">url('list_17x17.png')</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="Glossary">
+            <Properties>
+              <Property
+                Name="NavigationTabIcon">url('glossary_17x17.png')</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="Browse Sequences">
+            <Properties>
+              <Property
+                Name="NavigationTabIcon">url('serachList_17x17.png')</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Style
+        Name="Navigation Tab (inactive)">
+        <Properties>
+          <Property
+            Name="BorderTopLeftRadius">0px</Property>
+          <Property
+            Name="BorderTopRightRadius">0px</Property>
+          <Property
+            Name="Color">#d0d3d5</Property>
+          <Property
+            Name="BackgroundColor">#076685</Property>
+          <Property
+            Name="BackgroundGradient">vertical transparent transparent</Property>
+          <Property
+            Name="BorderTop">solid 0px transparent</Property>
+          <Property
+            Name="BorderRight">solid 0px #45494c</Property>
+        </Properties>
+        <Classes>
+          <StyleClass
+            Name="TOC">
+            <Properties>
+              <Property
+                Name="NavigationTabIcon">url('icon-contents-17x17.png')</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="Glossary">
+            <Properties>
+              <Property
+                Name="NavigationTabIcon">url('icon-glossary-17x17.png')</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="Index">
+            <Properties>
+              <Property
+                Name="NavigationTabIcon">url('icon-index-17x17.png')</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="Browse Sequences">
+            <Properties>
+              <Property
+                Name="NavigationTabIcon">url('icon-browseSequence-17x17.png')</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="Community">
+            <Properties />
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Style
+        Name="Topic Container">
+        <Properties>
+          <Property
+            Name="BackgroundColor">#076685</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="ToolbarItem">
+        <Properties>
+          <Property
+            Name="BorderTopRightRadius">0px</Property>
+          <Property
+            Name="BorderBottomRightRadius">0px</Property>
+          <Property
+            Name="BorderBottomLeftRadius">0px</Property>
+          <Property
+            Name="BackgroundGradient">vertical transparent transparent</Property>
+          <Property
+            Name="BoxShadowVShadow">0px</Property>
+          <Property
+            Name="BorderTopLeftRadius">0px</Property>
+          <Property
+            Name="Height">30px</Property>
+          <Property
+            Name="Width">35px</Property>
+          <Property
+            Name="BorderTop">solid 0px #d0d3d5</Property>
+          <Property
+            Name="BorderRight">solid 0px #d0d3d5</Property>
+          <Property
+            Name="BorderBottom">solid 0px #d0d3d5</Property>
+          <Property
+            Name="BorderLeft">solid 0px #d0d3d5</Property>
+          <Property
+            Name="BackgroundColor">#d0d3d5</Property>
+        </Properties>
+        <Classes>
+          <StyleClass
+            Name="PreviousTopic">
+            <Properties>
+              <Property
+                Name="BoxShadowVShadow">0px</Property>
+              <Property
+                Name="BackgroundImage">url('icon-arrowLeft-30x30-white.png')</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="RemoveHighlight">
+            <Properties>
+              <Property
+                Name="BackgroundImage">url('icon-clear-30x30-white.png')</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="ExpandAll">
+            <Properties>
+              <Property
+                Name="BackgroundImage">url('icon-listExpand-30x30-white.png')</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="CollapseAll">
+            <Properties>
+              <Property
+                Name="BackgroundImage">url('icon-list-30x30.png')</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="Print">
+            <Properties>
+              <Property
+                Name="BackgroundImage">url('icon-print-30x30-white.png')</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="NextTopic">
+            <Properties>
+              <Property
+                Name="BackgroundImage">url('icon-arrowRight-30x30-white.png')</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="CurrentTopicIndex">
+            <Properties>
+              <Property
+                Name="Color">#45494c</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Style
+        Name="Navigation Panel Hide Arrow">
+        <Properties>
+          <Property
+            Name="Color">#ffffff</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Toolbar Button Separator">
+        <Properties>
+          <Property
+            Name="Height">30px</Property>
+          <Property
+            Name="Color">#45494c</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Navigation Tab">
+        <Classes>
+          <StyleClass
+            Name="Glossary">
+            <Properties></Properties>
+          </StyleClass>
+          <StyleClass
+            Name="TOC">
+            <Properties></Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Medium
+        Name="Tablet">
+        <Style
+          Name="Navigation Slide Out Button">
+          <Properties>
+            <Property
+              Name="BackgroundImage">url('HamburgerIcon-white.png')</Property>
+          </Properties>
+        </Style>
+        <Style
+          Name="Header">
+          <Properties>
+            <Property
+              Name="Height">70px</Property>
+          </Properties>
+        </Style>
+        <Style
+          Name="Navigation Tab (active)">
+          <Classes>
+            <StyleClass
+              Name="TOC">
+              <Properties>
+                <Property
+                  Name="NavigationTabIcon">url('icon-contents-17x17.png')</Property>
+              </Properties>
+            </StyleClass>
+            <StyleClass
+              Name="Index">
+              <Properties>
+                <Property
+                  Name="NavigationTabIcon">url('icon-index-17x17.png')</Property>
+              </Properties>
+            </StyleClass>
+            <StyleClass
+              Name="Glossary">
+              <Properties>
+                <Property
+                  Name="NavigationTabIcon">url('icon-glossary-17x17.png')</Property>
+              </Properties>
+            </StyleClass>
+            <StyleClass
+              Name="Browse Sequences">
+              <Properties>
+                <Property
+                  Name="NavigationTabIcon">url('icon-browseSequence-17x17.png')</Property>
+              </Properties>
+            </StyleClass>
+            <StyleClass
+              Name="Search Filters">
+              <Properties>
+                <Property
+                  Name="NavigationTabIcon">url('icon-filter-17x17.png')</Property>
+              </Properties>
+            </StyleClass>
+          </Classes>
+          <Properties>
+            <Property
+              Name="BorderTop">solid 1px #45494c</Property>
+            <Property
+              Name="BorderRight">solid 0px #45494c</Property>
+            <Property
+              Name="BorderBottom">solid 1px #45494c</Property>
+            <Property
+              Name="BorderLeft">solid 0px #45494c</Property>
+          </Properties>
+        </Style>
+        <Style
+          Name="Navigation Tab (inactive)">
+          <Classes>
+            <StyleClass
+              Name="TOC">
+              <Properties>
+                <Property
+                  Name="NavigationTabIcon">url('icon-contents-17x17.png')</Property>
+              </Properties>
+            </StyleClass>
+            <StyleClass
+              Name="Index">
+              <Properties>
+                <Property
+                  Name="NavigationTabIcon">url('icon-index-17x17.png')</Property>
+              </Properties>
+            </StyleClass>
+            <StyleClass
+              Name="Glossary">
+              <Properties>
+                <Property
+                  Name="NavigationTabIcon">url('icon-glossary-17x17.png')</Property>
+              </Properties>
+            </StyleClass>
+            <StyleClass
+              Name="Browse Sequences">
+              <Properties>
+                <Property
+                  Name="NavigationTabIcon">url('icon-browseSequence-17x17.png')</Property>
+              </Properties>
+            </StyleClass>
+            <StyleClass
+              Name="Search Filters">
+              <Properties>
+                <Property
+                  Name="NavigationTabIcon">url('icon-filter-17x17.png')</Property>
+              </Properties>
+            </StyleClass>
+          </Classes>
+          <Properties></Properties>
+        </Style>
+        <Style
+          Name="Navigation Panel Item (selected)">
+          <Properties>
+            <Property
+              Name="BackgroundColor">#076685</Property>
+            <Property
+              Name="Color">#ffffff</Property>
+          </Properties>
+        </Style>
+        <Style
+          Name="Home Button">
+          <Properties>
+            <Property
+              Name="NavigationTabIcon">url('icon-home-17x17.png')</Property>
+            <Property
+              Name="BackgroundGradient">vertical #303335 #303335</Property>
+            <Property
+              Name="Color">#d0d3d5</Property>
+          </Properties>
+        </Style>
+        <Style
+          Name="Search Input">
+          <Properties>
+            <Property
+              Name="BackgroundGradient">vertical #ffffff #ffffff</Property>
+            <Property
+              Name="BackgroundImage">url('icon-searchGray-17x17.png')</Property>
+            <Property
+              Name="BorderTop">solid 2px #45494c</Property>
+            <Property
+              Name="BorderRight">solid 2px #45494c</Property>
+            <Property
+              Name="BorderBottom">solid 2px #45494c</Property>
+            <Property
+              Name="BorderLeft">solid 2px #45494c</Property>
+            <Property
+              Name="BackgroundColor">#45494c</Property>
+          </Properties>
+        </Style>
+        <Style
+          Name="Navigation Panel">
+          <Classes>
+            <StyleClass
+              Name="TOC">
+              <Properties>
+                <Property
+                  Name="TopicIcon">url('icon-page-17x17.png')</Property>
+                <Property
+                  Name="ClosedBookIcon">url('icon-book-17x17.png')</Property>
+                <Property
+                  Name="OpenBookIcon">url('icon-openbook-17x17.png')</Property>
+              </Properties>
+            </StyleClass>
+          </Classes>
+        </Style>
+      </Medium>
+      <Style
+        Name="Search Filter Drop-down">
+        <Properties>
+          <Property
+            Name="BackgroundColor">#ffffff</Property>
+          <Property
+            Name="Color">#000000</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Filter Drop-down (hover)">
+        <Properties>
+          <Property
+            Name="BackgroundColor">transparent</Property>
+          <Property
+            Name="Color">#f3f4f4</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Navigation Link">
+        <Properties>
+          <Property
+            Name="Color">#076685</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Toolbar Button Drop-down">
+        <Properties>
+          <Property
+            Name="Color">#45494c</Property>
+        </Properties>
+        <Classes>
+          <StyleClass
+            Name="SelectLanguageDropDownItemHover">
+            <Properties>
+              <Property
+                Name="Color">#000000</Property>
+              <Property
+                Name="BackgroundColor">#d0d3d5</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="SelectSkinDropDownItemHover">
+            <Properties>
+              <Property
+                Name="Color">#000000</Property>
+              <Property
+                Name="BackgroundColor">#d0d3d5</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Style
+        Name="Search Heading">
+        <Properties>
+          <Property
+            Name="Color">#303335</Property>
+          <Property
+            Name="BorderBottom">solid 1px #d0d3d5</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link">
+        <Properties>
+          <Property
+            Name="Color">#076685</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link (active)">
+        <Properties>
+          <Property
+            Name="Color">#076685</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link (focus)">
+        <Properties>
+          <Property
+            Name="Color">#076685</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link (hover)">
+        <Properties>
+          <Property
+            Name="Color">#076685</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link (visited)">
+        <Properties>
+          <Property
+            Name="Color">#076685</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Path">
+        <Properties>
+          <Property
+            Name="Color">#076685</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Glossary Result">
+        <Properties>
+          <Property
+            Name="BoxShadowColor">#b9bec1</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Pagination Item">
+        <Properties>
+          <Property
+            Name="BorderTop">solid 1px #f3f4f4</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Pagination Item (selected)">
+        <Properties>
+          <Property
+            Name="BorderTop">solid 1px #d0d3d5</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Pagination Item (hover)">
+        <Properties>
+          <Property
+            Name="BorderTop">solid 1px #d0d3d5</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Feedback Comment Header">
+        <Properties>
+          <Property
+            Name="Color">#076685</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Feedback Comment Item">
+        <Properties>
+          <Property
+            Name="BorderBottom">solid 2px #d0d3d5</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Feedback Comment Subject">
+        <Properties>
+          <Property
+            Name="Color">#45494c</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Feedback Comment Timestamp">
+        <Properties>
+          <Property
+            Name="Color">#45494c</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Feedback Comment Username">
+        <Properties>
+          <Property
+            Name="Color">#076685</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Feedback User Profile Body">
+        <Properties>
+          <Property
+            Name="BackgroundColor">#45494c</Property>
+          <Property
+            Name="BorderTop">solid 1px #b9bec1</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Feedback User Profile Button">
+        <Properties>
+          <Property
+            Name="BackgroundGradient">vertical #45494c #303335</Property>
+          <Property
+            Name="BackgroundColor">#45494c</Property>
+          <Property
+            Name="BorderTop">solid 1px #303335</Property>
+          <Property
+            Name="BorderRight">solid 1px #303335</Property>
+          <Property
+            Name="BorderBottom">solid 1px #303335</Property>
+          <Property
+            Name="BorderLeft">solid 1px #303335</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Feedback User Profile Header">
+        <Properties>
+          <Property
+            Name="BackgroundGradient">vertical #45494c #303335</Property>
+          <Property
+            Name="BackgroundColor">#45494c</Property>
+          <Property
+            Name="BorderBottom">solid 1px #303335</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Feedback User Profile Item Group">
+        <Properties>
+          <Property
+            Name="BackgroundColor">#45494c</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Feedback User Profile Item Label">
+        <Properties>
+          <Property
+            Name="Color">#d0d3d5</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Micro Content Response Link">
+        <Properties>
+          <Property
+            Name="Color">#076685</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Micro Content Response Link (active)">
+        <Properties>
+          <Property
+            Name="Color">#076685</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Micro Content Response Link (focus)">
+        <Properties>
+          <Property
+            Name="Color">#076685</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Micro Content Response Link (hover)">
+        <Properties>
+          <Property
+            Name="Color">#076685</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Micro Content Response Link (visited)">
+        <Properties>
+          <Property
+            Name="Color">#076685</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Micro Content Response Path">
+        <Properties>
+          <Property
+            Name="Color">#076685</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Central Account Link Image">
+        <Properties>
+          <Property
+            Name="BackgroundImage">url('Icon-User-White.png')</Property>
+        </Properties>
+      </Style>
+    </Styles>
+    <Resources>
+      <Resource
+        Name="icon-list-30x30.png">H4sIAAAAAAAEAJ1VDUwbVRw/MNsYjrkEFmAuetwcbNP7akuPO1f56CGtUMa64lgwsOPutT3ofXh30EIwA00wk0Sjg5kZ/M5UXCRZSEwjfkBGopuJMySL2XSKxmiyZNmi0y1Gie9KW7dFUfeSd++9//v9P9///7+DLc0NBfmb8hEEKfD7+CBc77Jn3mr4vZ+aeg0ua3XfPhNBbi+0Zw7ywkQJgqzaLIfarLZAEydqCiFIWhcgEoqO2GNndUIXxB5goV0gIqse7NLMRxgqSx5sb2WACuheEJV9AwbYM9AcEgd6RFbCqh9AdyY4KEABloAmlJhqcgkPlpLLwb1NJjE0BbF6PFitfYG2BVpQr2YAtJJw4yLtcqAMS9BuinW47kMdFM2QFEPSTpyiOcrNOVk0PTCozZDCXJB/MK0LnjxY1LJ0jiTj8TgRdxKaESFplmVJykE6HDhE4Ga/agkJXDW3ZCTwwBQNWbdkTUXts9Cl9VoeDMu4oOhZsaqZDhMMGJkQdJImKDIDlMQsTu81YinlkkiCGFCAapkQS2exelSzNDOq/YPo7PUNCqAlgcDKtihKFm1a9X3Wymgz1K8DMghMrdcQQX0fNHOLza5zXgMIlmaENC2WeaiWjE2o12s/TBW6ba+sSlrc3H4dD+Dh9GD2PU65cYc7RFVxFMU5aZxi4GYZGtAkOdz/t1A3V8neAIVZIwmW8K9gSeTCmqEI0GdZESKA1NUIhmYjyXm1mGZAxVCK83q63+ttMbSwHIMXZrChDvXXe90064ZKCDplQyDA+VXTElQR+HkPBimELEtclyvMMKDLgTPusAOXXC4aZ4WqMO4SBSflZERWFKoy/Lwm9tpZkOGX/if/LkOGVSjEblmOXZspST7ZhA/bn879PeDR9C4mo6mM4QTRrgQPJqaeU8LSZPmWI7DMH48CdcW8WIaZWtiKCwaojUAv/0vqkdB+8i9XyJu9JG8q8QwJ9o0UPNOw4CHb8oAK+5wBG9rrzDs1CJKzw8/XhnwHL47TjSdqSkZeHhtaf3RqYbK65r1kHi5t4N96oueNmsO/VvgqZsaWnhprOjsxwc+FF+aOjk6PLuUUv2l9Unv6iqvseVfpT3W+D68S/clP499E+N38xu7WOmW2INl0xH+i76tSalXHcONi+7qC1p+nd1z+4McDc7ndubct5iYLlzz6WPG6Enlxo978/gJzshN5ctNiZ3C4Yf7L39YPls9O5g+SzLU1iVNX3h3p7p34bGgrtb0wds/MoYvJztnjeThadLrnlUPFRdc6dj3deq+7qOPb4NYvKqlyAn31+6vTgy0VxzrnW9/uHj+zZn78WHt52/iZZ2KNP6y9XDaifr7tyPCl86eOX7i7/buvVzcX7n+x/Nn8l6aV0TueO/DLx78/cu7shccmH953fuhOvewcUvoQS/2xe/NJ+x/ir2/mp+r2P/4nCaFhxKAGAAA=</Resource>
+      <Resource
+        Name="icon-page-17x17.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0oIgzMEGJK1z3X8BqTJPF8cQi963E05zNhgIsKYfnXwtUfFbMnPZg7NhOgcX7bHX7/Qw+VhfnKC450BK/IPcEh9tTntNzomSqr6TdqlPOnhXX8m/bHEpp4nDc2Zuc87NorYBu4sZQ9LSwlUVP02yLjV7snK60s+0y1Oe5Kzdfy580l6rjft/TJO8mdrZ/WzTtWVAFzB4uvq5rHNKaAIAW+IQSq8AAAA=</Resource>
+      <Resource
+        Name="icon-book-17x17.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0oIgzMEGJK1z3X8BqVJPF8cQi96zk09zNjjwuMQf2c1btSHytQC3QIq0hH/XpvrIg+WnFY1ntjgwv4nzCArdPJPxi+VDlumJ4Y9lFnd6aJzzzLGPuzPF42Xevn7muiUPSiwnLvL4b/eRi8dUaeF9ycadC8o7//YxmyWsn/mkcYnnpGDF9b1OMk3xDnwTzG7OAjqAwdPVz2WdU0ITAMM7Vk+uAAAA</Resource>
+      <Resource
+        Name="icon-openbook-17x17.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0oIgzMEGJK1z3X8BqVZPF8cQi963/YZczQ4CrvdfmZWZ7Wxdy37Ktmj2lrhDUUVCjtsmT3i0vKOJY3Mky9FD/IfffLrPU/9Ap2iS05H3jXwrGmd7enJNMnil99K4tJuzeJLRpGfr57ueSfl5Nb57++1dKpUFK1/PmTutok7dpM3e74ywBs+xygeMT9gCGJk/sMWxXV62xNYtPi7F6170/plngA5i8HT1c1nnlNAEAB0l+Mm+AAAA</Resource>
+      <Resource
+        Name="icon-glossary-17x17.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0oIgzMEGJK1z3X8BqS5PF8cQi96tkx25DhvwsLgrfq/Z0F6z7b1GpcOCJ8y3vdc0b8xZ6ivOsy8jTFtxh2OY3aQvvmtnGrpfaCyxY5itt8uct75xxysL14s1swqVPdLM8kQcjYoWyy3pCyl/fvulo9vENQ15N8/Fh+1h9N50LT3s/jnmCjUG/abblg2yFerWmV/U1k7ie3r06+H3L5hlAry5amyP5AFdxeDp6ueyzimhCQAc6OIkwwAAAA==</Resource>
+      <Resource
+        Name="HamburgerIcon-white.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0kJAzM/BBiRfts0HcTgLPCKLGRi4hUCY8dLduj9AQX1PF8cQi9PJP/7////n/5Tmnz1Axv/zDqwHjhw4sKGB61nA4R5HbrfkXJNrbMFrGBmiW58sMy8OqwNqZfB09XNZ55TQBAApIAzSfQAAAA==</Resource>
+      <Resource
+        Name="icon-contents-17x17.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0oIgzMEGJK1z3X8BqSRPF8cQi967k7z5DihwsLa3/Y6fmbfyk3fypSWbgw6w+7cyczTMXPtRdwJXR0cZrxSPw99nunVC929OKg3xTlW3ESjkdYlSm3zg8iWzmyFLtpQcOXfeZVW37P9HPirVvN1Fu0RqjvNWp/MY6L37bgq0jcHT1c9lnVNCEwDxFZPdmwAAAA==</Resource>
+      <Resource
+        Name="icon-index-17x17.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0oIgzMEGJK1z3X8BqURPF8cQi963EzbyNSjwuMRL3vmTY6ZeJyo75xyrx9yGXgn9zHW5em+fJlh6dE0qSnTjPnBnovSNBuEbr3d9v3NGZ8dPBj2FyrMOe+f4sF2YI/Brk92fiRxPDhXnZX1mv/1hY8L1g8wyB/1MT1/RCwBaxuDp6ueyzimhCQCv2ElGmgAAAA==</Resource>
+      <Resource
+        Name="icon-home-17x17.png">H4sIAAAAAAAEAAEjAdz+iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAA6klEQVQ4jc2QvS5EYRRF1x5UCpVK/OQ2ohBKrWYqEo1C5xFU004h0YpnoNGpaWQeQDQiKhpkCj3VUrjkRty5JplidvI15+yzzj4fjL3UbbWvdtQMOzyhHqk9tVBP1XN1+r+AWfVKPVanKvUD9UYtmgAb6r26W9PfVB/Udh2go76oKw2LFtVntVv9p6hnwAyQJFsD436BesAb8J5k77vYVpfUiyZA6b8u/T9ntZJc/mE8VG8r7+S3pzrXqlm4CuwnWQd2gLVB6eogQ2l8IAFQ54A74KmsLwB94AOYBOaBx7JXAMtJXkcRYLT6BCadpgpeNrMHAAAAAElFTkSuQmCC1CzmjiMBAAA=</Resource>
+      <Resource
+        Name="icon-browseSequence-17x17.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0oIgzMEGJK1z3X8BqT5PF8cQi967E235mg143OZrTzFuOHLGyf/mxLXVMy3kYx4me14xyVRYUxOkcrtzfj3T96lLCuYs2b4k9NKzXPG7/5/Ycu3hlGhQN6j6Xbp1cmiQ+M+5/bGvVB7Lx05T4P7AGLWAPe19+JTT4rtdu0MzZbwV00ud+m6ab/35WWOq6rZJEWyG56Y2ZtU/X7F7VeEqB/NLfFFqlZqpRQq1QJcxeLr6uaxzSmgCAMvpLAvHAAAA</Resource>
+      <Resource
+        Name="icon-searchGray-17x17.png">H4sIAAAAAAAEAAF3AYj+iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABPklEQVQ4jZ3SoU4dQRjF8d9C4BGqEBgcTcolgYRUguEJ6iownSaMHI1eQ1jBUh6BBINAkKAwmCoU8iatw5S0NQgQO4SbZRYCx4z55j9nvnMqWXXTzmALX7GEWYxxgjrF8NuAqgz4kIdXcY1z/MUnrOMfvqQYTouQ7OACI2zjMMVwP+HwI44wj88php99yFT+wiq2Uww/JgGQYrjCBv6jKTmZyju4xuHQn1MMv7CHtbppF0qQJZz3HRR0ls9RCTKrW+Jrus3nTAky1qXwmh4djEuQE6znFIqqm3Zal9wNLkuQWteDo7pp5wYAu1jBTorhrj/zWLZNHOti3NMt8dZTd1by/AG+90OoJl5c1vVgrffQDXawiG8lUNW7IPdgpEthjMsUw13dtBX2S6BnkJc0BHoTZAj0ZkgJ9C5ID/TnAVI3cUEEUn5MAAAAAElFTkSuQmCCsG2E/HcBAAA=</Resource>
+      <Resource
+        Name="icon-filter-17x17.png">H4sIAAAAAAAEAAEXAej+iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAA3klEQVQ4jc2RMWoCURRFzwQECe5AsUphYWnA1tYVuDlbNyFYuwm7hGxgHCEynBQ+8PMySmKT3Ob9e+Zy/5sZ+JdSN+ossbfkZ+qmZE+p5xkYJDZMfhC5myUP6W6JOr8M5w+VqCNgB1TALvyvN3kB2ji34e+XqENgAiwC7YEP4BxzH3wBTCL/bf2D2qondRWs50W98Kt43qqHrtcZh+8DrwBVVZ3LGbwfuXHXJmv1U63VacEtzlP1GLl15wdSt+oyMZNfqtuS5b9zBJrOG65qInezpAHqxN6Tr39w0R/pC1oHlWRRMZNiAAAAAElFTkSuQmCC9xC0fhcBAAA=</Resource>
+      <Resource
+        Name="Logo.png">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</Resource>
+      <Resource
+        Name="icon-print-30x30-white.png">H4sIAAAAAAAEAAGvAVD+iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAVFJREFUeNpi/P//P8NAACaGAQKDzuICIP5PJVyAzQIWAg67CsRvyPSUCBBr45IkZHENEG8g0+IAIF4/mrhggBGYj7EFpTIQ6wDxeyD+SabZ7EAsCMRXgPguNosHpASBJa6jQOyD5loOKtnxAy3UtgCxNcziP0D8gU6e/TOgiQs9H/MDsSI0UYhRyY5X0ER6H4g/4rLYEV+mpxAEIhdG6BaDkv1EIDYEYjt0V5IIYKF3CIjPY2Sp/xBwAJSrkHABVDwATZwUHAA1owBNHGTX/0GTuHCBDCgmBsyAYqIsNgDiA0jiMmjqBIBYgUiLBdD4OdCaigHJLngc4wLUiGOsgAWaZ9FBJhC3IfEjoJgYsAKKYaAKiKdjC2psReV3NL4GEPsTafEFLGZ9IDdxdQDxBBIqBaql6h/EGkit7NSCq5VIZGOPbIu1adn0Ge1J0AUABBgAYjkXjSDzVqYAAAAASUVORK5CYILUB1R7rwEAAA==</Resource>
+      <Resource
+        Name="icon-listExpand-30x30-white.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0nIgzMEGJK0N1i0CUpIlrhElwflpJeWJRakMjin5SakKnrmJ6alBqYkplYUnU22Aip56ujiGVNxK+vP/v/1hBwa1NkamxWKXeTckCGazPNJSsOM8Iufwh1Urr9nZduMDBi7+Kasufnj/n0OgReXfQ/tUhqNyOXYWHEfOBcyf5yr0niGJL4vVVHlazRk+3muvHf70hBWesQhg5dDsbJURNwo6nHQsMbohguFjjcK5BUuP3hC6XqwwrWHT28YfAlNqOTt+amzwbpzQL/lS8MqNGh6uVyUZEy2TTeT7nyVnRZ3hWzt3yYu5q74rhHZbOfwR0IpzTNx6w+HEo/sehfI8R15reMRYXObYduRq25UvN1tV8rwTL6eDtf5iaGBgZpi4a8lutrBVb4EeZvB09XNZ55TQBAAiUdMCQwEAAA==</Resource>
+      <Resource
+        Name="icon-clear-30x30-white.png">H4sIAAAAAAAEAAFoApf9iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAgpJREFUeNrElrtLA0EQxu/iK4JEsLCwEIIBUdNYSFAEg61gEYwv0E78FywsrMRGGy20FPGRIkWsLBQE8VXEwlQiKogJksJnwCRG47cwwrrcXW5D1iz8uLvZu/1mZmd3T8/n81o5mkPy/QYQB8ugG+hFK7OIJZjK/223YB50SI4jLXxAgtMgBD44Jy5BjwrhJvANopytDkyAZxJvtTuezBwHaU63OFsK7AMXuABXKoprjJUECBk4xMbZVlFcLZTKI4O+M5qCZpl6sRvxMF03Bbsb+MAxuFexjsdBDoQF+whdt1SsYy+lec+gLwZyoFF2HduJeNQkqnbgpapOqtgyWTVnQMTArklXs81U+yjNYYO+G5AB9fTs5u41C5utnWuJhIcEe5fgEFtKD+CcE/JwNqeMsAMkwDuoFfoWSThIz9Vgl2xMqJNEWVuQjdhPH26YOJQSHOLFM1aihYQj9HFAsPeZOMRo406shNn8WglXgU8agA20AwZBDVgl+4DwjYdL7zWXdqnictH+Gwd33Jn7BNLghZzThOJibc5gzqWKK0YiTjrgV8AbDRYV3v0VmjGwSRfXGjfHOpgFX7RF9pusAtFWUUxxTXIpTtL1EfTK7suywizF6xRlFpzS749WCiotdtM0HYUnIABeQbZU/9V6uX7ojSI+VKTlLxSxqhTohSLW/yPVDq1M7UeAAQDrGyepg1AxsAAAAABJRU5ErkJggtdIEVdoAgAA</Resource>
+      <Resource
+        Name="icon-arrowLeft-30x30-white.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0nIgzMEGJK0N1i0CUpIlrhElwflpJeWJRakMjin5SakKnrmJ6alBqYkplYUnU22Aiv56ujiGVNxK+vP/v/1hBwa1NkamxWL9UT28FowfVRWmLTyRFlCmxLib6eP2/wIF7B1PPa/wH1/y4wZ/x3YmQ/Up63mO9G35Vsgh8P9XP0N9o0VzzP0mbl0lEVdnXadtJrOEvDs3WkieDZqwXllj65QJR2f+D2Q8EWSfFcF1qMdCq1NI4Z3bo/+Mj6Y61LQ38Vxx0CgM/bOcV2HGXJEXgUUbEwRPs7CyCKQrdP5lepTs8GdiltnjjpqAO+ULWK+6K5gtD3uktGQBb/fTa182SEQnMU+96gdktHhviHjnyd9dKKoB5gZP6Low2eGMv3534tRjjF46R8NT+rbtdNOV2yXGzCLBYLj7pXjs+iMswIBg8HT1c1nnlNAEAPZ97QhbAQAA</Resource>
+      <Resource
+        Name="icon-arrowRight-30x30-white.png">H4sIAAAAAAAEAAFJAbb+iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAOtJREFUeNpi/P//P8NAACaGAQKjFg8pixkHwmIVIH4MxBUk6wRlJzKxChA/+Y8AFaTop8THQkDMi8RvJ8nnFPgYhM2B+ON/VECUzym1mGzLqWExWZZTy2KSLWfEUknEA3EgmQlOEIitgJgFSawMiLuJSVzd/6kPXKmZnYgFv4H4PbogCxaFh4GYlUxLlIDYG6lE/AvEIUB8htr5GBn7AfEvpOD9C8RBtE7V2CyNpnV2ItlSalhMlqWUWuxLrqWUZqdXQPwdyv4HxHFAvJSetdM7UnyKr8gkp+nzfyDaXP8HqrE32q4e3BYDBBgAPBCQFhhnp+sAAAAASUVORK5CYIKSgKA8SQEAAA==</Resource>
+      <Resource
+        Name="icon-contents-gray-17x17.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0oIgzMEGJK1z3X8BKckS14iS4Py0kvLEolQGx5T8pFQFz9zE9NSg1MSUysKTqTZARTmeLo4hFbeS/vz/b8+8tIF19oLZ0/Uvqr2/tW3mRNb5KorMCdM2TsgyjnuvcLsnR8OM+0LsSaee+ZwrE5MWMCUouglumr5hZ0/rjYwlO8vbZirqHDnC4chw6ui6eXb/HU0Ue7xluSPNFjO6ZU1RZ2BkYxCrD+nx1X64D2gvg6ern8s6p4QmABj/z6bKAAAA</Resource>
+      <Resource
+        Name="icon-page-gray-17x17.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0oIgzMEGJK1z3X8BKckS14iS4Py0kvLEolQGx5T8pFQFz9zE9NSg1MSUysKTqTZARTWeLo4hFbeS/vz/b8+8tIF15uNnT71PHFkVe9tse3JHUwzT4XXz7P5P/JlRxN7wg1ugfMFpw4kPXvE7nOE9YukgXq7gbTBRkEWCbWLSiVqFfRxHzzfsmPPE4KCQ2/+TnMKPFs2Y8YLNzVD5YltCcA93T1V7XKKTi98xhp4rGv4MTDwMp7bVnxO0d/oAdAeDp6ufyzqnhCYAMKEE9doAAAA=</Resource>
+      <Resource
+        Name="book_17x17.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0oIgzMEGJK1z3X8BqSpPF8cQi97kBWwJLTMfvnr5eb7I57L8+0zXTzepHe9YKaPtsHFCp9S9hV2KL+41MsY8bL66ewePolnOgYZl9xIPPFKds+5wOsfFOKk9gX8mNDY2zg9yXiUhIdEntPC9nZ6znaGBwZ7UhIQfDp3enyQlJMKA/A+TsjieNjQ2MjK4TeUzdTr+9wbQFQyern4u65wSmgD29V0eswAAAA==</Resource>
+      <Resource
+        Name="arrowTurn.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0uwgzMEGJI8EhV8GUiWeLo4hHDOTf/z/b89V9vVLYuHXL4KMG2dKTGiYPV1fmZn5cBEbW5uLwHzWyEmNjQv7GhsVWY41vi75/Ik3KSEho6Go15FF+USOuX58LlCddsayDkN569KwlsbGh3ybNAM28KcsF2ZmdtYOaehtbGzkPpOUsIOZwZ5DQXz6lW3/gPYzeLr6uaxzSmgCABU29qqtAAAA</Resource>
+      <Resource
+        Name="arrow.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0qxAzMHBBiQNP5paA6ksTxfHEI6Zvr0bORsMRFzmJ72Ua7KOUBPoXNDkbNmZIO3xkEnpEcM3s3UJwpw/DrKH33n8IODYuVM3bFoaVFjZEi6XBn8QTF3CUhZrXqvTaWR24lHylKUfGNK/CZtf0L23Vol/Qeye3U8ymLQEGfSv+SsoHrAUdQTayuDp6ueyzimhCQC9FnGBowAAAA==</Resource>
+      <Resource
+        Name="list_17x17.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0oIgzMEGJK1z3X8BqeWeLo4hFr1XL+h2NRXKHPnYr39ww8kU0TNND5oiBWsOaEf4bNqQE3EhySDDyFZ8QwXnbE8Bw8hvbPOSBevEf/wWmWtk8PD0mQrJqW03K5oZ6wqdZOdrsq6e0e7PdOmYouinZsFPJ85lLHOQK+aKj9bz6bDUTvlxjFU+Y6nTtBUJUhP0+lZOKJXZ3f2my4/ryda+v12W3H8WtrlpqfDvT267Z3w87+Jxu03RJtXmD+UPMUhknvCeHwB0MoOnq5/LOqeEJgAE3rvp4AAAAA==</Resource>
+      <Resource
+        Name="glossary_17x17.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0oIgzMEGJK1z3X8BqTxPF8cQi97kBWwJLDMfvnr5eb7L5gO/yvLvMz3bsMBbgPGfs2EMv/DMfY4bJ8Q4BzBwixnGPGy+vPsGj6JaToDOoTQOw4aJEs4X9ra8s5py42Aqh6K+oVK0y9QbC6tEJk/6UniMT/PkvDJNMdUtL/klJCQYfi/lN+qr1NoItJnB09XPZZ1TQhMAE8QOe6cAAAA=</Resource>
+      <Resource
+        Name="serachList_17x17.png">H4sIAAAAAAAEAAHqABX/iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAAsUlEQVQ4jd3SMQ5BQRgE4O+JOIBKodZwDYXEEWhc4FVEreQKVK4gUbiFiErvDhoiWSLrLU9rkk3m352d7D//+i9kr910e/0HrWGBQdCsMcblIdhtN897lUQkc7TQQTvwWSq+amJ/GAzOoR7hgGmROPWSGNdPhymTewZLNNDEKtQ/mUxwwhH7wCe/mtynkKMeVh6mVNhWHGyRKIv4Nf4asUnmO96Myk7n0+tKtVPK6F+AG7GzGeIrB8juAAAAAElFTkSuQmCC7DCkruoAAAA=</Resource>
+      <Resource
+        Name="Icon-User-White.png">H4sIAAAAAAAEAAE+AcH+iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAYAAAAmlE46AAABBUlEQVQokZWSvWoCQRSFT5J9ALFLGgMp0tsESVLZ5T18lbxKqpDCfhEVUgUEaxsRUgUsUvhTfOEuZ8moo+CBC7PfPWdn5+4I2K9HoAQ2rtJsx7cfegG2HGrrXjZ4BSwciV06rtJsYc9B8MGGNdBIeMMMeyp+qX81vfqRtEz40kyJZ2fHVnKybsK7CW8dG86HDSvgzbUyez811SYwyUx14l42eAP0M6FafXsq/0WVlu4kjSRd++hjSZ9edyQ9ef0t6VnSLNIFMPVb57lbYja3J7xFwJ7BL3CfCdUVvfCEegEGfng9EaorPKFBIant7/+SdJv8+JzCE2rHcKrpnKu4csOzU9LwD9/wHJKbO9XdAAAAAElFTkSuQmCCfFjI8T4BAAA=</Resource>
+    </Resources>
+    <Stylesheet></Stylesheet>
+  </Stylesheet>
+  <WebHelpOptions />
+  <Strings>
+    <Stylesheet
+      lang="en-us">
+      <Stylesheet>
+        <Styles>
+          <Style
+            Name="Main Page">
+            <Properties>
+              <Property
+                Name="BackgroundImage">none</Property>
+              <Property
+                Name="BackgroundColor">#303335</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Logo">
+            <Properties>
+              <Property
+                Name="BackgroundImage">url('PlaceholderLogo-white.png')</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Header">
+            <Properties>
+              <Property
+                Name="Height">73px</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Search Bar">
+            <Properties>
+              <Property
+                Name="BorderTopLeftRadius">0px</Property>
+              <Property
+                Name="BorderTopRightRadius">0px</Property>
+              <Property
+                Name="BorderBottomRightRadius">0px</Property>
+              <Property
+                Name="BorderBottomLeftRadius">0px</Property>
+              <Property
+                Name="BorderTop">solid 0px #363636</Property>
+              <Property
+                Name="BorderRight">solid 0px #363636</Property>
+              <Property
+                Name="BorderBottom">solid 0px #363636</Property>
+              <Property
+                Name="BorderLeft">solid 0px #363636</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Search Input">
+            <Properties>
+              <Property
+                Name="BackgroundGradient">vertical #ffffff #ffffff</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Search Submit Button">
+            <Properties>
+              <Property
+                Name="BackgroundGradient">vertical #ffffff #ffffff</Property>
+              <Property
+                Name="BorderLeft">solid 0px #363636</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Search Filter">
+            <Properties>
+              <Property
+                Name="Color">#303335</Property>
+              <Property
+                Name="BackgroundGradient">vertical #ffffff #ffffff</Property>
+              <Property
+                Name="BorderLeft">solid 0px #dadada</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Navigation Panel">
+            <Properties>
+              <Property
+                Name="BackgroundColor">#242729</Property>
+              <Property
+                Name="BorderTop">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderRight">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderLeft">solid 0px #e1e1e1</Property>
+            </Properties>
+            <Classes>
+              <StyleClass
+                Name="TOC">
+                <Properties>
+                  <Property
+                    Name="ClosedBookIcon">url('icon-book-17x17.png')</Property>
+                  <Property
+                    Name="OpenBookIcon">url('icon-openbook-17x17.png')</Property>
+                  <Property
+                    Name="TopicIcon">url('icon-page-17x17.png')</Property>
+                </Properties>
+              </StyleClass>
+            </Classes>
+          </Style>
+          <Style
+            Name="Navigation Panel Item">
+            <Properties>
+              <Property
+                Name="Color">#ffffff</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Navigation Panel Item (selected)">
+            <Properties>
+              <Property
+                Name="Color">#076685</Property>
+              <Property
+                Name="BackgroundColor">transparent</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Navigation Panel Item (hover)">
+            <Properties>
+              <Property
+                Name="BackgroundColor">transparent</Property>
+              <Property
+                Name="Color">#076685</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Navigation Tab (active)">
+            <Properties>
+              <Property
+                Name="Color">#ffffff</Property>
+              <Property
+                Name="BackgroundGradient">vertical #585e61 #585e61</Property>
+              <Property
+                Name="BorderTopLeftRadius">0px</Property>
+              <Property
+                Name="BorderTopRightRadius">0px</Property>
+              <Property
+                Name="BorderRight">solid 0px #494949</Property>
+            </Properties>
+            <Classes>
+              <StyleClass
+                Name="TOC">
+                <Properties>
+                  <Property
+                    Name="NavigationTabIcon">url('icon-contents-17x17.png')</Property>
+                </Properties>
+              </StyleClass>
+              <StyleClass
+                Name="Index">
+                <Properties>
+                  <Property
+                    Name="NavigationTabIcon">url('icon-index-17x17.png')</Property>
+                </Properties>
+              </StyleClass>
+              <StyleClass
+                Name="Glossary">
+                <Properties>
+                  <Property
+                    Name="NavigationTabIcon">url('icon-glossary-17x17.png')</Property>
+                </Properties>
+              </StyleClass>
+            </Classes>
+          </Style>
+          <Style
+            Name="Navigation Tab (inactive)">
+            <Properties>
+              <Property
+                Name="BorderRight">solid 0px #494949</Property>
+              <Property
+                Name="BackgroundGradient">vertical #242729 #242729</Property>
+              <Property
+                Name="BorderTopLeftRadius">0px</Property>
+              <Property
+                Name="BorderTopRightRadius">0px</Property>
+            </Properties>
+            <Classes>
+              <StyleClass
+                Name="TOC">
+                <Properties>
+                  <Property
+                    Name="NavigationTabIcon">url('icon-contents-17x17.png')</Property>
+                </Properties>
+              </StyleClass>
+              <StyleClass
+                Name="Glossary">
+                <Properties>
+                  <Property
+                    Name="NavigationTabIcon">url('icon-glossary-17x17.png')</Property>
+                </Properties>
+              </StyleClass>
+              <StyleClass
+                Name="Index">
+                <Properties>
+                  <Property
+                    Name="NavigationTabIcon">url('icon-index-17x17.png')</Property>
+                </Properties>
+              </StyleClass>
+            </Classes>
+          </Style>
+          <Style
+            Name="Topic Container">
+            <Properties>
+              <Property
+                Name="BackgroundColor">#242729</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="ToolbarItem">
+            <Properties>
+              <Property
+                Name="BorderTopRightRadius">0px</Property>
+              <Property
+                Name="BorderBottomRightRadius">0px</Property>
+              <Property
+                Name="BorderBottomLeftRadius">0px</Property>
+              <Property
+                Name="BorderRight">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderBottom">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderLeft">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BackgroundGradient">vertical transparent transparent</Property>
+              <Property
+                Name="BoxShadowVShadow">0px</Property>
+              <Property
+                Name="BorderTopLeftRadius">0px</Property>
+              <Property
+                Name="BorderTop">solid 0px #e1e1e1</Property>
+              <Property
+                Name="Height">30px</Property>
+              <Property
+                Name="Width">35px</Property>
+            </Properties>
+            <Classes>
+              <StyleClass
+                Name="PreviousTopic">
+                <Properties>
+                  <Property
+                    Name="BoxShadowVShadow">0px</Property>
+                  <Property
+                    Name="BackgroundImage">url('icon-arrowLeft-30x30.png')</Property>
+                </Properties>
+              </StyleClass>
+              <StyleClass
+                Name="RemoveHighlight">
+                <Properties>
+                  <Property
+                    Name="BackgroundImage">url('icon-clear-30x30.png')</Property>
+                </Properties>
+              </StyleClass>
+              <StyleClass
+                Name="ExpandAll">
+                <Properties>
+                  <Property
+                    Name="BackgroundImage">url('icon-listExpand-30x30.png')</Property>
+                </Properties>
+              </StyleClass>
+              <StyleClass
+                Name="CollapseAll">
+                <Properties>
+                  <Property
+                    Name="BackgroundImage">url('icon-list-30x30.png')</Property>
+                </Properties>
+              </StyleClass>
+              <StyleClass
+                Name="Print">
+                <Properties>
+                  <Property
+                    Name="BackgroundImage">url('icon-print-30x30.png')</Property>
+                </Properties>
+              </StyleClass>
+              <StyleClass
+                Name="NextTopic">
+                <Properties>
+                  <Property
+                    Name="BackgroundImage">url('icon-arrowRight-30x30.png')</Property>
+                </Properties>
+              </StyleClass>
+            </Classes>
+          </Style>
+          <Style
+            Name="Navigation Panel Hide Arrow">
+            <Properties>
+              <Property
+                Name="Color">#ffffff</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Toolbar Button Separator">
+            <Properties>
+              <Property
+                Name="Color">#585e61</Property>
+              <Property
+                Name="Height">30px</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Navigation Tab">
+            <Classes>
+              <StyleClass
+                Name="Glossary">
+                <Properties></Properties>
+              </StyleClass>
+              <StyleClass
+                Name="TOC">
+                <Properties></Properties>
+              </StyleClass>
+            </Classes>
+          </Style>
+          <Medium
+            Name="Tablet">
+            <Style
+              Name="Navigation Slide Out Button">
+              <Properties>
+                <Property
+                  Name="BackgroundImage">url('HamburgerIcon-white.png')</Property>
+              </Properties>
+            </Style>
+          </Medium>
+        </Styles>
+        <Resources>
+          <Resource
+            Name="PlaceholderLogo-white.png">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</Resource>
+          <Resource
+            Name="icon-list-30x30.png">H4sIAAAAAAAEAJ1VDUwbVRw/MNsYjrkEFmAuetwcbNP7akuPO1f56CGtUMa64lgwsOPutT3ofXh30EIwA00wk0Sjg5kZ/M5UXCRZSEwjfkBGopuJMySL2XSKxmiyZNmi0y1Gie9KW7dFUfeSd++9//v9P9///7+DLc0NBfmb8hEEKfD7+CBc77Jn3mr4vZ+aeg0ua3XfPhNBbi+0Zw7ywkQJgqzaLIfarLZAEydqCiFIWhcgEoqO2GNndUIXxB5goV0gIqse7NLMRxgqSx5sb2WACuheEJV9AwbYM9AcEgd6RFbCqh9AdyY4KEABloAmlJhqcgkPlpLLwb1NJjE0BbF6PFitfYG2BVpQr2YAtJJw4yLtcqAMS9BuinW47kMdFM2QFEPSTpyiOcrNOVk0PTCozZDCXJB/MK0LnjxY1LJ0jiTj8TgRdxKaESFplmVJykE6HDhE4Ga/agkJXDW3ZCTwwBQNWbdkTUXts9Cl9VoeDMu4oOhZsaqZDhMMGJkQdJImKDIDlMQsTu81YinlkkiCGFCAapkQS2exelSzNDOq/YPo7PUNCqAlgcDKtihKFm1a9X3Wymgz1K8DMghMrdcQQX0fNHOLza5zXgMIlmaENC2WeaiWjE2o12s/TBW6ba+sSlrc3H4dD+Dh9GD2PU65cYc7RFVxFMU5aZxi4GYZGtAkOdz/t1A3V8neAIVZIwmW8K9gSeTCmqEI0GdZESKA1NUIhmYjyXm1mGZAxVCK83q63+ttMbSwHIMXZrChDvXXe90064ZKCDplQyDA+VXTElQR+HkPBimELEtclyvMMKDLgTPusAOXXC4aZ4WqMO4SBSflZERWFKoy/Lwm9tpZkOGX/if/LkOGVSjEblmOXZspST7ZhA/bn879PeDR9C4mo6mM4QTRrgQPJqaeU8LSZPmWI7DMH48CdcW8WIaZWtiKCwaojUAv/0vqkdB+8i9XyJu9JG8q8QwJ9o0UPNOw4CHb8oAK+5wBG9rrzDs1CJKzw8/XhnwHL47TjSdqSkZeHhtaf3RqYbK65r1kHi5t4N96oueNmsO/VvgqZsaWnhprOjsxwc+FF+aOjk6PLuUUv2l9Unv6iqvseVfpT3W+D68S/clP499E+N38xu7WOmW2INl0xH+i76tSalXHcONi+7qC1p+nd1z+4McDc7ndubct5iYLlzz6WPG6Enlxo978/gJzshN5ctNiZ3C4Yf7L39YPls9O5g+SzLU1iVNX3h3p7p34bGgrtb0wds/MoYvJztnjeThadLrnlUPFRdc6dj3deq+7qOPb4NYvKqlyAn31+6vTgy0VxzrnW9/uHj+zZn78WHt52/iZZ2KNP6y9XDaifr7tyPCl86eOX7i7/buvVzcX7n+x/Nn8l6aV0TueO/DLx78/cu7shccmH953fuhOvewcUvoQS/2xe/NJ+x/ir2/mp+r2P/4nCaFhxKAGAAA=</Resource>
+          <Resource
+            Name="icon-listExpand-30x30.png">H4sIAAAAAAAEAK1WbWwURRg+oMVSCgZQIVVg2cZghb39vL3dLdcKd7U9wpWjvVjAqszOzt1tuNvd7m57V0SExkQwShSJX5EYCaiIYn9gYmikBEVjkQT9J9HYGAwBI4bwoyQScfZ6dxQClQQ3mdvZmed93ueded+Z2xFva5lRXVvt8/lmRFsj7fi9wGtVU/FvA3NoL35Ns1rXOT7f9Dlem+R75915Pt/UYT2x1l0bW6VAM+sHmqkifz5r+bxnWVPeAnAjcgkVpXQjRP41OEQSuhYiOwMxJmaFUVpv3WSjjk1tCbhpI5Q1sqmRWJZXMEEWuYDIZzOGo+RDZIFXwX1vmCaJAsTdGCKXexPE2licCJs2IgJ+kYKswBFB2c+KjMwJSwmOYYM0E6RZnmJYhREVXiaKD4m92VpSaY88XvSFv0Jk2nUthaZzuZw/x/tNO0WzsizTDEdzHIURlNNnuCBPGU5diSGCHGjrlqubBuF9A9XscUMkWQoha5VpDae4THjB6DywaNbP0CWgBss4q8fOFJxrkEYZlEWG62AsW8ZaadM1nbR5G+ry9A0OsJJYbGIt2WwZ7bjNve7EaCfRZyG6HTlmjw1Rcy+WWeeZW0rYRsA17YRpZkobFS9pIsJhb2Mk4pFO3dDMnFM/zgZFcAuR3jzFiBQnJhhJYRiFZykmiDtj0Jip6cm+8dAgxUoJllV4RhFuhOKs0YAL/hOsQSVp2lmAY9azIIVoy0iRRHkllbCZMW3sGLPw48ej4XDcNpN6Bk847S0riGhzWGRlEYv3swUNsZgSNRwXGBBFIyESj/h1XVNkCAWNkRlKE4BESUlBpgAjqpSmQk0UZFXkmUDJPmLCHi8LPPuxgtBMiDmuy5B5KaBKHINrQIWUyAkiBTQcLI+1CIAFLCeAEttqW8c1CTLjWT1VGmZUhWQwiFSOCopJDkvDCyQDKUkJEPAMH4QyBJKX+WNMrbqDt7mvWAkdqLvYy+hEIX8UAL26CJGwsLkaWRzWb7Eed+S5aJ9LI2PCLBmDOWbSzQEbLU/hKO8kEenb6XdA78TqAxIDZZUPUiqSeAryQpACiAlQrJbkEQQsRGrwVupLuchJCh+4S/VFO5gGRgrho5a+i3juLDtvH88NtfW/xkNfTzX65iykbzqQS0P4lC/AS9cL/ihfUMjA1Da+fj7dk+j0+SaFo5HlidYdf74xtPKr+H0vDu3un6l2tix8rKvrhUfnV8zqOpKs1i7dv69j8HBjfwfRIS5evOZ0m+J2d/f+MNfqfik882zt6jNXl7z2QVPVd/Lo8ZxzUT739JKa8IX4wQcu1P5cZTWcH5ifq6jZOnek5squ9+uyW56oPDoqzV16Wjxd2bbtwUu/Tt6zd8Ox9RVbJrdt/8dNXvls66nZI8/8eOxcBDw3pXH2yPC+bUPb7jnx3uCJyqOp/a+s6/l8FXXwzcnVm83GeVKFf/vw+SNLidjzK7INFxcP1CXvfWt4dMnAntyib/p7Y0/+0XVg2pr9h+OjO8KhwNW/T05tOvl6Yv/vuw+MrjyeOFJ57eOdwdbD33/y8K6W9fIvcxbOfvbYYM1T7b+9WrXZTJ85s2D07JeVD80bia75KL0ov2rzrC/4q9/WX55e79g/7Rys/bDjsvH2qSnXfJ0NiZaXv+5p8v4KRJvbIodWbOj/F9qKFqpnCAAA</Resource>
+          <Resource
+            Name="icon-clear-30x30.png">H4sIAAAAAAAEAJ1VDVAUVRw/Ukk4qLmEkUhiXR3Akbu9vYP7WDgduDsF8/DASw41Zdldju0+9txdvIPxEyGhBB01Si1xVMqGBFKHgYE0NCU/KmaMKNAJcEJsyBBHwo+0dydH6pSVb+bte///+/2/3vv//1tmTJsfHBgeKBAIglNTdBlgfdUzJ/uDb4K0dj9YApwpWZxAIJzimX6C3R+ECQSTptEmM282LMQIxi7BSSaHkrjtToFnJM51O3HCSvFQDmWhHRr4t+YTMESTGjgz3iA1OLVUHp1SyFKLC9NMRKGVUJPw3DlQohsDCuwUj0Nuu83BYW4N7NWLgb2HjcCQF8JbNXCS5wAyG4yQlmEpKF6iEBNonAxSqiWoQqqWxcVCMimqRKRKBJWLpSgmVWByNTQ2YGCNJXOxDN28MVuA0sB5PO/EEMTlcklccgnDWhBUrVYjUhkik4kBQswVOHjcLXZwM3wadBRHsLSTpxkH5KHxHCaf18CwLwS7c1ytgxu7JnBhiBt3IqhEiviAJDGOc+azNq9xkkAoG2WnHDwHsOg41pnH8AyXx/yD6vHjxwwATwyGp/tit4+jOV6/mn86mjMVOCkkg+KYfJag9KuBmzM84k5My1I4z7AmhrH5Hsro8wnSaj0Po4JiMmkHybi4WY/IUDowNbDnXCxViGUKk1SFSaWYDJBKsHkINTAknVvwt1AlJkMfg4KsIXEe/1cwSWC5DGvHQcy0HbdQiNNhgaHxm8S0jI1hgWGgRf4oP1WrNbJMLm0DB1zG/GQoVa9VoGoFMCJBvT4YDFiqg+NxB0Gl6jQw4EhomsQUuWoyjlKpxHI5iA6XxeFilSxeIUblJJ4Th1NxqIzwyesYIt+TBT558n/KL2JpUIW47Zn1eGrTqymF5sDDFozl/mJq1djORkPejMFwwlMJGpjwPicJj7HpZ76Bh/KuPMrx1Lx4COOYXN6Fs1SSBUT5X1IPAf4jf4WCPBkl8kSJ+1igb3jhvoYFiPGWRzlAn2NBQ8s6ve6AQPBcfqouyZRSdrqzybozKaztxqI+kV663xyWVNrlDg0MN7YsFd6oeKU1xRZri9X9GtJ65cX6+izz9Fr/FuMed1HUR0eGYibadYkiUwiRmIMeJddeNox0xBZk73JVufpv38/t31VgefPO3bvlxeVpmOywfVNH1ZbNqq0XB1ojz91ssul7uhaEzusu9R+cp9zbO7m/esuO8Jb4yub2jbRqw3z3huoOgTI7/vqVmbvR0O4bfsKh4+E9Xx8S9TdkV62KmHJgX3SHwFKsw5YlG8XDs3JeD9pbEsX36vveeC3ku/TgoUpzQ/S9cn3R3swJl4oiVe8NKduGj+1cEuBed+/yF81fNttHs5Lb6zcIrcofa5rS2/NbDvurNjGNppOLztlqQy4V72p8e2uZSzxw6vToCdGt9TFWu/XCsYaO2bh2o/DsjsGOvpiBBSFxE1ztWQJqaXfu1Ntnqv06A2/ezRpY9Vlo/x8LY1cKEzq3T15a2v1+xbLbyxuUwe6SIVFjaV2Z4uU1osKFYcOGxmm9GlFhYtX560hnDdsQXTn1pfs/p7eXFO+bM6hFzvSFVlQKV7yQ6G/t45qlB63pFmjPtzO7LpyJ33LqYkyt3M6Wt8W0hPTXZZnT6uq1KYe+2X9HHnTh2vTebGPYiOnsrYCt6CSuPii6+EDGh87h0RWmE9uWPz/cNNi6RrIs8eonO2oSkr/vWRE0J+kH+PeoX0bwiIrQaaLj91dur5ldeXXIf3PJ54WhjspDD2Zf++rqkbnnJ0UGXdq4GO2ZiZfFnryc1GWyrY9g3vk0czRkNbFpm3HtKb+IwKCEzUJTwOjIg4mxrulAquat5+ruRTqrl8gzXB8fU5bhR3/yizr4bry5Ld3zO07Vp+lqk7OL/gQIl6bc6wcAAA==</Resource>
+          <Resource
+            Name="icon-print-30x30.png">H4sIAAAAAAAEAJ1Vf2wTVRy/jW3AcAiCzOAmlwPd0PZ+tbTrQQejHbTQztoVGGYMrnfX9bLr3XF3XbuBUX4obAYTQVBwRERJiMoQULNkJlQQBtE/JqCJ4HSBzOEQNf4IDUPxXbdWIDqVl7x77/t9n++v977f77X4qhYW5E/NhyCowO1y+sH6kD7H5IHvbLx9L1jGyq7lKgSNm6TPLGhX2wMQlFvEB2q0Gq+HYqQISrNSkEPjERnSx5y5cZlmGjgNDnL1vGhHfuw8isA8a0eWzfLiXtnBhXlXs8JVN1cFmOYGxsYic8vhOXEKKIhwGg3HI4KoUnE7ktJLgb3OxhA4BdEa7EiFfgDXeH2wQ1I4eBZqMTKEmYStNpSw4DbSbIBJnLBiuBUjTEacoHALZbLBwwMB1hQ2RPmdC4ZtAcqOhDVNpjAsFouhMRMqKfUYYbPZMJzESNIIEEa1SdTouFFUp6c1ODmVUXhZ4yUR1mk6KEU1O4KkQ4jIGbWiOnxN4MKwOC1jBIpjaSDLZHByVBFSxlkG4wQuwomaCrBEBiuHJU1Sw9I/qM4c32YAeOL1juxLJJJBq1plozYyWg00yRzm51QpqjBcZSNwc7ouLlMOhaM1SQlIkpB+KF/aJ9jh0B+mDC5dxousFFNn3iLDOcG0I/q5EbcYSUsAL6NwnDIRRtwKNkNQr8Tyoaa/hVopgrwNCrKGpTX6X8EsQ4UkJUKDmPkIXc9hsliPwJmbpBySICnAMNBiupXvdjh8ihTiBXCg+hfOh92VDgthswAjKJHyweul3KKq0SLDuZ12BHBQnmepkJnFmaDZarSZQlYjgZstRhvLApLkzGZLMEQyDJuWd0pMVM+CtDz7P+UfV3hQhbRw13r02kxpcvEqeNim4dyv5lYP7wQeTmUMRTN6JdgRJvWcwIMhNn/XNzAkHwtz4oh5MQRTpZAWoxWuoh5E+V9SDwP+Y3+Fgt0ZJXZHiadZoG+k4OmGBYhMy+NE0OcU0NB65y4dgKCsN9zOioCr5erLhxYfnzd509FFr4vv+9qKJhd+ND46ZXKsouf8iWBJ7qaB0heQnne27c7eeeZA8Y1RTnmpr+vMipwLp/OfpWZsv9KHtriJ9X/0Flz7oWfwWF9P5wyiaHyLo/qQ71JOSX7nmkefzu14ZcKlU+SWXd97rhua8+oc2UcSh8Uz967Nf+/DbMNZ3/Xn9/1s6T53YPDVE5/7k4Xrin7KW7vx093ZZGJS946SbYkdXRc9rv372xgUTxS/OzNZnfg1Zw/01MnY1ak1xetGz7N6lq5YciVg2D56ArP6dH9ZgWHV0QtfwmNb9x1eeWpc44uNhrOXv0s8GC+6vvl8RXgB2VFQm/1YYmp3VvPGs+Fr4ro1b05/eMO0Q9jm1lHljzR/IryFtqysrqWuzv52696OgR38uQ3rf0ls6X1t28XQM003+wdb749eFgZdTRPb8r6wb11SrM6cN2q5Jnjc535PQmWFJ3O7av1C9Di55Tm8PKs90NuOfNNprjs2SE78De4/7Dl+YsyTtUv2TME/mDajtLTj4OJkz2KkNHlP585w32dvH3kicf7gx/sX3bh57MZL5VmRr+q0r5PyffrPy11Z5Wyfv2r9n0Ye/GMZBwAA</Resource>
+          <Resource
+            Name="icon-page-17x17.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0oIgzMEGJK1z3X8BqTJPF8cQi963E05zNhgIsKYfnXwtUfFbMnPZg7NhOgcX7bHX7/Qw+VhfnKC450BK/IPcEh9tTntNzomSqr6TdqlPOnhXX8m/bHEpp4nDc2Zuc87NorYBu4sZQ9LSwlUVP02yLjV7snK60s+0y1Oe5Kzdfy580l6rjft/TJO8mdrZ/WzTtWVAFzB4uvq5rHNKaAIAW+IQSq8AAAA=</Resource>
+          <Resource
+            Name="icon-arrowLeft-30x30.png">H4sIAAAAAAAEAJ1Vf0wbVRwvUdgAR9QZbCaByxHjcLtfBa7tjbqUtoMiRQLNQOMC17tXetK7d9wdtLBsg/GHQpb9oQmJC4HBjNM4yZa4BIMbm8pYDPNnohI1UxeDxgjbnCHKdL4rbd0WRd1L3r33vt/P99f7ft/3BurrqjbkbMqxWCwb/NXeBrQWmnN9FvpuoyfG0ZKtVj+pWyy5G82ZYTk0bLVYMgukYLPRHKjlBCiTvAhDgIzLqsUcFdvjKi+0AwMLgTZJceFLU9M4JokuvKk8QAdUD4hI1T0aaOypCwo97YJTxLc/hlXEOaRABgaPxeWoonNxF57Qy6G9SaZwLAEx2l2422RgzYF6zAM1gJWTLCEwZTbM7iQZlnbayrZiNpqxU7SdYkoJmuFolit1YsmBI2uaGOYavDuSttDJhUcMQ+UoKhaLkbFSEmptFON0OinaRtlsBEIQerdi8HFC0YtTGrxAFzRJNSSoYOaZD8FOw4XjqRBkNa1W0ZPXhC6MivMqxZA0lQKKQhqndmrRhHFRoEAUyEAxdIRl0lg1Ag2oR+A/qE6zbzGAPAkE1vZFltNo3fB1GWuj9WC3CqgGoMNOTQC+LuRmsSmuch4N8AbUghBGU4mqT/mEeTxmYhzY5iZJEWFML7lJBnjRdOEmn6BZwsYGaQdH05wNZdCONqvQABSlcPffQu1cmeMWKKoakTf4fwWLAheGmsyjmCWZbwOUqrThWPomOQ+MQg0ZRlpKb6b7PZ56DYalKGLoDVWVmN/nYRkni4yQTMKHQIDzK7rBKwLwe104opCSJHI22gEYhhEJIQQYQuCRKyGH3U4wbJi2OxnWLpbzKXkvFDrNKkjJi/9T/glNQq+Qj96xHvNtJjRVSzpKbHey9htBR3IXlbBExXC8YL4EFy4k0iniSbJ0xzewKh+LAGXNuliF6TBsxHgNuNtQlP+l9CjkP/VXKNTtUVK3PfEUCfWNBDzVsNAh3fKAgvqchhraUrygymLJCPq97mD1wE+fTm/xdVhnrzw4tvhty+G5/NcGxq3NWxseKPmsdm8tO3j2XXzMaMwP8UxJ//W7dtzo9b+p3bNwvmPxwqnlYbJ/ZX5k4drvp0c/WP5hZU9d4713/1F5YV+l3Hsjc/LhF62jhybeeLnoC+u5xqvCN+r0o+rrB9epfcqXh4+c++XVM8WTXnJw6sMmeNla99GmmaXzlzBi8qVZUNZX3OI7Ldw/K40Fuype6M0/Umlz/zrfUbjtxOTmiqs/H6uP1OQNfM8RraVDe9/JLvxkf86zK+1XJocvgWOPaMTbxe+Pw6811+Lc+ldqvitYuK+VHNo9Q4z8mJ1HF7mHxp9+qId+bmqUnftNzKrZ/dXBLdd2ntRrLh/deeL53pbcdb5dZ4/3zTQPb8wbHOvp5x//fNlxvTZr4WTt0V1zORefiZ/Z85Ra7sEnXG95Mw+8p56qGZm7+PGNlfn23n2BopLj7gxNyj1g/m38vjrvRGXr/j8BW7boqsoGAAA=</Resource>
+          <Resource
+            Name="icon-arrowRight-30x30.png">H4sIAAAAAAAEAJ1Ve2wURRjfC+FVrI+AgjzsZtsQit3X3fUeS1dS7ip3ba+9XK+2UHxsd+eu27vbWXa33LVK0mpRSkKj+CCooSIYDTE1xpCUh+WMAf8wJjVGrEk1h/VRNEhItCFS1Nnr3QlEqzLJ7Mx83+97zffNtwPBhs3FRSuLMAwr9vu8IbTeZ85FC9B3AzP8OloWq74tOoYtWWpOC/byqyswbP5qOdxqtAbqOREmKEGC7YBKJVTMHFUbU6ogxoCBt4OorPDEpZOnCVyWeKKlMsAEVA/okH09GmjqaQiLPTHRLREbH8CrUhxSkACGgKcScUXnUjyR1cuhvUmmCTwLMWI8UW0y8NZAEPdADeCVlIMUWbsVd7op1sG4rfYK3MqwTppx0qyNZFiOcXA2N54bBLKmSREu5H0wZwudeKLDMFSOppPJJJW0UVCL0qzb7aYZK221kghB6t2KIaRIRS/Na/ACXdRk1ZChgptnoR12GTxB5ENIqAW1ip67JnRhdEpQaZZi6DxQEgs4tUuLZ41LIg3iIAEUQ0dYtoBVO6AB9Q74D6oL7BsMIE8Cgbl9SSQKaN2o2WHMjdbD3SqgQ0CHXZoIanYgN0tNcZXzaEAwoBaGMJ5PVDDvE+7xmIlx4etaZEWCSb38OhngRZMnTD7JOEirI8y4OIbhrCiDTrSZhQagJEe6/xbqRDm+AYqqRhIM4V/BkshFoJYQUMxyQogCWlWiBF64Sc4D41BDhpEW2/V0v8cT1GBEjiOGHtq8CffXeBys24GMUGzWh0CA8yu6ISgi8Ht5AlEoWZY4m81utYsulmQiERfpYu1O0i1EBBKIlaBdcgC7nXXl5b1Q7DKrIC8v/U/5Rk1Gr1CI37Ie821mNflkHSW2O1f7TWB7bheX8WzFcIJovgSeELPplIgcWb7lG5iVT3YAZc66mIXpMGIkBQ1UR1GU/6X0aOQ//Vco9M1R0jc98TwJ9Y0sPN+w0KHQ8oCC+pyGGtqqFu4qhlkq/d7qsG/g4rl3a+exK9KX/xhYs+bo4bYLU0uvYA/vubu6v+22ial5uyE+nlwkPVvxTeZHwui8kNlg/BRSt9/5ONU5+evWfU981PVWyYR6fnSGOv7x/rLug+8NjH+5+7c7vrj35Jmnw+DQzrL0pZLOvdO1+wZHiut7XxnzLp5Y8EivJ+NYtj99NX1QL+mvy9w1Zvl6W1XzgeXUtbMftp7a892yXS3HBp+6fGTEf2R9U3rLt0vsfeLv556JxYzTVzIhi2Ww9zPfSMXPoRff33p46KuzXO33C5n7HS/tTWF24rl7xgD7WmNmYiU/3Tc0+s7YlKXldm4h9fanb+xsrvycz/Sdqf+kry72y+TR/vWZ5qlrJ8rKV++qPf98a7iosS+5fP6pYPlM09rooXUv0G8GZ7AfpiZX1R07MTw+Onlx+oNHS7c91BZKHh8yfyf+mgbv8KbHnvwTlHbzW6sGAAA=</Resource>
+          <Resource
+            Name="icon-book-17x17.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0oIgzMEGJK1z3X8BqVJPF8cQi96zk09zNjjwuMQf2c1btSHytQC3QIq0hH/XpvrIg+WnFY1ntjgwv4nzCArdPJPxi+VDlumJ4Y9lFnd6aJzzzLGPuzPF42Xevn7muiUPSiwnLvL4b/eRi8dUaeF9ycadC8o7//YxmyWsn/mkcYnnpGDF9b1OMk3xDnwTzG7OAjqAwdPVz2WdU0ITAMM7Vk+uAAAA</Resource>
+          <Resource
+            Name="icon-openbook-17x17.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0oIgzMEGJK1z3X8BqVZPF8cQi963/YZczQ4CrvdfmZWZ7Wxdy37Ktmj2lrhDUUVCjtsmT3i0vKOJY3Mky9FD/IfffLrPU/9Ap2iS05H3jXwrGmd7enJNMnil99K4tJuzeJLRpGfr57ueSfl5Nb57++1dKpUFK1/PmTutok7dpM3e74ywBs+xygeMT9gCGJk/sMWxXV62xNYtPi7F6170/plngA5i8HT1c1nnlNAEAB0l+Mm+AAAA</Resource>
+          <Resource
+            Name="icon-contents-17x17.png">H4sIAAAAAAAEAAE5Acb+iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABAElEQVQ4jZWUvUoDQRRGz8SAEhSTECFless0PoSdYKX4ADa+gL2PELCw9BXsLWysbFPoCyjCghIUjs1EJpv9mXywMLvMPfe7d+8MlKRO1RfzVZQBQX1Vb9S9coKKhBPV9MOBehLpI5WmJ4V048spcAfMI/M3TVhhIlTZelfP1X500t/ESSdyhsBjWw/q1M3cl5a0VkouZL0HOZAQGuNW1Gnf0q46J8fqKCN+2AS5Bp4yIIP/VZyNSTInhxmA1YmNmgFjoACe1UVD/E90ugPx18VDdAvcA1vAEbBbA9gGroBL4AsolpAFcAE8ZFSxD7wBgxDCZ1rbmfqxwR3yrfaW8X/+7Rel4VGnwQAAAABJRU5ErkJggu0uDgo5AQAA</Resource>
+          <Resource
+            Name="icon-page-17x17_1.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0oIgzMEGJK1z3X8BqTJPF8cQi963E05zNhgIsKYfnXwtUfFbMnPZg7NhOgcX7bHX7/Qw+VhfnKC450BK/IPcEh9tTntNzomSqr6TdqlPOnhXX8m/bHEpp4nDc2Zuc87NorYBu4sZQ9LSwlUVP02yLjV7snK60s+0y1Oe5Kzdfy580l6rjft/TJO8mdrZ/WzTtWVAFzB4uvq5rHNKaAIAW+IQSq8AAAA=</Resource>
+          <Resource
+            Name="icon-contents-17x17.png">H4sIAAAAAAAEAAFoAZf+iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABL0lEQVQ4ja3TL0umURAF8N/1L7yoiEW0CILNaNjqNzCIiNVkNJtMBjH4AQx+AWHbonHzwm4Rk9jEJoriv33H8DxXrq+PviIeGJiZyxzOHObyDUg5iYictrCJJTx0mW2llCZfOhGRYy0i/kTEdNFrilZEnEFfwTyBFaziCKddthjMSUmygyFcoL/oh7dIZdFT5PNYxAGGOwY64xVKkjuVkSNov7tEA/q61BnlSm+UfGaocRD/PyIJ9KruZaCBMGM0kzeR3OAHNmqiJhVRvw11krTxhNtayTEuvTa/3GAMC50kLaxhua6n6iiRcI9zlSfDuVnpi7jCL/zDDGZr2aUnj5jDX/xGb0ppvVRyhz0cqm6lPLjswxX2cYIt9QctSbaxW3sQmg+ujXH8xHXD+9fxDJiQY8B9TAOtAAAAAElFTkSuQmCCkBSTXmgBAAA=</Resource>
+          <Resource
+            Name="icon-index-17x17.png">H4sIAAAAAAAEAAECAf3+iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAAyUlEQVQ4jdWTPQoCMRBGXxYLG9EjWFjaCNayB/AIHkIbL6C3sLHxBHbb+NN6mS0ELYTPIgkJIuwg2zgQyM/w8iZMoK2Q9JBUS7pLOkrCOgCKwOk65wbAHOjlfMOgk9ksgdEvlUTIFhgCL2CXnTsL5GtSrNUEcM6bSLoA/bBfAWszhVTODJgAU2CRS1lkiuYcu8kV2Id5ld9igbT6sBtSk92Ag5kSTeSvXuGbbQyUUcpg4qsJECSVks7Z32gMSA/7lFSH9enT9H/iDayClEjA6CPlAAAAAElFTkSuQmCCclIJ5gIBAAA=</Resource>
+          <Resource
+            Name="icon-glossary-17x17.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0oIgzMEGJK1z3X8BKXNPF8cQi97kBImwBsGZn/8DgUt2SkrL69SD6RobGzplfF8w3FV1qW5nPHl18b2DLM3HrRczCDMw1POxK8+2Ef0CNILB09XPZZ1TQhMAuB4FdnAAAAA=</Resource>
+          <Resource
+            Name="icon-glossary-17x17.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0oIgzMEGJK1z3X8BqS5PF8cQi96tkx25DhvwsLgrfq/Z0F6z7b1GpcOCJ8y3vdc0b8xZ6ivOsy8jTFtxh2OY3aQvvmtnGrpfaCyxY5itt8uct75xxysL14s1swqVPdLM8kQcjYoWyy3pCyl/fvulo9vENQ15N8/Fh+1h9N50LT3s/jnmCjUG/abblg2yFerWmV/U1k7ie3r06+H3L5hlAry5amyP5AFdxeDp6ueyzimhCQAc6OIkwwAAAA==</Resource>
+          <Resource
+            Name="HamburgerIcon-white.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0kJAzM/BBiRfts0HcTgLPCKLGRi4hUCY8dLduj9AQX1PF8cQi9PJP/7////n/5Tmnz1Axv/zDqwHjhw4sKGB61nA4R5HbrfkXJNrbMFrGBmiW58sMy8OqwNqZfB09XNZ55TQBAApIAzSfQAAAA==</Resource>
+          <Resource
+            Name="HamburgerIcon-white.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0kJAzM/BBiRfts0HcTgLPCKLGRi4hUCY8dLduj9AQX1PF8cQi9PJP/7////n/5Tmnz1Axv/zDqwHjhw4sKGB61nA4R5HbrfkXJNrbMFrGBmiW58sMy8OqwNqZfB09XNZ55TQBAApIAzSfQAAAA==</Resource>
+          <Resource
+            Name="icon-contents-17x17.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0oIgzMEGJK1z3X8BqSRPF8cQi967k7z5DihwsLa3/Y6fmbfyk3fypSWbgw6w+7cyczTMXPtRdwJXR0cZrxSPw99nunVC929OKg3xTlW3ESjkdYlSm3zg8iWzmyFLtpQcOXfeZVW37P9HPirVvN1Fu0RqjvNWp/MY6L37bgq0jcHT1c9lnVNCEwDxFZPdmwAAAA==</Resource>
+          <Resource
+            Name="icon-index-17x17.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0oIgzMEGJK1z3X8BqURPF8cQi963EzbyNSjwuMRL3vmTY6ZeJyo75xyrx9yGXgn9zHW5em+fJlh6dE0qSnTjPnBnovSNBuEbr3d9v3NGZ8dPBj2FyrMOe+f4sF2YI/Brk92fiRxPDhXnZX1mv/1hY8L1g8wyB/1MT1/RCwBaxuDp6ueyzimhCQCv2ElGmgAAAA==</Resource>
+        </Resources>
+        <Stylesheet></Stylesheet>
+      </Stylesheet>
+    </Stylesheet>
+  </Strings>
+  <Toolbar
+    EnableCustomLayout="true"
+    Buttons="Print|ExpandAll|RemoveHighlight|Filler|PreviousTopic|NextTopic" />
+</CatapultSkin>

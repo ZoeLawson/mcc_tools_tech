@@ -24,14 +24,14 @@
         </bookrights>
     </bookmeta>
     <frontmatter>
-        <notices href="common/notices_dita.dita" toc="no"/>
+        <notices href="../common/notices_dita.dita" toc="no"/>
         <booklists>
             <toc/>
         </booklists>
     </frontmatter>
-    <chapter href="Matthew/topic.dita">
-        <topicref href="Matthew/the_best_concept.dita"/>
-        <topicref href="Matthew/the_best_task.dita"/>
-        <topicref href="Matthew/the_best_reference.dita"/>
+    <chapter href="topic.dita">
+        <topicref href="the_best_concept.dita"/>
+        <topicref href="the_best_task.dita"/>
+        <topicref href="the_best_reference.dita"/>
     </chapter>
 </bookmap>

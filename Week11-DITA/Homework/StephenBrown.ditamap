@@ -29,5 +29,10 @@
             <toc/>
         </booklists>
     </frontmatter>
-    <chapter href="Stephen/topic.dita"/>
+    <chapter href="Stephen/motorcycle_pre_ride_safety_check.dita"/>
+    <chapter href="Stephen/horn_and_turn_signals.dita"/>
+    <chapter href="Stephen/kickstand_check.dita"/>
+    <chapter href="Stephen/lights.dita"/>
+    <chapter href="Stephen/fluid_leaks.dita"/>
+    <chapter href="Stephen/tires_and_tire_inflation.dita"/>
 </bookmap>

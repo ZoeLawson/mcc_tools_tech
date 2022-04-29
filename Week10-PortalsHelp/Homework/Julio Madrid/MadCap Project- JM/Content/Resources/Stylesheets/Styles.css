@@ -1,0 +1,750 @@
+/*<meta />*/
+
+:root
+{
+	--Brand1: #076685;
+	--Brand2: #CDE0E7;
+	--Black: #000000;
+	--Dark: #45494c;
+	--Medium: #b9bec1;
+	--Light: #d0d3d5;
+	--White: #ffffff;
+}
+
+body
+{
+	color: var(--Dark);
+	font-family: Arial, Avenir, Myriad;
+}
+
+.body-container
+{
+	padding-left: 2%;
+	padding-top: 2%;
+}
+
+/* Backmatter */
+
+div.GlossaryPageDefinition
+{
+	font-size: 10pt;
+}
+
+div.GlossaryPageHeading
+{
+	font-size: 21pt;
+	font-weight: normal;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border-bottom-color: var(--Medium);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	text-align: left;
+	color: inherit;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 10px;
+	background-image: url('../Images/Backmatter-Heading-Background.png');
+	background-repeat: no-repeat;
+}
+
+div.GlossaryPageTerm
+{
+	font-size: 12pt;
+	font-weight: bold;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+MadCap|glossaryProxy
+{
+	border-top: none;
+}
+
+MadCap|indexProxy
+{
+	border-top: none;
+}
+
+p.Index1
+{
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+p.Index2
+{
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+p.IndexHeading
+{
+	font-size: 21pt;
+	font-weight: normal;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border-bottom-color: var(--Medium);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	text-align: left;
+	color: inherit;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 12px;
+	padding-right: 10px;
+	background-image: url('../Images/Backmatter-Heading-Background.png');
+	background-repeat: no-repeat;
+}
+
+/* Content */
+
+img
+{
+	border: none;
+	max-width: 100%;
+}
+
+p
+{
+	font-size: 12.0pt;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 20pt;
+	letter-spacing: 0.25px;
+	widows: 3;
+	orphans: 3;
+}
+
+p.table-text
+{
+	font-size: 12pt;
+}
+
+/* Frontmatter */
+
+hr.title-page
+{
+	border: solid 0px transparent;
+	background-color: var(--Light);
+	height: 1px;
+	width: 100%;
+	margin-bottom: 30px;
+	margin-top: 370px;
+}
+
+MadCap|tocProxy
+{
+	border-top: none;
+	margin-right: 0.25in;
+}
+
+p.created-using-flare
+{
+	color: var(--Dark);
+	font-weight: bold;
+	margin-top: 18px;
+	font-size: 9pt;
+	line-height: 15pt;
+	text-transform: uppercase;
+}
+
+p.title
+{
+	font-size: 55pt;
+	line-height: 65pt;
+	margin-top: 30px;
+	mc-hyphenate: never;
+}
+
+p.title-page-footer
+{
+	color: var(--Dark);
+	font-size: 9pt;
+	frame-break-before: always;
+	line-height: 15pt;
+	margin-top: 30px;
+}
+
+p.title-page-url
+{
+	color: var(--Dark);
+	font-size: 9pt;
+	line-height: 15pt;
+}
+
+p.TOC1
+{
+	color: var(--Dark);
+	font-size: 19pt;
+	font-weight: normal;
+	line-height: 21pt;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	page-break-after: avoid;
+}
+
+p.TOC2
+{
+	color: var(--Dark);
+	font-size: 15pt;
+	font-weight: normal;
+	line-height: 21pt;
+	margin-bottom: 13px;
+	margin-left: .5in;
+	margin-top: 13px;
+}
+
+p.TOC3
+{
+	color: var(--Dark);
+	font-size: 13pt;
+	line-height: 21pt;
+	font-weight: normal;
+	margin-bottom: 10px;
+	margin-left: 1in;
+	margin-top: 10px;
+}
+
+/* Headings */
+
+h1
+{
+	font-weight: bold;
+	font-size: 24.0pt;
+	color: var(--Brand1);
+}
+
+h2
+{
+	font-weight: bold;
+	font-size: 18.0pt;
+	page-break-before: always;
+}
+
+h3
+{
+	font-weight: bold;
+	font-size: 14.0pt;
+}
+
+h4
+{
+	font-weight: bold;
+	font-size: 12.0pt;
+}
+
+h5
+{
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+
+h6
+{
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+
+/* Home page topic */
+
+div.home-layout
+{
+	padding: 2% 5%;
+}
+
+div.home-section
+{
+	padding: 5% 0;
+	border-bottom: solid 1px var(--Light);
+}
+
+div.home-tiles	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.home-tiles::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-tiles::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-tiles > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: var(--Brand2);
+	padding: 2%;
+}
+
+div.home-tiles > div:nth-child(1)
+{
+	width: 48%;
+	margin-left: 0%;
+}
+
+div.home-tiles > div:nth-child(2)
+{
+	width: 48%;
+	margin-left: 4%;
+}
+
+div.home-tiles-layout	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.home-tiles-layout::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-tiles-layout::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-tiles-layout > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.home-tiles-layout > div:nth-child(1)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.home-tiles-layout > div:nth-child(2)
+{
+	width: 66.66667%;
+	margin-left: 0%;
+}
+
+div.home-tiles-layout p
+{
+	line-height: 1.2;
+}
+
+div.quick-links	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.quick-links::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.quick-links::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.quick-links > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.quick-links > div:nth-child(1)
+{
+	width: 16.66666%;
+	margin-left: 2%;
+}
+
+div.quick-links > div:nth-child(2)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links > div:nth-child(3)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links > div:nth-child(4)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links > div:nth-child(5)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links *	/*Text-align center set to all elements within div.quick-links*/
+{
+	text-align: center;
+}
+
+div.topic-hero
+{
+	padding: 5%;
+	background-image: url('../Images/Hero-Image.png');
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+div.topic-hero h1
+{
+	color: var(--White);
+	font-size: 48pt;
+	text-align: center;
+}
+
+html.home-topic	/*Used on home topic to override padding set in the skin*/
+{
+	
+}
+
+html.home-topic .body-container	/*Overrides padding set in the skin*/
+{
+	padding: 0;
+}
+
+html.home-topic .main-section > .outer-row	/*Overrides padding set in the skin when in tablet/mobile*/
+{
+	max-width: 100%;
+	padding: 0;
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom-width: 0;
+	color: var(--Dark);
+}
+
+/* Links */
+
+a
+{
+	color: var(--Brand1);
+}
+
+a:link
+{
+	color: var(--Brand1);
+}
+
+a:visited
+{
+	color: var(--Brand1);
+}
+
+MadCap|dropDown
+{
+	border-bottom: 1px solid var(--Light);
+	mc-image-position: left;
+	mc-image-spacing: 10px;
+	mc-open-image: url('../Images/Minus.png');
+	mc-closed-image: url('../Images/Plus.png');
+	padding: 10px 0;
+}
+
+MadCap|dropDownBody
+{
+	padding: 10px 30px 0;
+}
+
+MadCap|dropDownHotspot
+{
+	cursor: hand;
+	text-decoration: none;
+	color: var(--Dark);
+	font-size: 20pt;
+	font-weight: bold;
+	border-bottom: none;
+}
+
+MadCap|expandingBody
+{
+	color: var(--Dark);
+	font-style: italic;
+}
+
+MadCap|expandingHead
+{
+	font-style: italic;
+	font-weight: normal;
+	cursor: hand;
+	text-decoration: none;
+	color: var(--Brand1);
+}
+
+MadCap|xref
+{
+	font-weight: bold;
+	mc-format: '{para}';
+	text-decoration: underline;
+	color: var(--Brand1);
+}
+
+/* Lists */
+
+dd,
+dd p,
+dt,
+dt p,
+li,
+li p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+dl,
+ol,
+ul
+{
+	letter-spacing: .25px;
+	line-height: 20pt;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* Page layout */
+
+p.frame-footer-page-number
+{
+	color: var(--Medium);
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: right;
+}
+
+p.frame-footer-text
+{
+	color: var(--Medium);
+	font-size: 11pt;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/* Master page */
+
+div.home-footer
+{
+	background-color: var(--Brand1);
+	padding: 2% 5%;
+}
+
+p.footer
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 13pt;
+	color: var(--White);
+}
+
+p.footer-sub
+{
+	color: var(--White);
+	font-size: 14pt;
+	margin-top: 14px;
+}
+
+@media tablet
+{
+	/* Home page topic */
+
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 49%;
+		margin-left: 0%;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 49%;
+		margin-left: 2%;
+	}
+
+	div.home-tiles-layout > div:nth-child(1)
+	{
+		width: 40%;
+		margin-left: 30%;
+	}
+
+	div.home-tiles-layout > div:nth-child(2)
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	div.quick-links > div:nth-child(1)
+	{
+		width: 24%;
+		margin-left: 0%;
+	}
+
+	div.quick-links > div:nth-child(2)
+	{
+		width: 24%;
+		margin-left: 14%;
+	}
+
+	div.quick-links > div:nth-child(3)
+	{
+		width: 24%;
+		margin-left: 14%;
+	}
+
+	div.quick-links > div:nth-child(4)
+	{
+		width: 24%;
+		margin-left: 19%;
+	}
+
+	div.quick-links > div:nth-child(5)
+	{
+		width: 24%;
+		margin-left: 14%;
+	}
+
+	html.home-topic .body-container
+	{
+		margin-left: 0;
+	}
+}
+
+@media mobile
+{
+	/* Home page topic */
+
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-top: 5%;
+	}
+
+	div.home-tiles-layout p
+	{
+		line-height: 1.2;
+	}
+
+	div.quick-links > div:nth-child(1)
+	{
+		width: 49%;
+		margin-left: 0;
+	}
+
+	div.quick-links > div:nth-child(2)
+	{
+		width: 49%;
+		margin-left: 2%;
+	}
+
+	div.quick-links > div:nth-child(3)
+	{
+		width: 49%;
+		margin-left: 0;
+	}
+
+	div.quick-links > div:nth-child(4)
+	{
+		width: 49%;
+		margin-left: 2%;
+	}
+
+	div.quick-links > div:nth-child(5)
+	{
+		width: 49%;
+		margin-left: 25.5%;
+	}
+}
+
+@media print
+{
+	body
+	{
+		font-size: 11pt;
+		line-height: 13pt;
+		margin: 8px;
+	}
+
+	/* Content */
+
+	p
+	{
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	p.table-text
+	{
+		font-size: 11pt;
+	}
+
+	/* Headings */
+
+	h1
+	{
+		font-size: 25pt;
+		line-height: 27pt;
+		margin-bottom: 20px;
+	}
+
+	h2
+	{
+		font-size: 21pt;
+		font-weight: normal;
+		line-height: 23pt;
+		margin-bottom: 18px;
+		margin-top: 40px;
+	}
+
+	h3
+	{
+		font-size: 15pt;
+		font-weight: bold;
+		line-height: 17pt;
+		margin-bottom: 15px;
+		margin-top: 40px;
+	}
+
+	/* Links */
+
+	MadCap|xref
+	{
+		font-weight: normal;
+		mc-format: '{quote}{para}{quote} {pageref}';
+		text-decoration: none;
+	}
+}

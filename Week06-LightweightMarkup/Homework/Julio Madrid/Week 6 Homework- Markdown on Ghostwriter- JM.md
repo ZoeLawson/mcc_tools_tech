@@ -4,7 +4,7 @@ Welcome to my first markdown assignment!
 
 ## What is Markdown?
 
-[**Markdown**](https://en.wikipedia.org/wiki/Markdown) is a lightweight markup language that you can use to add formatting elements to plain text documents. 
+[**Markdown**](https://en.wikipedia.org/wiki/Markdown) is a lightweight markup language used to add formatting elements to plain text documents.
 
 ## What Are Some Advantages of Markdown?
 
@@ -15,7 +15,7 @@ Here are two advantages of markdown:
 
 ## How is Markdown Used?
 
-Here is where markdown is used in the workplace:
+Here is how markdown is used in the workplace:
 
 * Email and websites
 * Documents, notes, and books

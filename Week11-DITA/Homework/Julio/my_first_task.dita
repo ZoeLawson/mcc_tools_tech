@@ -2,22 +2,16 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="my_first_task">
     <title>My First Task </title>
-    <shortdesc>The Laser D project requires adherence to certain procedures to ensure its successful
+    <shortdesc>The Laser D project requires performing certain tasks to ensure its successful
         completion. </shortdesc>
     <taskbody>
         <prereq id="prereq_pdg_p1b_ftb">
-            <p>When working on the Laser D project, here are some protocols you want to follow:</p>
+            <p>Before processing discs, make sure you perform these tasks first:</p>
             <ul id="ul_ndf_s1b_ftb">
-                <li><b>Collect a batch of discs from your library's collection.</b> Bring a
-                    cardboard box with you to the area where the Laser D collection is located at
-                    your library. Fill the cardboard box with discs.</li>
-                <li><b>Carry the CDs over to your workstation.</b> Carry the discs from the storage
-                    area of the Laser D collection to your cubicle or workspace.</li>
-                <li><b>Select a case, open the plastic lid cover, and carefully remove the
-                    disc.</b>Hold a Laser D disc between the fingers at the outer edge. Inspect the
-                    disc for any damages and make a note of them in your notebook.</li>
-                <li><b>Insert the disc into the drive.</b>Once the disc is pulled into the drive,
-                    run the SAS program.</li>
+                <li>Collect a batch of discs from your library's collection.</li>
+                <li>Carry the CDs over to your workstation.</li>
+                <li>Select a case, open the plastic lid cover, and carefully remove the disc.</li>
+                <li> Insert the disc into the drive and run the SAS program.</li>
             </ul>
         </prereq>
         <context>
@@ -26,8 +20,8 @@
         </context>
         <steps>
             <step>
-                <cmd>Start the SAS program by clicking the <uicontrol>"running man"
-                        button</uicontrol>.</cmd>
+                <cmd>Start the SAS program by clicking the <uicontrol>"running man"</uicontrol>
+                    button.</cmd>
                 <info>The program will extract all of the documents stored on the disc.</info>
             </step>
             <step>

@@ -29,7 +29,8 @@
             <toc/>
         </booklists>
     </frontmatter>
-    <chapter href="Julio/topic.dita">
+    <chapter href="Julio/topic_0.dita">
+        <topicref href="Julio/topic.dita"/>
         <topicref href="Julio/my_first_reference.dita"/>
         <topicref href="Julio/my_first_task.dita"/>
     </chapter>

@@ -11,16 +11,13 @@
                     <dt>Laser D</dt>
                     <dd>Laser D is a computer-based storage that provides access to corporate
                         documents filed with the SEC.<p>You can find more on Laser D in
-                                <filepath>C:\Users\J.Madrid\Downloads\LaserD</filepath>.</p><p><uicontrol>Field
-                                name</uicontrol><wintitle>Dialogue box
-                                names</wintitle><userinput>Enter this</userinput><varname>For
-                                variables</varname></p></dd>
+                                <filepath>C:\Users\J.Madrid\Downloads\LaserD</filepath>.</p></dd>
                 </dlentry>
                 <dlentry>
                     <dt>SAS Macros</dt>
                     <dd>
                         <p>SAS Macros avoids repetitive sections of code and allows them to be
-                            resuesed again when needed.</p>
+                            resused again when needed.</p>
                     </dd>
                     <dd>
                         <p>SAS Macros does the "dirty" work of automating the extraction of millions

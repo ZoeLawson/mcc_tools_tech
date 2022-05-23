@@ -2,21 +2,21 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="topic">
     <title>My First Concept</title>
-    <shortdesc>The Laser D project involves extracting millions of corporate document files from
-        thousands of discs within certain time constraints.</shortdesc>
+    <shortdesc>The Laser D project involves transferring millions of corporate document files from
+        thousands of discs.</shortdesc>
     <conbody>
         <p>Here are some things about the Laser D project:</p>
         <ul>
             <li>The primary goal of the Laser D project is to extract and index corporate document
-                files from your library’s Laser D collection within 9-12 months. </li>
+                files from a library’s Laser D collection within 9-12 months. </li>
             <li> These files must be transferred from compact discs (CDs) and saved
                 electronically.</li>
             <li>The Laser D collection contains U.S and international public company reports from
-                filing public companies. <p>MBA students need these reports for their academic
-                    research, but these documents are in danger of erasure due to the obsolescence
-                    of their media and software</p></li>
+                filing public companies. </li>
+            <li>MBA students need these reports for their academic research, but these documents are
+                in danger of erasure due to the obsolescence of their media and software.</li>
         </ul>
         <p>Upon completion of this project, graduate students will have access to the entire
-            collection of reports</p>
+            collection of reports.</p>
     </conbody>
 </concept>

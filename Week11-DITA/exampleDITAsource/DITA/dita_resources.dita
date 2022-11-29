@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="dita_resources">
+    <title>DITA Resources</title>
+    <shortdesc>A few sites to look at about DITA.</shortdesc>
+    <conbody>
+        <p>DITA 1.3 Specification: <xref
+                href="http://docs.oasis-open.org/dita/dita/v1.3/dita-v1.3-part3-all-inclusive.html"
+                format="html" scope="external"/></p>
+        <p>DITA Open Toolkit: <xref href="https://www.dita-ot.org/" format="html" scope="external"
+            /></p>
+        <p>Oxygen XML DITA Authoring: <xref
+                href="https://www.oxygenxml.com/doc/versions/22.0/ug-author/topics/author-dita.html"
+                format="html" scope="external"/></p>
+        <p>DITA Best Practices: <xref
+                href="https://www.amazon.com/DITA-Best-Practices-Roadmap-Architecting-ebook/dp/B005FEOU48/ref=sr_1_1?crid=2HXA23N0U4QW8&amp;dchild=1&amp;keywords=dita+best+practices&amp;qid=1586399477&amp;s=books&amp;sprefix=DITA+Best%2Cstripbooks%2C208&amp;sr=1-1"
+                format="html" scope="external"/></p>
+        <p>Boston DITA User Group (DITA BUG): <xref href="http://bostondita.org" format="html"
+                scope="external"/></p>
+        <p>DITA XML (May not work in Firefox): <xref href="http://dita.xml.org/home" format="html"
+                scope="external"/></p>
+        <p>DITA Users mailing list: <xref href="https://dita-users.groups.io/g/main" format="html"
+                scope="external"/></p>
+    </conbody>
+</concept>

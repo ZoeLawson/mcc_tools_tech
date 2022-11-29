@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="about_short_descriptions">
+    <title>About short descriptions</title>
+    <shortdesc>Every topic can have a short description, and should.</shortdesc>
+    <conbody>
+        <p>Use the <xmlelement>shortdesc</xmlelement> element to provide a short description of your
+            topic. In general, it should be just a sentence or two, just text. In fact, some
+            automatic checkers complain when your <xmlelement>shortdesc</xmlelement> is over 50
+            words.</p>
+        <p>It's more than just the introduction to your topic. Many DITA processors take the short
+            description and use it with links. For example, if you transform your content into HTML,
+            the short description content could be a popup when you hover over a link.</p>
+        <image placement="break" href="art/linkPopup.png" align="center"/>
+        <p>You can also configure DITA topics to generate various types of automatic links. These
+            links can also pull in the short description.</p>
+        <image placement="break" href="art/childTopics.png" align="center"/>
+        <p>Short descriptions may also be weighted heavier for search results, which can improve your
+            SEO (search engine optimization).</p>
+        <p>Learning to write short descriptions is an artform, similar to a first paragraph in a
+            news story. It is well worth practicing.</p>
+        <p>When writing short descriptions, you want to avoid the following:</p>
+        <ul>
+            <li>"This topic..."<p>Don't write a circular introduction. Think of this as the lead in
+                    to an article. You want text that concisely describes the contents, and makes
+                    people want to read it (if it's what they're looking for).</p></li>
+            <li>Lead-ins to lists:<p>The short description is often used by tools as a brief
+                    description of this topic. If you have a lead-in, the contents are usually
+                    dropped from the link. Imagine a search result that just says "Read this to
+                    learn:"</p></li>
+            <li>Images<p>Not necessarily a no-no, but in the alternative ways short descriptions are
+                    used, the image may not appear.</p></li>
+            <li>Links<p>Again, not necessarily verboten, but if the text is showing in a pop-up, the
+                    link may not work.</p></li>
+        </ul>
+        <p>Writing good short descriptions is a common topic for presentations at conferences. It
+            might be worth putting researching (and practicing) short description authoring on your
+            to-do list.</p>
+        <ul>
+            <li><xref
+                    href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/Artefact/Syntax_and_Markup/c_Guidelines_for_Crafting_Short_Descriptions.html"
+                    format="html" scope="external"/></li>
+            <li><xref
+                    href="https://www.oasis-open.org/committees/download.php/57803/DITA-Adoption_2016_Writing-Effective-Short-Descriptions.pdf"
+                    format="pdf" scope="external"/></li>
+        </ul>
+    </conbody>
+</concept>

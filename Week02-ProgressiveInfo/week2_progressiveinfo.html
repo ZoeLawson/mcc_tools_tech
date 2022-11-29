@@ -1,0 +1,584 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+        <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+        
+        <meta name="copyright" content="(C) Copyright 2022"></meta>
+        <meta name="DC.rights.owner" content="(C) Copyright 2022"></meta>
+        <meta name="DC.type" content="concept"></meta>
+        <meta name="DC.title" content="Progressive Information Disclosure"></meta>
+        <meta name="abstract" content=""></meta>
+        <meta name="description" content=""></meta>
+        <meta name="DC.format" content="XHTML"></meta>
+        <meta name="DC.identifier" content="title_slide"></meta>
+        <link rel="stylesheet" type="text/css" href="commonltr.css"></link>
+        <title>Progressive Information Disclosure</title>
+        <meta name="apple-mobile-web-app-capable" content="yes"></meta><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></meta><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"></meta><link rel="stylesheet" href="../revealjs/css/reveal.css"></link><link rel="stylesheet" href="../revealjs/css/theme/zoe.css" id="theme"></link><link href="../revealjs/lib/css/zenburn.css" rel="stylesheet"></link><script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? '../revealjs/css/print/pdf.css' : '../revealjs/css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+    <script src="https://kit.fontawesome.com/75bbc01a62.js" crossorigin="anonymous"></script>
+</head>
+        <body><div class="reveal"><div class="slides">
+        <section>
+    <h1 class="title topictitle1" id="ariaid-title1">Progressive Information Disclosure</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc"></p>
+        
+        <ul class="ul">
+            <li class="li">Discuss Progressive Information Disclosure (PID)</li>
+        
+            <li class="li">More on using Git</li>
+        
+        </ul>
+        
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title2">What is PID?</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">The right amount of information available at the right time.</p>
+        
+        <p class="p">As a user interacts with a thing, they can find the information they need when they need
+            it.</p>
+        <p class="p">You aren't overwhelmed by too much information all at once.</p>
+        <p class="p">You aren't lost and confused because you can't figure out what to do.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title3">A many layered onion</h1>
+        
+    <div class="body conbody">
+        <ol class="ol">
+            <li class="li">The user interface</li>
+        
+            <li class="li">Hover text</li>
+        
+            <li class="li">More information (<span class="ph fas fa-info-circle"></span> or <span class="ph fas fa-question-circle"></span>)</li>
+        
+            <li class="li">Learn more...</li>
+        
+            <li class="li">Tours</li>
+        
+            <li class="li">Help</li>
+        
+        </ol>
+        
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section><section>
+    <h1 class="title topictitle1" id="ariaid-title4">The user interface</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Many people believe that "Technical Writing" is more about User Experience and
+        Information Design</p>
+        
+        <p class="p">Some folks believe tech writers should own all the text on the screen.</p>
+        <p class="p">Clear labels and guidance text help a lot.</p>
+        <p class="p">There's nothing worse than documenting around poor UI design.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title5">UI Text</h2>
+        
+    <div class="body conbody">
+        
+        <div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="void" border="0" rules="none"><colgroup><col style="width:33.33333333333333%"></col><col style="width:33.33333333333333%"></col><col style="width:33.33333333333333%"></col></colgroup><tbody class="tbody">
+                    <tr class="row">
+                        <td class="entry nocellnorowborder" style="text-align:center;vertical-align:top;">
+                            <br></br><img class="image fragment fade-up" src="art/Date_Bad.png"></img><br></br>
+                        </td>
+        
+                        <td class="entry nocellnorowborder" style="text-align:center;vertical-align:top;"><span class="ph fragment fade-left"><span class="ph fas fa-chevron-circle-right"></span></span></td>
+        
+                        <td class="entry nocellnorowborder" style="text-align:center;vertical-align:top;">
+                            <br></br><img class="image fragment fade-up" src="art/Date_Error.png"></img><br></br>
+                        </td>
+        
+                    </tr>
+        
+                </tbody>
+        </table>
+        </div>
+        
+        <p class="p fragment fade-left">or...</p>
+        <br></br><img class="image fragment fade-up" src="art/Date_Good.png"></img><br></br>
+        <p class="p fragment fade-right">See how a little bit of UI text can save you some
+            documentation?</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title6">Hover text</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Also called "Tool Tips"</p>
+        
+        <p class="p">(Sometimes used with Accessibility, too)</p>
+        <p class="p">When you hover (maybe click, depending) over content, additional text appears in a
+            popup.</p>
+        <p class="p">Currently not available on mobile devices.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title7">More information</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Often indicated with <span class="ph fas fa-info-circle"></span> or <span class="ph fas fa-question-circle"></span>, sometimes &gt;</p>
+        
+        <p class="p">Click (or hover) over the icon and get a blurb of text. (Or a &gt; hides a collapsible
+            section)</p>
+        <p class="p">The information tends to be longer than a pop up/hover help.</p>
+        <p class="p">This can be in a popup near the icon, or maybe open a slide out panel or another
+            screen.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title8">Learn more</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">At the end of a pop-up, you might want to include a <span class="ph uicontrol">Learn
+            more...</span> link.</p>
+        
+        <p class="p">A link to more in-depth information.</p>
+        <p class="p">This can open up the help, a slide out panel, or go off to other web sites.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title9">Tours</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Those bubbles in Facebook or Adobe Acrobat highlighting new features. </p>
+        
+        <p class="p">These text bubbles step you through some task in the UI.</p>
+        <p class="p">(Also how-tos in games that walk you through something.)</p>
+        <p class="p">Some are interactive, some are just informational.</p>
+        <p class="p">(And remember, we're going into more detail in two weeks.)</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section><section>
+    <h1 class="title topictitle1" id="ariaid-title10">Help</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">The user manual integrated into your software.</p>
+        
+        <p class="p">When possible, context-sensitive is better.</p>
+        <p class="p">Context-sensitive = Click <span class="ph uicontrol">help</span>, get information about the screen
+            you are on.</p>
+        <p class="p">Once upon a time, <span class="ph uicontrol">F1</span> was used to launch the help. </p>
+        <p class="p">(Sometimes it still works)</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title11">Help implementations</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Over the years, the definition of "help" has changed.</p>
+        
+        <ul class="ul">
+            <li class="li">Static PDF</li>
+        
+            <li class="li">Frameset of content with TOC, Index, Search</li>
+        
+            <li class="li">Text in a slide out panel</li>
+        
+            <li class="li">Link to content hosted somewhere</li>
+        
+        </ul>
+        
+        <p class="p">We'll be talking more about help later in the course.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title12">Not just in the UI</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Remember, as a writer, you are a user advocate.</p>
+        
+        <p class="p">You may need to support many types of users.</p>
+        <ul class="ul">
+            <li class="li">Do you create separate guides based on role?</li>
+        
+            <li class="li">Do you provide links between User tasks and Admin tasks?</li>
+        
+            <li class="li">Do you create collapsible sections?</li>
+        
+        </ul>
+        
+        <p class="p">Don't fall into the trap of documenting ALL THE THINGS</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title13">Future and beyond</h1>
+        
+    <div class="body conbody">
+        <p class="p">Integrate with "AI" for natural language search</p>
+        <p class="p">The next generation of "<a class="xref" href="https://en.wikipedia.org/wiki/Office_Assistant" target="_blank">Clippy</a>"</p>
+        <p class="p">Chatbots</p>
+        <p class="p smaller"><q class="q">What are you doing Hal?</q></p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title14">More Information</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc"></p>
+        
+        <ul class="ul">
+            <li class="li"><a class="xref" href="https://www.slideshare.net/aames/applying-progressive-information-disclosure-user-interface-content-design" target="_blank">Applying Progressive Information Disclosure: User
+                    Interface Content Design</a> by Andrea Ames</li>
+        
+            <li class="li"><a class="xref" href="https://www.nngroup.com/articles/progressive-disclosure/" target="_blank">https://www.nngroup.com/articles/progressive-disclosure/</a>
+            </li>
+        
+        </ul>
+        
+        <p class="p">Text editor: <a class="xref" href="https://notepad-plus-plus.org/" target="_blank">Notepad++</a> (PC)</p>
+                <p class="p"><a class="xref" href="https://atom.io/" target="_blank">https://atom.io/</a> (Mac)</p>
+        <p class="p">Wireframe tool: <a class="xref" href="https://pencil.evolus.vn/" target="_blank">The
+                Pencil Project</a></p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title15">What is a properties file?</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Text file of name = value pairs.</p>
+        
+        <p class="p"><a class="xref" href="https://en.wikipedia.org/wiki/.properties" target="_blank">https://en.wikipedia.org/wiki/.properties</a></p>
+        <p class="p">Commonly used for configurations and text strings</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title16">Why you care</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">A lot of software pulls all strings in to a separate text file for
+        translation.</p>
+        
+        <p class="p">(Everyone know what a string is?)</p>
+        <p class="p">While you can ask a developer  to make the change for you, sometimes going in and editing
+            a file yourself is a lot easier.</p>
+        <p class="p">FYI, sometimes the strings contain variables, such as <code class="ph codeph">{$1}</code>. </p>
+        <p class="p">Ask a developer what the variables do.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title17">Homework goals</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc"></p>
+        
+        <ul class="ul">
+            <li class="li">Basics of editing a properties file.</li>
+        
+            <li class="li">Following directions to name files correctly and put them in the right
+                location.</li>
+        
+            <li class="li">Interacting with automation.</li>
+        
+        </ul>
+        
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section><section>
+    <h1 class="title topictitle1" id="ariaid-title18">Homework</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Start exploring UI design and properties files</p>
+        
+        <p class="p">Many UIs have their text strings pulled out into properties files to make translation
+            easier.</p>
+        <p class="p">You may be asked to edit the text on a screen by going in and editing a properties
+            file.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title19">Homework steps</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc"></p>
+        
+        <ol class="ol">
+            <li class="li">Get the latest and greatest files from Git.</li>
+        
+            <li class="li">Make your own version of the properties file and create a Pull Request.<p class="p">You must
+                    name the file
+                        <span class="ph filepath"><var class="keyword varname">FirstName</var><var class="keyword varname">LastName</var>.properties</span>.</p></li>
+        
+            <li class="li">Check the GitHub Action. When complete, get the latest and greatest and look at your
+                generated HTML file.</li>
+        
+        </ol>
+        
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title20">Please tidy up</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc"></p>
+        
+        <p class="p">Please double-check last week's homework.</p>
+        <p class="p">If your files are in the root of <span class="ph filepath">mcc_tools_tech</span>, they are in the
+            wrong place.</p>
+        <p class="p">If your files are in <span class="ph filepath">mcc_tools_tech/Week01-IntroGitHub</span>, they are in
+            the wrong place.</p>
+        <p class="p">Please move your files to
+            <span class="ph filepath">mcc_tools_tech\Week01-IntroGitHub\Homework</span></p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title21">More about the homework</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc">In the Week02 folder, there is a PID.pdf. Full details are in there.</p>
+        
+        <p class="p">If you find this homework too easy and uninteresting:</p>
+        <p class="p">Design a UI with PID. You can use a UI mockup tool like Pencil.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section><section>
+    <h1 class="title topictitle1" id="ariaid-title22">More Git</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Because, yes, it's tricksy</p>
+        
+        <ul class="ul">
+            <li class="li">Updating local files</li>
+        
+            <li class="li">GitHub Actions</li>
+        
+        </ul>
+        
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title23">Syncing forked repos</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc"></p>
+        
+        <p class="p">Via the browser:  Click <span class="ph uicontrol">Fetch upstream</span>.</p>
+        <p class="p">Via the command line: <code class="ph codeph">git pull https://github.com/ZoeLawson/mcc_tools_tech.git
+                                Winter2022</code></p>
+        <p class="p">Via GitHub Desktop: <span class="ph uicontrol">Choose a branch to merge into Winter2022</span></p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title24">Getting the latest and greatest files</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc">As explained last week, Git lets you collaborate. To do this you need to get files
+        from the original repository.</p>
+        
+        <p class="p">To do this, you pull from the source repository into your repository.</p>
+        <p class="p">You can do this "in the cloud" or locally.</p>
+        <ul class="ul">
+            <li class="li">If you do it in the cloud, you'll have to download the changes to your system.</li>
+        
+            <li class="li">If you do it locally, you'll need to upload the changes to your forked repo in
+                GitHub.</li>
+        
+        </ul>
+        
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title25">Ahead and behind</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc"></p>
+        
+        <p class="p">Because you forked the repository, GitHub keeps a connection between your fork and the
+            original repo</p>
+        <p class="p">If you have changes in your repo that aren't in the original repo, your repo is
+                <dfn class="term">ahead</dfn>.</p>
+        <p class="p">If there are changes in the original repo that aren't in your repo, your repo is
+                <dfn class="term">behind</dfn>.</p>
+        <p class="p">It is possible to be both ahead and behind at the same time. You can have local changes
+                <em class="ph i">and</em> need remote changes.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title26">Sync before pushing</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc">You must have all your remote changes locally before you can push.</p>
+        
+        <p class="p">This is very important for working with your fork and your local system.</p>
+        <p class="p">You can often make a pull request without syncing, but I don't really recommend it.</p>
+        <ol class="ol">
+            <li class="li">Sync your fork (remote/origin) with class repo.</li>
+        
+            <li class="li">Pull from origin to your local repo.</li>
+        
+            <li class="li">Push local changes to remote (i.e. your fork)</li>
+        
+            <li class="li">Make a pull request.</li>
+        
+        </ol>
+        
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title27">Example error</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc">This is what happened while I was trying to update this week's
+        presentation.</p>
+        
+        <pre class="pre codeblock"><code>C:\ZoeStuff\MCC\github\mcc_tools_tech&gt;git push origin Winter2022
+To https://github.com/ZoeLawson/mcc_tools_tech.git
+ ! [rejected]        Winter2022 -&gt; Winter2022 (fetch first)
+error: failed to push some refs to 'https://github.com/ZoeLawson/mcc_tools_tech.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.</code></pre>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title28">Sync in the cloud</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Your fork should have an easy to use button to get the latest and greatest
+        files.</p>
+        
+        <p class="p">Near the top of your GitHub fork, there should be an area with a message</p>
+        <ul class="ul">
+            <li class="li"><samp class="ph msgph">This branch is up to date with <var class="keyword varname">original repo
+                    name</var></samp><p class="p">You should be all synced up.</p></li>
+        
+        </ul>
+        
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title29">Sync in the cloud continued</h2>
+        
+    <div class="body conbody">
+        <ul class="ul">
+            <li class="li"><samp class="ph msgph">This branch is <var class="keyword varname">n</var> commits ahead of <var class="keyword varname">original repo
+                        name</var></samp><p class="p">You need to make a pull request to get your changes
+                    to the original repo.</p></li>
+        
+            <li class="li"><samp class="ph msgph">This branch is <var class="keyword varname">n</var> commits behind of <var class="keyword varname">original repo
+                        name</var></samp><p class="p">You need to <span class="ph uicontrol">Fetch upstream</span>
+                    to get the latest files from the original repo.</p></li>
+        
+        </ul>
+        
+        <p class="p">You usually cannot push to a repo without being 'in sync' with it.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title30">Don't forget to get the files local</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc"></p>
+        
+        <p class="p">Running <span class="ph uicontrol">Fetch upstream</span> pulls/fetches the latest and greatest files
+            from the upstream repo into your fork in GitHub.</p>
+        <p class="p">These files are in the cloud, not on your computer.</p>
+        <p class="p">Remember to go into GitHub Desktop and click <span class="ph uicontrol">Fetch origin</span>.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title31">Sync locally</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc"></p>
+        
+        <p class="p">In GitHub Desktop, click the arrow next to the current branch name.</p>
+        <p class="p">Select <span class="ph uicontrol">Choose a branch to merge into Winter2022</span>.</p>
+        <p class="p">Select <span class="ph uicontrol">upstream/Winter2022</span>.</p>
+        <p class="p">Click <span class="ph uicontrol">Create a merge commit</span>.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title32">Don't forget to get the files to your fork</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc"></p>
+        
+        <p class="p">You just got the latest and greatest to your laptop. </p>
+        <p class="p">Don't forget to get the files up to your fork in GitHub.</p>
+        <p class="p">In GitHub Desktop, click <span class="ph uicontrol">Push origin</span>.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title33">About GitHub Actions</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc">GitHub is integrated with some CI/CD tools</p>
+        
+        <p class="p">Continuous Integration/Continuous Delivery</p>
+        <p class="p">You commit files and this triggers a build.</p>
+        <p class="p">In a real environment, this can build output or build software.</p>
+        <p class="p">This week, it's just making an HTML file.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section><div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2022</div></section></div></div><script src="../revealjs/lib/js/head.min.js" type="text/javascript"></script>
+        <script src="../revealjs/js/reveal.js" type="text/javascript"></script>
+        <script src="../revealjs/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+                
+                Reveal.initialize({
+                
+                    // parallaxBackgroundHorizontal: null,
+                    // parallaxBackgroundImage: '',
+                    // parallaxBackgroundSize: '',
+                    // parallaxBackgroundVertical: null,
+                    autoSlide: 0,
+                    autoSlideStoppable: true,
+                    backgroundTransition: 'default',
+                    center: true,
+                    controls: true,
+                    controlsLayout: 'edges',
+                    embedded: false,
+                    fragments: true,
+                    height: 700,
+                    hideAddressBar: true,
+                    history: true,
+                    keyboard: true,
+                    loop: false,
+                    margin: 0.1,
+                    maxScale: 1.5,
+                    minScale: 0.2,
+                    mouseWheel: false,
+                    overview: true,
+                    previewLinks: false,
+                    progress: true,
+                    rtl: false,
+                    slideNumber: false,
+                    theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                    touch: true,
+                    transition: 'default',
+                    transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+                    transitionSpeed: 'default',
+                    viewDistance: 3,
+                    width: 960,
+                    
+                    // Optional libraries used to extend on reveal.js
+                    dependencies: [
+                    { src: '../revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: '../revealjsplugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: '../revealjsplugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: '../revealjsplugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: '../revealjsplugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                { src: '../revealjsplugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                    ]
+                });
+                
+                Reveal.addEventListener( 'slidechanged', function( event ) {
+                    zoomSection();
+                } );
+                
+                $( document ).ready(function() {});
+            </script></body></html>

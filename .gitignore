@@ -1,0 +1,23 @@
+#ignore some Windows system files
+.DS_Store
+~*.dotx
+~*.docx
+*.backup.fm
+*.backup.book
+*.lck
+*.mif
+**/Users/Zoe
+**/Analyzer
+**/Output
+**/*.fldb
+**/*.s3db
+**/*.cadbf
+**/*.*~
+**/*.bak
+**/~*.dotx
+**/~*.docx
+**/*.backup
+**/~*
+**/tmp
+**/temp
+**/out

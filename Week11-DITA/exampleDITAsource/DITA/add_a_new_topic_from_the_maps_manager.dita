@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="add_a_new_topic_from_the_maps_manager">
+    <title>Add a new topic from the Maps Manager</title>
+    <shortdesc>This is one of many ways you can add a topic to a map.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Select a node in your map.</cmd>
+            </step>
+            <step>
+                <cmd>Select where you want to add the new topic.</cmd>
+                <choices>
+                    <choice><menucascade>
+                            <uicontrol>Append child</uicontrol>
+                            <uicontrol>New</uicontrol>
+                        </menucascade> — This is the only option available when you select the root
+                        node of the map. This adds a new topic as a child of the selected node. </choice>
+                    <choice><menucascade>
+                            <uicontrol>Insert before</uicontrol>
+                            <uicontrol>New</uicontrol>
+                        </menucascade> — Adds a new topic before the selected node.</choice>
+                    <choice><menucascade>
+                            <uicontrol>Insert after</uicontrol>
+                            <uicontrol>New</uicontrol>
+                        </menucascade> — Adds a new topic after the selected node.</choice>
+                </choices>
+                <info>The <wintitle>New</wintitle> dialog opens.</info>
+            </step>
+            <step>
+                <cmd>In the <uicontrol>Filter</uicontrol> field, enter the topic type you want to
+                    create.</cmd>
+                <choices>
+                    <choice><userinput>concept</userinput></choice>
+                    <choice><userinput>task</userinput></choice>
+                    <choice><userinput>reference</userinput></choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>Select the topic type from <menucascade>
+                        <uicontrol>Framework templates</uicontrol>
+                        <uicontrol>DITA</uicontrol>
+                        <uicontrol>Maps</uicontrol>
+                    </menucascade>.</cmd>
+                <stepxmp>To add a concept type topic, select <menucascade>
+                        <uicontrol>Framework templates</uicontrol>
+                        <uicontrol>DITA</uicontrol>
+                        <uicontrol>Maps</uicontrol>
+                        <uicontrol>Concept [DITA/Topics]</uicontrol>
+                    </menucascade>.</stepxmp>
+            </step>
+            <step conref="create_a_map_in_oxygen.dita#create_a_map_in_oxygen/title"><cmd/></step>
+            <step>
+                <cmd conref="create_a_map_in_oxygen.dita#create_a_map_in_oxygen/filename"/>
+                <info><p>Double-check your path. There is a folder for you in the
+                            <filepath>Week11-DITA/Homework</filepath> folder. Make sure you are
+                        saving your files in your folder.</p>The file name is auto-generated based
+                    on the title for the topic.</info>
+                <stepxmp>For example, the title <userinput>My first concept</userinput> becomes
+                        <filepath>my_first_concept.dita</filepath>.</stepxmp>
+            </step>
+            <step conref="create_a_map_in_oxygen.dita#create_a_map_in_oxygen/create">
+                <cmd/>
+            </step>
+        </steps>
+        <result>Oxygen creates the new topic, which opens in the Editor. The new topic is also added
+            to the map where you requested.</result>
+    </taskbody>
+</task>

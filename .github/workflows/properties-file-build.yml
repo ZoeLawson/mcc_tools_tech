@@ -3,7 +3,7 @@ name: properties to HTML
 #   workflow_dispatch:
   push:
     branches:
-    - Winter2022
+    - Winter2023
     paths:
     - 'Week02-ProgressiveInfo/Homework/ZoeLawson.properties'
 jobs:
@@ -25,5 +25,5 @@ jobs:
     - name: Deploy Output to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@4.1.8
       with:
-        BRANCH: Winter2022
+        BRANCH: Winter2023
         folder: .

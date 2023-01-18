@@ -362,3 +362,9 @@ br {
     color: green;
 
 }
+
+.term {
+    color: #a23;
+    font-weight: bold;
+    font-style: normal;
+}

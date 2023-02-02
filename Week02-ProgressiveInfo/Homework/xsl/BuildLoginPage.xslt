@@ -2,10 +2,10 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:f="Functions" exclude-result-prefixes="xs"
     version="2.0">
-    <xsl:output method="xhtml"/>
+    <xsl:output method="html"/>
 
     <xsl:param name="propertiesFile"
-        select="'file:///C:/ZoeStuff/MCC/github/mcc_tools_tech/Week02-ProgressiveInfo/Homework/login.properties.RL'"/>
+        select="'file:///C:/ZoeStuff/MCC/github/mcc_tools_tech/Week02-ProgressiveInfo/Homework/login.properties'"/>
 
     <xsl:variable name="properties" select="unparsed-text($propertiesFile)" as="xs:string"/>
 
@@ -41,16 +41,15 @@
                     233px; padding-top: 12pt; padding-left: 12pt; padding-right: 12pt; } h1 {
                     font-size: 24pt; font-weight: bold; } fieldset { margin: 18pt; } legend {
                     font-size: 18pt; } label { font-weight: bold; font-size: 16pt; margin-bottom:
-                    6pt; } input { font-size: 16pt; margin-bottom: 6pt; } img { display: inline;
-                    margin-left: 12pt; } span.link { color: blue; font-size: 14pt; } </xsl:element>
-                <xsl:element name="script">function openHlp(hlpid) {
-                    var x = document.getElementById(hlpid);
-                    if (x.style.display == "none") {
-                    x.style.display = "block";
-                    } else {
-                    x.style.display = "none";
-                    }
-                    }</xsl:element>
+                    6pt; margin-right: 12pt;} input { font-size: 16pt; margin-bottom: 6pt; } img { display: inline;
+                    margin-left: 12pt; } a { color: blue; font-size: 14pt; } a:hover
+                    {text-decoration: blue underline} img.hlpbtn:hover { border: medium groove
+                    silver; } div.tada { display: none; background-color: #ffccff; border: thin
+                    solid red; margin: 72pt;} p.tada { background-color: #ffccff; color: red;
+                    font-size: 72pt; font-family: Century Gothic; background-image: none;} div.oops
+                    { font-size: 12pt; font-family: Century Gothic; color: gray; padding:
+                    18pt;}</xsl:element>
+
             </xsl:element>
             <xsl:element name="body">
                 <xsl:element name="div">
@@ -69,6 +68,12 @@
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="f:getProperty('Graphic')"/>
                                             </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of select="f:getProperty('GraphicAlt')"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of select="f:getProperty('GraphicAlt')"/>
+                                            </xsl:attribute>
                                         </xsl:element>
                                     </xsl:otherwise>
                                 </xsl:choose>
@@ -85,6 +90,7 @@
                             <xsl:value-of select="f:getProperty('LoginPage')"/>
                         </xsl:element>
                         <xsl:element name="form">
+                            <xsl:attribute name="onsubmit">openHlp('thing'); return false;</xsl:attribute>
                             <xsl:element name="fieldset">
                                 <xsl:element name="legend">
                                     <xsl:value-of select="f:getProperty('legend')"/>
@@ -103,8 +109,11 @@
                                     </xsl:attribute>
                                 </xsl:element>
                                 <xsl:element name="img">
+                                    <xsl:attribute name="class">hlpbtn</xsl:attribute>
                                     <xsl:attribute name="src">help.png</xsl:attribute>
-                                    <xsl:attribute name="onclick">openHlp('usr')</xsl:attribute>
+                                    <xsl:attribute name="onclick">openHlp('usr');</xsl:attribute>
+                                    <xsl:attribute name="alt">help</xsl:attribute>
+                                    <xsl:attribute name="title">Click here for help</xsl:attribute>
                                 </xsl:element>
                                 <xsl:element name="br"/>
                                 <xsl:element name="label">
@@ -121,8 +130,11 @@
                                     </xsl:attribute>
                                 </xsl:element>
                                 <xsl:element name="img">
+                                    <xsl:attribute name="class">hlpbtn</xsl:attribute>
                                     <xsl:attribute name="src">help.png</xsl:attribute>
-                                    <xsl:attribute name="onclick">openHlp('pswd')</xsl:attribute>
+                                    <xsl:attribute name="onclick">openHlp('pswd');</xsl:attribute>
+                                    <xsl:attribute name="alt">help</xsl:attribute>
+                                    <xsl:attribute name="title">Click here for help</xsl:attribute>
                                 </xsl:element>
                                 <xsl:element name="br"/>
                                 <xsl:element name="input">
@@ -134,6 +146,10 @@
                                 <xsl:element name="br"/>
                                 <xsl:element name="a">
                                     <xsl:value-of select="f:getProperty('FixPassword')"/>
+                                </xsl:element>
+                                <xsl:element name="div">
+                                    <xsl:attribute name="class">oops</xsl:attribute>
+                                    <xsl:text>You may have to click buttons twice because I'm not a real developer.</xsl:text>
                                 </xsl:element>
                             </xsl:element>
                         </xsl:element>
@@ -153,6 +169,15 @@
                         </xsl:element>
                     </xsl:element>
                 </xsl:element>
+                <xsl:element name="div">
+                    <xsl:attribute name="id">thing</xsl:attribute>
+                    <xsl:attribute name="class">tada</xsl:attribute>
+                    <xsl:element name="p">
+                        <xsl:attribute name="class">tada</xsl:attribute> Do the thing!</xsl:element>
+                </xsl:element>
+                <xsl:element name="script">function openHlp(hlpid) { var x =
+                    document.getElementById(hlpid); if (x.style.display == "none") { x.style.display
+                    = "block"; } else { x.style.display = "none"; } }</xsl:element>
             </xsl:element>
         </xsl:element>
     </xsl:template>

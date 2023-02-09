@@ -1,8 +1,8 @@
 <html>
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <title>Login Page action fix take 2</title><style> div.container { display: block; margin: auto;
-                    font-family: Century Gothic; width: 850pt; height: 300pt; border: solid medium
+      <title>Login Page</title><style> div.container { display: block; margin: auto;
+                    font-family: Snell Roundhand; width: 850pt; height: 300pt; border: solid medium
                     black; background-color: #e6e6ff; } div.logo { display: block; width: 199pt;
                     float: left;} p { display: block; height: 160pt; background-image:
                     radial-gradient(#9966ff,#660066); color: white; margin: 18pt; padding: 6pt;
@@ -19,23 +19,23 @@
                     {text-decoration: blue underline} img.hlpbtn:hover { border: medium groove
                     silver; } div.tada { display: none; background-color: #ffccff; border: thin
                     solid red; margin: 72pt;} p.tada { background-color: #ffccff; color: red;
-                    font-size: 72pt; font-family: Century Gothic; background-image: none;} div.oops
-                    { font-size: 12pt; font-family: Century Gothic; color: gray; padding:
+                    font-size: 72pt; font-family: Optima; background-image: none;} div.oops
+                    { font-size: 12pt; font-family: Optima; color: gray; padding:
                     18pt;}</style></head>
    <body>
       <div class="container">
-         <div><img class="imglogo" src="images/CoolGraphic.png" alt="Alt text is important for accessibility" title="Alt text is important for accessibility"></div>
+         <div><img class="imglogo" src="images/CoolGraphic.png" alt="Alt text goes here" title="Alt text goes here"></div>
          <div class="login_form">
-            <h1>Login Page action fix take 2</h1>
+            <h1>Login Page</h1>
             <form onsubmit="openHlp('thing'); return false;">
                <fieldset>
-                  <legend>Something witty here</legend><label for="username">User Name</label><input id="username" type="text" title="Enter user name"><img class="hlpbtn" src="help.png" onclick="openHlp('usr');" alt="help" title="Click here for help"><br><label for="password">Password</label><input id="password" type="text" title="Enter password"><img class="hlpbtn" src="help.png" onclick="openHlp('pswd');" alt="help" title="Click here for help"><br><input type="submit" value="Submit"><br><a>Reset password</a><div class="oops">You may have to click buttons twice because I'm not a real developer.</div>
+                  <legend>Your winning lottery numbers</legend><label for="username">User Name</label><input id="username" type="text" title="email"><img class="hlpbtn" src="help.png" onclick="openHlp('usr');" alt="help" title="Click here for help"><br><label for="password">Password</label><input id="password" type="text" title="the password you use for fun sites"><img class="hlpbtn" src="help.png" onclick="openHlp('pswd');" alt="help" title="Click here for help"><br><input type="submit" value="$$$$"><br><a>Reset password</a><div class="oops">You may have to click buttons twice because I'm not a real developer.</div>
                </fieldset>
             </form>
          </div>
          <div id="help" class="helpbar">
-            <p id="usr" class="help">Your user name is your username.</p>
-            <p id="pswd" class="help">Keep your password private.</p>
+            <p id="usr" class="help">the email you used to register</p>
+            <p id="pswd" class="help">Keep your passord private.</p>
          </div>
       </div>
       <div id="thing" class="tada">

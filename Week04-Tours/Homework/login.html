@@ -1,0 +1,95 @@
+<!DOCTYPE HTML><html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Login</title>
+      <style>
+		div.container { display: block; margin: auto;
+                    font-family: Century Gothic; width: 850pt; height: 375pt; border: solid medium
+                    black; background-color: #e6e6ff; } 
+		div.logo { display: block; width: 199pt;
+                    float: left; height: 160pt; background-image:
+                    radial-gradient(#9966ff,#660066); color: white; margin: 18pt; padding: 6pt;
+                    font-size: 14pt; font-weight: bold; text-align: center; padding-top: 100pt;} 
+		p { display: block; }
+		div.login_form { display: block; float: left; width: 399pt; } 
+		div.helpbar {display: block; margin-left: 425pt; margin-top: -300pt; width: 150pt; } 
+		p.help { display: none; background-color: #e6e6ff; color: black; background-image: none; font-weight:
+                    normal; text-align: left; border: solid thin black; margin-top: 100px; height:
+                    233px; padding-top: 12pt; padding-left: 12pt; padding-right: 12pt; } 
+		h1 {font-size: 24pt; font-weight: bold; } 
+		fieldset { margin: 18pt; } 
+		legend {font-size: 18pt; } 
+		label { font-weight: bold; font-size: 16pt; margin-bottom:
+                    6pt; margin-right: 12pt;} 
+		input { font-size: 16pt; margin-bottom: 6pt; } 
+		img { display: inline; margin-left: 12pt; } 
+		a { color: blue; font-size: 14pt; } 
+		a:hover {text-decoration: blue underline} 
+		.hlpbtn {margin-left: 12pt;}
+		.hlpbtn:hover { border: medium groove silver; } 
+		div.tada { display: none; background-color: #ffccff; border: thin
+                    solid red; margin: 72pt;} 
+		p.tada { background-color: #ffccff; color: red;
+                    font-size: 72pt; font-family: Century Gothic; background-image: none;} 
+		div.oops { font-size: 12pt; font-family: Century Gothic; color: gray; padding:
+                    18pt;}
+		</style>
+		<script src="https://kit.fontawesome.com/75bbc01a62.js" crossorigin="anonymous"></script>
+		<script src=" https://cdn.jsdelivr.net/npm/intro.js@6.0.0/intro.min.js "></script>
+		<link href=" https://cdn.jsdelivr.net/npm/intro.js@6.0.0/introjs.min.css " rel="stylesheet">
+   </head>
+   <body>
+      <div class="container">
+         <div class="logo">
+            <p id="step1">Cool Graphic Here</p>
+         </div>
+         <div class="login_form">
+            <h1 id="pageTitle">Login</h1>
+            <form onsubmit="openHlp('thing'); return false;" style="display:block;">
+               <fieldset>
+                  <legend id="formLegend">Something witty here</legend>
+				  <label for="username" id="username_label">UserName</label>
+				  <input id="username" type="text" title="Enter user name">
+				  <i class="fa-solid fa-circle-question hlpbtn" onclick="openHlp('usr');" alt="help" title="Click here for help" id="step2"> </i>
+				  <br>
+				  <label for="password" id="password_label">Password</label>
+				  <input id="password" type="text" title="Enter password">
+				  <i class="fa-solid fa-circle-question hlpbtn" onclick="openHlp('pswd');" alt="help" title="Click here for help" id="passwordHelp"> </i>
+				  <br>
+				  <input type="submit" value="Submit" id="step3">
+				  <br>
+				  <a id="pswdlink">Reset passwrd</a>
+				  <div class="oops">You may have to click buttons twice because I'm not a real developer.</div>
+               </fieldset>
+            </form>
+			<p>To start the tour, click <a onclick="startTour();">here</a>.</p>
+			<p><a onclick="DLstartTour();">Decio's Version</a> | <a onclick="ECstartTour();">Elisabeth's Version</a> | <a onclick="MHstartTour();">Melinda's Version</a> | <a onclick="PSstartTour();">Paul's Version</a> | <a onclick="SPstartTour();">Sarim's Version</a></p>
+			 <div id="help" class="helpbar">
+				<p id="usr" class="help">Your user name is your username.</p>
+				<p id="pswd" class="help">Keep your passord private.</p>
+			 </div>
+         </div>
+		 
+      </div>
+      <div id="thing" class="tada">
+         <p class="tada"> Do the thing!</p>
+      </div>
+	  <script>
+		function openHlp(hlpid) { 
+			var x = document.getElementById(hlpid); 
+			if (x.style.display == "none") { 
+				x.style.display = "block";
+				} else { x.style.display = "none"; }
+			}
+			function startTour() {
+				alert(data);
+			}
+			</script>
+		<script src="readtour.js"></script> 
+		<script src="DL_readtour.js"></script> 
+		<script src="EC_readtour.js"></script> 
+		<script src="MH_readtour.js"></script> 
+		<script src="PS_readtour.js"></script> 
+		<script src="SP_readtour.js"></script> 
+	</body>
+</html>

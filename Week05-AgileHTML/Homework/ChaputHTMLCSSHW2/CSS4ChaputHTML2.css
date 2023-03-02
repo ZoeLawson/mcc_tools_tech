@@ -1,0 +1,104 @@
+body {
+	
+	background-image: url("Notyetspring2.png");
+	background-repeat: repeat-y;
+	background-position:right top;
+	background-color:darkturquoise;
+	margin-top: 5m;
+	margin-right: 30em;
+	margin-bottom: 5em;
+	margin-left: 3em;
+}
+
+
+
+h1 {
+	color:orangered;
+	font-family:Verdana, sans-serif;
+	text-shadow: 2px 4px 4px rgba(46, 91, 173, 0.6);
+	font-size:2.5em;
+	text-align: center;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+h2 {
+	background-color:lightseagreen;
+	color:white;
+	font-family:Verdana, sans-serif;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+h3 {background-color:lightseagreen;
+	color:white;
+	font-family:Verdana, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+p1 {
+	font-family:Arial, sans-serif;
+	color: nightblue;
+	text-indent: em;
+	margin-left: 0em;
+}
+	
+
+p2 {
+	font-family:Helvetica, sans-serif;
+	color: nightblue;
+}
+
+p3 {
+	font-family:Tahoma, sans-serif;
+	color: nightblue;
+}
+ul {
+	list-style: none;
+	font-family: Helvetica;
+	color: nightblue;
+	margin-left: -2em;
+}
+
+ul li::before {
+	content: "\2745" ;
+	color: nightblue;
+	display: inline-block;
+	width: em;
+}
+
+ol {
+	list-style: lower-alpha;
+	font-family: Helvetica;
+	color: nightblue;
+	margin-left: -2em;
+}
+
+ol li::before {
+	color: nightblue;
+	display: inline-block;
+	width: 1.5em;
+	counter-increment: li;
+}
+table {
+	border-collapse: collapse;
+	border: solid #551033;
+	font-family: Garamond;
+	margin-bottom: 2em;
+}
+
+tr {
+	border: solid thin #0b0733;
+}
+
+th {
+	background-color: #0b0733;
+	color: white;
+}
+
+td {
+	margin-left: 0px;
+	border: solid thin #0b0733;
+	padding: 3pt;
+	text-align: left;
+}

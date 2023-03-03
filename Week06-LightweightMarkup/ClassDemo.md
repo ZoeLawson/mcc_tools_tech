@@ -42,3 +42,7 @@ For numbered lists, just use 1.
 1. This is item 2
 1. This is item 3
 
+Have a paragraph.
+
+1. what number is this?
+1. and this?

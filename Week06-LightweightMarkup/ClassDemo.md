@@ -30,9 +30,10 @@ separate.
    * this is a nested bullet 
    * I hope
    
-     This should be aligned with the second bullet.
+     This should be _aligned_ with *also italic* the second bullet.
 	 
 For numbered lists, just use 1.
+For bold use two __underscores__ or **stars**
 
 1. This is item 1
    With some extra text

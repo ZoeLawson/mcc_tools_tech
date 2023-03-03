@@ -56,3 +56,9 @@ Column 1 cell row 1 | Column 2 cell row 1 | Column 3 cell row 1
 Column 1 cell row 2 | Column 2 cell row 2 | Column 3 cell row 2
 x | y | z
 center | | empty
+
+[](https://www.google.com)
+
+[link text](https://www.amazon.com)
+
+[Link to Tables](#tables-are-terrible)

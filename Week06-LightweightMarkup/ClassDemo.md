@@ -57,8 +57,8 @@ Column 1 cell row 2 | Column 2 cell row 2 | Column 3 cell row 2
 x | y | z
 center | | empty
 
-[](https://www.google.com)
+[to the google!](https://www.google.com)
 
 [link text](https://www.amazon.com)
 
-[Link to Tables](#tables-are-terrible)
+[Link to Tables](#this-is-a-heading)

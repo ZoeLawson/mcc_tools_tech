@@ -35,6 +35,10 @@ separate.
 For numbered lists, just use 1.
 
 1. This is item 1
+   With some extra text
+   
+   and maybe more text. What does it do to the list?
+   
 1. This is item 2
 1. This is item 3
 

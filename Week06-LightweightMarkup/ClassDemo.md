@@ -62,3 +62,7 @@ center | | empty
 [link text](https://www.amazon.com)
 
 [Link to Tables](#this-is-a-heading)
+
+[Link to Example_Markdown](Homework/Example_Markdown.md#inline-formatting)
+
+![alt text for image](../Week05-AgileHTML/Homework/Example_image.png)

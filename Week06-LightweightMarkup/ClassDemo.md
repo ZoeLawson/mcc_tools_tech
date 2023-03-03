@@ -47,3 +47,12 @@ Have a paragraph.
 
 1. what number is this?
 1. and this?
+
+### Tables are terrible!
+
+Column 1 heading | Column 2 heading | Column 3 heading 
+-----------------|------------------|-----------------
+Column 1 cell row 1 | Column 2 cell row 1 | Column 3 cell row 1
+Column 1 cell row 2 | Column 2 cell row 2 | Column 3 cell row 2
+x | y | z
+center | | empty

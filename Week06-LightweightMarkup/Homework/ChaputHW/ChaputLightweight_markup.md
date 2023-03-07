@@ -21,7 +21,7 @@ Worcester | 34/18 |43/26 | 54/36 |
 
 February's wicked cold with a couple teaser days in there, but we know it's still winter. April, not hot, but you can get away without a jacket and the days are getting long enough everything is turning green. And then there's March.
 
-![March says "Not so fast spring."](Notyetspring2.png)
+![March says "Not so fast spring."](../../../Week05-AgileHTML/Homework/ChaputHTMLCSSHW2/Notyetspring2.png)
 
 ### *So what can you do about it?*
 
@@ -29,9 +29,9 @@ When life gives you lemons, make lemonade, especially in March because it's the 
 
 1. Plan for it to suck. If you expect the worse and it happens, hey, you were prepared! If it doesn't happen, hey, bonus!
 1. Celebrate St. Patrick's Day. It really doesn't matter a bit if you're Irish. Have you ever met a person with a drop of Irish blood who didn't want to share a drink with someone else? Well, not their drink, but drink at the same time as you. Either way, it's a fun day to celebrate.
-1. Plant something in a cup and put it on your window sill. Something growing equals hope which is hard to come by in March.*
+1. Plant something in a cup and put it on your window sill. Something growing equals hope which is hard to come by in March.[^note]
    
-   *This can be a double bonus if it's something to eat in the summer! 
+[^note]:  This can be a double bonus if it's something to eat in the summer! 
 
 ### *Seriously though...*
 

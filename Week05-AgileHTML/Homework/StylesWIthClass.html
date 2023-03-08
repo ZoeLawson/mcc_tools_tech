@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Styles with class</title>
+        <style>
+            body { font-family: sans-serif;
+                    font-size: 12pt;
+                    width: 800px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border: thin solid black;
+                    padding: 2em;}
+            p { color: black;
+                margin-bottom: 1em;}
+            p.body {
+                margin-left: 5em;
+                margin-right: 5em;
+            }
+            .lemon {
+                color: yellow;
+                background-color: black;
+            }
+            .red {
+                color: red;
+            }
+            .codesample {
+                font-family: monospace;
+                background-color: black;
+                color: #00cc00;
+                padding: 1em;
+                white-space: pre-wrap;
+                width: 770px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Styling usings the class attribute</h1>
+        <p class="body">Using CSS you can provide styling for an element.</p>
+        <pre class="codesample">...
+&lt;style&gt;p { color: black; }&lt;/style&gt;
+...
+&lt;p&gt;This paragraph has black font&lt;/p&gt;</pre>
+        <p class="body">The above code renders as:</p>
+        <p>This paragraph has black font</p>
+        <p class="body">Notice that this paragraph, however, has different margins. That's because it has the class attribute set to "body".</p>
+        <p class="body">I've defined the p.body style as:</p>
+        <pre class="codesample"> p.body {
+                margin-left: 5em;
+                margin-right: 5em;
+            }</pre>
+        <p class="body">This means paragraphs <code>p</code> with the <code>body</code> class have left and right margins set to 5em.</p>
+        <p class="body">When defining CSS, you can use the element name for a specific element, and then a dot/period/full stop, then the class name (<code><em>x</em>.<em>y</em></code>). 
+        This means any element <em>x</em> with class <em>y</em> uses the formatting.</p>
+        <p class="body">You can also just define a class name using the dot notation (<code>.<em>classname</em></code>). For example:</p>
+        <pre class="codesample">.red { color: red;}</pre>
+        <p class="body">So I can make any element <span class="red">red</span> just by adding the class attribute.</p>
+        <p class="body red">You can also stack classes, so this paragraph has all the formatting from the p element, the body class, and the red class.</p>
+        <p class="body">So you can do some very powerful things based on how you design all your styles, and how you combine them.</p>
+        <p class="body">This text is <span class="red">red</span>, this text is <span class="lemon">yellow</span>, but what happens when you
+        <span class="red lemon">combine</span> them. Does <span class="lemon red">order</span> matter?</p>
+        <p class="body">The code for the above paragraph is:</p>
+        <pre class="codesample">&lt;p class="body"&gt;This text is &lt;span class="red"&gt;red&lt;/span&gt;, this text is &lt;span class="lemon"&gt;yellow&lt;/span&gt;, but what happens when you
+        &lt;span class="red lemon"&gt;combine&lt;/span&gt; them. Does &lt;span class="lemon red"&gt;order&lt;/span&gt; matter?&lt;/p&gt;</pre>
+        <p class="body">The order of the class names in the attribute does not matter, but the order of the styles in the CSS file does matter.</p>
+    </body>
+</html>

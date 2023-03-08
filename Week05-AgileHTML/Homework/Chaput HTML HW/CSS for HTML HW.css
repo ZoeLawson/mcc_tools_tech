@@ -13,18 +13,11 @@ h2,h3 {
 	color: MidnightBlue;
 }
 
-p1 {
+p {
 	font-family: "Times New Roman", garamond, serif;
 	margin-left: 0em;
 }
 
-p2 {
-	font-family: Helvetica, arial, sans-serif;
-	color: #003300;
-}
-p3{font-family: georgia, serif;
-	margin-left: 0em;
-}
 
 li {
 	font-family: "Times New Roman";

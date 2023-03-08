@@ -11,11 +11,11 @@ Provide the relative path for the following:
 
 ## Answers to # 1 through 5:
 
-A1. ../week6_Lightweight_markup
+A1. ../week6_Lightweight_markup.html
 
-A2. ../Handouts/git_cheatsheet
+A2. ../../Handouts/git_cheatsheet
 
-A3. ../Week02-ProgressiveInfo/Homework
+A3. ../../Week02-ProgressiveInfo/Homework
 
 A4. ../Week05-AgileHTML
 

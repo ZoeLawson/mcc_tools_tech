@@ -36,46 +36,36 @@ h3 {background-color:lightseagreen;
 	padding-left: 1em;
 	padding-right: 1em;
 }
-p1 {
+p {
 	font-family:Arial, sans-serif;
-	color: nightblue;
-	text-indent: em;
+	color: #191970;
+	text-indent: 0em;
 	margin-left: 0em;
 }
 	
-
-p2 {
-	font-family:Helvetica, sans-serif;
-	color: nightblue;
-}
-
-p3 {
-	font-family:Tahoma, sans-serif;
-	color: nightblue;
-}
 ul {
 	list-style: none;
 	font-family: Helvetica;
-	color: nightblue;
+	color: #191970;
 	margin-left: -2em;
 }
 
 ul li::before {
 	content: "\2745" ;
-	color: nightblue;
+	color: #191970;
 	display: inline-block;
-	width: em;
+	width: 1em;
 }
 
 ol {
 	list-style: lower-alpha;
 	font-family: Helvetica;
-	color: nightblue;
+	color: #191970;
 	margin-left: -2em;
 }
 
 ol li::before {
-	color: nightblue;
+	color: #191970;
 	display: inline-block;
 	width: 1.5em;
 	counter-increment: li;

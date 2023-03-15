@@ -1,0 +1,47 @@
+<! DOCTYPE html>
+	<html>
+		<head>
+			<title>My Trying at HTML - week 5</title>
+		</head>
+				<body>
+					<h1>I am trying to create a web page</h1>
+						<p>If I only knew how to use HTML, I would be running with this homework.</p>
+						<p>By using W3Schools.com, I was able to get some information to help me with my homework for my Technical Writing course.</p>
+						<p>The following table demonstrated my time</p>
+					<ul>
+						<li>Monday</li>
+						<li>Tuesday</li>
+						<li>Wednesday</li>
+						<li>Thursday</li>
+						<li>Friday</li>
+					</ul>
+					<ol>
+						<li>Monday</li>
+						<li>Tuesday</li>
+						<li>Wednesday</li>
+						<li>thursday</li>
+						<li>Friday</li>
+					</ol>
+					<tr>
+							<td>Recover from the family weekend, and start my schoolwork and return to my regular job.</td>
+							<td>Make sure that all is well with my family and continue with my routine of work and school.</td>
+							<td>Continue as the previous days and make sure the children go to their evening activities.</td>
+							<td>Make sure that my school work is OK, and attend class online.</td>
+							<td>Do some shopping and try to do some school work and try to play a game of chess.</td>
+						</tr>
+						<ul>123, unorderly list</ul>
+						<ul>456, only using space</ul>
+						<ul>789, filling te gaps </ul>
+						<ol>Orderly list</ol>
+						<ol>testing the creature</ol>
+						<ol>Looking for results</ol>
+						<img src="">
+						<>
+						
+						</table>
+					
+					
+				</body>
+
+
+

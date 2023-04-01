@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Image test</title>
+	</head>
+	<body>
+		<h1>Image test</h1>
+		<p>Here is an image:</p>
+		<img src="Example_image.png" alt="Example image in the same folder"/>
+		<p>MCC logo in another directory with relative path:</p>
+		<img src="../../Week02-ProgressiveInfo/art/mcc_logo.jpg" alt="Logo with relative path"/>
+		<p>The above image should work everywhere, because it uses a relative path.</p>
+		<p>MCC logo in another directory with fully qualified path:</p>
+		<img alt="Logo using fully qualified path" src="C:\Users\lawsonz\Documents\GitHub\mcc_tools_tech\Week02-ProgressiveInfo\art\mcc_logo.jpg"/>
+		<p>The above image will be broken on everyone's computers, but it works on the MCC laptop I use for presenting.</p>
+		<h2>spaces bad</h2>
+		<img src="green star.png" alt="Path to image including spaces"/>
+		<p>The above image uses a space in the file name, and will not work on most UNIX systems.</p>
+		<p>Spaces in URLs need to be "encoded" and replaced with %20.</p>
+		<img src="green%20star.png" alt="Properly encoded src"/>
+		<p>The above image should work</p>
+	</body>
+</html>

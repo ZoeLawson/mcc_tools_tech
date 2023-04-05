@@ -5,6 +5,6 @@
     <shortdesc>This is a sample topic.</shortdesc>
     <conbody>
         <p>This is the <xmlelement>conbody</xmlelement>.</p>
-        <p>Making a change. And again.</p>
+        <p>Oh look, a paragraph.</p>
     </conbody>
 </concept>

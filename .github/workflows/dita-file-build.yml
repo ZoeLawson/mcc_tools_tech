@@ -21,7 +21,7 @@ jobs:
           transtype: mcchandout
           output-path: .
       - name: Deploy Output to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.8
+        uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
           BRANCH: Winter2023
           folder: .

@@ -6,7 +6,7 @@
         <booktitlealt>Week 11</booktitlealt>
     </booktitle>
     <bookmeta>
-        <author>Zoë Lawson</author>
+        <author>Decio Leonardo</author>
         <prodinfo>
             <prodname>Tools and Technologies for Tech Writers 2023</prodname>
             <vrmlist>
@@ -18,7 +18,7 @@
                 <year>2023</year>
             </copyrfirst>
             <bookowner>
-                <person>Zoë Lawson</person>
+                <person>Decio Leonardo</person>
                 <organization>MIDDLESEX Community College</organization>
             </bookowner>
         </bookrights>
@@ -29,14 +29,14 @@
             <toc/>
         </booklists>
     </frontmatter>
-    <chapter href="Zoe/topic.dita">
+    <chapter href="DecioLeonardo/topic.dita">
         <topicref href="common/concept.dita"/>
         <topicref href="common/task.dita"/>
         <topicref href="common/reference.dita"/>
     </chapter>
     <backmatter>
-        <keydef processing-role="resource-only" keys="author"><topicmeta><keywords><keyword>Zoë Lawson</keyword></keywords></topicmeta></keydef>
-        <keydef processing-role="resource-only" keys="homeworkfolder"><topicmeta><keywords><keyword>Zoe</keyword></keywords></topicmeta></keydef>
+        <keydef processing-role="resource-only" keys="author"><topicmeta><keywords><keyword>Decio Leonardo</keyword></keywords></topicmeta></keydef>
+        <keydef processing-role="resource-only" keys="homeworkfolder"><topicmeta><keywords><keyword>DecioLeonardo</keyword></keywords></topicmeta></keydef>
         <keydef processing-role="resource-only" keys="exampleImage" href="../../Week05-AgileHTML/Homework/Example_image.png"/>
     </backmatter>
 </bookmap>

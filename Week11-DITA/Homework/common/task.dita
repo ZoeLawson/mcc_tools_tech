@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task">
+    <title>Example Task Topic</title>
+    <shortdesc>A DITA topic of type task. This is a shared topic. Task topics are the most
+        structured.</shortdesc>
+    <taskbody>
+        <prereq>This is the <xmlelement>prereq</xmlelement> where you list the prerequisites for
+            this task. This section is optional.</prereq>
+        <context>
+            <p>This is the <xmlelement>context</xmlelement> where you can provide a bit of
+                background of things you should know before performing the task. </p>
+            <p>Some people consider this a "mini concept". If you realize you need a bit of lead in,
+                but not enough for a stand alone topic, use the <xmlelement>context</xmlelement> in
+                the task topic instead of a stand alone concept topic. This section is optional.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>This is a <xmlelement>step</xmlelement> in a task topic. It is part of the
+                        <xmlelement>steps</xmlelement> element. You can use
+                        <xmlelement>steps</xmlelement> for numbered steps or
+                        <xmlelement>steps-unordered</xmlelement> for a non-numbered (usually
+                    bulleted) steps.</cmd>
+            </step>
+            <step>
+                <cmd>These are the heart and soul of task topic.</cmd>
+                <info>
+                    <p>There are many additional special elements that can be used in a step to
+                        provide more information.</p>
+                </info>
+            </step>
+            <step>
+                <cmd>Both the <xmlelement>steps</xmlelement> and
+                        <xmlelement>steps-unordered</xmlelement> elements are optional. </cmd>
+                <info>
+                    <p>That's correct, you can have a task with no procedure.</p>
+                </info>
+            </step>
+        </steps>
+        <result>
+            <p>This is the <xmlelement>result</xmlelement> which lets you explain what happens after
+                you complete the steps. This element is optional.</p>
+        </result>
+        <tasktroubleshooting>
+            <p>This is <xmlelement>tasktroubleshooting</xmlelement> where you can provide
+                troubleshooting information for the entire task. </p>
+            <p>Not to be confused with <xmlelement>steptroubleshooting</xmlelement> which can be
+                used for troubleshooting information for specific steps.</p>
+            <p>This element is optional.</p>
+        </tasktroubleshooting>
+        <example>
+            <p>This is an <xmlelement>example</xmlelement> you can use to provide an example for the
+                entire task. This is not to be confused with the <xmlelement>stepxmp</xmlelement>
+                which can provide a quick example for a specific step.</p>
+            <p>This element is optional.</p>
+        </example>
+        <postreq>
+            <p>This is the <xmlelement>postreq</xmlelement> where you describe what to do after
+                completing the procedure. </p>
+            <p>This element is optional.</p>
+            <p>That's correct, all of these elements are optional. It is possible to have a valid
+                task topic with only a <xmlelement>title</xmlelement> and
+                    <xmlelement>shortdesc</xmlelement>. However, the order of these main elements is
+                not optional. For example, you cannot switch the order of the
+                    <xmlelement>context</xmlelement> and <xmlelement>prereq</xmlelement> without a
+                specialization. </p>
+        </postreq>
+    </taskbody>
+</task>

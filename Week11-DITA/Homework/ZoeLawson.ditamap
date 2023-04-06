@@ -30,7 +30,13 @@
         </booklists>
     </frontmatter>
     <chapter href="Zoe/topic.dita">
-        <topicref href="Zoe/my_first_reference.dita"/>
-        <topicref href="Zoe/task.dita"/>
+        <topicref href="common/concept.dita"/>
+        <topicref href="common/task.dita"/>
+        <topicref href="common/reference.dita"/>
     </chapter>
+    <backmatter>
+        <keydef processing-role="resource-only" keys="author"><topicmeta><keywords><keyword>Zoë Lawson</keyword></keywords></topicmeta></keydef>
+        <keydef processing-role="resource-only" keys="homeworkfolder"><topicmeta><keywords><keyword>Zoe</keyword></keywords></topicmeta></keydef>
+        <keydef processing-role="resource-only" keys="exampleImage" href="../../Week05-AgileHTML/Homework/Example_image.png"/>
+    </backmatter>
 </bookmap>

@@ -22,3 +22,9 @@ Column 1 cell row 1 | Column 2 cell row 1 | Column 3 cell
 Column 1 cell row 2 | Column 2 cell row 2 | Column 3 cell 
 x | y | z 
 center | | empty 
+
+[link text] (https://www.amazon.com)
+
+[Link to Example_Markdown] (Homework/Example_Markdown.md#inline-formatting)
+
+![alt text for image](../Week05-AgileHTML/Homework/Example_image.png)

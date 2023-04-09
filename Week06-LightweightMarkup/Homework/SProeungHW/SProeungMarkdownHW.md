@@ -27,4 +27,4 @@ center | | empty
 
 [Link to Example_Markdown] (Homework/Example_Markdown.md#inline-formatting)
 
-![alt text for image](../Week05-AgileHTML/Homework/Example_image.png)
+![alt text for image](../Week05-AgileHTML/Homework/Picture1.png)

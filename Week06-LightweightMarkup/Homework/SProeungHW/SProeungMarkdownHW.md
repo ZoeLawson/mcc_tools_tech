@@ -25,4 +25,4 @@ center | | empty
 
 [link text] (https://www.amazon.com)
 
-![alt text for image](../Week02-ProgressiveInfo/art/Date_Error.png)
+![alt text for image](/SProeungHW/Week02-ProgressiveInfo/art/Date_Error.png)

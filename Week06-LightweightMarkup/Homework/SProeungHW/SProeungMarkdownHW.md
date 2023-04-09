@@ -25,6 +25,4 @@ center | | empty
 
 [link text] (https://www.amazon.com)
 
-[Link to Example_Markdown] (Homework/Example_Markdown.md#inline-formatting)
-
 ![alt text for image](../Week05-AgileHTML/Homework/SProeung/Picture1.png)

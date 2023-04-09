@@ -25,4 +25,4 @@ center | | empty
 
 [link text] (https://www.amazon.com)
 
-![alt text for image](/Week06-LightweightMarkup/Picture1.png)
+![alt text image](/Week06-LightweightMarkup/Picture1.png)

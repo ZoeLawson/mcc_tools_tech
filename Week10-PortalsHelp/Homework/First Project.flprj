@@ -1,0 +1,3 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultProject Version="1" MasterStylesheet="/Content/Resources/Stylesheets/Styles.css" MasterStylesheetOverride="True" xml:lang="en-us" Comment="This template contains several starter topics and other files intended for both online and print-based output. The online HTML5 output looks like a modern website with navigation on the side (left or right). It offers a frameless, modern alternative to the more traditional tripane format. Responsive output is automatically enabled, which means the content display changes automatically depending on the width of the screen. The PDF output is a user guide that includes auto-generation of a TOC, glossary, and index." MasterToc="/Project/TOCs/Online.fltoc">
+</CatapultProject>

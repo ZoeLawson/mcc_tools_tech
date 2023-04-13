@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="softballs_and_tension_release">
+    <title>Softballs and Tension Release</title>
+    <shortdesc>Using a softball to help release tension in calves.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_j2y_jwb_dxb"> Set aside five to ten minutes to perform the tension
+            release.  You will only need a softball for these movements.</prereq>
+        <context>These movements are meant to release tension in the calf and are more effective if
+            done on a consistent basis as a part of a routine, e.g. shortly after exercise or before
+                bed.<p>Find an area on the floor where you can stretch your legs out in front of you
+                while sitting.</p></context>
+        <steps>
+            <step>
+                <cmd>Place the softball under one of your calves.</cmd>
+            </step>
+            <step>
+                <cmd>Move your leg back and forth and side to side, until you find a concentrated
+                    location of tension.</cmd>
+                <info>If this causes you a great deal of pain, there could be an underlying issue.
+                    Contact your doctor or physical therapist for further guidance.</info>
+            </step>
+            <step>
+                <cmd>While the softball is centered on the point of tension, flex your toes toward
+                    you, count to five and release. Repeat three times.</cmd>
+            </step>
+            <step>
+                <cmd>When done, repeat steps 2 and 3 until calf feels less tense or until five
+                    minutes. </cmd>
+                <info>If the calf is particularly tense, the initial flexes may cause some initial
+                    pain that should subside with repetition.</info>
+            </step>
+            <step>
+                <cmd>Repeat step series with other calf if needed.</cmd>
+            </step>
+        </steps>
+        <result id="result_zjy_vgc_dxb">
+            <p>After completing theses movements, the tension in the calf should slowly subside. One
+                might find other pains in other muscles, tendons, and joints like the achilles,
+                plantar fascia, knees and ankles will subside as well.</p>
+        </result>
+        <tasktroubleshooting id="tasktroubleshooting_vsq_rhc_dxb">
+            <p>If there is no relief, try raising your hips off the ground by placing your hands to
+                the sides of your hips and lifting slightly so that more of your weight is resting
+                on the softball as you flex your foot.</p>
+            <p>If you have more pain the day following the movements, there could be an underlying
+                problem. Stop the movements and contact a your docotr or physical therapist for
+                further instruction. </p>
+        </tasktroubleshooting>
+    </taskbody>
+</task>

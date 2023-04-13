@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept">
+    <title>Example Concept File</title>
+    <shortdesc>An example DITA topic of type concept. This is a shared topic.</shortdesc>
+    <conbody>
+        <p>Concepts should describe things. All the background information about the thing.</p>
+        <p>Concepts are not overly structured.</p>
+    </conbody>
+</concept>

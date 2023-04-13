@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles MadCap:sourceDocument="C:\Users\14136\Documents\GitHub\mcc_tools_tech\Week08-Framemaker\ElisabethChaput\D_and_O.fm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <Page Name="First" PageType="Normal" Width="540pt" Height="648pt" Padding="0.25in" PageSize="custom" Orientation="portrait">
+        <Frame Flow="header" Width="396pt" Height="90pt" X="108pt" Y="90pt" ColumnCount="1" ColumnGap="18pt">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <p class="ChapterTitle">
+                            <a name="d_and_o_1923312691_1008545">
+                            </a>
+                        </p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="footer" Width="396pt" Height="10.00008pt" X="108pt" Y="585pt" ColumnCount="1" ColumnGap="18pt">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <p class="zzFooterRight">
+                            <a name="d_and_o_1923312691_1008552">
+                            </a>
+                            <MadCap:variable name="Heading.Level2" />
+                            <MadCap:variable name="System.PageNumber" />
+                        </p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" Width="396pt" Height="378pt" X="108pt" Y="198pt" ColumnCount="1" ColumnGap="18pt">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body />
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

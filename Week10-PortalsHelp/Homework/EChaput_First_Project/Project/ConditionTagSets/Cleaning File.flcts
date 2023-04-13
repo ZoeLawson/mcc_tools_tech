@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet sourceDocument="C:\Users\14136\Documents\GitHub\mcc_tools_tech\Week08-Framemaker\ElisabethChaput\ElisabethChaput.book">
+    <ConditionTag Name="Comment" BackgroundColor="#ff0000" />
+    <ConditionTag Name="FM8_SYSTEM_HIDEELEMENT" BackgroundColor="#666666" />
+    <ConditionTag Name="FM8_TRACK_CHANGES_ADDED" BackgroundColor="#218921" />
+    <ConditionTag Name="FM8_TRACK_CHANGES_DELETED" BackgroundColor="#ff0000" />
+    <ConditionTag Name="FM_PDF_Comments_Highlight" />
+    <ConditionTag Name="FM_PDF_Comments_Underline" BackgroundColor="#0000ff" />
+</CatapultConditionTagSet>

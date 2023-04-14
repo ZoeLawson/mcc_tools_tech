@@ -30,19 +30,19 @@
         </booklists>
     </frontmatter>
     <chapter href="Zoe/topic.dita">
-        <topicref href="common/concept.dita"/>
-        <topicref href="common/task.dita"/>
         <topicref href="Zoe/the_terrible_task.dita"/>
-        <topicref href="common/reference.dita">
+        
             <topicref href="Zoe/about_concepts_for_class.dita"/>
             <topicref href="../exampleDITAsource/DITA/insert_an_image.dita"/>
             <topicref href="Zoe/class_reference_topic.dita"/>
-        </topicref>
+        <topicref href="Zoe/glossary.dita"/>
+        
     </chapter>
     <chapter href="../exampleDITAsource/DITA/concept_basics.dita"/>
     <backmatter>
         <keydef processing-role="resource-only" keys="author"><topicmeta><keywords><keyword>Zoë Lawson</keyword></keywords></topicmeta></keydef>
         <keydef processing-role="resource-only" keys="homeworkfolder"><topicmeta><keywords><keyword>Zoe</keyword></keywords></topicmeta></keydef>
         <keydef processing-role="resource-only" keys="exampleImage" href="../../Week05-AgileHTML/Homework/Example_image.png"/>
+        <keydef keys="g_term" href="Zoe/glossary.dita#term"/>
     </backmatter>
 </bookmap>

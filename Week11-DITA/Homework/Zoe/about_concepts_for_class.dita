@@ -11,8 +11,10 @@
             <li>Here's another list item</li>
         </ul>
         <p>Let's use a key. <image keyref="exampleImage"/></p>
+        <p>here is a <term keyref="g_term"/></p>
         <p>And if you want a numbered list:</p>
-        <ol>
+        <p product="productB">OH LOOK! I MADE A CHANGE!!</p>
+        <ol product="productB">
             <li>Here's Item 1</li>
             <li>Here's Item 2<p>With a sub paragraph.</p></li>
         </ol>
@@ -29,6 +31,7 @@ Here is another line.</codeblock>
         <section>
             <title>Section title</title>
             <p>More text about whatever.</p>
+            <p product="ProductA">All about Product A....</p>
         </section>
         <example>
             <title>This is an example title</title>

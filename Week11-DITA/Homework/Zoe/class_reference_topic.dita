@@ -8,6 +8,15 @@
             <title>method</title>
             <p>Here is some introduction text for my table. <xref href="http://www.google.com"
                     format="html" scope="external"/></p>
+            <ul>
+                <li><b>term</b> — here is my definition</li>
+            </ul>
+            <dl>
+                <dlentry id="dl_term">
+                    <dt>Term Updated</dt>
+                    <dd>this is the defintion in a defintion list</dd>
+                </dlentry>
+            </dl>
             <p><xref href="the_terrible_task.dita"/></p>
         </section>
         <refsyn>
@@ -29,8 +38,8 @@
                 <stentry/>
             </strow>
             <strow>
-                <stentry/>
-                <stentry/>
+                <stentry>Term</stentry>
+                <stentry>Definition</stentry>
             </strow>
             <strow>
                 <stentry/>

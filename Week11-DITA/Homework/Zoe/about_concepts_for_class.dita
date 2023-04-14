@@ -12,6 +12,7 @@
         </ul>
         <p>Let's use a key. <image keyref="exampleImage"/></p>
         <p>here is a <term keyref="g_term"/></p>
+        <p>Or see <xref href="class_reference_topic.dita#class_reference_topic/dl_term"/>.</p>
         <p>And if you want a numbered list:</p>
         <p product="productB">OH LOOK! I MADE A CHANGE!!</p>
         <ol product="productB">

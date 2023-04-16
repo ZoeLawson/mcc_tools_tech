@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic">
-    <title>Muscle_Tension</title>
+    <title>Muscle Tension</title>
     <shortdesc>Types of muscle tension and common relief practices.</shortdesc>
     <body>
         <p>Muscles can become tense from overuse, sudden extreme use, stress, and numerous other
@@ -12,4 +12,3 @@
         </image>
     </body>
 </topic>
-<?oxy_options track_changes="on"?>

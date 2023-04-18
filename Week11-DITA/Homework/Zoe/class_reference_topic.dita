@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="class_reference_topic">
+    <title>Class Reference Topic</title>
+    <shortdesc>Don't forget your short description.</shortdesc>
+    <refbody>
+        <section>
+            <title>method</title>
+            <p>Here is some introduction text for my table. <xref href="http://www.google.com"
+                    format="html" scope="external"/></p>
+            <ul>
+                <li><b>term</b> — here is my definition</li>
+            </ul>
+            <dl>
+                <dlentry id="dl_term">
+                    <dt>Term Updated</dt>
+                    <dd>this is the defintion in a defintion list</dd>
+                </dlentry>
+            </dl>
+            <p><xref href="the_terrible_task.dita"/></p>
+        </section>
+        <refsyn>
+            <title>options</title>
+            <p>here's some text</p>
+            <syntaxdiagram/>
+        </refsyn>
+        <section>
+            <title>return</title>
+            <p/>
+        </section>
+        <simpletable frame="all" relcolwidth="1.08* 1.0*">
+            <sthead>
+                <stentry>Table heading</stentry>
+                <stentry>Column Heading</stentry>
+            </sthead>
+            <strow>
+                <stentry>tabular data</stentry>
+                <stentry/>
+            </strow>
+            <strow>
+                <stentry>Term</stentry>
+                <stentry>Definition</stentry>
+            </strow>
+            <strow>
+                <stentry/>
+                <stentry/>
+            </strow>
+        </simpletable>
+    </refbody>
+</reference>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="calf_tension_release_references">
+    <title>Calf Tension Release References</title>
+    <shortdesc>Several websites and additional information related to calf tension
+        release.</shortdesc>
+    <refbody>
+        <section id="section_vty_2mc_dxb">
+            <title>Websites</title>
+            <p>For advanced techniqe <xref href="https://youtu.be/3uwq0ZvHTd4" format="html"
+                    scope="external"/></p>
+            <p>Additional sources and remedies for tight calf tension <xref
+                    href="https://www.medicalnewstoday.com/articles/tight-calves#symptoms"
+                    format="html" scope="external"/></p>
+        </section>
+        <section id="section_mpp_knc_dxb">
+            <title>Topic Terms</title>
+            <table frame="all" rowsep="1" colsep="1" id="table_ebx_rnc_dxb">
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>Term</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Kinetic chain</entry>
+                            <entry>A series of interrelated muscles, tendons and joints activated
+                                within the human body by movement.</entry>
+                        </row>
+                        <row>
+                            <entry>Calf</entry>
+                            <entry>Large muscle consisting of three parts that resides mainly on the
+                                back portion of the lower leg.</entry>
+                        </row>
+                        <row>
+                            <entry>Dynamic stretching</entry>
+                            <entry>Low impact/stress movement based stretching where muscles are
+                                activated and stretched through a series of actions.</entry>
+                        </row>
+                        <row>
+                            <entry>Plantar fasciitis</entry>
+                            <entry>The inflammation of the thick band of tissue that connects a heel
+                                to the toes.</entry>
+                        </row>
+                        <row>
+                            <entry>Achilles tendinitis</entry>
+                            <entry>Inflammation of the Achilles tendon, the tendon connecting the
+                                calf muscles to the heel. </entry>
+                        </row>
+                        <row>
+                            <entry>Ankle immobility</entry>
+                            <entry>A reduced range of motion of the ankle do to lack of movement or
+                                reduced movement due to a neglected injury. </entry>
+                        </row>
+                        <row>
+                            <entry>Knee pain</entry>
+                            <entry>Pain in, on , around, or behind the knee cap often related to
+                                overuse, muscle tightness, or injury. </entry>
+                        </row>
+                        <row>
+                            <entry>Warm up</entry>
+                            <entry>A slow entrance to activity so as not to strain the muscles,
+                                tendons, etc. </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>

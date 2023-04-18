@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic">
-    <title>Topic</title>
-    <shortdesc>This is a sample topic. It is in your homework folder and is not shared.</shortdesc>
+    <title>Muscle Tension</title>
+    <shortdesc>Types of muscle tension and common relief practices.</shortdesc>
     <body>
-        <p>This is the default, base topic type for DITA. This topic is not specialized in any way.
-            Technically, you can use it any way you'd like.</p>
-        <p>Since this topic is not shared (it is not in the <filepath>common</filepath> folder, it
-            is in your personal folder, <filepath><keyword keyref="homeworkfolder"/></filepath>),
-            any changes you make to it will not affect anyone else's output.</p>
-        <p>If you make changes to files in <filepath>common</filepath> folder, everyone gets the
-            change. I humbly request you don't change the common files.</p>
-        <p>You can change and add all the files you want in your folder,
-                    <filepath>mcc_tools_tech/Week11-DITA/Homework/<keyword keyref="homeworkfolder"
-                /></filepath>.</p>
-        <fig>
-            <title>An image referenced by a key</title>
-            <image placement="break" keyref="exampleImage">
-                <alt>All images should have an <xmlelement>alt</xmlelement> element for
-                    accessibility.</alt>
-            </image>
-        </fig>
+        <p>Muscles can become tense from overuse, sudden extreme use, stress, and numerous other
+            reasons. Having a strategy to release the tension can improve one's quality of life.</p>
+        <image placement="break" href="muscle_tension.jpg" id="image_vdq_mvb_dxb">
+            <alt>Man sitting on couch with laptop, looking uncomfortable, trying to release tension
+                in neck and back.</alt>
+        </image>
     </body>
 </topic>

@@ -3,8 +3,14 @@
 <reference id="reference">
     <title>Example Reference Topic</title>
     <shortdesc>This is a DITA topic of type reference. This is a shared topic.</shortdesc>
+    <prolog>
+        <author>Zoë</author>
+        <!--Here's a comment saying this file is shared. If you make any changes to it, it will be in everyone's book.-->
+    </prolog>
     <refbody>
         <section>
+            <draft-comment author="LAWSONZ">Here's where I can put in a note to self or a question
+                to developers.</draft-comment>
             <p>In general, a reference topic is used for things you look up. If you want to put it
                 in a table, it probably should be a reference topic.</p>
             <p>Reference topics can contain:</p>

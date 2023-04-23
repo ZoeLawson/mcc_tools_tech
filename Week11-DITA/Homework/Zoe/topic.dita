@@ -5,7 +5,8 @@
     <shortdesc>This is a sample topic. It is in your homework folder and is not shared.</shortdesc>
     <body>
         <p>This is the default, base topic type for DITA. This topic is not specialized in any way.
-            Technically, you can use it any way you'd like.</p>
+            Technically, you can use it any way you'd like. </p>
+        <p>Here is another paragraph.</p>
         <p>Since this topic is not shared (it is not in the <filepath>common</filepath> folder, it
             is in your personal folder, <filepath><keyword keyref="homeworkfolder"/></filepath>),
             any changes you make to it will not affect anyone else's output.</p>

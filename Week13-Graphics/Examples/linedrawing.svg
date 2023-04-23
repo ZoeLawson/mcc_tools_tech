@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="148.9626mm"
+   height="99.522316mm"
+   viewBox="0 0 148.9626 99.522316"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="2"
+       markerHeight="2.2452853"
+       viewBox="0 0 5.8874262 6.6094758"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="m 6,0 c -3,1 -7,3 -9,5 0,0 0,-4 2,-5 -2,-1 -2,-5 -2,-5 2,2 6,4 9,5 z"
+         id="path8893" />
+    </marker>
+    <rect
+       x="400.80316"
+       y="134.05241"
+       width="228.83694"
+       height="158.42558"
+       id="rect1846" />
+    <rect
+       x="71.765434"
+       y="128.63615"
+       width="171.96622"
+       height="98.846725"
+       id="rect1005" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-12.039204,-24.93667)">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 40.841977,66.636912 21.481728,15.76357"
+       id="path2053" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.77341;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow5)"
+       d="m 115.18642,68.384888 -9.01734,11.970411"
+       id="path2055" />
+    <rect
+       style="fill:none;stroke:#006400;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       id="rect111"
+       width="62.337757"
+       height="41.558506"
+       x="12.539204"
+       y="25.43667" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#006400;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       id="rect947"
+       width="61.621231"
+       height="41.558506"
+       x="98.880577"
+       y="26.869724" />
+    <rect
+       style="fill:none;stroke:#006400;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       id="rect949"
+       width="80.96743"
+       height="41.558506"
+       x="50.156815"
+       y="82.400482" />
+    <path
+       style="fill:#006400;fill-opacity:1;stroke:none;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       id="path3945"
+       d="M 84.617239,108.68269 69.000428,97.279093 52.880585,107.9598 58.900194,89.583426 43.76093,77.553065 l 19.337134,0.04638 6.763263,-18.115882 5.931397,18.405038 19.319191,0.834131 -15.671329,11.328563 z"
+       transform="matrix(0.74317081,0,0,0.70377298,40.1126,44.01498)" />
+  </g>
+  <g
+     id="layer2"
+     transform="translate(-12.039204,-24.93667)">
+    <text
+       xml:space="preserve"
+       id="text1003"
+       style="font-size:32px;white-space:pre;shape-inside:url(#rect1005);display:inline;fill:#006400;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-dasharray:none;stroke-opacity:1"
+       transform="scale(0.26458333)"><tspan
+         x="71.765625"
+         y="157.75253"
+         id="tspan5570">Created in </tspan><tspan
+         x="71.765625"
+         y="197.75253"
+         id="tspan5572">Inkscape</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-3.9290734,-3.9066844)"
+       id="text1844"
+       style="font-size:32px;white-space:pre;shape-inside:url(#rect1846);display:inline;fill:#006400;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="400.80273"
+         y="163.16855"
+         id="tspan5574">Put all text on </tspan><tspan
+         x="400.80273"
+         y="203.16855"
+         id="tspan5576">a separate </tspan><tspan
+         x="400.80273"
+         y="243.16855"
+         id="tspan5578">Layer</tspan></text>
+  </g>
+</svg>

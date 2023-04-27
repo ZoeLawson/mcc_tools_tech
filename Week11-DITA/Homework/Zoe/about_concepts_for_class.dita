@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="about_concepts_for_class">
+    <title>About Concepts for Class</title>
+    <shortdesc>Learning how to write good short descriptions is important.</shortdesc>
+    <conbody>
+        <p>This is a free form space.</p>
+        <p>Yes I would like a new paragraph.</p>
+        <ul>
+            <li>Just like HTML</li>
+            <li>Here's another list item</li>
+        </ul>
+        <p>Let's use a key. <image keyref="exampleImage"/></p>
+        <p>here is a <term keyref="g_term"/></p>
+        <p>Or see <xref href="class_reference_topic.dita#class_reference_topic/dl_term"/>.</p>
+        <p>And if you want a numbered list:</p>
+        <p product="productB">OH LOOK! I MADE A CHANGE!!</p>
+        <ol product="productB">
+            <li>Here's Item 1</li>
+            <li>Here's Item 2<p>With a sub paragraph.</p></li>
+        </ol>
+        <fig>
+            <title>This is a figure title</title>
+            <image placement="break" href="../../exampleDITAsource/DITA/art/childTopics.png"/>
+        </fig>
+        <fig>
+            <title>Figures are not just for text</title>
+            <codeblock>This is a code block
+with example code
+Here is another line.</codeblock>
+        </fig>
+        <section>
+            <title>Section title</title>
+            <p>More text about whatever.</p>
+            <p product="ProductA">All about Product A....</p>
+        </section>
+        <example>
+            <title>This is an example title</title>
+            <p>Here's more text. For inline formatting, like <uicontrol>uicontrol</uicontrol>,
+                    <wintitle>wintitle</wintitle>, or <codeph>codeph</codeph>.</p>
+        </example>
+    </conbody>
+</concept>

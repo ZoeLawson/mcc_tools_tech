@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc sourceDocument="C:\Users\14136\Documents\GitHub\mcc_tools_tech\Week08-Framemaker\ElisabethChaput\ElisabethChaput.book">
+    <TocEntry Title="Introduction" Link="/Content/A-Introduction-Topics/Intro_to_spring_cleaning.htm#elisabethchaput_4258484429_998304">
+        <TocEntry Title="spring cleaning is different" Link="/Content/A-Introduction-Topics/Intro_to_spring_cleaning.htm#elisabethchaput_4258484429_1003247">
+            <TocEntry Title="The Best Part..." Link="/Content/A-Introduction-Topics/Intro_to_spring_cleaning.htm#elisabethchaput_4258484429_1009441" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="Cleaning" Link="/Content/B-Cleaning_and_Sanitizing/C_and_S.htm#c_and_s_3223482736_998304">
+        <TocEntry Title="A Necessary Evil ?" Link="/Content/B-Cleaning_and_Sanitizing/C_and_S.htm#c_and_s_3223482736_1003247" />
+        <TocEntry Title="Spring Cleaning Tasks" Link="/Content/B-Cleaning_and_Sanitizing/C_and_S.htm#c_and_s_3223482736_1010292" />
+        <TocEntry Title="Washing vs Sanitizing" Link="/Content/B-Cleaning_and_Sanitizing/C_and_S.htm#c_and_s_3223482736_1005118" />
+        <TocEntry Title="What should be cleaned on a schedule and what can wait?" Link="/Content/B-Cleaning_and_Sanitizing/C_and_S.htm#c_and_s_3223482736_1003723" />
+    </TocEntry>
+    <TocEntry Title="Decluttering and Organizing" Link="/Content/C-Decluttering and Organizing/D_and_O.htm#d_and_o_1923312691_998304">
+        <TocEntry Title="Cleaning Obstacles" Link="/Content/C-Decluttering and Organizing/D_and_O.htm#d_and_o_1923312691_1003247" />
+        <TocEntry Title="Decluttering vs Organizing" Link="/Content/C-Decluttering and Organizing/D_and_O.htm#d_and_o_1923312691_1010118" />
+        <TocEntry Title="Simple Guidelines to Declutter and Organize" Link="/Content/C-Decluttering and Organizing/D_and_O.htm#d_and_o_1923312691_1011412" />
+    </TocEntry>
+</CatapultToc>

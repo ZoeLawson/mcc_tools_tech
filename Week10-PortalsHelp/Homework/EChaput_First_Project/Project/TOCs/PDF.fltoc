@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc Version="1" conditions="">
+    <TocEntry Title="[%=System.LinkedTitle%]" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="pageLayout" PageType="title" StartSection="false" PageLayout="/Content/Resources/PageLayouts/Frontmatter.flpgl" PageNumberReset="continue" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputeToc="false" ReplaceMergeNode="false" />
+    <TocEntry Title="[%=System.LinkedTitle%]" StartChapter="true" PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl" PageNumber="1" PageNumberReset="continue" PageNumberFormat="decimal" ChapterNumberReset="reset" ChapterNumber="1" ChapterNumberFormat="decimal" VolumeNumberReset="same" SectionNumberReset="continue" StartPageLayout="false" StartSection="false" AutoEndOnLeftPage="enabled">
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry Title="[%=System.LinkedTitle%]" StartChapter="true" PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl" PageNumber="1" PageNumberReset="continue" StartSection="false" StartPageLayout="false" AutoEndOnLeftPage="enabled" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue">
+        <TocEntry Title="[%=System.LinkedTitle%]" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry Title="[%=System.LinkedTitle%]" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry Title="[%=System.LinkedTitle%]" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" StartSection="false" PageNumberReset="continue" PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl">
+        <TocEntry Title="[%=System.LinkedTitle%]" />
+        <TocEntry Title="[%=System.LinkedTitle%]" />
+        <TocEntry Title="[%=System.LinkedTitle%]" />
+    </TocEntry>
+</CatapultToc>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic">
+    <title>Muscle Tension</title>
+    <shortdesc>Types of muscle tension and common relief practices.</shortdesc>
+    <body>
+        <p>Muscles can become tense from overuse, sudden extreme use, stress, and numerous other
+            reasons. Having a strategy to release the tension can improve one's quality of life.</p>
+        <image placement="break" href="muscle_tension.jpg" id="image_vdq_mvb_dxb">
+            <alt>Man sitting on couch with laptop, looking uncomfortable, trying to release tension
+                in neck and back.</alt>
+        </image>
+    </body>
+</topic>

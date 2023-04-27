@@ -8,14 +8,14 @@
     <bookmeta>
         <author>Zoë Lawson</author>
         <prodinfo>
-            <prodname>Tools and Technologies for Tech Writers 2022</prodname>
+            <prodname>Tools and Technologies for Tech Writers 2023</prodname>
             <vrmlist>
                 <vrm version="1" release="0" modification="0"/>
             </vrmlist>
         </prodinfo>
         <bookrights>
             <copyrfirst>
-                <year>2022</year>
+                <year>2023</year>
             </copyrfirst>
             <bookowner>
                 <person>Zoë Lawson</person>
@@ -30,7 +30,19 @@
         </booklists>
     </frontmatter>
     <chapter href="Zoe/topic.dita">
-        <topicref href="Zoe/my_first_reference.dita"/>
-        <topicref href="Zoe/task.dita"/>
+        <topicref href="Zoe/the_terrible_task.dita"/>
+        
+            <topicref href="Zoe/about_concepts_for_class.dita"/>
+            <topicref href="../exampleDITAsource/DITA/insert_an_image.dita"/>
+            <topicref href="Zoe/class_reference_topic.dita"/>
+        <topicref href="Zoe/glossary.dita"/>
+        
     </chapter>
+    <chapter href="../exampleDITAsource/DITA/concept_basics.dita"/>
+    <backmatter>
+        <keydef processing-role="resource-only" keys="author"><topicmeta><keywords><keyword>Zoë Lawson</keyword></keywords></topicmeta></keydef>
+        <keydef processing-role="resource-only" keys="homeworkfolder"><topicmeta><keywords><keyword>Zoe</keyword></keywords></topicmeta></keydef>
+        <keydef processing-role="resource-only" keys="exampleImage" href="../../Week05-AgileHTML/Homework/Example_image.png"/>
+        <keydef keys="g_term" href="Zoe/glossary.dita#term"/>
+    </backmatter>
 </bookmap>

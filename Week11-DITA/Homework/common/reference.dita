@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference">
+    <title>Example Reference Topic</title>
+    <shortdesc>This is a DITA topic of type reference. This is a shared topic.</shortdesc>
+    <prolog>
+        <author>Zoë</author>
+        <!--Here's a comment saying this file is shared. If you make any changes to it, it will be in everyone's book.-->
+    </prolog>
+    <refbody>
+        <section>
+            <draft-comment author="LAWSONZ">Here's where I can put in a note to self or a question
+                to developers.</draft-comment>
+            <p>In general, a reference topic is used for things you look up. If you want to put it
+                in a table, it probably should be a reference topic.</p>
+            <p>Reference topics can contain:</p>
+            <dl>
+                <dlentry>
+                    <dt><xmlelement>section</xmlelement></dt>
+                    <dd>Generic text space.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><xmlelement>example</xmlelement></dt>
+                    <dd>Generic text but the intention is to hold some sort of example.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><xmlelement>properties</xmlelement></dt>
+                    <dd>A special list/table for properties and definitions.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><xmlelement>refsyn</xmlelement></dt>
+                    <dd>Syntax reference. Great for APIs.</dd>
+                </dlentry>
+            </dl>
+            <dl>
+                <dlentry>
+                    <dt><xmlelement>simpletable</xmlelement> or <xmlelement>table</xmlelement></dt>
+                    <dd>You can have a table. </dd>
+                </dlentry>
+            </dl>
+        </section>
+    </refbody>
+</reference>

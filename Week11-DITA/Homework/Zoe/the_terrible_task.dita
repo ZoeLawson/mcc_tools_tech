@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="the_terrible_task">
+    <title>The Terrible Task</title>
+    <shortdesc>Short descriptions are great! </shortdesc>
+    <taskbody>
+        <prereq>What you need to do before hand.</prereq>
+        <context>Why you should do the task.</context>
+        <steps-unordered>
+            <step>
+                <cmd>Do the thing.</cmd>
+                <info>About doing the thing.<p>this is a text blob</p><ul>
+                        <li>A list of things</li>
+                    </ul></info>
+                <choices>
+                    <choice>Looks, a different list of things.</choice>
+                </choices>
+            </step>
+        </steps-unordered>
+        <result>
+            <p>Another text blob describing what completing the steps does.</p>
+        </result>
+        <tasktroubleshooting>
+            <p>Another text blob.</p>
+        </tasktroubleshooting>
+        <example>Here's an example</example>
+        <postreq>What to do next.</postreq>
+    </taskbody>
+</task>

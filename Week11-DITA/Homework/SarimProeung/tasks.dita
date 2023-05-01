@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="tasks">
+    <title>Tasks </title>
+    <shortdesc> We need short descriptions.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_abf_2fy_hxb">You need to do this first. </prereq>
+        <context>Why this task is important.</context>
+        <steps>
+            <step>
+                <cmd>First do this.</cmd>
+                <info>Doing new thing.</info>
+            </step>
+            <step>
+                <cmd>Then do this.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

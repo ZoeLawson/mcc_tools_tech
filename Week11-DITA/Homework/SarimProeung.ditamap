@@ -30,9 +30,14 @@
         </booklists>
     </frontmatter>
     <chapter href="SarimProeung/topic.dita">
-        <topicref href="common/concept.dita"/>
+        <topicref href="common/concept.dita">
+            <topicref href="SarimProeung/learning_about_new_concepts.dita"/>
+        </topicref>
         <topicref href="common/task.dita"/>
-        <topicref href="common/reference.dita"/>
+        <topicref href="SarimProeung/tasks.dita"/>
+        <topicref href="common/reference.dita">
+            <topicref href="SarimProeung/class_reference_topic.dita"/>
+        </topicref>
     </chapter>
     <backmatter>
         <keydef processing-role="resource-only" keys="author">

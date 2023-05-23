@@ -1,0 +1,50 @@
+<!DOCTYPE HTML><html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Login</title>
+      <style> div.container { display: block; margin: auto;
+                    font-family: Century Gothic; width: 850pt; height: 300pt; border: solid medium
+                    black; background-color: #e6e6ff; } div.logo { display: block; width: 199pt;
+                    float: left;} p { display: block; height: 160pt; background-image:
+                    radial-gradient(#9966ff,#660066); color: white; margin: 18pt; padding: 6pt;
+                    font-size: 14pt; font-weight: bold; text-align: center; padding-top: 100pt; }
+                    div.login_form { display: block; float: left; width: 399pt; } div.helpbar {
+                    display: block; width: 240pt; float: right; } p.help { display: none;
+                    background-color: #e6e6ff; color: black; background-image: none; font-weight:
+                    normal; text-align: left; border: solid thin black; margin-top: 100px; height:
+                    233px; padding-top: 12pt; padding-left: 12pt; padding-right: 12pt; } h1 {
+                    font-size: 24pt; font-weight: bold; } fieldset { margin: 18pt; } legend {
+                    font-size: 18pt; } label { font-weight: bold; font-size: 16pt; margin-bottom:
+                    6pt; margin-right: 12pt;} input { font-size: 16pt; margin-bottom: 6pt; } img { display: inline;
+                    margin-left: 12pt; } a { color: blue; font-size: 14pt; } a:hover
+                    {text-decoration: blue underline} img.hlpbtn:hover { border: medium groove
+                    silver; } div.tada { display: none; background-color: #ffccff; border: thin
+                    solid red; margin: 72pt;} p.tada { background-color: #ffccff; color: red;
+                    font-size: 72pt; font-family: Century Gothic; background-image: none;} div.oops
+                    { font-size: 12pt; font-family: Century Gothic; color: gray; padding:
+                    18pt;}</style>
+   </head>
+   <body>
+      <div class="container">
+         <div class="logo">
+            <p>Cool Graphic Here</p>
+         </div>
+         <div class="login_form">
+            <h1>Login</h1>
+            <form onsubmit="openHlp('thing'); return false;">
+               <fieldset>
+                  <legend>Something witty here</legend><label for="username">UserName</label><input id="username" type="text" title="Enter user name"><img class="hlpbtn" src="help.png" onclick="openHlp('usr');" alt="help" title="Click here for help"><br><label for="password">Password</label><input id="password" type="text" title="Enter password"><img class="hlpbtn" src="help.png" onclick="openHlp('pswd');" alt="help" title="Click here for help"><br><input type="submit" value="Submit"><br><a>Reset passwrd</a><div class="oops">You may have to click buttons twice because I'm not a real developer.</div>
+               </fieldset>
+            </form>
+         </div>
+         <div id="help" class="helpbar">
+            <p id="usr" class="help">Your user name is your username.</p>
+            <p id="pswd" class="help">Keep your passord private.</p>
+         </div>
+      </div>
+      <div id="thing" class="tada">
+         <p class="tada"> Do the thing!</p>
+      </div><script>function openHlp(hlpid) { var x =
+                    document.getElementById(hlpid); if (x.style.display == "none") { x.style.display
+                    = "block"; } else { x.style.display = "none"; } }</script></body>
+</html>

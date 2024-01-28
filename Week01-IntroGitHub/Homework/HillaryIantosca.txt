@@ -1,1 +1,9 @@
-Mission accomplished.
+Submission #1: Mission accomplished.
+
+Submission #2: 
+Reviewed Git Workflow Cheatsheet. 
+Syncd origin repo with personal forked repo. [There were several latest and greatest updates]
+Pulled from cloud on desktop GitHub workspace.
+Opened Wordfile for HW 1 and made changes; saved.
+Committed 2nd submisison changes to local repo w/comment.
+Submitted pull request to ZoeLawson/mcc_tools_tech.

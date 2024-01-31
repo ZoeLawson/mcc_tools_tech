@@ -35,15 +35,15 @@
             </form>
          </div>
          <div id="help" class="helpbar">
-            <p id="usr" class="help"><input type="button" onclick="document.getElementById('usr').style.display = 'none';" value="X" class="hlpclose">Your user name is your username. &lt;br/&gt; will this make a line break
+            <p id="usr" class="help"><input type="button" onclick="document.getElementById('usr').style.display = 'none';" value="X" class="hlpclose">Your user name is your username. &amp;lt;br/&amp;gt; will this make a line break
             </p>
             <p id="pswd" class="help"><input type="button" onclick="document.getElementById('pswd').style.display = 'none';" value="X" class="hlpclose">Keep your password private.
             </p>
          </div>
       </div>
       <div id="thing" class="tada">
-         <p class="tada"> Do the thing!</p>
-      </div><input type="button" onclick="document.getElementById('thing').style.display = 'none';" value="Close" style="margin-left: 600px;"><script>function openHlp(hlpid) { 
+         <p class="tada">Do the thing!<input type="button" onclick="document.getElementById('thing').style.display = 'none';" value="Close" style="margin-left: 600px;"></p>
+      </div><script>function openHlp(hlpid) { 
                     if (hlpid == 'usr') {
                     document.getElementById('usr').style.display = "block";
                     document.getElementById('pswd').style.display = "none";

@@ -55,6 +55,7 @@
                 <xsl:element name="div">
                     <xsl:attribute name="class">container</xsl:attribute>
                     <xsl:element name="div">
+                        <xsl:attribute name="class">logo</xsl:attribute>
                         <xsl:choose>
                             <xsl:when test="f:getProperty('Graphic')">
                                 <xsl:choose>

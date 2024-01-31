@@ -186,14 +186,16 @@
                     <xsl:attribute name="id">thing</xsl:attribute>
                     <xsl:attribute name="class">tada</xsl:attribute>
                     <xsl:element name="p">
-                        <xsl:attribute name="class">tada</xsl:attribute> Do the thing!</xsl:element>
+                        <xsl:attribute name="class">tada</xsl:attribute>
+                        <xsl:text>Do the thing!</xsl:text>
+                        <xsl:element name="input">
+                           <xsl:attribute name="type">button</xsl:attribute>
+                           <xsl:attribute name="onclick">document.getElementById('thing').style.display = 'none';</xsl:attribute>
+                           <xsl:attribute name="value">Close</xsl:attribute>
+                           <xsl:attribute name="style">margin-left: 600px;</xsl:attribute>
+                       </xsl:element>
                     </xsl:element>
-                    <xsl:element name="input">
-                        <xsl:attribute name="type">button</xsl:attribute>
-                        <xsl:attribute name="onclick">document.getElementById('thing').style.display = 'none';</xsl:attribute>
-                        <xsl:attribute name="value">Close</xsl:attribute>
-                        <xsl:attribute name="style">margin-left: 600px;</xsl:attribute>
-                    </xsl:element>
+                </xsl:element>
                 <xsl:element name="script">function openHlp(hlpid) { 
                     if (hlpid == 'usr') {
                     document.getElementById('usr').style.display = "block";

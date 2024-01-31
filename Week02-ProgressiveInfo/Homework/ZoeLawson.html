@@ -1,7 +1,7 @@
 <html>
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <title>Login Page</title><style>div.container { display: block; margin: auto;
+      <title>Login</title><style>div.container { display: block; margin: auto;
                     font-family: Century Gothic; width: 850pt; height: 300pt; border: solid medium
                     black; background-color: #e6e6ff; } div.logo { display: block; width: 199pt;
                     float: left;} p { display: block; height: 160pt; background-image:
@@ -16,26 +16,29 @@
                     font-size: 18pt; } label { font-weight: bold; font-size: 16pt; margin-bottom:
                     6pt; margin-right: 12pt;} input { font-size: 16pt; margin-bottom: 6pt; } img { display: inline;
                     margin-left: 12pt; } a { color: blue; font-size: 14pt; } a:hover
-                    {text-decoration: blue underline} img.hlpbtn:hover { border: medium groove
-                    silver; } div.tada { display: none; background-color: #ffccff; border: thin
+                    {text-decoration: blue underline} img.hlpbtn:hover { box-shadow: cornflowerblue 
+                    2px 2px 15px; } div.tada { display: none; background-color: #ffccff; border: thin
                     solid red; margin: 36pt;} p.tada { background-color: #ffccff; color: red;
                     font-size: 72pt; font-family: Century Gothic; background-image: none;} div.oops
                     { font-size: 12pt; font-family: Century Gothic; color: gray; padding:
-                    18pt;} .hlpclose {display: inline-block; float: right;}</style></head>
+                    18pt;} .hlpclose {display: inline-block; float: right;} .imglogo { 
+                    margin-top: 18pt;}</style></head>
    <body>
       <div class="container">
-         <div class="logo"><img class="imglogo" src="images/Star.png" alt="Alt text is important for accessibility" title="Alt text is important for accessibility"></div>
+         <div class="logo">
+            <p>Cool Graphic Here</p>
+         </div>
          <div class="login_form">
-            <h1>Login Page</h1>
+            <h1>Login</h1>
             <form onsubmit="doThing(); return false;">
                <fieldset>
-                  <legend>Something witty here</legend><label for="username">User Name</label><input id="username" type="text" title="Enter user name a change"><img class="hlpbtn" src="help.png" onclick="openHlp('usr');" alt="help" title="Click here for help"><br><label for="password">Psswrd</label><input id="password" type="text" title="Enter password"><img class="hlpbtn" src="help.png" onclick="openHlp('pswd');" alt="help" title="Click here for help"><br><input type="submit" value="Submit"><br><a onclick="alert('This does nothing');">Reset password</a></fieldset>
+                  <legend>Something witty here</legend><label for="username">UserName</label><input id="username" type="text" title="Enter user name"><img class="hlpbtn" src="images/help.png" onclick="openHlp('usr');" alt="help" title="Click here for help"><br><label for="password">Password</label><input id="password" type="text" title="Enter password"><img class="hlpbtn" src="images/help.png" onclick="openHlp('pswd');" alt="help" title="Click here for help"><br><input type="submit" value="Submit"><br><a onclick="alert('This does nothing');">Reset passwrd</a></fieldset>
             </form>
          </div>
          <div id="help" class="helpbar">
-            <p id="usr" class="help"><input type="button" onclick="document.getElementById('usr').style.display = 'none';" value="X" class="hlpclose">Your user name is your username
+            <p id="usr" class="help"><input type="button" onclick="document.getElementById('usr').style.display = 'none';" value="X" class="hlpclose">Your user name is your username.
             </p>
-            <p id="pswd" class="help"><input type="button" onclick="document.getElementById('pswd').style.display = 'none';" value="X" class="hlpclose">Keep your password private.
+            <p id="pswd" class="help"><input type="button" onclick="document.getElementById('pswd').style.display = 'none';" value="X" class="hlpclose">Keep your passord private.
             </p>
          </div>
       </div>

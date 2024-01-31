@@ -5,7 +5,7 @@ name: properties to HTML
     branches:
     - Winter2024
     paths:
-    - 'Week02-ProgressiveInfo/Homework/ZoeLawson.properties'
+    - 'Week02-ProgressiveInfo/Homework/SepeyeonkquaMyles.properties'
 jobs:
   transform:
     name: Transform Java Properties file to HTML example
@@ -16,7 +16,7 @@ jobs:
     - name: Install libsaxonb-java
       run: sudo apt-get install libsaxonb-java
     - name: Run transform
-      run: saxonb-xslt -s:'Week02-ProgressiveInfo/Homework/xsl/dummy.xml' -xsl:'Week02-ProgressiveInfo/Homework/xsl/BuildLoginPage.xslt' -o:'Week02-ProgressiveInfo/Homework/ZoeLawson.html' propertiesFile='../ZoeLawson.properties'
+      run: saxonb-xslt -s:'Week02-ProgressiveInfo/Homework/xsl/dummy.xml' -xsl:'Week02-ProgressiveInfo/Homework/xsl/BuildLoginPage.xslt' -o:'Week02-ProgressiveInfo/Homework/SepeyeonkquaMyles.html' propertiesFile='../SepeyeonkquaMyles.properties'
     - name: Upload transform output
       uses: actions/upload-artifact@v3
       with:

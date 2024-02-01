@@ -12,3 +12,9 @@ Submission #3:
 Reviewed GitHub process. Noted that commits cannot happen within the vacuum that is the desktop version. 
 Must go back online to complete a pull request to get the change into the class repo.
 Feeling more confident in the flow now.
+
+Submission #4:
+Getting to the meat and potatoes of why I'm here.
+I've got a writing background in the medical field as well as experience teaching. I would like to merge both into the tech field.
+I would like to use this semester to build a portfolio, then get a summer internship in tech writing. 
+The fall 2024 component writing class is on my radar as well.

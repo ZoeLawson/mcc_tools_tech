@@ -7,3 +7,8 @@ Pulled from cloud on desktop GitHub workspace.
 Opened Wordfile for HW 1 and made changes; saved.
 Committed 2nd submisison changes to local repo w/comment.
 Submitted pull request to ZoeLawson/mcc_tools_tech.
+
+Submission #3:
+Reviewed GitHub process. Noted that commits cannot happen within the vacuum that is the desktop version. 
+Must go back online to complete a pull request to get the change into the class repo.
+Feeling more confident in the flow now.

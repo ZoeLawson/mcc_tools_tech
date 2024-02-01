@@ -1,0 +1,2 @@
+I think that the name of the other file is not compatible with Git. So, I trying to add a new file.
+I am now able to see my files on Github. But, I am still having trouble with the pull request. 

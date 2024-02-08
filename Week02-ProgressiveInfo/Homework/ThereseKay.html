@@ -25,18 +25,18 @@
                     margin-top: 18pt;}</style></head>
    <body>
       <div class="container">
-         <div class="logo"><img class="imglogo" src="images/Star.png" alt="This is a cool star image" title="This is a cool star image"></div>
+         <div class="logo"><img class="imglogo" src="images/Star.png" alt="This image is a 5-pointed star." title="This image is a 5-pointed star."></div>
          <div class="login_form">
             <h1>Login Page</h1>
             <form onsubmit="doThing(); return false;">
                <fieldset>
-                  <legend>I am Legend</legend><label for="username">User name</label><input id="username" type="text" title="Enter your user name"><img class="hlpbtn" src="images/help.png" onclick="openHlp('usr');" alt="help" title="Click here for help"><br><label for="password">Password</label><input id="password" type="text" title="Enter password"><img class="hlpbtn" src="images/help.png" onclick="openHlp('pswd');" alt="help" title="Click here for help"><br><input type="submit" value="Log in"><br><a onclick="alert('This does nothing');">Reset password</a></fieldset>
+                  <legend>This is where you should do the log in thing.</legend><label for="username">User Name</label><input id="username" type="text" title="Enter user name"><img class="hlpbtn" src="images/help.png" onclick="openHlp('usr');" alt="help" title="Click here for help"><br><label for="password">Password</label><input id="password" type="text" title="Enter password"><img class="hlpbtn" src="images/help.png" onclick="openHlp('pswd');" alt="help" title="Click here for help"><br><input type="submit" value="Log in"><br><a onclick="alert('This does nothing');">Reset password</a></fieldset>
             </form>
          </div>
          <div id="help" class="helpbar">
-            <p id="usr" class="help"><input type="button" onclick="document.getElementById('usr').style.display = 'none';" value="X" class="hlpclose">Your user name is your username. Get it from your administrator.
+            <p id="usr" class="help"><input type="button" onclick="document.getElementById('usr').style.display = 'none';" value="X" class="hlpclose">Your user name is your user name.
             </p>
-            <p id="pswd" class="help"><input type="button" onclick="document.getElementById('pswd').style.display = 'none';" value="X" class="hlpclose">Keep your password private.&amp;lt;p&amp;gt;Test html&amp;lt;/p&amp;gt;
+            <p id="pswd" class="help"><input type="button" onclick="document.getElementById('pswd').style.display = 'none';" value="X" class="hlpclose">Keep your password super private.
             </p>
          </div>
       </div>

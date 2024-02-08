@@ -1,1 +1,3 @@
 Week 1 Homework
+This is my second homework assignment
+I hope that this works! I think that I committed the last change locally the last time. 

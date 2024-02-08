@@ -30,13 +30,13 @@
             <h1>Login page</h1>
             <form onsubmit="doThing(); return false;">
                <fieldset>
-                  <legend>Tech Tools Login</legend><label for="username">User Name</label><input id="username" type="text" title="Enter your user name or email address"><img class="hlpbtn" src="images/help.png" onclick="openHlp('usr');" alt="help" title="Click here for help"><br><label for="password">Password</label><input id="password" type="text" title="Enter password"><img class="hlpbtn" src="images/help.png" onclick="openHlp('pswd');" alt="help" title="Click here for help"><br><input type="submit" value="Log in"><br><a onclick="alert('This does nothing');">Forgot password?</a></fieldset>
+                  <legend>Tech Tools Login</legend><label for="username">User Name</label><input id="username" type="text" title="Enter your user name or associated email address"><img class="hlpbtn" src="images/help.png" onclick="openHlp('usr');" alt="help" title="Click here for help"><br><label for="password">Password</label><input id="password" type="text" title="Enter your password"><img class="hlpbtn" src="images/help.png" onclick="openHlp('pswd');" alt="help" title="Click here for help"><br><input type="submit" value="Log in"><br><a onclick="alert('This does nothing');">Forgot password?</a></fieldset>
             </form>
          </div>
          <div id="help" class="helpbar">
             <p id="usr" class="help"><input type="button" onclick="document.getElementById('usr').style.display = 'none';" value="X" class="hlpclose">Your user name is provided by your administrator.
             </p>
-            <p id="pswd" class="help"><input type="button" onclick="document.getElementById('pswd').style.display = 'none';" value="X" class="hlpclose">Keep your password private.
+            <p id="pswd" class="help"><input type="button" onclick="document.getElementById('pswd').style.display = 'none';" value="X" class="hlpclose">Your password is provided by your administrator.
             </p>
          </div>
       </div>

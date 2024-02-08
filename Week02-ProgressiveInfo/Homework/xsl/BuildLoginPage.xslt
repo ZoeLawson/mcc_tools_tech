@@ -43,18 +43,20 @@
                     font-size: 18pt; } label { font-weight: bold; font-size: 16pt; margin-bottom:
                     6pt; margin-right: 12pt;} input { font-size: 16pt; margin-bottom: 6pt; } img { display: inline;
                     margin-left: 12pt; } a { color: blue; font-size: 14pt; } a:hover
-                    {text-decoration: blue underline} img.hlpbtn:hover { border: medium groove
-                    silver; } div.tada { display: none; background-color: #ffccff; border: thin
+                    {text-decoration: blue underline} img.hlpbtn:hover { box-shadow: cornflowerblue 
+                    2px 2px 15px; } div.tada { display: none; background-color: #ffccff; border: thin
                     solid red; margin: 36pt;} p.tada { background-color: #ffccff; color: red;
                     font-size: 72pt; font-family: Century Gothic; background-image: none;} div.oops
                     { font-size: 12pt; font-family: Century Gothic; color: gray; padding:
-                    18pt;} .hlpclose {display: inline-block; float: right;}</xsl:element>
+                    18pt;} .hlpclose {display: inline-block; float: right;} .imglogo { 
+                    margin-top: 18pt;}</xsl:element>
 
             </xsl:element>
             <xsl:element name="body">
                 <xsl:element name="div">
                     <xsl:attribute name="class">container</xsl:attribute>
                     <xsl:element name="div">
+                        <xsl:attribute name="class">logo</xsl:attribute>
                         <xsl:choose>
                             <xsl:when test="f:getProperty('Graphic')">
                                 <xsl:choose>
@@ -110,7 +112,7 @@
                                 </xsl:element>
                                 <xsl:element name="img">
                                     <xsl:attribute name="class">hlpbtn</xsl:attribute>
-                                    <xsl:attribute name="src">help.png</xsl:attribute>
+                                    <xsl:attribute name="src">images/help.png</xsl:attribute>
                                     <xsl:attribute name="onclick">openHlp('usr');</xsl:attribute>
                                     <xsl:attribute name="alt">help</xsl:attribute>
                                     <xsl:attribute name="title">Click here for help</xsl:attribute>
@@ -131,7 +133,7 @@
                                 </xsl:element>
                                 <xsl:element name="img">
                                     <xsl:attribute name="class">hlpbtn</xsl:attribute>
-                                    <xsl:attribute name="src">help.png</xsl:attribute>
+                                    <xsl:attribute name="src">images/help.png</xsl:attribute>
                                     <xsl:attribute name="onclick">openHlp('pswd');</xsl:attribute>
                                     <xsl:attribute name="alt">help</xsl:attribute>
                                     <xsl:attribute name="title">Click here for help</xsl:attribute>
@@ -186,14 +188,16 @@
                     <xsl:attribute name="id">thing</xsl:attribute>
                     <xsl:attribute name="class">tada</xsl:attribute>
                     <xsl:element name="p">
-                        <xsl:attribute name="class">tada</xsl:attribute> Do the thing!</xsl:element>
+                        <xsl:attribute name="class">tada</xsl:attribute>
+                        <xsl:text>Do the thing!</xsl:text>
+                        <xsl:element name="input">
+                           <xsl:attribute name="type">button</xsl:attribute>
+                           <xsl:attribute name="onclick">document.getElementById('thing').style.display = 'none';</xsl:attribute>
+                           <xsl:attribute name="value">Close</xsl:attribute>
+                           <xsl:attribute name="style">margin-left: 600px;</xsl:attribute>
+                       </xsl:element>
                     </xsl:element>
-                    <xsl:element name="input">
-                        <xsl:attribute name="type">button</xsl:attribute>
-                        <xsl:attribute name="onclick">document.getElementById('thing').style.display = 'none';</xsl:attribute>
-                        <xsl:attribute name="value">Close</xsl:attribute>
-                        <xsl:attribute name="style">margin-left: 600px;</xsl:attribute>
-                    </xsl:element>
+                </xsl:element>
                 <xsl:element name="script">function openHlp(hlpid) { 
                     if (hlpid == 'usr') {
                     document.getElementById('usr').style.display = "block";

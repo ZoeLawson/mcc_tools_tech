@@ -1,0 +1,29 @@
+name: properties to HTML
+'on':
+#   workflow_dispatch:
+  push:
+    branches:
+    - Winter2024
+    paths:
+    - 'Week02-ProgressiveInfo/Homework/ThereseKay.properties'
+jobs:
+  transform:
+    name: Transform Java Properties file to HTML example
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Install libsaxonb-java
+      run: sudo apt-get install libsaxonb-java
+    - name: Run transform
+      run: saxonb-xslt -s:'Week02-ProgressiveInfo/Homework/xsl/dummy.xml' -xsl:'Week02-ProgressiveInfo/Homework/xsl/BuildLoginPage.xslt' -o:'Week02-ProgressiveInfo/Homework/ThereseKay.html' propertiesFile='../ThereseKay.properties'
+    - name: Upload transform output
+      uses: actions/upload-artifact@v3
+      with:
+        name: ZoeHomework
+        path: 'Week02-ProgressiveInfo/Homework'
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@v4.4.1
+      with:
+        BRANCH: Winter2024
+        folder: .

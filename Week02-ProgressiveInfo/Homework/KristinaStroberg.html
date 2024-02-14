@@ -1,0 +1,59 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Please login</title><style>div.container { display: block; margin: auto;
+                    font-family: Century Gothic; width: 850pt; height: 300pt; border: solid medium
+                    black; background-color: #e6e6ff; } div.logo { display: block; width: 199pt;
+                    float: left;} p { display: block; height: 160pt; background-image:
+                    radial-gradient(#9966ff,#660066); color: white; margin: 18pt; padding: 6pt;
+                    font-size: 14pt; font-weight: bold; text-align: center; padding-top: 100pt; }
+                    div.login_form { display: block; float: left; width: 399pt; } div.helpbar {
+                    display: block; width: 240pt; float: right; } p.help { display: none;
+                    background-color: #e6e6ff; color: black; background-image: none; font-weight:
+                    normal; text-align: left; border: solid thin black; margin-top: 100px; height:
+                    233px; padding-top: 12pt; padding-left: 12pt; padding-right: 12pt; } h1 {
+                    font-size: 24pt; font-weight: bold; } fieldset { margin: 18pt; } legend {
+                    font-size: 18pt; } label { font-weight: bold; font-size: 16pt; margin-bottom:
+                    6pt; margin-right: 12pt;} input { font-size: 16pt; margin-bottom: 6pt; } img { display: inline;
+                    margin-left: 12pt; } a { color: blue; font-size: 14pt; } a:hover
+                    {text-decoration: blue underline} img.hlpbtn:hover { box-shadow: cornflowerblue 
+                    2px 2px 15px; } div.tada { display: none; background-color: #ffccff; border: thin
+                    solid red; margin: 36pt;} p.tada { background-color: #ffccff; color: red;
+                    font-size: 72pt; font-family: Century Gothic; background-image: none;} div.oops
+                    { font-size: 12pt; font-family: Century Gothic; color: gray; padding:
+                    18pt;} .hlpclose {display: inline-block; float: right;} .imglogo { 
+                    margin-top: 18pt;}</style></head>
+   <body>
+      <div class="container">
+         <div class="logo"><img class="imglogo" src="Images/Star.png" alt="This is a blue star on a blue rectangle" title="This is a blue star on a blue rectangle"></div>
+         <div class="login_form">
+            <h1>Please login</h1>
+            <form onsubmit="doThing(); return false;">
+               <fieldset>
+                  <legend>You're almost there!</legend><label for="username">Your User Name</label><input id="username" type="text" title="Please enter your user name"><img class="hlpbtn" src="images/help.png" onclick="openHlp('usr');" alt="help" title="Click here for help"><br><label for="password">Your password</label><input id="password" type="text" title="Please enter your password"><img class="hlpbtn" src="images/help.png" onclick="openHlp('pswd');" alt="help" title="Click here for help"><br><input type="submit" value="Done"><br><a onclick="alert('This does nothing');">Reset password</a></fieldset>
+            </form>
+         </div>
+         <div id="help" class="helpbar">
+            <p id="usr" class="help"><input type="button" onclick="document.getElementById('usr').style.display = 'none';" value="X" class="hlpclose">Case sensitive
+            </p>
+            <p id="pswd" class="help"><input type="button" onclick="document.getElementById('pswd').style.display = 'none';" value="X" class="hlpclose">At least 8 characters including 1 capital letter, 1 lower case, 1 number, and 1 symbol
+            </p>
+         </div>
+      </div>
+      <div id="thing" class="tada">
+         <p class="tada">Do the thing!<input type="button" onclick="document.getElementById('thing').style.display = 'none';" value="Close" style="margin-left: 600px;"></p>
+      </div><script>function openHlp(hlpid) { 
+                    if (hlpid == 'usr') {
+                    document.getElementById('usr').style.display = "block";
+                    document.getElementById('pswd').style.display = "none";
+                    } else if (hlpid == 'pswd') {
+                    document.getElementById('usr').style.display = "none";
+                    document.getElementById('pswd').style.display = "block";
+                    } else {
+                    alert('Debug: Invalid help ID');
+                    }
+                    }
+                    function doThing() {
+                    document.getElementById('thing').style.display = "block";
+                    }</script></body>
+</html>

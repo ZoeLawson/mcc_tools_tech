@@ -1,8 +1,8 @@
-function startTour() {
+function msstartTour() {
 	introJs().setOptions({
 	  steps: [{
 		title: 'Welcome',
-		intro: 'This is a sample tour using Intro.js.'
+		intro: 'This is a sample tour using Intro.js from Madhu.'
 	  },
 	  {
 		element: document.querySelector('#step1'),

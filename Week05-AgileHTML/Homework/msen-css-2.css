@@ -1,0 +1,89 @@
+* {
+	margin-left: 50px;
+}
+
+h1,h2 {
+	font-family: sans-serif;
+	color: #8D1313;
+}
+h3 {
+	font-family:monospace;
+	color: #8D1313;
+}
+p {
+	font-family: sans-serif;
+}
+
+p.different {
+	font-family:awesome;
+	color:deeppink;
+}
+
+li {
+	font-family: sans-serif;
+	margin-bottom: 6pt;
+}
+
+ul {
+	list-style: none;
+	margin-left: -1em;
+}
+
+ul li::before {
+	content: "\25BA" ;
+	color: #8D1313;
+	display: inline-block;
+	width: 2em;
+}
+
+ol {
+	list-style: none;
+	counter-reset: li;
+	margin-left: -1em;
+}
+
+ol li::before {
+	content: counter(li);
+	color: #8D1313;
+	display: inline-block;
+	width: 1.5em;
+	counter-increment: li;
+}
+
+table {
+	border-collapse: collapse;
+	border: dotted #4287f5;
+	font-family: sans-serif;
+	
+}
+
+tr {
+	border: solid thin #8D1313;
+}
+
+th {
+	background-color: #8D1313;
+	color: white;
+}
+
+td {
+	margin-left: 0px;
+	border: solid thin #8D1313;
+	padding: 3pt;
+	text-align: left;
+}
+
+em {
+	margin-left:0px;
+	padding: 3pt;
+	font-style: normal;
+	color: green;
+	border-bottom: solid thin green;
+}
+
+strong {
+	margin-left:0px;
+	padding: 3pt;
+	font-weight: normal;
+	font-variant: small-caps;
+}

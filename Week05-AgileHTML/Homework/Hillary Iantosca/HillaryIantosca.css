@@ -1,0 +1,59 @@
+body {
+	background-color: PaleVioletRed;
+}
+
+h1, h2, h3 {
+	color: DarkRed;
+	text-align:left;
+	font-family:Helvetica;
+}
+
+p {
+	font family: Helvetica;
+	font-size: 12pt;
+}
+
+li {
+	font-family: helvetica;
+	margin-bottom: 8pt;
+}
+
+ul {
+	list-style: circle;
+	padding: 10px;
+}
+
+ul li {
+	background-color: PaleVioletRed;
+	color: DarkRed;
+	margin-left: 35px;
+}
+
+ol {
+	list-style: normal;
+	padding: 10px;
+	background-color; PaleVioletRed
+	color; DarkRed;
+}
+
+ol li: {
+	list-style: normal;
+	background-color: PaleVioletRed;
+	color: DarkRed;
+	margin-left: 35px;
+}
+
+table, td, th {
+	border: 1px solid DarkRed;
+	border-collapse: collapse;
+	text-align: left;
+	width: normal
+}
+
+em {
+	margin-left:1px;
+	padding: 3pt;
+	font-style: helvetica;
+	color: DarkRed;
+	border-bottom: solid thin DarkRed;
+}

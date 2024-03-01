@@ -1,0 +1,36 @@
+
+h1,h2,h3{
+font-family: sans-serif;
+color: #5A5A5A;
+}
+p {
+font-family: sans-serif;
+}
+p.different {
+font-family: sans-serif;
+color: #00FFFF
+}
+li {
+font-family: sans-serif;
+}
+ul {
+font-family: sans-serif;
+}
+body {
+background-color:#ADD8E6;
+}
+table {
+border: thin solid black;
+font-family: sans-serif;
+}
+th {
+border: thin solid black;
+}
+td {
+border: thin solid black;
+}
+img {
+margin-left: 100px;
+margin-bottom: 18pt;
+margin-top: 18pt;
+}

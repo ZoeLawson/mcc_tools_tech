@@ -1,5 +1,6 @@
 body {
 	background-color: PaleVioletRed;
+	font-family: helvetica;
 }
 
 h1, h2, h3 {
@@ -9,7 +10,7 @@ h1, h2, h3 {
 }
 
 p {
-	font family: Helvetica;
+	font-family: Helvetica;
 	font-size: 12pt;
 }
 
@@ -24,6 +25,7 @@ ul {
 }
 
 ul li {
+	list-style: none;
 	background-color: PaleVioletRed;
 	color: DarkRed;
 	margin-left: 35px;
@@ -32,12 +34,10 @@ ul li {
 ol {
 	list-style: normal;
 	padding: 10px;
-	background-color; PaleVioletRed
-	color; DarkRed;
 }
 
-ol li: {
-	list-style: normal;
+ol li::before {
+	list-style: none;
 	background-color: PaleVioletRed;
 	color: DarkRed;
 	margin-left: 35px;
@@ -46,14 +46,16 @@ ol li: {
 table, td, th {
 	border: 1px solid DarkRed;
 	border-collapse: collapse;
-	text-align: left;
-	width: normal
+	text-align: center;
+	width: 35%;
+	font-family: helvetica;
+	padding: 20px;
 }
 
 em {
 	margin-left:1px;
 	padding: 3pt;
-	font-style: helvetica;
+	font-family: helvetica;
 	color: DarkRed;
 	border-bottom: solid thin DarkRed;
 }

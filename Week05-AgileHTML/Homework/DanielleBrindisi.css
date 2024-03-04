@@ -1,0 +1,86 @@
+* {
+	margin-left: 50px;
+}
+
+h1,h2 {
+	font-family: arial;
+	color: #2C3E50;
+}
+
+p {
+	font-family: arial;
+}
+
+p.different {
+	font-family: arial;
+	color: green;
+}
+
+li {
+	font-family: arial;
+	margin-bottom: 6pt;
+}
+
+ul {
+	list-style: none;
+	margin-left: -1em;
+}
+
+ul li::before {
+	content: "\25BA" ;
+	color: #212F3D;
+	display: inline-block;
+	width: 2em;
+}
+
+ol {
+	list-style: none;
+	counter-reset: li;
+	margin-left: -1em;
+}
+
+ol li::before {
+	content: counter(li);
+	color: #8D1313;
+	display: inline-block;
+	width: 1.5em;
+	counter-increment: li;
+}
+
+table {
+	border-collapse: collapse;
+	border: solid thin #273746;
+	font-family: arial;
+* {
+}
+
+tr {
+	border: solid thin #273746;
+}
+
+th {
+	background-color: #17202A;
+	color: white;
+}
+
+td {
+	margin-left: 0px;
+	border: solid thin #273746;
+	padding: 3pt;
+	text-align: left;
+}
+
+em {
+	margin-left:0px;
+	padding: 3pt;
+	font-style: normal;
+	color: green;
+	border-bottom: solid thin green;
+}
+
+strong {
+	margin-left:0px;
+	padding: 3pt;
+	font-weight: normal;
+	font-variant: small-caps;
+}

@@ -1,0 +1,19 @@
+.header  {
+	align-items: left;
+	background-color: #f2f2f2;
+}
+
+.green  {
+	align-items: left;
+	background-color: #OOFFOO;
+}
+
+h1  {
+	font-weight: 200
+	color: #800080
+}
+
+h2  {
+	font-weight: 200
+	color: #228B22
+}

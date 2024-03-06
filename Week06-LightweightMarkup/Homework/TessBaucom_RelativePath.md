@@ -50,9 +50,9 @@ Provide the relative path for the following:
 	
 	Homework/Cats/Watney Ellie
 	
-	[Link 8] (Homework/TessBaucom.html)
+	[Link 8](../../Week05-AgileHTML/Homework/TessBaucom.html)
 
-	[Link 9] (Homework/TessBaucom.css)
+	[Link 9](../../Week05-AgileHTML/Homework/TessBaucom.css)
 	
-	[Link 10] (Homework/Cats)
+	[Link 10](../../Week05-AgileHTML/Homework/Cats)
 	

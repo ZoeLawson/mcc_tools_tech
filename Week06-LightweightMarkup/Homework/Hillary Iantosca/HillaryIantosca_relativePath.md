@@ -3,7 +3,7 @@
 Provide the relative path for the following:
 
 1. From this file to the `week6_Lightweight_markup.html` file.
-* `../week6_LightweightMarkup/Lightweight_markup.html`
+* `../../week6_LightweightMarkup/Lightweight_markup.html`
 1. From this file to the GitHub cheatsheet PDF.
 *  `../../GitHub/Handouts/git_cheatsheet.pdf`
 1. From this file to your week 2 homework file.

@@ -3,12 +3,12 @@
 Gluten free and super delicious!
 
 ### Tools and Equipment:
-	* 2 mixing bowls
-	* A stand mixer or hand beater
-	* A rubber spatula
-	* 1 or 2 metal cake trays
-	* A toothpick or knife (for checking when cake is done)
-	* A wire cooling rack
+* 2 mixing bowls
+* A stand mixer or hand beater
+* A rubber spatula
+* 1 or 2 metal cake trays
+* A toothpick or knife (for checking when cake is done)
+* A wire cooling rack
 
 ## Ingredients
 Amount | Ingredient
@@ -45,7 +45,7 @@ Amount | Ingredient
 #### Notes:
 Gluten free cake:
 
-	Gluten is a protein in flour that helps cakes and bread loafs rise and keep their airy, bubbly shape. This recipe adds extra baking powder, baking soda, and extra air into the whipped eggs to make up for the lack of structure normally provided by gluten. I've made this recipe several times, and people often comment that it doesn't "taste" (or feel) gluten free!
+Gluten is a protein in flour that helps cakes and bread loafs rise and keep their airy, bubbly shape. This recipe adds extra baking powder, baking soda, and extra air into the whipped eggs to make up for the lack of structure normally provided by gluten. I've made this recipe several times, and people often comment that it doesn't "taste" (or feel) gluten free!
 	
 	
 The espresso powder helps bring out the chocolate flavor. It is not necessary, but very delicious.

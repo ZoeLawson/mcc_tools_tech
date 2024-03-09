@@ -6,13 +6,13 @@ By Therese Kay
 
 [Introduction](##introduction)
 
-[What Is Mailmeteor?](##what-is-mailmeteor?)
+[What Is Mailmeteor?](###what-is-mailmeteor?)
 
-[Who Might Use Mailmeteor?](##who-might-use-mailmeteor)
+[Who Might Use Mailmeteor?](###who-might-use-mailmeteor)
 
-[How Does It Work?](##how-does-it-work?)
+[How Does It Work?](###how-does-it-work?)
 
-[Types of Accounts](##types-of-accounts)
+[Types of Accounts](###types-of-accounts)
 
 [What You Need](##what-you-need)
 
@@ -94,7 +94,7 @@ Once you’ve installed Mailmeteor, there are 4 simple steps:
 
 *Example Data*
 
-<img src="../Week06-LightweightMarkup/Homework/TK-MD-HW/image1.jpg"
+<img src="../Week06-LightweightMarkup/Homework/TK-MD-HW/image1.jpg"/>
 
 ## Composing the Email
 
@@ -102,7 +102,7 @@ Once you’ve installed Mailmeteor, there are 4 simple steps:
     **Note:** The first time you open Mailmeteor, Google will request additional permissions. Continue through the initial windows to grant access.
 1.	In the *Mailemeteor* popup window, click **Create a template** to start sending emails.
 
-<img src="../Week06-LightweightMarkup/Homework/TK-MD-HW/image2.jpg"
+<img src="../Week06-LightweightMarkup/Homework/TK-MD-HW/image2.jpg"/>
 
 1. Enter your subject line and compose your email. 
    * Variables are available to personalize your email. The variables are based on data in your sheet.
@@ -116,14 +116,14 @@ The screen returns to the *Mailmeteor* pop-up. The name of your template is show
 ## Previewing and Sending the Email
 
 1. Click Preview emails to review the emails and ensure the variables are correct.
-   * Click the arrow icons   to navigate through the emails.
-   * Click the pen icon   to go back and edit the email.
-   * Click Back to return to the main Mailmeteor pop-up window
-   * Click Receive a test email to send a test email to the sender’s gmail account.
-   * Click Send emails if you wish to send the mail merge immediately.
-   * Click the arrow next to Send emails  to select one of the other mail merge options.
+   + Click the *arrow icons* to navigate through the emails.
+   + Click the *pen icon* to go back and edit the email.
+   + Click **Back** to return to the main Mailmeteor pop-up window
+   + Click **Receive a test email** to send a test email to the sender’s gmail account.
+   + Click **Send emails** if you wish to send the mail merge immediately.
+   + Click the *arrow next to Send emails* to select one of the other mail merge options.
    
-   <img src="../Week06-LightweightMarkup/Homework/TK-MD-HW/image3.jpg"
+   <img src="../Week06-LightweightMarkup/Homework/TK-MD-HW/image3.jpg"/>
    
    **Send Option** | **Description** 
    ----------------|----------------
@@ -132,13 +132,15 @@ The screen returns to the *Mailmeteor* pop-up. The name of your template is show
    Track emails | Toggle on or off. **Note:** paid features
    Unsubscribe link | Toggle on or off. **Note:** This is only necessary for newsletters with subscribers.
    
-   <img src="../Week06-LightweightMarkup/Homework/TK-MD-HW/image4.jpg"
+   <img src="../Week06-LightweightMarkup/Homework/TK-MD-HW/image4.jpg"/>
    
    ## Creating a Mailmerge from the Dashboard
    
    You can send an email directly from the Mailmeteor dashboard without using a Sheet. Personalization is not an option if you merge from the dashboard. This is perfect for general announcements for which you want to keep the email addresses of other recipients private. If you would like to use this option, please refer to the *Mailmeteor Dashboard* quick reference sheet.
   
+# Just for Kicks
 
+Linking to a [specific section in another md file](../Week06-LightweightMarkup/ExampleMarkdownFromPDF.md######heading-6)
 
 
 

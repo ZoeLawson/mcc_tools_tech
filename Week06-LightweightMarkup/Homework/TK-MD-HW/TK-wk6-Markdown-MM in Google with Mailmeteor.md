@@ -4,29 +4,29 @@ By Therese Kay
 
 ## Table of Contents
 
-Introduction
+[Introduction](##introduction)
 
-What Is Mailmeteor?
+[What Is Mailmeteor?](##what-is-mailmeteor?)
 
-Who Might Use Mailmeteor?
+[Who Might Use Mailmeteor?](##who-might-use-mailmeteor)
 
-How Does It Work?
+[How Does It Work?](##how-does-it-work?)
 
-Types of Accounts
+[Types of Accounts](##types-of-accounts)
 
-What You Need
+[What You Need](##what-you-need)
 
-Process Overview
+[Process Overview](##process-overview)
 
-Installing Mailmeteor for a Single Accounts
+[Installing Mailmeteor for a Single Accounts](##installing-mailmeteor-for-a-single-account)
 
-Creating a Mail Merge from a Google Sheet
+[Creating a Mail Merge from a Google Sheet](##creating-a-mail-merge-from-a-google-sheet)
 
-Composing the Email
+[Composing the Email](##composing-the-email)
 
-Previewing and Sending the Email
+[Previewing and Sending the Email](##previewing-and-sending-the-email)
 
-Creating a Mail Merge from the Dashboard
+[Creating a Mail Merge from the Dashboard](##creating-a-mail-merge-from-the-dashboard)
 
 ## Introduction
 
@@ -94,13 +94,15 @@ Once you’ve installed Mailmeteor, there are 4 simple steps:
 
 *Example Data*
 
+<img src="../Week06-LightweightMarkup/Homework/TK-MD-HW/image1.jpg"
+
 ## Composing the Email
 
 1.	In the menubar at the top, Click **Extensions | Mailmeteor | Open Mailmeteor**.
     **Note:** The first time you open Mailmeteor, Google will request additional permissions. Continue through the initial windows to grant access.
 1.	In the *Mailemeteor* popup window, click **Create a template** to start sending emails.
 
-
+<img src="../Week06-LightweightMarkup/Homework/TK-MD-HW/image2.jpg"
 
 1. Enter your subject line and compose your email. 
    * Variables are available to personalize your email. The variables are based on data in your sheet.
@@ -121,6 +123,8 @@ The screen returns to the *Mailmeteor* pop-up. The name of your template is show
    * Click Send emails if you wish to send the mail merge immediately.
    * Click the arrow next to Send emails  to select one of the other mail merge options.
    
+   <img src="../Week06-LightweightMarkup/Homework/TK-MD-HW/image3.jpg"
+   
    **Send Option** | **Description** 
    ----------------|----------------
    Schedule send | Select date and time. Click **Apply**.
@@ -128,7 +132,7 @@ The screen returns to the *Mailmeteor* pop-up. The name of your template is show
    Track emails | Toggle on or off. **Note:** paid features
    Unsubscribe link | Toggle on or off. **Note:** This is only necessary for newsletters with subscribers.
    
-   
+   <img src="../Week06-LightweightMarkup/Homework/TK-MD-HW/image4.jpg"
    
    ## Creating a Mailmerge from the Dashboard
    

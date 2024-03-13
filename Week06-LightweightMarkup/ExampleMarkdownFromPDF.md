@@ -29,6 +29,8 @@ This is a paragraph with no preceding spaces.
   
   [This text will be a link](http://www.middlesex.mass.edu)
   
+  [Link to Heading 5](#Heading-5)
+  
   ![Put alt text here](../relative/path/to/image.png)
   
 # Heading 1

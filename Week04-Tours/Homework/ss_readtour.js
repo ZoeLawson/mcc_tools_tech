@@ -6,7 +6,7 @@ function ssstartTour() {
 	  },
 	  {
 		element: document.querySelector('#step1'),
-		intro: 'You could change this image in week 2 using the Graphic property.'
+		intro: 'thankyou;.'
 	  },
 	  {
 		element: document.querySelector('#step2'),

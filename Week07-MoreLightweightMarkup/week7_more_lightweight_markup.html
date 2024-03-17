@@ -1,41 +1,288 @@
 <!DOCTYPE html
   PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "about:legacy-compat">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-        <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+        <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         
-        <meta name="copyright" content="(C) Copyright 2023"></meta>
-        <meta name="DC.rights.owner" content="(C) Copyright 2023"></meta>
-        <meta name="DC.type" content="concept"></meta>
-        <meta name="DC.title" content="More Lightweight Markup"></meta>
-        <meta name="abstract" content=""></meta>
-        <meta name="description" content=""></meta>
-        <meta name="DC.format" content="XHTML"></meta>
-        <meta name="DC.identifier" content="title_slide"></meta>
-        <link rel="stylesheet" type="text/css" href="commonltr.css"></link>
+        <meta name="copyright" content="(C) Copyright 2024">
+        <meta name="DC.rights.owner" content="(C) Copyright 2024">
+        <meta name="generator" content="DITA-OT"><meta name="DC.type" content="concept">
+        <meta name="DC.title" content="More Lightweight Markup">
+        <meta name="abstract" content="Because there are lots of options out there...">
+        <meta name="description" content="Because there are lots of options out there...">
+        <meta name="DC.format" content="XHTML">
+        <meta name="DC.identifier" content="title_slide">
+        <link rel="stylesheet" type="text/css" href="commonltr.css">
         <title>More Lightweight Markup</title>
-        <meta name="apple-mobile-web-app-capable" content="yes"></meta><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></meta><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"></meta><link rel="stylesheet" href="../revealjs/css/reveal.css"></link><link rel="stylesheet" href="../revealjs/css/theme/zoe.css" id="theme"></link><link href="../revealjs/lib/css/zenburn.css" rel="stylesheet"></link><script>
-            var link = document.createElement( 'link' );
-            link.rel = 'stylesheet';
-            link.type = 'text/css';
-            link.href = window.location.search.match( /print-pdf/gi ) ? '../revealjs/css/print/pdf.css' : '../revealjs/css/print/paper.css';
-            document.getElementsByTagName( 'head' )[0].appendChild( link );
-        </script>
-    <script src="https://kit.fontawesome.com/75bbc01a62.js" crossorigin="anonymous"></script>
-</head>
+        <meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"><link rel="stylesheet" href="../revealjs/dist/reset.css"><link rel="stylesheet" href="../revealjs/dist/reveal.css"><link rel="stylesheet" href="../revealjs/dist/theme/mcc.css" id="theme"><script src="https://kit.fontawesome.com/75bbc01a62.js" crossorigin="anonymous"></script><link rel="stylesheet" href="../revealjs/plugin/highlight/monokai.css" id="highlight-theme"></head>
         <body><div class="reveal"><div class="slides">
         <section>
     <h1 class="title topictitle1" id="ariaid-title1">More Lightweight Markup</h1>
         
     
-    <div class="body conbody"><p class="shortdesc"></p>
+    <div class="body conbody"><p class="shortdesc">Because there are lots of options out there...</p>
         
-        <p class="p">This week, we're using a PowerPoint, courtesy of Mark Hoeber.</p>
-        <p class="p">My Read the Docs account, used for this class:</p>
-        <p class="p"><a class="xref" href="https://mcc-rest.readthedocs.io/en/latest/index.html" target="_blank">https://mcc-rest.readthedocs.io/en/latest/index.html</a></p>
+        <p class="p">For example, <a class="xref" href="https://asciidoc.org/" target="_blank">ASCIIDoc</a>, which I only know the name of, and we're not actually talking
+            about.</p>
+        <p class="p">This week is about <a class="xref" href="https://docutils.sourceforge.io/rst.html" target="_blank">reStructured Text</a>, which I barely know how to use.</p>
     </div>
         
-<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2023</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title2">Homework</h1>
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title2">Python and Sphinx</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Python is a rather popular programming language.</p>
+        
+        <p class="p">Programmers realize that documentation is useful.</p>
+        <p class="p">Folks created <a class="xref" href="https://docutils.sourceforge.io/index.html" target="_blank">DocUtils</a> to "easily" maintain documentation for Python
+            projects using Python.</p>
+        <p class="p">Then other folks created <a class="xref" href="https://www.sphinx-doc.org/en/master/" target="_blank">Sphinx</a> for even "easier" documentation creation.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title3">Sphinx</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Set of tools that let you take Restructured Text and generate</p>
+        
+        <ul class="ul">
+            <li class="li">HTML frameset (i.e. a web site)</li>
+        
+            <li class="li">PDFs</li>
+        
+            <li class="li">ePubs</li>
+        
+            <li class="li">Whatever you want to code...</li>
+        
+        </ul>
+        
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title4">Examples</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">While "just text" many "real" companies make use of Sphinx</p>
+        
+        <ul class="ul">
+            <li class="li"><a class="xref" href="https://www.mongodb.com/docs/" target="_blank">https://www.mongodb.com/docs/</a></li>
+        
+            <li class="li"><a class="xref" href="https://inkscape-manuals.readthedocs.io/en/latest/" target="_blank">https://inkscape-manuals.readthedocs.io/en/latest/</a></li>
+        
+            <li class="li"><a class="xref" href="https://docs.phpmyadmin.net/en/latest/" target="_blank">https://docs.phpmyadmin.net/en/latest/</a></li>
+        
+        </ul>
+        
+        <p class="p">For a list, see <a class="xref" href="https://www.sphinx-doc.org/en/master/examples.html" target="_blank">https://www.sphinx-doc.org/en/master/examples.html</a></p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title5">Read the Docs</h1>
+        
+    <div class="body conbody">
+        <p class="p">There's a company that provides a hosted Sphinx service called <a class="xref" href="https://about.readthedocs.com/?ref=readthedocs.com" target="_blank">Read the Docs</a></p>
+        <p class="p">Integrates with GitHub so you can build content using these cloud services.</p>
+        <p class="p"><a class="xref" href="https://github.com/mcc-demo/tutorial-template/tree/main" target="_blank">mcc-demo repo</a></p>
+        <p class="p"><a class="xref" href="https://readthedocs.org/projects/mcc-demo-2022/" target="_blank">mcc-demo Read the Docs project</a></p>
+        <p class="p"><a class="xref" href="https://mcc-demo-2022.readthedocs.io/en/latest/index.html" target="_blank">mcc-demo Read the Docs output</a></p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title6">Sphinx Project</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Read the Docs can also be based on Sphinx, so options are similar.</p>
+        
+        <p class="p"><span class="ph filepath">conf.py</span> — Configuration settings. See the <a class="xref" href="https://www.sphinx-doc.org/en/master/usage/configuration.html" target="_blank">Sphinx configuration documentation</a></p>
+        <p class="p"><span class="ph filepath">index.rst</span> — The <dfn class="term">master</dfn> or <dfn class="term">root</dfn> document
+            that contains the main table of contents </p>
+        <p class="p">All the files and folders of content (reStructured Text files and images)</p>
+        <p class="p">The <span class="ph filepath">make</span> file that you run to build output</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title7">reStructured Text</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Another "simple" text-based markup language.</p>
+        
+        <p class="p">Similar to markdown, but has <dfn class="term">directives</dfn> which provide more functions.</p>
+        <p class="p">Can use any text editor.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title8">Basic reST Markup</h1>
+        
+    <div class="body conbody">
+        <pre class="pre codeblock"><code class="language-txt">paragraph of text
+
+with **bold**
+
+with *italics*
+
+with ``code``
+
+* ul item one
+
+# ol item
+</code></pre>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title9">Basic Headings</h1>
+        
+    <div class="body conbody">
+        <pre class="pre codeblock"><code class="language-txt">H1
+###########
+
+H2
+********
+
+H3
+==========
+</code></pre>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title10">Lists</h1>
+        
+    <div class="body conbody">
+        <p class="p">Unordered Lists: use -, +, or *</p>
+        <pre class="pre codeblock"><code class="language-txt">- item1
+- item2
+  Aligned text
+- item3</code></pre>
+        <p class="p">Ordered lists, use the actual number or #</p>
+        <pre class="pre codeblock"><code class="language-txt">#. number 1
+#. number 2
+#. number 3</code></pre>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title11">Links</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">I'm not the best at these...</p>
+        
+        <p class="p">Link to other headings in the same file by using the heading followed by a
+            underscore.</p>
+        <p class="p">If the heading contains spaces, use back ticks around the string.</p>
+        <pre class="pre codeblock"><code class="language-txt">This is a Heading
+=================
+
+Link to `This is a Heading`_</code></pre>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title12">Link to another reST file</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">You need to add a directive to the target file.</p>
+        
+        <p class="p">In the target file, at the beginning add:</p>
+        <pre class="pre codeblock"><code class="language-txt">.. _some-unique-id:</code></pre>
+        <p class="p">Then when you want to link to it:</p>
+        <pre class="pre codeblock"><code class="language-txt">For details, see
+:ref:`some-unique-id`
+with more text after it.</code></pre>
+        <p class="p">The link automagically grabs the title.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title13">External Link</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">You define a link and then the target.</p>
+        
+        <pre class="pre codeblock"><code class="language-txt">I want to link to google_
+
+.. _google: https://www.google.com</code></pre>
+        <p class="p">I believe there are ways to combine replace with links.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title14">Grid Table</h1>
+        
+    <div class="body conbody">
+        <pre class="pre codeblock"><code class="language-txt">+----------+-----------+
+| Column 1 | Column 2  |
++==========+===========+
+| yes      | really    |
++----------+-----------+
+| this crazy to format |
++----------------------+</code></pre>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title15">Simple Table</h1>
+        
+    <div class="body conbody">
+        <pre class="pre codeblock"><code class="language-txt">=====  =====  ======
+   Inputs     Output
+------------  ------
+  A      B    A or B
+=====  =====  ======
+False  False  False
+True   False  True
+False  True   True
+True   True   True
+=====  =====  ======</code></pre>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title16">Directives</h1>
+        
+    <div class="body conbody">
+        <pre class="pre codeblock"><code class="language-txt">.. note:: note text
+
+.. image:: image file
+
+.. warning:: warning text
+
+</code></pre>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title17">More Directives</h1>
+        
+    <div class="body conbody">
+        <pre class="pre codeblock"><code class="language-txt">.. glossary::
+    term
+        definition
+
+.. codeblock::
+     code
+
+.. |RST| replace:: reStructured Text
+</code></pre>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title18">Themes</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">As part of your Sphinx configuration, you can select a theme to set your output look
+        and feel.</p>
+        
+        <p class="p">As with most tools, you grab one that seems similar to what you'd like, and then
+            customize.</p>
+        <p class="p">Sphinx comes with the following themes: master , alabaster , classic , sphinxdoc ,
+            scrolls , agogo , traditional , nature , haiku , pyramid , bizstyle </p>
+        <p class="p">See <a class="xref" href="https://rtd-sphinx-theme-sample-project.readthedocs.io/en/latest/" target="_blank">https://rtd-sphinx-theme-sample-project.readthedocs.io/en/latest/</a></p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title19">Sphinx Advantages</h1>
+        
+    <div class="body conbody">
+        <p class="p">Free and lightweight</p>
+        <p class="p">Extensible </p>
+        <p class="p">Open source – 50+ extensions available (Likely that someone else has solved your problem) </p>
+        <p class="p">Any output, any customization </p>
+        <p class="p">Built in translation management </p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title20">Homework</h1>
         
     <div class="body conbody">
         <p class="p">Document a thing in reStructuredText.</p>
@@ -58,8 +305,8 @@
         
     </div>
         
-<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2023</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title3">Extra Credit</h1>
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title21">Extra Credit</h1>
         
     
     <div class="body conbody"><p class="shortdesc"></p>
@@ -70,8 +317,8 @@
         <p class="p">Send me the URL to your project.</p>
     </div>
         
-<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2023</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title4">Extra Extra Credit</h1>
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title22">Extra Extra Credit</h1>
         
     
     <div class="body conbody"><p class="shortdesc"></p>
@@ -82,11 +329,12 @@
         <p class="p">(It doesn't "just work", you gotta fiddle with it.) </p>
     </div>
         
-<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2023</div></section></div></div><script src="../revealjs/lib/js/head.min.js" type="text/javascript"></script>
-        <script src="../revealjs/js/reveal.js" type="text/javascript"></script>
-        <script src="../revealjs/js/jquery-1.11.3.min.js" type="text/javascript"></script>
-        <script type="text/javascript">
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2024</div></section></div></div><script src="../revealjs/dist/reveal.js"></script><script src="../revealjs/plugin/notes/notes.js"></script><script src="../revealjs/plugin/markdown/markdown.js"></script><script src="../revealjs/plugin/highlight/highlight.js"></script><script type="text/javascript">
                 
+               
+                // More info about initialization and config:
+                // - https://revealjs.com/initialization/
+                // - https://revealjs.com/config/
                 Reveal.initialize({
                 
                     // parallaxBackgroundHorizontal: null,
@@ -101,6 +349,7 @@
                     controlsLayout: 'edges',
                     embedded: false,
                     fragments: true,
+                    hash: true,
                     height: 700,
                     hideAddressBar: true,
                     history: true,
@@ -111,27 +360,16 @@
                     minScale: 0.2,
                     mouseWheel: false,
                     overview: true,
+                    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
                     previewLinks: false,
                     progress: true,
                     rtl: false,
                     slideNumber: false,
-                    theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
                     touch: true,
                     transition: 'default',
-                    transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
                     transitionSpeed: 'default',
                     viewDistance: 3,
-                    width: 960,
-                    
-                    // Optional libraries used to extend on reveal.js
-                    dependencies: [
-                    { src: '../revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-                { src: '../revealjsplugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                { src: '../revealjsplugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                { src: '../revealjsplugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-                { src: '../revealjsplugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-                { src: '../revealjsplugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-                    ]
+                    width: 960
                 });
                 
                 Reveal.addEventListener( 'slidechanged', function( event ) {

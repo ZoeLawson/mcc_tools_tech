@@ -1,0 +1,19 @@
+/*<meta />*/
+
+/* MadCap-Branding applanguage:Templates/Projects/Online & Print/Side Navigation and PDF/ */
+
+:root
+{
+	--Light: #DADEE1;
+	--Lightest: #FFFFFF;
+	--Medium: #A4AAAE;
+	--HeroImage: url('../Images/Hero-Image.png');
+	--Primary: #800000;
+	--Secondary: #ffc0cb;
+	--Dark: #dc143c;
+	--Darkest: #000000;
+	--FontFamily: 'Century Gothic';
+	--LogoImagePrint: url('../Images/MCC16_logotag_maroon.png');
+	--LogoImage: url('../Images/MCC16_logotag_maroon_200.png');
+}
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+	<Page Width="7in" Height="9in" Padding="1in" PageSize="Letter" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" PageType="title" Name="Title" Orientation="portrait" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in">
+		<Frame Flow="header" X="-99px" Y="-101px" Width="825px" Height="155px" Right="-102px" Bottom="810px" Anchors="">
+			<Content>
+				<xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+					<xhtml:body>
+						<xhtml:div xhtml:class="page-layout-front-header">
+							<xhtml:table />
+						</xhtml:div>
+					</xhtml:body>
+				</xhtml:html>
+			</Content>
+		</Frame>
+		<Frame Flow="decoration0" X="-49px" Y="-70px" Width="724px" Height="90px" Right="-102px" Bottom="810px" Anchors="">
+			<Content>
+				<xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+					<xhtml:body>
+						<xhtml:div xhtml:class="page-layout-front-logo">
+							<xhtml:table />
+						</xhtml:div>
+					</xhtml:body>
+				</xhtml:html>
+			</Content>
+		</Frame>		
+		<Frame Flow="decoration1" X="-99px" Y="54px" Width="825px" Height="635px"  Right="-102px" Bottom="810px" Anchors="">
+			<Content>
+				<xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+					<xhtml:body>
+						<xhtml:div xhtml:class="page-layout-front-main">
+							<xhtml:table />
+						</xhtml:div>
+					</xhtml:body>
+				</xhtml:html>
+			</Content>
+		</Frame>
+		<Frame Flow="body" FlowIndex="0" ColumnCount="1" ColumnGap="0.25in" ColumnDivider="Solid 1pt Black" Width="615px" Height="363px" X="4px" Y="103px" Anchors="Left,Right,Top,Bottom" Right="5px" Bottom="398px">
+		</Frame>
+		<Frame Flow="body" FlowIndex="1" ColumnCount="1" ColumnGap="0.25in" ColumnDivider="Solid 1pt Black" Width="615px" Height="178px" X="4px" Y="479px" Anchors="Left,Right,Top,Bottom" Right="5px" Bottom="207px" BorderTopStyle="solid" BorderTopWidth="1px" BorderTopColor="#ffffff">
+		</Frame>
+		<Frame Flow="footer" X="-99px" Y="686px" Width="825px" Height="275px" Right="-102px" Bottom="-97px" Anchors="">
+			<Content>
+				<xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+					<xhtml:body>
+						<xhtml:div xhtml:class="page-layout-front-footer">
+							<xhtml:table />
+						</xhtml:div>
+					</xhtml:body>
+				</xhtml:html>
+			</Content>
+		</Frame>
+	</Page>
+	<Page Width="7in" Height="9in" Padding="1in" PageSize="Letter" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" PageType="normal" Name="Table of Contents" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
+		<Frame Flow="body" ColumnCount="1" ColumnGap="0.25in" ColumnDivider="Solid 1pt Black" Width="624px" Height="770px" X="0px" Y="9px" Right="0px" Bottom="85px" Anchors="Left,Right,Top,Bottom">
+		</Frame>
+		<Frame X="0px" Y="807px" Width="624px" Height="57px" Flow="footer" Right="0px" Bottom="0px" Anchors="Left,Right,Bottom" TextAlign="center" VerticalAlign="top" BorderTopStyle="solid" BorderTopWidth="1px" BorderTopColor="#d0d3d5" PaddingTop="30px">
+			<Content>
+				<xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+					<xhtml:head>
+					</xhtml:head>
+					<xhtml:body>
+						<xhtml:table xhtml:style="width: 100%;">
+							<xhtml:col />
+							<xhtml:col />
+							<xhtml:tbody>
+								<xhtml:tr>
+									<xhtml:td>
+										<xhtml:p xhtml:class="frame-footer-text">Table of Contents</xhtml:p>
+									</xhtml:td>
+									<xhtml:td>
+										<xhtml:p xhtml:class="frame-footer-page-number">
+											<MadCap:variable xhtml:name="System.PageNumber" />
+										</xhtml:p>
+									</xhtml:td>
+								</xhtml:tr>
+							</xhtml:tbody>
+						</xhtml:table>
+					</xhtml:body>
+				</xhtml:html>
+			</Content>
+		</Frame>
+	</Page>
+</PageStyles>

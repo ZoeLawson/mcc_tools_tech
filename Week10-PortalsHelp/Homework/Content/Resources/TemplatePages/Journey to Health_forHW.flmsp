@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Stylesheets/Journey to Health_forHW.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div>
+            <p class="headertext">&#160;&#160;&#160;&#160;Journey to Health</p>
+        </div>
+        <MadCap:bodyProxy />
+    </body>
+</html>

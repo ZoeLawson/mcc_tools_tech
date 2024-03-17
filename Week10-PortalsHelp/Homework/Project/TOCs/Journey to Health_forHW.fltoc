@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Introduction"
+    Link="/Content/Therese/Introduction.htm" />
+  <TocEntry
+    Title="How to Use This Journal"
+    Link="/Content/Therese/How to Use This Journal.htm" />
+  <TocEntry
+    Title="My Favorite Health Quotes and Affirmations"
+    Link="/Content/Therese/My Favorite Health Quotes.htm" />
+  <TocEntry
+    Title="Sample Health Quotes and Affirmations"
+    Link="/Content/Therese/Sample Health Quotes and Affirmations.htm" />
+  <TocEntry
+    Title="Medical Information"
+    Link="/Content/Therese/Medical Information.htm" />
+  <TocEntry
+    Title="Medications"
+    Link="/Content/Therese/Medications.htm" />
+  <TocEntry
+    Title="Pain and Symptoms"
+    Link="/Content/Therese/Pain and Symptoms.htm" />
+  <TocEntry
+    Title="Doctor Visit History"
+    Link="/Content/Therese/Doctor Visit History.htm" />
+  <TocEntry
+    Title="Test Results"
+    Link="/Content/Therese/Test Results.htm" />
+  <TocEntry
+    Title="Symptom Record Form"
+    Link="/Content/Therese/Symptom Record Form.htm" />
+  <TocEntry
+    Title="Dietary Needs"
+    Link="/Content/Therese/Dietary Needs.htm" />
+  <TocEntry
+    Title="Relapses and Flare-ups"
+    Link="/Content/Therese/Relapses and Flare ups.htm" />
+  <TocEntry
+    Title="Sleep"
+    Link="/Content/Therese/Sleep.htm" />
+  <TocEntry
+    Title="Health Factors"
+    Link="/Content/Therese/Health Factors.htm" />
+  <TocEntry
+    Title="Support"
+    Link="/Content/Therese/Support.htm" />
+  <TocEntry
+    Title="Record Keeping &amp; Research"
+    Link="/Content/Therese/Record Keeping Research.htm" />
+</CatapultToc>

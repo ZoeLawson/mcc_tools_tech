@@ -721,7 +721,7 @@ p.footer-sub
 		width: 49%;
 		margin-left: 25.5%;
 	}
-	
+
 	.home-footer-logo
 	{
 		padding: 20px;
@@ -787,5 +787,14 @@ p.footer-sub
 		mc-format: '{quote}{para}{quote} {pageref}';
 		text-decoration: none;
 	}
+}
+
+p#Note
+{
+	padding-left: 8px;
+	color: #a52a2a;
+	font-weight: bold;
+	border: solid 2px #000000;
+	border-color: #f2686d;
 }
 

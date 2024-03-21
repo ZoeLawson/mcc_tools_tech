@@ -1,5 +1,7 @@
 You can just start with a line of text.
 
+Here is a new paragraph
+
 ### Tables
 
 Column header | Column 2 | Column 3
@@ -59,10 +61,11 @@ Link to [An Anchor](#mccanchor)
   
   To have paragraphs that align with the bullet.
 
-  <a name="mccanchor"/>
-  
+
 + this is a bullet made with a plus sign
 - this is a bullet made with a hyphen
+
+
 
 ### This is a heading 3
 
@@ -139,7 +142,27 @@ I'm putting in another paragraph.
 
   1. more numbers
  
+ ## This is another Heading 2
+ 
+ Live HTML on the other side.
+ 
+ Which means I don't have to toggle preview.
 
+
+# Experiment with Alerts
+
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
   
-
-

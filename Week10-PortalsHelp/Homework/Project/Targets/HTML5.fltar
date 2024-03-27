@@ -9,11 +9,26 @@
   DefaultUrl="/Content/Home.htm"
   ConditionTagExpression="include[Default.PrintOnly or Default.ScreenOnly]"
   ShowMadCapBacklink="true"
-  MasterToc="/Project/TOCs/Journey to Health_forHW.fltoc"
-  ResolveCssVariables="true">
+  MasterToc="/Project/TOCs/Online.fltoc"
+  ResolveCssVariables="true"
+  GetLatestBeforeCompile="true"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
+  TopNavTocPath="true">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
     GenerateIndexProxy="true"
     GenerateGlossaryProxy="true" />
+  <MicroContentSearch>
+    <FeaturedSnippets
+      type="AllFiles"
+      numberOfResults="1">
+      <microContentSubset />
+    </FeaturedSnippets>
+    <KnowledgePanel
+      type="Empty"
+      numberOfResults="1">
+      <microContentSubset />
+    </KnowledgePanel>
+  </MicroContentSearch>
 </CatapultTarget>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
   Comment="User Guide"
@@ -8,7 +8,7 @@
   ConditionTagExpression="include[Default.PrintOnly] exclude[Default.ScreenOnly] "
   PatchHeadingLevels="true"
   InjectEmptyPages="false"
-  MasterToc="/Project/TOCs/PDF.fltoc">
+  MasterToc="/Project/TOCs/Journey to Health_forHW.fltoc">
   <PrintedOutput
     CollapseMargins="false"
     ExpandingTextConversion="expand"
@@ -18,14 +18,16 @@
     GenerateGlossaryProxy="true" />
   <DocumentProperties
     Title="User Guide"
-    Author="My Name" />
+    Author="TK"
+    Subject="Health" />
   <PDF
-    ShowUsedBookmarks="false"
+    ShowUsedBookmarks="true"
     InitialMagnification="50"
     PageLayout="TwoColumnRight"
     TitleBar="DocumentTitle"
     CollapsedBookmarks="true"
     CropAndRegistrationMarks="false"
     ConvertToCMYK="true"
-    Tagged="true" />
+    Tagged="true"
+    ConvertBookmarks="true" />
 </CatapultTarget>

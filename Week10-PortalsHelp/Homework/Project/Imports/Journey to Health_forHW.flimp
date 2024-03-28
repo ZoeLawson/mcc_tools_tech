@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Therese"
+  LastImport="2024-03-17T18:35:52.8582599-04:00">
+  <Files>
+    <Url
+      Source="../../../../../../../Journey to Health_forHW.docx"
+      AbsoluteSource="file:///C:/Users/Therese/Desktop/Journey to Health_forHW.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Therese/Introduction.htm"
+      TimeStamp="3/17/2024 6:35:13 PM" />
+    <Url
+      Source="../../Content/Therese/How to Use This Journal.htm"
+      TimeStamp="3/17/2024 6:35:13 PM" />
+    <Url
+      Source="../../Content/Therese/My Favorite Health Quotes.htm"
+      TimeStamp="3/17/2024 6:35:14 PM" />
+    <Url
+      Source="../../Content/Therese/Sample Health Quotes and Affirmations.htm"
+      TimeStamp="3/17/2024 6:35:14 PM" />
+    <Url
+      Source="../../Content/Therese/Medical Information.htm"
+      TimeStamp="3/17/2024 6:35:14 PM" />
+    <Url
+      Source="../../Content/Therese/Medications.htm"
+      TimeStamp="3/17/2024 6:35:14 PM" />
+    <Url
+      Source="../../Content/Therese/Doctor Visit History.htm"
+      TimeStamp="3/17/2024 6:35:14 PM" />
+    <Url
+      Source="../../Content/Therese/Test Results.htm"
+      TimeStamp="3/17/2024 6:35:14 PM" />
+    <Url
+      Source="../../Content/Therese/Pain and Symptoms.htm"
+      TimeStamp="3/17/2024 6:35:14 PM" />
+    <Url
+      Source="../../Content/Therese/Symptom Record Form.htm"
+      TimeStamp="3/17/2024 6:35:14 PM" />
+    <Url
+      Source="../../Content/Therese/Dietary Needs.htm"
+      TimeStamp="3/17/2024 6:35:14 PM" />
+    <Url
+      Source="../../Content/Therese/Relapses and Flare ups.htm"
+      TimeStamp="3/17/2024 6:35:14 PM" />
+    <Url
+      Source="../../Content/Therese/Sleep.htm"
+      TimeStamp="3/17/2024 6:35:14 PM" />
+    <Url
+      Source="../../Content/Therese/Health Factors.htm"
+      TimeStamp="3/17/2024 6:35:14 PM" />
+    <Url
+      Source="../../Content/Therese/Support.htm"
+      TimeStamp="3/17/2024 6:35:14 PM" />
+    <Url
+      Source="../../Content/Therese/Record Keeping Research.htm"
+      TimeStamp="3/17/2024 6:35:14 PM" />
+    <Url
+      Source="../TOCs/Journey to Health_forHW.fltoc"
+      TimeStamp="3/17/2024 6:35:13 PM" />
+    <Url
+      Source="../../Content/Resources/TemplatePages/Journey to Health_forHW.flmsp"
+      TimeStamp="3/17/2024 6:35:13 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Journey to Health_forHW.css"
+      TimeStamp="3/17/2024 6:35:13 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="bullet list"
+      To="p.bulletlist"
+      Style="Word" />
+    <Map
+      From="Footnote Text"
+      To="p.FootnoteText"
+      Style="Word" />
+    <Map
+      From="header text"
+      To="p.headertext"
+      Style="Word" />
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading2"
+      Style="Word" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading3"
+      Style="Word" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading4"
+      Style="Word" />
+    <Map
+      From="Important"
+      To="p.Important"
+      Style="Word" />
+    <Map
+      From="List Paragraph"
+      To="p.ListParagraph"
+      Style="Word" />
+    <Map
+      From="normal with divider"
+      To="p.normalwithdivider"
+      Style="Word" />
+    <Map
+      From="Numbered List"
+      To="p.NumberedList"
+      Style="Word" />
+    <Map
+      From="symptom list"
+      To="p.symptomlist"
+      Style="Word" />
+    <Map
+      From="table body text"
+      To="p.tablebodytext"
+      Style="Word" />
+    <Map
+      From="table text 2"
+      To="p.tabletext2"
+      Style="Word" />
+    <Map
+      From="Table Title text"
+      To="p.TableTitletext"
+      Style="Word" />
+    <Map
+      From="table title text 2"
+      To="p.tabletitletext2"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="explanation Char"
+      To="span.explanationChar"
+      Style="Word" />
+    <Map
+      From="Footnote Reference"
+      To="span.FootnoteReference"
+      Style="Word" />
+    <Map
+      From="Hyperlink"
+      To="a.Hyperlink"
+      Style="Word" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

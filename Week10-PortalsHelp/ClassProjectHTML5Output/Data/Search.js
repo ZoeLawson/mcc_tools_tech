@@ -1,1 +1,0 @@
-define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/ClassDemo/ClassDemo.htm'],s:['$1','help','spray'],p:[['$1',17],['causing',42],['for',21],['lorem',10],['precious',32],['the',24]]});

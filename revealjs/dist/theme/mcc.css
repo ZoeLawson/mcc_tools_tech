@@ -15,23 +15,24 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #222;
-  background-color: #222; }
+  background: #1B355E;
+  background-color: #1B355E; }
 
 .reveal {
   font-family: Ubuntu, "sans-serif";
   font-size: 40px;
   font-weight: normal;
-  color: #eee; }
+  color: white; 
+  z-index: 1;}
 
 ::selection {
   color: #fff;
-  background: #a23;
+  background: #8E781F;
   text-shadow: none; }
 
 ::-moz-selection {
   color: #fff;
-  background: #a23;
+  background: #8E781F;
   text-shadow: none; }
 
 .reveal .slides section,
@@ -55,7 +56,6 @@ body {
   line-height: 1.2;
   letter-spacing: normal;
   text-transform: uppercase;
-  text-shadow: 2px 2px 2px #222;
   word-wrap: break-word; }
 
 .reveal h1 {
@@ -70,8 +70,6 @@ body {
 .reveal h4 {
   font-size: 24pt; }
 
-.reveal h1 {
-  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15); }
 
 /*********************************************
  * OTHER
@@ -213,16 +211,17 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #a23;
+  color: #E4A77E;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
-  transition: color .15s ease; }
+  transition: color .15s ease; 
+  border-bottom: thin dotted #E4A77E; }
 
 .reveal a:hover {
-  color: #dd5566;
+  color: #8E781F;
   text-shadow: none;
-  border: none; }
+  border-bottom: thin dotted #8E781F; }
 
 .reveal .roll span:after {
   color: #fff;
@@ -255,7 +254,7 @@ body {
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: #a23; }
+  color: white; }
 
 /*********************************************
  * PROGRESS BAR
@@ -278,7 +277,6 @@ body {
 
 .reveal p {
   font-weight: 300;
-  text-shadow: 1px 1px #222;
   text-align: left; }
 
 .reveal h1,
@@ -287,7 +285,9 @@ body {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-  font-weight: 700; }
+  font-weight: 700;
+  text-shadow: none;
+  }
 
 .reveal p code {
   background-color: #23241f;
@@ -333,7 +333,7 @@ br {
 
 .footer {
   font-size: medium;
-  color: #a23;
+  color: white;
   width: 100%;
   text-align: center;
   display: block;
@@ -342,7 +342,9 @@ br {
   padding-top: 12px;
   padding-bottom: 12px;
   margin-top: 12px;
-  border-top: solid thin #a23; }
+  border-top: solid thin white;
+  border-bottom: thin solid white;
+  z-index: -1;}
 
 
 .uicontrol {
@@ -363,7 +365,7 @@ br {
 }
 
 .term {
-    color: #a23;
+    color: #E4A77E;
     font-weight: bold;
     font-style: normal;
 }
@@ -383,4 +385,18 @@ pre.msgblock {
 
 .varname {
     font-style: italic;
+}
+
+.note {
+    border: groove medium silver;
+    padding: .25em;
+    margin-top: .5em;
+    margin-bottom: .25em;
+    text-align: left;
+    text-indent: -80pt;
+    padding-left: 96pt;
+}
+
+abbr {
+    text-decoration: none;
 }

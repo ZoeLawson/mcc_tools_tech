@@ -7,5 +7,5 @@ Over the years, technical writing has become much more technical. To be a tech w
 
 This class is not comprehensive. There are dozens of tools out there, and more are being invented every day. We will touch on some standards, some types of tools, and introduce you to a couple of them. At most, we will be spending two weeks on any tool. The hope is that you will become aware of what tools can do, and why you would want to pick one tool over another for a particular project, and where you can go to learn how to use the tools you pick.
   
-For more information, see https://www.middlesex.edu/community/business.html. 
+For more information about the course, see https://www.middlesex.edu/community/business.html. 
 

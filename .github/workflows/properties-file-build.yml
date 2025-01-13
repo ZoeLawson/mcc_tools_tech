@@ -22,3 +22,8 @@ jobs:
       with:
         name: ZoeHomework
         path: 'Week02-ProgressiveInfo/Homework'
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@v4.5.0
+      with:
+        BRANCH: Winter2025
+        folder: 'Week02-ProgressiveInfo/Homework'

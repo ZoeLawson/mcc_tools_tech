@@ -17,13 +17,7 @@ jobs:
       run: sudo apt-get install libsaxonb-java
     - name: Run transform
       run: saxonb-xslt -s:'Week02-ProgressiveInfo/Homework/xsl/dummy.xml' -xsl:'Week02-ProgressiveInfo/Homework/xsl/BuildLoginPage.xslt' -o:'Week02-ProgressiveInfo/Homework/ZoeLawson.html' propertiesFile='../ZoeLawson.properties'
-    - name: Upload transform output
-      uses: actions/upload-artifact@v4
-      with:
-        name: ZoeHomework
-        path: 'Week02-ProgressiveInfo/Homework'
-    - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@v4.5.0
-      with:
-        BRANCH: Winter2025
-        folder: 'Week02-ProgressiveInfo/Homework'
+    - name: Add transformed output 
+      run: |
+        git add .
+        git commit -m "autogeneration of HTML file"

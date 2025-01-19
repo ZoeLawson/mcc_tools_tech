@@ -1,0 +1,35 @@
+name: properties to HTML
+'on':
+#   workflow_dispatch:
+  push:
+    branches:
+    - Winter2025
+    paths:
+    - 'Week02-ProgressiveInfo/Homework/login.properties'
+jobs:
+  transform:
+    name: Transform Java Properties file to HTML example
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Install libsaxonb-java
+      run: sudo apt-get install libsaxonb-java
+    - name: Run transform
+      run: saxonb-xslt -s:'Week02-ProgressiveInfo/Homework/xsl/dummy.xml' -xsl:'Week02-ProgressiveInfo/Homework/xsl/BuildLoginPage.xslt' -o:'Week02-ProgressiveInfo/Homework/login.html' propertiesFile='../login.properties'
+    - name: Set time stamp
+      id: timestamp
+      run: echo "timestamp=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
+    - name: Upload transform output
+      uses: actions/upload-artifact@v4
+      with:
+        name: MCCDemoHomework
+        path: 'Week02-ProgressiveInfo/Homework'
+    - uses: oleksiyrudenko/gha-git-credentials@v2-latest
+      with:
+        token: '${{ secrets.GITHUB_TOKEN }}'
+    - run: |
+        git add Week02-ProgressiveInfo/Homework/login.html
+        git commit -m "generated html file from login.properties $timestamp"
+        git push origin Winter2025
+      

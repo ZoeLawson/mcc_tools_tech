@@ -17,13 +17,18 @@ jobs:
       run: sudo apt-get install libsaxonb-java
     - name: Run transform
       run: saxonb-xslt -s:'Week02-ProgressiveInfo/Homework/xsl/dummy.xml' -xsl:'Week02-ProgressiveInfo/Homework/xsl/BuildLoginPage.xslt' -o:'Week02-ProgressiveInfo/Homework/DanielBrann.html' propertiesFile='../DanielBrann.properties'
+    - name: Set time stamp
+      id: timestamp
+      run: echo "timestamp=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
     - name: Upload transform output
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
-        name: ZoeHomework
+        name: DanielHomework
         path: 'Week02-ProgressiveInfo/Homework'
-    - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@v4.5.0
+    - uses: oleksiyrudenko/gha-git-credentials@v2-latest
       with:
-        BRANCH: Winter2025
-        folder: .
+        token: '${{ secrets.GITHUB_TOKEN }}'
+    - run: |
+        git add Week02-ProgressiveInfo/Homework/DanielBrann.html
+        git commit -m "generated html file from DanielBrann.properties $timestamp"
+        git push origin Winter2025

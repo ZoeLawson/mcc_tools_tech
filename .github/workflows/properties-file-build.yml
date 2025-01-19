@@ -30,6 +30,6 @@ jobs:
         token: '${{ secrets.GITHUB_TOKEN }}'
     - run: |
         git add Week02-ProgressiveInfo/Homework/ZoeLawson.html
-        git commit -m "generated html file $timestamp"
+        git commit -m "generated html file from ZoeLawson.properties $timestamp"
         git push origin Winter2025
       

@@ -28,4 +28,5 @@ jobs:
     - run: |
         git add Week02-ProgressiveInfo/Homework/ZoeLawson.html
         git commit -m "generated html file"
-        git commit origin Winter2025
+        git push origin Winter2025
+      

@@ -19,7 +19,7 @@ jobs:
       run: saxonb-xslt -s:'Week02-ProgressiveInfo/Homework/xsl/dummy.xml' -xsl:'Week02-ProgressiveInfo/Homework/xsl/BuildLoginPage.xslt' -o:'Week02-ProgressiveInfo/Homework/ZoeLawson.html' propertiesFile='../ZoeLawson.properties'
     - name: Set time stamp
       id: timestamp
-      run: echo "::set-output name=timestamp::$(date +'%Y-%m-%d')"
+      run: echo "timestamp=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
     - name: Upload transform output
       uses: actions/upload-artifact@v4
       with:
@@ -30,6 +30,6 @@ jobs:
         token: '${{ secrets.GITHUB_TOKEN }}'
     - run: |
         git add Week02-ProgressiveInfo/Homework/ZoeLawson.html
-        git commit -m "generated html file ${{ steps.timestamp.outputs.timestamp}}"
+        git commit -m "generated html file $timestamp"
         git push origin Winter2025
       

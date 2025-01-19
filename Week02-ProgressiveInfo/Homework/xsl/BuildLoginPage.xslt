@@ -126,7 +126,7 @@
                                 </xsl:element>
                                 <xsl:element name="input">
                                     <xsl:attribute name="id">password</xsl:attribute>
-                                    <xsl:attribute name="type">text</xsl:attribute>
+                                    <xsl:attribute name="type">password</xsl:attribute>
                                     <xsl:attribute name="title">
                                         <xsl:value-of select="f:getProperty('Password_Tip')"/>
                                     </xsl:attribute>

@@ -21,14 +21,7 @@ jobs:
       id: timestamp
       run: echo "timestamp=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
     - name: Upload transform output
-      uses: actions/upload-artifact@v4
-      with:
-        name: ZoeHomework
-        path: 'Week02-ProgressiveInfo/Homework'
-    - uses: oleksiyrudenko/gha-git-credentials@v2-latest
-      with:
-        token: '${{ secrets.GITHUB_TOKEN }}'
-    - run: |
+      run: |
         git add Week02-ProgressiveInfo/Homework/ZoeLawson.html
         git commit -m "generated html file $timestamp"
         git push origin Winter2025

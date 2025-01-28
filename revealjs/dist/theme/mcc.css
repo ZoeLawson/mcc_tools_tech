@@ -400,3 +400,29 @@ pre.msgblock {
 abbr {
     text-decoration: none;
 }
+
+.code-fmt {
+    background-color: black;
+    white-space: pre-wrap;
+    font-family: monospace;
+    font-size: 14pt;
+    padding: 1em;
+}
+
+.cmd-white {
+    color: white;
+    font-family: monospace;
+    font-size: 14pt;
+}
+
+.cmd-red {
+    color: red;
+    font-family: monospace;
+    font-size: 14pt;
+}
+
+.cmd-orange {
+    color: #C19C00;
+    font-family: monospace;
+    font-size: 14pt;
+}

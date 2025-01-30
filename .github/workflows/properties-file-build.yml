@@ -40,7 +40,6 @@ jobs:
     - name: add html
       if: steps.check_files.outputs.files_exists == 'true'
       run: |
-        if: steps.check_files.outputs.files_exists == 'true'
         git add Week02-ProgressiveInfo/Homework/ZoeLawson.html
         git commit -m "generated html file from ZoeLawson.properties $timestamp"
         git push origin Winter2025

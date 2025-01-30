@@ -33,11 +33,13 @@ jobs:
       with:
         name: ZoeHomework
         path: 'Week02-ProgressiveInfo/Homework'
-    - uses: oleksiyrudenko/gha-git-credentials@v2-latest
+    - name: set Creds
+      uses: oleksiyrudenko/gha-git-credentials@v2-latest
       with:
         token: '${{ secrets.GITHUB_TOKEN }}'
+    - name: add html
       if: steps.check_files.outputs.files_exists == 'true'
-    - run: |
+      run: |
         if: steps.check_files.outputs.files_exists == 'true'
         git add Week02-ProgressiveInfo/Homework/ZoeLawson.html
         git commit -m "generated html file from ZoeLawson.properties $timestamp"

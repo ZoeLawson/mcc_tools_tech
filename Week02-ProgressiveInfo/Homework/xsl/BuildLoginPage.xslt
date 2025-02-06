@@ -112,7 +112,7 @@
                                 </xsl:element>
                                 <xsl:element name="img">
                                     <xsl:attribute name="class">hlpbtn</xsl:attribute>
-                                    <xsl:attribute name="src">images/help.png</xsl:attribute>
+                                    <xsl:attribute name="src">images/star.png</xsl:attribute>
                                     <xsl:attribute name="onclick">openHlp('usr');</xsl:attribute>
                                     <xsl:attribute name="alt">help</xsl:attribute>
                                     <xsl:attribute name="title">Click here for help</xsl:attribute>
@@ -133,7 +133,7 @@
                                 </xsl:element>
                                 <xsl:element name="img">
                                     <xsl:attribute name="class">hlpbtn</xsl:attribute>
-                                    <xsl:attribute name="src">images/help.png</xsl:attribute>
+                                    <xsl:attribute name="src">images/star.png</xsl:attribute>
                                     <xsl:attribute name="onclick">openHlp('pswd');</xsl:attribute>
                                     <xsl:attribute name="alt">help</xsl:attribute>
                                     <xsl:attribute name="title">Click here for help</xsl:attribute>
@@ -147,7 +147,7 @@
                                 </xsl:element>
                                 <xsl:element name="br"/>
                                 <xsl:element name="a">
-                                    <xsl:attribute name="onclick">alert('This does nothing');</xsl:attribute>
+                                    <xsl:attribute name="onclick">alert('You fool! You've been hacked! Downloading all the files!');</xsl:attribute>
                                     <xsl:value-of select="f:getProperty('FixPassword')"/>
                                 </xsl:element>
                                 <!--<xsl:element name="div">

@@ -52,7 +52,8 @@
         computer).</p>
         
         <p class="p">Longitude and Latitude coordinates are fully qualified paths.</p>
-        <p class="p">Windows: <span class="ph filepath">C:\Users\zlawson\Documents\mcc\example.txt</span></p>
+        <p class="p small">Windows:
+                <span class="ph filepath">C:\Users\zlawson\Documents\mcc\example.txt</span></p>
         <p class="p">Unix: <span class="ph filepath">/usr/zlawson/mcc/example.txt</span></p>
         <p class="p">It's exactly how to get to the file, but if you change computers, the path most likely
             will not work.</p>
@@ -224,7 +225,7 @@
         <p class="p">The number of <kbd class="ph userinput">#</kbd> equates to the heading level.</p>
         <p class="p">Markdown supports 6 levels of headings. (Just like HTML)</p>
         <p class="p">There has to be a single space after the last <kbd class="ph userinput">#</kbd></p>
-        <pre class="pre codeblock"><code># Heading 1
+        <pre><code class="hljs md"># Heading 1
 ## Heading 2</code></pre>
     </div>
         
@@ -234,14 +235,14 @@
     <div class="body conbody">
         <p class="p">Use a single <kbd class="ph userinput">*</kbd> or <kbd class="ph userinput">_</kbd> for <em class="ph i">italic</em>
             text</p>
-        <pre class="pre codeblock"><code>*this* and _this_ will be italic</code></pre>
+        <pre><code class="hljs md">*this* and _this_ will be italic</code></pre>
         <p class="p">Use double <kbd class="ph userinput">**</kbd> or <kbd class="ph userinput">__</kbd> for <strong class="ph b">bold</strong>
             text</p>
-        <pre class="pre codeblock"><code>**this** and __this__ will be bold</code></pre>
+        <pre><code class="hljs md">**this** and __this__ will be bold</code></pre>
         <p class="p">Use a backtick <kbd class="ph userinput">`</kbd> for a code sample</p>
-        <pre class="pre codeblock"><code>`Write_this_filename.txt` without italic text</code></pre>
+        <pre><code class="hljs md">`Write_this_filename.txt` without italic text</code></pre>
         <p class="p">Use two tilde <kbd class="ph userinput">~~</kbd> for strike through text</p>
-        <pre class="pre codeblock"><code>~~this~~ will be crossed out</code></pre>
+        <pre><code class="hljs md">~~this~~ will be crossed out</code></pre>
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
@@ -252,7 +253,7 @@
         <p class="p">Use <kbd class="ph userinput">1.</kbd> followed by a space for a numbered list.</p>
         <p class="p">You can nest lists, but you need to get the number of spaces before the next bullet
             correct.</p>
-        <pre class="pre codeblock"><code>* list
+        <pre><code class="hljs md">* list
 * list 2
   * sub-list
   
@@ -272,7 +273,7 @@
     <div class="body conbody"><p class="shortdesc">Put the text in square brackets and the URL/URI in parenthesis.</p>
         
         <p class="p">Image links are preceded by a <kbd class="ph userinput">!</kbd></p>
-        <pre class="pre codeblock"><code>![An image](../graphics/image.png)
+        <pre><code class="hljs md">![An image](../graphics/image.png)
 
 [Link text](http://www.example.com)</code></pre>
         <p class="p">Images need a bit of text. In the HTML world it's called <dfn class="term">alt</dfn> text. </p>
@@ -289,20 +290,32 @@
         <p class="p">You can link to headings in the same document.</p>
         <p class="p">For the URI, use <kbd class="ph userinput">#</kbd> followed by the heading text, replacing spaces
             with hyphens and making everything lower case.</p>
-        <pre class="pre codeblock"><code># Link to This Heading
+        <pre><code class="hljs md"># Link to This Heading
 [A link](#link-to-this-heading)</code></pre>
-        <p class="p">There should be a way to make an anchor point to link elsewhere, but I couldn't figure it
-            out this week.</p>
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title20">Table syntax</h1>
+    <h1 class="title topictitle1" id="ariaid-title20">Adding an anchor</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">To link to a not-heading location requires an anchor.</p>
+        
+        <p class="p">To insert an anchor, you insert an <code class="keyword markupname xmlelement">&lt;a&gt;</code> element with the
+                <code class="keyword markupname xmlatt">@name</code> attribute.</p>
+        <pre><code class="hljs md">&lt;a name="anchor-id"/&gt;</code></pre>
+        <p class="p">Oh look, they used HTML syntax in Markdown.</p>
+        <p class="p">You can now add a link using the <code class="keyword markupname xmlatt">@name</code> value as the URI.</p>
+        <pre><code class="hljs md">A [link](#anchor-id) to the anchor I created.</code></pre>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title21">Table syntax</h1>
         
     
     <div class="body conbody"><p class="shortdesc">Use pipes <kbd class="ph userinput">|</kbd> to separate columns and a bunch of hyphens
             <kbd class="ph userinput">-</kbd> to indicate the header</p>
         
-        <pre class="pre codeblock"><code>
+        <pre><code class="hljs md">
 Column 1 Header | Column 2 Header
 --------------- | ---------------
 Column 1 data | Column 2 data
@@ -310,7 +323,7 @@ More column 1 content | and now for the second column</code></pre>
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title21">Most important syntax</h1>
+    <h1 class="title topictitle1" id="ariaid-title22">Most important syntax</h1>
         
     
     <div class="body conbody"><p class="shortdesc">Emoji</p>
@@ -320,7 +333,7 @@ More column 1 content | and now for the second column</code></pre>
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title22">Additional syntax</h1>
+    <h1 class="title topictitle1" id="ariaid-title23">Additional syntax</h1>
         
     <div class="body conbody">
         <p class="p">See the <a class="xref" href="https://github.github.com/gfm" target="_blank">Spec</a> for a full description of the available markup.</p>
@@ -328,7 +341,7 @@ More column 1 content | and now for the second column</code></pre>
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title23">Optional: Markdown Editor</h1>
+    <h1 class="title topictitle1" id="ariaid-title24">Optional: Markdown Editor</h1>
         
     
     <div class="body conbody"><p class="shortdesc"></p>
@@ -339,12 +352,12 @@ More column 1 content | and now for the second column</code></pre>
         <p class="p">There are markdown editors out there. Feel free to find one you like.</p>
         <p class="p"><a class="xref" href="https://ghostwriter.kde.org/" target="_blank">https://ghostwriter.kde.org/</a> is free, and
             has a instant HTML view.</p>
-        <p class="p">Because I author with DITA, I have Oxygen XML Editor. It supports XML, HTML, Markdown,
-            and other languages.</p>
+        <p class="p small">Because I author with DITA, I have Oxygen XML Editor. It supports
+            XML, HTML, Markdown, and other languages.</p>
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
-    <h1 class="title topictitle1" id="ariaid-title24">Panel Discussion</h1>
+    <h1 class="title topictitle1" id="ariaid-title25">Panel Discussion</h1>
         
     
     <div class="body conbody"><p class="shortdesc">This came through my inbox last year and might be of interest:</p>
@@ -357,7 +370,7 @@ More column 1 content | and now for the second column</code></pre>
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section><section>
-    <h1 class="title topictitle1" id="ariaid-title25">Homework</h1>
+    <h1 class="title topictitle1" id="ariaid-title26">Homework</h1>
         
     <div class="body conbody">
         <ol class="ol">
@@ -379,7 +392,7 @@ More column 1 content | and now for the second column</code></pre>
     </div>
         
 <div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
-    <h2 class="title topictitle2" id="ariaid-title26">Optional homework bits</h2>
+    <h2 class="title topictitle2" id="ariaid-title27">Optional homework bits</h2>
         
     <div class="body conbody">
         <p class="p">DITA can use (CommonMark) Markdown as input. Potentially what you author in Markdown

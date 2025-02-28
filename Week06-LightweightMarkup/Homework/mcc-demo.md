@@ -1,4 +1,16 @@
-![alt text](../​​RelatedLinks2.jpg)
+> [!NOTE]
+> Here is a note.
+
+
+column heading | column 2 | column 3
+---------------|----------|---------
+cell 1 | cell 2 | cell 3
+another cell with more text | count pipes | to equal columns
+
+
+[Link to Heading 1](#Heading-1)
+
+![alt text](../../Week05-AgileHTML/Homework/Example_image.png)
 
 Here is a [link](www.google.com)
 

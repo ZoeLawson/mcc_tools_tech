@@ -1,7 +1,7 @@
 <html>
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <title>My Login Page</title><style>div.container { display: block; margin: auto;
+      <title>Daniel's Login Page</title><style>div.container { display: block; margin: auto;
                     font-family: Century Gothic; width: 850pt; height: 300pt; border: solid medium
                     black; background-color: #e6e6ff; } div.logo { display: block; width: 199pt;
                     float: left;} p { display: block; height: 160pt; background-image:
@@ -25,18 +25,20 @@
                     margin-top: 18pt;}</style></head>
    <body>
       <div class="container">
-         <div class="logo"><img class="imglogo" src="images/Star.png" alt="Purple Star" title="Purple Star"></div>
+         <div class="logo">
+            <p>Cool Graphic Here</p>
+         </div>
          <div class="login_form">
-            <h1>My Login Page</h1>
+            <h1>Daniel's Login Page</h1>
             <form onsubmit="doThing(); return false;">
                <fieldset>
-                  <legend>Something wittier here</legend><label for="username">User Name</label><input id="username" type="text" title="Enter user name"><img class="hlpbtn" src="images/help.png" onclick="openHlp('usr');" alt="help" title="Click here for help"><br><label for="password">Password</label><input id="password" type="password" title="Enter password"><img class="hlpbtn" src="images/help.png" onclick="openHlp('pswd');" alt="help" title="Click here for help"><br><input type="submit" value="Submit"><br><a onclick="alert('This does nothing');">Reset passwrd</a></fieldset>
+                  <legend>HTML is cool ain't it?</legend><label for="username">UserName</label><input id="username" type="text" title="Enter your cool user name here bro."><img class="hlpbtn" src="images/help.png" onclick="openHlp('usr');" alt="help" title="Click here for help"><br><label for="password">Password</label><input id="password" type="password" title="Enter the password, obviously."><img class="hlpbtn" src="images/help.png" onclick="openHlp('pswd');" alt="help" title="Click here for help"><br><input type="submit" value="Submit"><br><a onclick="alert('This does nothing');">Whoops, you forgot your password.</a></fieldset>
             </form>
          </div>
          <div id="help" class="helpbar">
-            <p id="usr" class="help"><input type="button" onclick="document.getElementById('usr').style.display = 'none';" value="X" class="hlpclose">Your user name is your username.
+            <p id="usr" class="help"><input type="button" onclick="document.getElementById('usr').style.display = 'none';" value="X" class="hlpclose">Your user name is your name for a user.
             </p>
-            <p id="pswd" class="help"><input type="button" onclick="document.getElementById('pswd').style.display = 'none';" value="X" class="hlpclose">Keep your password private.
+            <p id="pswd" class="help"><input type="button" onclick="document.getElementById('pswd').style.display = 'none';" value="X" class="hlpclose">Keep your passord secure.
             </p>
          </div>
       </div>

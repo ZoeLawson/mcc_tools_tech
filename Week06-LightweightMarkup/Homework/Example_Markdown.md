@@ -65,7 +65,7 @@ For numbered lists, you just use the number 1 followed by a period and a space.
 1. But it can be difficult to keep using
 1. Just the number 1 and a period.
 
-You can mix and match to have nested lists. Just be careful with the number of spaces before the list indicator.
+<a name="target"/>You can mix and match to have nested lists. Just be careful with the number of spaces before the list indicator.
 
 * first level of list
   1. This is a nested number
@@ -94,6 +94,8 @@ Images in text files are really just links. The only difference is that you star
 The alt text is used if the image file can't be found. It is also used by screen readers for the visually impaired. 
 
 ![Image with broken link to show alt text](this/file/does/not/exist.jpg)
+
+If I'm lucky, I can add a [link to a target](#target) but no guarantee it will work.
 
 # Tables
 

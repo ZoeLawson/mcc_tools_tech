@@ -16,7 +16,7 @@ Hydration affects the texture of the loaf through the consistency of the dough a
 
 There are other factors that can affect final bread crumb, such as adding fats and oils to coat and soften the gluten or adjusting the fermentation time.
 
-##Baker’s Math
+## Baker’s Math
 Proportions of ingredients are the secret to baking. Adding an extra cup of water to a recipe can have a drastic effect on both the techniques required to create a loaf and the crumb of the finished loaf. Not including enough salt can make an otherwise beautiful loaf unappetizing. Scaling a recipe is made much easier through baker’s math, also called baker’s percentage. Understanding proportions is how a baker goes from merely copying a recipe to creating their own.
 
 1. Weigh your ingredients: Using measurements of volume, like cups, will yield inexact results. A compacted cup of flour weighs much more than one with the flour spooned in!
@@ -27,9 +27,11 @@ Proportions of ingredients are the secret to baking. Adding an extra cup of wate
 
 1. Calculate percentages: All other ingredients are listed as a proportion of the weight of the flour. Percentage = (Weight of Ingredient/Weight of Flour) × 100. A recipe with 600 grams of flour and 12 grams of salt would have (12g/600g) x 100 = 2% salt
 
-##Demonstrating a Basic Recipe
+## Demonstrating a Basic Recipe
 The recipe for this basic loaf of bread, which will make two loaves, expressed using baker’s percentages along with the weight and volume is
+
 Ingredient | Baker’s Percentage | Weight | Volume
+---|---|---|---
 All Purpose Flour | 100% | 600g | 5 cups
 Water | 70% | 420g | 1.75 cups
 Salt | 2% | 12g | 2 teaspoons
@@ -39,9 +41,10 @@ Granulated Sugar | 2% | 12g | 1 Tablespoon
 This recipe can be easily scaled using the percentages. For instance, if instead you wanted to make just one loaf you could take 300g of flour as the base and adjust all of the values from there.
 All Purpose flour and 70% hydration will produce an average loaf, with a mostly closed crumb suitable for covering in butter and jam or making sandwiches without being too chewy. The dough will be firm and easy to work with when kneading. The salt and yeast percentages are the same across most bread recipes. The addition of a small amount of sugar will result in a total rise time of about two hours, depending on the room temperature.
 
-##Making the Dough
+## Making the Dough
 Gather up all your ingredients and tools before you start
-[gathered ingredients](RobertImages/ingredients1.jpg)
+
+![gathered ingredients](RobertImages/ingredients1.jpg)
  
 - 600g All Purpose Flour (5 cups)
 - extra flour for working the dough (1/4 cup)
@@ -61,7 +64,6 @@ The exact temperature of the water is not as important as the water not being so
 1. Thoroughly mix together the flour, salt, sugar, and yeast in the mixing bowl.
 1. Add the warm water and mix until a rough dough comes together.
 1. Sprinkle a light dusting of flour on a clean, hard work surface and turn out the rough dough from the mixing bowl onto it.
-1. 
 1. Knead the dough for about six minutes.
      1. Gently flatten the dough.
      1. Take the far edge of the dough and fold it towards you.
@@ -70,9 +72,7 @@ The exact temperature of the water is not as important as the water not being so
      1. Repeat.
      1. If the dough is too sticky lightly flour your hands and re-flour the work surface. *Be sparing with the additional flour though, a slightly sticky dough is expected.*
 1. The dough should be smooth and springy. If you poke it the indentation should gradually bounce back.
-1. 
 1. Clean out the mixing bowl, place the dough inside, and cover it with a clean dish cloth or plastic wrap to rise until roughly doubled in volume. This will take about an hour to an hour and a half at 75°F.
-1. 
 1. Re-flour your work surface and turn out the dough onto it.
 1. Gently deflate the dough by lightly pressing it flat. Do not use excessive force.
 1. Cut the dough in half to make two loaves. This is optional but one larger loaf will not rise or bake as well.

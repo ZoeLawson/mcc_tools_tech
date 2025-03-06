@@ -1,8 +1,6 @@
 # UNDERSTANDING HOW TO BAKE BASIC BREAD
 ### BY ROBERT PALMER
 
-{:toc}
-
 ## Basic Ingredients
 
 There are four primary ingredients involved in making a good loaf of fresh bread: __flour, water, salt, and yeast.__ Flour provides structure by forming gluten networks, which captures steam and leavening gases to create the texture of the bread (also called the crumb). Water hydrates the proteins in flour to form gluten, hydrates yeast, provides moistness to the texture, and steam to add volume and brown the crust. Yeast ferments the dough, adding flavor and creating carbon dioxide that causes it to rise. Salt enhances flavor, strengthens gluten, regulates fermentation and acts as a preservative to keep the bread fresher longer. While technically salt can be omitted it leaves the finished loaf bland and pale.
@@ -76,8 +74,9 @@ The exact temperature of the water is not as important as the water not being so
      1. Turn the dough 90 degrees.
      1. Repeat.
      1. If the dough is too sticky lightly flour your hands and re-flour the work surface. 
-	 > [!Note]
-	 > Be sparing with the additional flour though, a slightly sticky dough is expected.
+     Be sparing with the additional flour though, a slightly sticky dough is expected.
+> [!TIP]
+> Did you know that alerts don't work when nested?
 1. The dough should be smooth and springy. If you poke it the indentation should gradually bounce back.
 ![smooth dough](RobertImages/dough2.jpg)
 1. Clean out the mixing bowl, place the dough inside, and cover it with a clean dish cloth or plastic wrap to rise until roughly doubled in volume. This will take about an hour to an hour and a half at 75°F.

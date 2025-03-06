@@ -74,6 +74,7 @@ The exact temperature of the water is not as important as the water not being so
      1. Turn the dough 90 degrees.
      1. Repeat.
      1. If the dough is too sticky lightly flour your hands and re-flour the work surface. 
+     
      Be sparing with the additional flour though, a slightly sticky dough is expected.
 > [!TIP]
 > Did you know that alerts don't work when nested?

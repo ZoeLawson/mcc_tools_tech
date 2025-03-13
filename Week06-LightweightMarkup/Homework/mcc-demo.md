@@ -1,6 +1,7 @@
 > [!NOTE]
 > Here is a note.
 
+<img src="../../Week02-ProgressiveInfo/Homework/images/Star.png" style="border:thick solid green"/>
 
 column heading | column 2 | column 3
 ---------------|----------|---------

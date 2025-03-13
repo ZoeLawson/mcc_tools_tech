@@ -1,9 +1,7 @@
-.test {border: thick solid magenta;}
-
 > [!NOTE]
 > Here is a note.
 
-<img src="../../Week02-ProgressiveInfo/Homework/images/Star.png" class="test"/>
+<img src="../../Week02-ProgressiveInfo/Homework/images/Star.png" align="center"/>
 
 column heading | column 2 | column 3
 ---------------|----------|---------

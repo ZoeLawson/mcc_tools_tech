@@ -914,3 +914,10 @@ p.home-p
 	padding-right: 2em;
 }
 
+.AllBorders
+{
+	width: 100%;
+	border-collapse: collapse;
+	border: solid 1px #1b355e;
+}
+

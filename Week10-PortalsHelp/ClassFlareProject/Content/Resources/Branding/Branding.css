@@ -1,0 +1,19 @@
+/*<meta />*/
+
+/* MadCap-Branding applanguage:Templates/Projects/Online & Print/Side Navigation and PDF/ */
+
+:root
+{
+	--Lightest: #FFFFFF;
+	--HeroImage: url('../Images/Hero-Image.png');
+	--LogoImagePrint: url('../Images/Logo.png');
+	--Primary: #1b355e;
+	--Secondary: #597196;
+	--Light: #4F9085;
+	--Medium: #2B7468;
+	--Dark: #135A4E;
+	--Darkest: #002720;
+	--FontFamily: 'DejaVu Sans';
+	--LogoImage: url('../Images/logo-print.png');
+}
+

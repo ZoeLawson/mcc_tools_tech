@@ -3,4 +3,5 @@
     <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
         <Link Value="C:\ZoeStuff\MCC\MadCapFlareProject2025\MCC_Winter_2025\Content\Resources\Images\logo-print.png" />
     </Dialog>
+    <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog" />
 </RecentLinks>

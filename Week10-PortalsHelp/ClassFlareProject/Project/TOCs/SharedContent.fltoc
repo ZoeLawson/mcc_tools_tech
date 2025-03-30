@@ -59,14 +59,19 @@
     </TocEntry>
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/HomeworkHelpers/UpdateTOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Link="/Content/HomeworkHelpers/UpdateTOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      StartSection="false">
+      <TocEntry
+        Title="RoffoCopyrightNaplesPier.IMG_0930"
+        Link="/Content/Resources/Images/RoffoCopyrightNaplesPier.IMG_0930.jpeg" />
+    </TocEntry>
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/HomeworkHelpers/GitAndFlare.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Link="/Content/HomeworkHelpers/GitAndFlare.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
   </TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/B_AnnaHolt/AnnaHolt.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Link="/Content/B_AnnaHolt/AnnaHolt.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/C_DanielBrann/DanielBrann.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -75,7 +80,8 @@
     Link="/Content/D_MartineThomasFox/MartineThomasFox.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/E_RobertaRoffo/RobertaRoffo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Link="/Content/E_RobertaRoffo/RobertaRoffo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    StartSection="false" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/F_RobertPalmer/RobertPalmer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

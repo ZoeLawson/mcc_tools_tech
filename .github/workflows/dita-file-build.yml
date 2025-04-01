@@ -36,6 +36,7 @@ jobs:
       - name: add pdf
         #if: steps.check_files.outputs.files_exists == 'true'
         run: |
+          git pull origin Winter2025
           git status
           git add mcchandout/ZoeLawson.pdf
           git commit -m "generated pdf file from ZoeLawson.ditamap $timestamp"

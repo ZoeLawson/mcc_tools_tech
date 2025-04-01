@@ -3,4 +3,7 @@
 <concept id="class_demo_concept">
     <title>Class Demo Concept</title>
     <shortdesc>Learn how to write good short descriptions.</shortdesc>
+<conbody>
+<p>touch</p>
+</conbody>
 </concept>

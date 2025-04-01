@@ -19,7 +19,7 @@ jobs:
           install: dita install https://github.com/ZoeLawson/DITAStuff/raw/mcc/plugins/mcchandout.zip
           input: Week11-DITA/Homework/ZoeLawson.ditamap
           transtype: mcchandout
-          output-path: mcchandout
+          output-path: .
       - name: Set time stamp
         id: timestamp
         run: echo "timestamp=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
@@ -36,6 +36,7 @@ jobs:
       - name: add pdf
         #if: steps.check_files.outputs.files_exists == 'true'
         run: |
+          git status
           git add mcchandout/ZoeLawson.pdf
           git commit -m "generated pdf file from ZoeLawson.ditamap $timestamp"
           git push origin Winter2025

@@ -9,7 +9,7 @@ name: DITA to PDF
 jobs:
   build-dita:
     name: Transform a DITAMAP to a PDF
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - name: Git checkout
         uses: actions/checkout@v4

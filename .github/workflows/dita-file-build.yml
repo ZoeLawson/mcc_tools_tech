@@ -7,7 +7,7 @@ name: DITA to PDF
       - 'Week11-DITA/Homework/ZoeLawson.ditamap'
       - 'Week11-DITA/Homework/Zoe/**'
 jobs:
-  transform:
+  build-dita:
     name: Transform a DITAMAP to a PDF
     runs-on: ubuntu-latest
     steps:

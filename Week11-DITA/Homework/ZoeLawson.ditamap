@@ -35,8 +35,6 @@
         <topicref href="common/task.dita"/>
         <topicref href="common/reference.dita"/>
     </chapter>
-    <chapter href="Zoe/class_demo_concept.dita"/>
-    <chapter href="Zoe/the_dreaded_task.dita"/>
     <backmatter>
         <keydef processing-role="resource-only" keys="author"><topicmeta><keywords><keyword>Zoë Lawson</keyword></keywords></topicmeta></keydef>
         <keydef processing-role="resource-only" keys="homeworkfolder"><topicmeta><keywords><keyword>Zoe</keyword></keywords></topicmeta></keydef>

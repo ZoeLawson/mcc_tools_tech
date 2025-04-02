@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="bad_example"><title></title>
-    <refbody>
-        <section>
-            <p>Here is a sentence with a <xref href="a_non_existant_file.dita"/></p>
-        </section>
-    </refbody></reference>

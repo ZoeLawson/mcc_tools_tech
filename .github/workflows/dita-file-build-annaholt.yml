@@ -1,4 +1,4 @@
-name: DITA to PDF
+name: DITA to PDF - Anna
 'on':
   push:
     branches:

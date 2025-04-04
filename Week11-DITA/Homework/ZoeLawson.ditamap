@@ -31,8 +31,8 @@
         </booklists>
     </frontmatter>
     <chapter href="Zoe/topic.dita">
-        <topicref href="common/concept.dita"/>
         <topicref href="common/task.dita"/>
+        <topicref href="common/concept.dita"/>
         <topicref href="common/reference.dita"/>
     </chapter>
     <backmatter>

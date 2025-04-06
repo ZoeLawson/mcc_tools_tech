@@ -10,17 +10,44 @@
         <p> I created a ditamap for each of you in the <filepath>Week11-DITA/Homework</filepath>
             folder. I also created a folder for each of you in the <filepath>Homework</filepath>
             folder for your topics. </p>
-        <p>Minimally:</p>
-        <p> Using your ditamap, create at least three new topics.</p>
-        <ul>
-            <li>A concept</li>
-            <li>A task</li>
-            <li>A reference</li>
-        </ul>
-        <p>Use some semantic tagging as you author your content.</p>
-        <p>If you can, document a thing using DITA in your ditamap. </p>
         <p>Assuming all automation works correctly, when you commit and push your changes to GitHub,
             a GitHub action starts to generate a PDF.</p>
         <p>The resulting PDF should appear in <filepath>mcchandout</filepath>.</p>
+        <section>
+            <title>Bare minimum</title>
+            <p>Using the topic I created for you in your folder, perform the basic authoring
+                tasks:</p>
+            <ul>
+                <li>Add paragraphs</li>
+                <li>Add an unordered list</li>
+                <li>Add an ordered list</li>
+                <li>Add an image</li>
+                <li>Add a table</li>
+                <li>Add some inline formatting</li>
+                <li>Add a link</li>
+            </ul>
+        </section>
+        <section>
+            <title>Recommended</title>
+            <p>Document something in DITA. </p>
+            <p> Using your ditamap, create at least three new topics.</p>
+            <ul>
+                <li>A concept</li>
+                <li>A task</li>
+                <li>A reference</li>
+            </ul>
+            <p>Use some semantic tagging as you author your content.</p>
+        </section>
+        <section>
+            <title>Extra credit</title>
+            <p>If you feel adventurous: </p>
+            <ul>
+                <li>Use a key</li>
+                <li>Use a conref</li>
+                <li>Set up conditional text<p>I will help set up the DITAVAL for you.</p></li>
+                <li>Add an index</li>
+                <li>Add a troubleshooting topic</li>
+            </ul>
+        </section>
     </conbody>
 </concept>

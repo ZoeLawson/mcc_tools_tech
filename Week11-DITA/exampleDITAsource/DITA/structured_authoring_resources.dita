@@ -9,6 +9,26 @@
         <ul>
             <li><xref href="https://www.scriptorium.com/structure.pdf" format="pdf" scope="external"
                     >Structured Authoring and XML</xref></li>
+            <li><xref href="https://www.madcapsoftware.com/blog/what-is-structured-authoring/"
+                    format="html" scope="external"/></li>
+            <li><xref href="https://en.wikipedia.org/wiki/Structured_writing" format="html"
+                    scope="external"/></li>
+        </ul>
+        <p>The following isn't technically about structured authoring, but is a real world example
+            of how structured data can improve search results. </p>
+        <p><xref
+                href="https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?visit_id=638791514022091018-1227983788&amp;hl=en&amp;rd=1"
+                format="html" scope="external"/></p>
+        <p>Today, understanding how structured content can help you prepare your content for AI is
+            also important.</p>
+        <ul>
+            <li><xref
+                    href="https://paligo.net/blog/how-structured-authoring-delivers-ai-ready-content-in-the-age-of-generative-ai/"
+                    format="html" scope="external"/></li>
+            <li><xref
+                    href="https://thinkingdocumentation.com/blog/f/the-wild-west-of-ai-content-management-and-metadata"
+                    format="html" scope="external"/> (This may be a scary deep dive, and requires
+                further reading.)</li>
         </ul>
     </conbody>
 </concept>

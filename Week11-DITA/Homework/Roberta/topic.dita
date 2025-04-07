@@ -1,9 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic">
-    <title>A Topic for <ph keyref="author"/></title>
+    <title>An All About DITA Topic for <ph keyref="author"/></title>
     <shortdesc>This is a sample topic. It is in your homework folder and is not shared.</shortdesc>
     <body>
-        <p>This is a paragraph.</p>
+        <p>This is Bobbi's first paragraph in practicing the DITA structure using the Oxygen XML
+            Editor. </p>
+        <p>I'm following the clear and detailed instructions in the Course's Homework Helpers, pages
+            106-123. There are many more step-by-step details and screenshots here than in the
+            regular Week 11 &amp; 12 DITA explanation and Homework directions from this week's
+            Homework folder, which is about 24 pages. Both documents cover basically similar topics,
+            but I'll be looking at these two helpful documents to see more differences.</p>
+        <p>Ok, continuing in Homework Helpers pg. 111, I'm going to add an unordered, bulleted list
+            to the DITA file. I will use the &lt;ul> tag. The document states that each bullet in
+            the list is identified as an &lt;l1> tag. </p>
+        <ul id="ul_oyg_zjs_x2c">
+            <li>Here is my first bullet in my unordered list.  </li>
+            <li>I do not know why Oxygen added the above arrow or tag that says ul id="
+                ul_oyg_zjs_x2c".</li>
+            <li>  I do not see that in Zoe's example in Homework Helpers.</li>
+            <li>Hopefully I will learn that.</li>
+            <li>I can figure the first part means unordered list and Oxygen, but what would zjs and
+                x2c mean? </li>
+            <li>I do not know.</li>
+            <li>But anyway, I have created my first unordered list. DONE. </li>
+        </ul>
+        <p>  Does this SAVE automatically? I'll do File--Save in case it doesn't. </p>
+        <p>Next, I will add an ordered list to the DITA file. These are numbered lists or ABC lists.
+            The tag that defines an ordered list is the &lt;ol> tag. **Zoe, I see a TYPO on pg. 112!
+            It states the tag that defines an UNORDERED list is the &lt;ol>, and it should say
+            ...defines an ordered list.** </p>
+        <ol id="ol_tbf_hms_x2c">
+            <li>Ok, the ol element was added and it automatically added this l1 element.</li>
+            <li>It is difficult to see the difference between the letter "l" and the number "1 in
+                the above sentence. Anyway, here is number two of my list.</li>
+            <li>Here is number three and all we do is press Enter twice within this paragraph and we
+                have the next number. </li>
+            <li>Here is number 4. Now, I wonder, does this ol also work for letters ABC and
+                abc?</li>
+            <li>Ok, I made my Ordered List 1-5. DONE! Now, on to insert an external link in the DITA
+                file.</li>
+        </ol>
+        <p>You often need to reference external websites when writing.</p>
+        <p> These instructions are how to link to an external web site. Links are made using the
+            &lt;xref> tag. Links (the &lt;xref> tag) need to be inside of a "block" tag, such as a </p>
+        <p> or </p>
+        <li>
+            <p>. They are a type</p>
+            <p> of inline tag.<ol id="ol_ddh_3ns_x2c">
+                    <li>Add a paragraph where you want to insert your link and then place your
+                        cursor.</li>
+                    <li>Add an element, choosing the web link type. Tools</li>
+                </ol></p>
+        </li>
+        <p> &lt;<xref href="http://roffoprofessionalwriting.com" format="html" scope="external"
+                >.</xref><div>
+                <p>Ok, I inserted an External link. DONE. Now, I will insert a link to another
+                    topic. </p>
+                <p>Internal links are also made using the &lt;xref> element. You need to set the
+                    @href attribute to the path and name of the DITA topic. OxygenXML has a great
+                    shortcut.</p>
+                <ol id="ol_bs2_p4s_x2c">
+                    <li>In the topic, add a paragraph with text.</li>
+                    <li>In the DITA Maps Manager, right-click the topic you want to link to and
+                        select Copy.</li>
+                    <li>In the Author view, place your cursor where you want to insert your
+                        link.</li>
+                    <li>
+                        <p>Paste in the link using CTRL + V.</p>
+                        <p> A properly formatted link to the topic you selected is entered.</p>
+                    </li>
+                </ol>
+                <p>Here is my new paragraph with text. Now I will R-C in DITA Maps Manager the topic
+                    I want to link to, and select Copy. Zoe's example shows to choose Example Task
+                    Topic. Ok. </p>
+                <p><xref href="../common/task.dita"/>Ok,  I did that task!</p>
+                <p>I did not know how to select the Author view, but finally I saw, way below here,
+                    the 3 choices: text, grid, author, and Author is the only one highlighted, so I
+                    am already in Author view. I'll try the other views, just to see them. Ok, I can
+                    see the cascading more clearly in the Text view. The Grid view is not helpful
+                    for this document. </p>
+            </div><div>
+                <p> NEXT: Add a table to the DITA file. Tables are very useful for displaying data,
+                    but can be complicated. In DITA, you can choose between a &lt;table>or a
+                    &lt;simple table>. </p>
+                <p/>
+                <p>A table in DITA is a CALS style table. You can do all sorts of complicated
+                    shading, borders, row and column spanning. The &lt;simple table> has fewer
+                    features, but is simpler to implement. There are many different ways to create a
+                    table that enable you to build very complex tables with merged cells, different
+                    sections of the table, etc. This example only shows the bare minimum required to
+                    make a table. Also, OxygenXML has decent table tools. Have your cursor where you
+                    want to insert the table. Insert a &lt;simple table> . The Insert Table dialog
+                    box opens. Ok, those instructions were straightforward. </p>
+                <p><simpletable frame="all" relcolwidth="1* 1* 1*" id="simpletable_rd2_xrs_x2c">
+                        <sthead>
+                            <stentry>1st Cousins</stentry>
+                            <stentry>2nd Cousins</stentry>
+                            <stentry>Siblings</stentry>
+                        </sthead>
+                        <strow>
+                            <stentry><i>Cheryl</i></stentry>
+                            <stentry><sup>David</sup></stentry>
+                            <stentry>Bill</stentry>
+                        </strow>
+                        <strow>
+                            <stentry><b>Marcia</b></stentry>
+                            <stentry>Donny</stentry>
+                            <stentry>Karen</stentry>
+                        </strow>
+                        <strow>
+                            <stentry><u>Wendy</u></stentry>
+                            <stentry>Scott</stentry>
+                            <stentry>Jack</stentry>
+                        </strow>
+                        <strow>
+                            <stentry><sub>Sue</sub></stentry>
+                            <stentry>Mark</stentry>
+                            <stentry>Laura</stentry>
+                        </strow>
+                    </simpletable>TABLE DONE! And I did see how to do italic, Bold, underline and
+                    subscript and superscript formatting by hightlighting and selecting from a
+                    pop-up. Ok.  </p>
+                <p/>
+            </div><div>Only two items left to do to meet the minimum. I will get the minimum done
+                tonight and then try to do Recommended and Extra Credit next time.<ol
+                    id="ol_rky_lts_x2c">
+                    <li>Inline formatting – that's easy. And....</li>
+                    <li>Insert an image in the DITA file.<ol id="ol_ykt_pts_x2c">
+                            <li>Oh! it does do Letters in lists. It's cascaded. OK. I don't need
+                                this now; I was just trying to get my number 2. Press Enter twice to
+                                get the next number.</li>
+                            <li>oops, I got the next letter. </li>
+                        </ol>
+                    </li>
+                </ol></div><div>
+                <ol id="ol_v1n_4ts_x2c"/>
+                <p>Add inline formatting to the DITA file</p>
+                <p>Inline formatting in DITA is done with additional tagging.</p>
+                <p>You have a paragraph in your DITA file.</p>
+                <p>For inline formatting, DITA relies on semantic tagging. This means that there are
+                    many elements that identify what the content of the element is. It is up to the
+                    transform what that looks like.</p>
+                <p>The automation I have configured has formatting for the following THIRTEEN
+                    semantic tags:</p>
+                <p>• <apiname>apiname</apiname></p>
+                <p>• <cite>cite</cite></p>
+                <p>• <cmdname>cmdname</cmdname></p>
+                <p>•<codeph> codeph</codeph></p>
+                <p>• <filepath>filepath</filepath></p>
+                <p>• “q” (quote)</p>
+                <p>•<term> term</term></p>
+                <p>•<uicontrol> uicontrol</uicontrol></p>
+                <p>• <userinput>userinput</userinput></p>
+                <p>• <varname>varname</varname></p>
+                <p>• <wintitle>wintitle</wintitle></p>
+                <p> • @<xmlatt>xmlatt</xmlatt></p>
+                <p> • &lt;<xmlelement>xmlelement</xmlelement>></p>
+                <ol id="ol_n22_45s_x2c">
+                    <li>Add text to your topic.</li>
+                    <li><filepath>Select the text you want to add formatting to.Ok, I followed the
+                            instructions and it changed the typed formatting of this line to the
+                            font used in filepaths. Ok. This worked, but it is not what I expected.
+                            I thought it would have bold, italics. I will try some of the other 13
+                            elements that Zoe selected for us.  </filepath></li>
+                    <li>
+                        <p>Press Enter and select the element you want to wrap the content with.</p>
+                        <p> Notice that the option says Surround with.</p>
+                    </li>
+                    <li>
+                        <p>Press Enter to add the formatting.</p>
+                        <p> You now have inline formatting marked.</p>
+                        <p> Insert. Ok, I figured out 12 of the 13 semantic elements. It would not
+                            allow the quote element. Need to research that. I also figured out
+                            italic, bold, underline, subscript and superscript. Great! Only the
+                            Image left, for the Bare minimum. </p>
+                    </li>
+                </ol>
+                <p/>
+                <p>Insert an image in the DITA file</p>
+                <p>Images in DITA are inserted by reference.</p>
+                <p>You need to have a web-friendly image in your folder in
+                    mcc_tools_tech\Week11-DITA</p>
+                <p> \Homework\YourName. For example, you can reference a JPG, GIF, or PNG file.</p>
+                <p> You can also use a relative path from the HTML file to where the image is. If
+                    you have already added an image for another homework assignment, you could
+                    reference it. However, that requires that you understand how relative paths
+                    work. If you're not ready for that yet, just make sure your image is in your
+                    mcc_tools_tech\Week11-DITA\Homework\YourName folder. Ok, I need to go and do
+                    that. Ok, done. </p>
+                <p>I want to insert my images HERE. Hmm, dialog box did not open. Let me try that
+                    again. <fig id="fig_hkt_xzs_x2c">
+                        <title>Insert Image</title>
+                        <image placement="break"
+                            href="Roffo2CopyrightNaplesPierEnhanced.IMG_0930.jpeg" align="center"
+                            id="image_ikt_xzs_x2c">
+                            <alt>Pelican Flying By Naples Pier</alt>
+                        </image>
+                    </fig><image id="image_ifs_2zs_x2c"/></p>
+                <p>COOL! I saw the preview of the image and also the image magically appeared here!
+                    Ok, I have now completed all of the minimum HW Weeks 11-12 requirements. This
+                    took about 3 hours from reading the pdf and homework helpers and online advice,
+                    and then following the homework helpers procedures. I will submit this for now,
+                    but given time, I will also try the Recommended and Extra Credit challenges. I
+                    do enjoy basic coding, and I think I can be pretty good at it. I had done a
+                    little before as a technology teacher, but it was quite a few years ago. That's
+                    it for now! </p>
+            </div></p>
     </body>
 </topic>

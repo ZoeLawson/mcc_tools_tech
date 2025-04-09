@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="CompanyName"
+    EvaluatedDefinition="Middlesex Community College">Middlesex Community College</Variable>
+  <Variable
+    Comment=""
+    Name="PhoneNumber"
+    EvaluatedDefinition="123 456 7890">123 456 7890</Variable>
+  <Variable
+    Name="Email"
+    Comment=""
+    EvaluatedDefinition="mcc@example.com">mcc@example.com</Variable>
+  <Variable
+    Name="StreetAddress"
+    Comment=""
+    EvaluatedDefinition="591 Springs Road">591 Springs Road</Variable>
+  <Variable
+    Name="CityStateZip"
+    Comment=""
+    EvaluatedDefinition="Bedford, MA 01730">Bedford, MA 01730</Variable>
+  <Variable
+    Name="UserGuideTitle"
+    Comment=""
+    OriginalName="PDFGuideTitle"
+    EvaluatedDefinition="Class Demo">Class Demo</Variable>
+  <Variable
+    Name="VersionNumber"
+    OriginalName="VersionNumberDot">1.0</Variable>
+  <Variable
+    Name="Year"
+    Comment=""
+    Type="DateTime"
+    LastUpdated="2016-02-16T22:11:15.8176589-08:00"
+    EvaluatedDefinition="yyyy">yyyy</Variable>
+  <Variable
+    Name="Tool"
+    Comment=""
+    EvaluatedDefinition="MadCap Flare">MadCap Flare</Variable>
+</CatapultVariableSet>

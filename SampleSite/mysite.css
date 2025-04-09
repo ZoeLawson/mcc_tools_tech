@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  font-size: 12pt;
+  padding-bottom: 1em;
+}
+
+a:link {
+  border-bottom: thin dotted blue;
+}
+
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+h1 {
+  font-size: 18pt;
+  font-color: #1c355e;
+  padding-bottom: 2em;
+}
+
+h2 {
+  font-size: 14pt;
+  font-color: #1c355e;
+  padding-bottom: 1.5em;
+}
+
+p {
+}
+
+li {
+  padding-bottom: 1em;
+}
+
+dt {
+  font-color: #1c355e;
+  font-weight: bold;
+  padding: .5em;
+}
+
+dd {
+  padding-bottom: 1em;
+}

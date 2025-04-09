@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stylesheet xml:lang="en-us" webHelpEnabled="true">
+    <Styles>
+        <Style Name="Home Button">
+            <Properties>
+                <Property Name="LabelWithNoneOption">Home</Property>
+            </Properties>
+        </Style>
+        <Style Name="Navigation Element">
+            <Classes>
+                <StyleClass Name="TOC - Home Page Row">
+                    <Properties>
+                        <Property Name="LabelWithNoneOption">Table of Contents</Property>
+                    </Properties>
+                </StyleClass>
+                <StyleClass Name="Index - Home Page Row">
+                    <Properties>
+                        <Property Name="LabelWithNoneOption">Index</Property>
+                    </Properties>
+                </StyleClass>
+                <StyleClass Name="Glossary - Home Page Row">
+                    <Properties>
+                        <Property Name="LabelWithNoneOption">Glossary</Property>
+                    </Properties>
+                </StyleClass>
+                <StyleClass Name="Browse Sequence - Home Page Row">
+                    <Properties>
+                        <Property Name="LabelWithNoneOption">Browse Sequences</Property>
+                    </Properties>
+                </StyleClass>
+                <StyleClass Name="About - Home Page Row">
+                    <Properties>
+                        <Property Name="LabelWithNoneOption">About</Property>
+                    </Properties>
+                </StyleClass>
+                <StyleClass Name="Index Page">
+                    <Properties>
+                        <Property Name="SeeReference">See</Property>
+                        <Property Name="SeeAlsoReference">See also</Property>
+                    </Properties>
+                </StyleClass>
+                <StyleClass Name="Search Results Page">
+                    <Properties>
+                        <Property Name="NoResultsFoundString">No results found.</Property>
+                        <Property Name="SearchErrorString">There was an error during the search. Please try again.</Property>
+                    </Properties>
+                </StyleClass>
+            </Classes>
+        </Style>
+        <Style Name="Search Button">
+            <Properties />
+        </Style>
+        <Style Name="Formats">
+            <Properties>
+                <Property Name="CrossReferenceFormat">{paratext}</Property>
+                <Property Name="CrossReferencePrintFormat">"{paratext}" {pageref}</Property>
+                <Property Name="CrossReferenceBelow">below</Property>
+                <Property Name="CrossReferenceAbove">above</Property>
+                <Property Name="CrossReferenceOnPage">on page&#160;</Property>
+                <Property Name="CrossReferenceOnPreviousPage">on the previous page</Property>
+                <Property Name="CrossReferenceOnNextPage">on the next page</Property>
+                <Property Name="CrossReferenceOnFacingPage">on the facing page</Property>
+                <Property Name="BreadcrumbsYouAreHereText">You are here: </Property>
+                <Property Name="KeywordLinkText">Search Index</Property>
+                <Property Name="KeywordLinkIconAltText">Keyword Link Icon</Property>
+                <Property Name="RelatedTopicsText">Related Topics</Property>
+                <Property Name="RelatedTopicsIconAltText">Related Topics Link Icon</Property>
+                <Property Name="ConceptLinkText">See Also</Property>
+                <Property Name="ConceptLinkIconAltText">Concept Link Icon</Property>
+                <Property Name="DropDownOpenAltText">Open</Property>
+                <Property Name="DropDownClosedAltText">Closed</Property>
+                <Property Name="ExpandingOpenAltText">Open</Property>
+                <Property Name="ExpandingClosedAltText">Closed</Property>
+                <Property Name="GlossaryTermOpenAltText">Open</Property>
+                <Property Name="GlossaryTermClosedAltText">Closed</Property>
+                <Property Name="TogglerOpenAltText">Open</Property>
+                <Property Name="TogglerClosedAltText">Closed</Property>
+            </Properties>
+        </Style>
+        <Style Name="Relationships">
+            <Properties />
+            <Classes>
+                <StyleClass Name="concept">
+                    <Properties>
+                        <Property Name="Label">Concept Information</Property>
+                    </Properties>
+                </StyleClass>
+                <StyleClass Name="task">
+                    <Properties>
+                        <Property Name="Label">Related Tasks</Property>
+                    </Properties>
+                </StyleClass>
+                <StyleClass Name="reference">
+                    <Properties>
+                        <Property Name="Label">Reference Materials</Property>
+                    </Properties>
+                </StyleClass>
+            </Classes>
+        </Style>
+        <Style Name="TocEntry">
+            <Properties />
+        </Style>
+        <Style Name="IndexEntry">
+            <Properties />
+        </Style>
+        <Style Name="AccordionItem">
+            <Properties />
+            <Classes>
+                <StyleClass Name="TOC">
+                    <Properties>
+                        <Property Name="Label">Table of Contents</Property>
+                    </Properties>
+                </StyleClass>
+                <StyleClass Name="Index">
+                    <Properties>
+                        <Property Name="Label">Index</Property>
+                    </Properties>
+                </StyleClass>
+                <StyleClass Name="Favorites">
+                    <Properties>
+                        <Property Name="Label">Favorites</Property>
+                    </Properties>
+                </StyleClass>
+                <StyleClass Name="Glossary">
+                    <Properties>
+                        <Property Name="Label">Glossary</Property>
+                    </Properties>
+                </StyleClass>
+                <StyleClass Name="BrowseSequence">
+                    <Properties>
+                        <Property Name="Label">Browse Sequences</Property>
+                    </Properties>
+                </StyleClass>
+                <StyleClass Name="Search">
+                    <Properties>
+                        <Property Name="Label">Search</Property>
+                    </Properties>
+                </StyleClass>
+                <StyleClass Name="Community">
+                    <Properties>
+                        <Property Name="Label">Community</Property>
+                    </Properties>
+                </StyleClass>
+            </Classes>
+        </Style>
+        <Style Name="ToolbarItem">
+            <Properties />
+            <Classes>
+                <StyleClass Name="QuickSearch">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="Logo">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="ExpandAll">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="CollapseAll">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="RemoveHighlight">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="Print">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="ToggleNavigationPane">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="Back">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="Forward">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="Home">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="Stop">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="Refresh">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="SelectTOC">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="SelectIndex">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="SelectSearch">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="SelectFavorites">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="SelectGlossary">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="SelectBrowseSequence">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="SelectCommunity">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="AddTopicToFavorites">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="TopicRatings">
+                    <Properties>
+                        <Property Name="RatingSubmittedMessage">Thank you for submitting your rating!</Property>
+                    </Properties>
+                </StyleClass>
+                <StyleClass Name="EditUserProfile">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="PreviousTopic">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="NextTopic">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="CurrentTopicIndex">
+                    <Properties>
+                        <Property Name="Label">Page {n} of {total}</Property>
+                    </Properties>
+                </StyleClass>
+                <StyleClass Name="Separator">
+                    <Properties />
+                </StyleClass>
+            </Classes>
+        </Style>
+        <Style Name="Frame">
+            <Classes>
+                <StyleClass Name="BodyComments">
+                    <Properties>
+                        <Property Name="Label">Comments</Property>
+                    </Properties>
+                </StyleClass>
+            </Classes>
+        </Style>
+        <Style Name="Control">
+            <Classes>
+                <StyleClass Name="SearchButton">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="SearchBox">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="SearchFiltersLabel">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="SearchUnfilteredLabel">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="SearchFavoritesLabel">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="TopicFavoritesLabel">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="SearchFavoritesDeleteButton">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="TopicFavoritesDeleteButton">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="EmptySearchFavoritesLabel">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="EmptyTopicFavoritesLabel">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="AddSearchToFavoritesButton">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="IndexSearchBox">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="SearchResults">
+                    <Properties>
+                        <Property Name="TableSummary">This table contains the results of the search that was performed. The first column indicates the search rank and the second column indicates the title of the topic that contains the search result.</Property>
+                        <Property Name="RankLabel">Rank</Property>
+                        <Property Name="TitleLabel">Title</Property>
+                        <Property Name="TopicResultsLabel">Topic Results</Property>
+                        <Property Name="CommunityResultsLabel">Community Results</Property>
+                        <Property Name="ShowAllCommunityResults">Show all community results</Property>
+                    </Properties>
+                </StyleClass>
+                <StyleClass Name="Messages">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="CommentsAddButton">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="CommentsReplyButton">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="CommentsRefreshButton">
+                    <Properties />
+                </StyleClass>
+                <StyleClass Name="NavigationLinkTop">
+                    <Properties>
+                        <Property Name="Label">Open topic with navigation</Property>
+                    </Properties>
+                </StyleClass>
+                <StyleClass Name="NavigationLinkBottom">
+                    <Properties>
+                        <Property Name="Label">Open topic with navigation</Property>
+                    </Properties>
+                </StyleClass>
+            </Classes>
+        </Style>
+        <Style Name="Dialog">
+            <Properties />
+            <Classes>
+                <StyleClass Name="AddComment">
+                    <Properties>
+                        <Property Name="CommentLengthExceeded">The maximum comment length was exceeded by {n} characters.</Property>
+                    </Properties>
+                </StyleClass>
+                <StyleClass Name="ReplyComment">
+                    <Properties>
+                        <Property Name="CommentLengthExceeded">The maximum comment length was exceeded by {n} characters.</Property>
+                    </Properties>
+                </StyleClass>
+                <StyleClass Name="RegisterUser">
+                    <Properties />
+                </StyleClass>
+            </Classes>
+        </Style>
+    </Styles>
+</Stylesheet>

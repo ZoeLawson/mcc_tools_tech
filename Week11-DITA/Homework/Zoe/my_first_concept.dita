@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="my_first_concept">
+    <title>My first concept</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>Here I am writing a paragraph.</p>
+        <draft-comment author="zoela">This is a draft comment. Hey bob, how does this
+            work.</draft-comment>
+        <ul>
+            <li>This is a list.</li>
+        </ul>
+        <dl>
+            <dlentry>
+                <dt>Definition Term</dt>
+                <dd>Definition.<p>Can have paragraphs in here.</p><ul>
+                        <li>list inside of a defintion.</li>
+                        <li>fjkasdlfa</li>
+                    </ul></dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>

@@ -6,7 +6,7 @@
         and is not shared.</shortdesc>
     <body>
         <p>This is a <uicontrol>paragraph</uicontrol>. Testing change to GitHub Actions.</p>
-        <p>Now with a pull request.</p>
+        <p>Now with a pull request. And another one.</p>
         <p>Here is a <xmlelement>new</xmlelement> paragraph.</p>
         <p>Here is a second paragraph. <xref href="http://www.google.com" format="html"
                 scope="external"/></p>

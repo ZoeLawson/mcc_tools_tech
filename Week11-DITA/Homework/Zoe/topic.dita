@@ -5,7 +5,7 @@
     <shortdesc>This is a sample topic. It is in your homework folder (<ph keyref="homeworkfolder"/>)
         and is not shared.</shortdesc>
     <body>
-        <p>This is a <uicontrol>paragraph</uicontrol>.</p>
+        <p>This is a <uicontrol>paragraph</uicontrol>. Testing change to GitHub Actions.</p>
         <p>Here is a <xmlelement>new</xmlelement> paragraph.</p>
         <p>Here is a second paragraph. <xref href="http://www.google.com" format="html"
                 scope="external"/></p>

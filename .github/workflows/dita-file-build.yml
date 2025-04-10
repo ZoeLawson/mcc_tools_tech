@@ -1,6 +1,6 @@
 name: DITA to PDF - Zoë
 'on':
-  pull_request:
+  pull_request_target:
     types:
       - closed
     branches:
@@ -44,5 +44,3 @@ jobs:
           git add mcchandout/ZoeLawson.pdf
           git commit -m "generated pdf file from ZoeLawson.ditamap $timestamp"
           git push origin Winter2025
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

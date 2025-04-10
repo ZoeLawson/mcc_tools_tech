@@ -10,8 +10,8 @@ name: DITA to PDF - Zoë
       - 'Week11-DITA/Homework/Zoe/**'
 jobs:
   if_merged:
-  if: github.event.pull_request.merged == true
-  build-dita:
+    if: github.event.pull_request.merged == true
+    build-dita:
     name: Transform a DITAMAP to a PDF (Zoë)
     runs-on: ubuntu-latest
     steps:

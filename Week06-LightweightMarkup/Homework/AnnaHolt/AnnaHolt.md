@@ -40,19 +40,3 @@ To extract a single sentence from a large speech file in Praat, use the followin
 > [!TIP]
 > leave spaces in between sentences for easier and more seamless snipping!
 1.  Save your file as a .wav form ![Save File](AnnaImage/Praat12.png)
-
-# Zoë Edit
-
-1. Repeat this again on each smaller resulting segment 
-   ![Rinse](AnnaImage/Praat9.png)
-   
-   ![and repeat](AnnaImage/Praat10.png)
-   
-1. Click to play the visible part and confirm only the resulting sentences are there. ![Click to Play](AnnaImage/Praat11.png)
-
-   > [!TIP]
-> leave spaces in between sentences for easier and more seamless snipping!
-
-1. Save your file as a .wav form
-   
-   ![Save File](AnnaImage/Praat12.png)

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic">
+    <title>A Topic for <ph keyref="author"/></title>
+    <shortdesc>This is my homework for DITA</shortdesc>
+    <body>
+        <p>Our solar system is made up of the Sun, planets, moons, asteroids, comets, and other
+            objects that orbit the Sun. It's located in the Milky Way galaxy. </p>
+        <p>Astronomers sometimes divide the Solar System structure into separate regions. The inner
+            Solar System includes Mercury, Venus, Earth, Mars, and the bodies in the asteroid belt.
+            The outer Solar System includes Jupiter, Saturn, Uranus, Neptune, and the bodies in the
+            Kuiper belt.</p>
+        <p><b>Inner Solar System Planets:</b><ul id="ul_kw5_wwj_y2c">
+                <li>Mercury</li>
+                <li>Venus</li>
+                <li>Earth</li>
+                <li>Mars</li>
+            </ul></p>
+        <p><b>The Outer Solar System Planets From Largest to Smallest:</b><ol id="ol_trq_2xj_y2c">
+                <li>Jupiter</li>
+                <li>Saturn</li>
+                <li>Uranus</li>
+                <li>Neptune<table frame="all" rowsep="1" colsep="1" id="table_gh2_4xj_y2c">
+                        <title>Planet Size</title>
+                        <tgroup cols="2">
+                            <colspec colnum="1" colname="c1" colwidth="1*"/>
+                            <colspec colnum="2" colname="c2" colwidth="1*"/>
+                            <thead>
+                                <row>
+                                    <entry>Planet</entry>
+                                    <entry>Diameter (miles)</entry>
+                                </row>
+                            </thead>
+                            <tbody>
+                                <row>
+                                    <entry>Mercury</entry>
+                                    <entry>3,000</entry>
+                                </row>
+                                <row>
+                                    <entry>Venus</entry>
+                                    <entry>7,500 </entry>
+                                </row>
+                                <row>
+                                    <entry>Earth</entry>
+                                    <entry>7,938</entry>
+                                </row>
+                                <row>
+                                    <entry>Mars</entry>
+                                    <entry>4,200</entry>
+                                </row>
+                                <row>
+                                    <entry>Jupiter</entry>
+                                    <entry>89,000</entry>
+                                </row>
+                                <row>
+                                    <entry>Saturn</entry>
+                                    <entry>74,900</entry>
+                                </row>
+                                <row>
+                                    <entry>Uranus</entry>
+                                    <entry>32,000</entry>
+                                </row>
+                                <row>
+                                    <entry>Neptune</entry>
+                                    <entry>31,000</entry>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table></li>
+            </ol></p>
+        <p>
+            <fig id="fig_lys_myj_y2c">
+                <title>Solar System</title>
+                <image href="../OneDrive/Desktop/v5n22xGyNNHLzSnSArbrVH-1200-80.jpg"
+                    id="image_mys_myj_y2c"/>
+            </fig>
+        </p>
+        <p/>
+    </body>
+    <related-links>
+        <link href="https://science.nasa.gov/solar-system/" format="html" scope="external"/>
+    </related-links>
+</topic>

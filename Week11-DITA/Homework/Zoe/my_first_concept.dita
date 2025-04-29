@@ -11,7 +11,7 @@
             <li>This is a list.</li>
         </ul>
         <dl>
-            <dlentry>
+            <dlentry translate="no">
                 <dt>Definition Term</dt>
                 <dd>Definition.<p>Can have paragraphs in here.</p><ul>
                         <li>list inside of a defintion.</li>
@@ -19,5 +19,31 @@
                     </ul></dd>
             </dlentry>
         </dl>
+        <image placement="break" href="../../exampleDITAsource/DITA/art/newDialog.png">
+            <longdescref/>
+        </image>
+        <table frame="all">
+            <desc/>
+            <tgroup cols="2">
+                <colspec colnum="1" colname="c1" colwidth="1*"/>
+                <colspec colnum="2" colname="c2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry/>
+                        <entry/>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry/>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
     </conbody>
 </concept>

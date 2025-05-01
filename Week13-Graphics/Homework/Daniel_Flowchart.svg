@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1366 768">
+  <!-- Generator: Adobe Illustrator 29.4.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 152)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: aqua;
+      }
+
+      .st1 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .st1, .st2 {
+        fill: none;
+      }
+
+      .st3 {
+        fill: #0071bc;
+      }
+
+      .st4 {
+        fill: #d9e021;
+      }
+
+      .st5 {
+        fill: #fff;
+      }
+
+      .st6 {
+        font-size: 18px;
+      }
+
+      .st6, .st7 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .st7 {
+        font-size: 24px;
+      }
+
+      .st8 {
+        fill: #ed1c24;
+      }
+
+      .st9 {
+        fill: lime;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="st5" x="137.62" y="87.59" width="230.88" height="129.62"/>
+    <path class="st9" d="M368,88.09v128.62h-229.88V88.09h229.88M369,87.09h-231.88v130.62h231.88V87.09h0Z"/>
+  </g>
+  <text class="st7" transform="translate(476.1 39.76)"><tspan x="0" y="0">Baking Chicken Parmesan Flowchart</tspan></text>
+  <g>
+    <rect class="st5" x="445.75" y="87.59" width="230.88" height="129.62"/>
+    <path class="st0" d="M676.12,88.09v128.62h-229.88V88.09h229.88M677.12,87.09h-231.88v130.62h231.88V87.09h0Z"/>
+  </g>
+  <line class="st1" x1="369" y1="149.25" x2="445.25" y2="149.25"/>
+  <text class="st6" transform="translate(162.75 133.94)"><tspan x="0" y="0">Gather chicken breasts, </tspan><tspan x="0" y="21.6">bread crumbs, egg wash, </tspan><tspan x="0" y="43.2">and flour</tspan></text>
+  <text class="st6" transform="translate(476.1 133.94)"><tspan x="0" y="0">Dip each chicken breast </tspan><tspan x="0" y="21.6">in the egg wash and </tspan><tspan x="0" y="43.2">place it into the flour</tspan></text>
+  <g>
+    <rect class="st5" x="445.75" y="273.81" width="230.88" height="129.62"/>
+    <path class="st8" d="M676.12,274.31v128.62h-229.88v-128.62h229.88M677.12,273.31h-231.88v130.62h231.88v-130.62h0Z"/>
+  </g>
+  <text class="st6" transform="translate(464.62 322.86)"><tspan x="0" y="0">Remove the chicken from </tspan><tspan x="0" y="21.6">the flour and sprinkle the </tspan><tspan x="0" y="43.2">breadcrumbs</tspan></text>
+  <line class="st2" x1="561.19" y1="217.72" x2="561.19" y2="273.31"/>
+  <line class="st2" x1="561.19" y1="217.72" x2="561.19" y2="273.31"/>
+  <line class="st2" x1="561.19" y1="273.31" x2="561.19" y2="328.91"/>
+  <line class="st2" x1="561.19" y1="217.72" x2="561.19" y2="273.31"/>
+  <line class="st2" x1="578.38" y1="227.38" x2="578.38" y2="282.97"/>
+  <line class="st2" x1="561.19" y1="217.72" x2="561.19" y2="273.31"/>
+  <line class="st1" x1="558.37" y1="274.23" x2="558.37" y2="217.72"/>
+  <g>
+    <rect class="st5" x="445.75" y="468.47" width="230.88" height="129.62"/>
+    <path class="st3" d="M676.12,468.97v128.62h-229.88v-128.62h229.88M677.12,467.97h-231.88v130.62h231.88v-130.62h0Z"/>
+  </g>
+  <g>
+    <rect class="st5" x="744.5" y="468.47" width="230.88" height="129.62"/>
+    <path class="st4" d="M974.88,468.97v128.62h-229.88v-128.62h229.88M975.88,467.97h-231.88v130.62h231.88v-130.62h0Z"/>
+  </g>
+  <line class="st1" x1="558.37" y1="467.97" x2="558.37" y2="404.83"/>
+  <text class="st6" transform="translate(468.74 520.64)"><tspan x="0" y="0">Place the chicken into a </tspan><tspan x="0" y="21.6">well greased glass baking </tspan><tspan x="0" y="43.2">tray</tspan></text>
+  <line class="st1" x1="677.12" y1="533.28" x2="744" y2="533.28"/>
+  <text class="st6" transform="translate(782.75 515.3)"><tspan x="0" y="0">Bake at 350° for 30 min </tspan><tspan x="0" y="21.6">until golden and </tspan><tspan x="0" y="43.2">delicious</tspan></text>
+</svg>

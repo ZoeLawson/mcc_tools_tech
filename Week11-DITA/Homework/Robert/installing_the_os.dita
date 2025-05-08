@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="installing_the_os">
+    <title>Installing the OS</title>
+    <shortdesc>The final step is to install an OS to make your desktop usable</shortdesc>
+    <taskbody>
+        <context>
+            <p>Follow installation instructions to install your operating system to finish up your
+                desktop PC build. You will need either a bootable DVD or a bootable flash drive with
+                the OS installation files and an internet connection.</p>
+        </context>
+    </taskbody>
+</task>

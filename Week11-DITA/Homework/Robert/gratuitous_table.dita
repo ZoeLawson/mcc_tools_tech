@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="gratuitous_table">
+    <title>Gratuitous Table</title>
+    <shortdesc>to meet the requirements</shortdesc>
+    <taskbody>
+        <context>I couldn't think of anywhere to put a table, so its here</context>
+        <steps>
+            <step>
+                <cmd>Look at this table</cmd>
+                <choicetable frame="all" relcolwidth="1* 1*" id="choicetable_x5p_wvn_gfc">
+                    <chhead>
+                        <choptionhd>Its got text</choptionhd>
+                        <chdeschd>So much text</chdeschd>
+                    </chhead>
+                    <chrow>
+                        <choption>I'm not really a 'table person'</choption>
+                        <chdesc><i>I'll put some random formatting too</i></chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>I like plain text</choption>
+                        <chdesc><sup>Here's an odd one</sup></chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption/>
+                        <chdesc/>
+                    </chrow>
+                    <chrow>
+                        <choption/>
+                        <chdesc/>
+                    </chrow>
+                    <chrow>
+                        <choption/>
+                        <chdesc/>
+                    </chrow>
+                </choicetable>
+            </step>
+        </steps>
+    </taskbody>
+</task>

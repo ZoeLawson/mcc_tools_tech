@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="shopping_for_components">
+    <title>Shopping for Components</title>
+    <shortdesc>How to determine what component models and specifications will your desktop build
+        use</shortdesc>
+    <conbody>
+        <p>Now that you have a strong idea of what you want out of your build project it’s time to
+            start looking at what components are available. There are several sites that help group
+            together parts into general performance tiers, such as <xref
+                href="https://www.logicalincrements.com/" format="html" scope="external">Logical
+                Increments</xref>, but it’s important to take any rating as a suggestion and do your
+            own follow up research, especially if you’re looking at a larger build budget. It’s
+            worth repeating that computer components can be a volatile industry, and new technology,
+            geopolitical shifts, and consumer trends can have an enormous impact in a short period
+            of time.</p>
+        <p>One of the most popular resources is <xref href="https://pcpartpicker.com/" format="html"
+                scope="external">PCPartPicker</xref>, a site that compiles information on computer
+            part pricing and reviews and has robust planning tools. The most useful tool is the
+            Builder, which allows you to select parts from a sortable list and add them to your
+            shopping list. The site does not sell parts directly, so adding a part to your list will
+            generate an affiliate link to the current least expensive supplier. As you add items to
+            your list future items can be filtered by compatibility using an option on the left side
+            of the screen (on by default). This ensures parts are at least advertised to work
+            together, although physical dimensions aren’t checked. As you fill out your shopping
+            list, the site automatically generates a link you can save or share with others. </p>
+        <p>Computer building is a popular hobby and there are several online forums, including
+            PCPartPicker’s own forum, who gladly will discuss your choices in detail and at great
+            length. More in-depth reviews of parts can be found online. Some reputable sites for
+            reviews are <xref href="https://www.anandtech.com" format="html" scope="external"
+                >AnandTech</xref>, <xref href="https://www.techpowerup.com/" format="html"
+                scope="external">TechPowerUp</xref>, and <xref href="https://www.techspot.com/"
+                format="html" scope="external">TechSpot</xref>.</p>
+        <p>In general, I would recommend never buying a used PSU, and being very cautious about
+            buying a used GPU. GPUs are often used in bulk for continuous repetitive tasks, like
+            cryptography, and then swapped out and sold used when new technology becomes cost
+            effective. A used GPU, even a very recent one, may have been working 24 hours a day, 7
+            days a week for months before being resold. It may have a deceptive amount of wear and
+            tear with a significantly shortened life. Other components are fine to buy used if you
+            can find a good discount from a reputable seller.</p>
+    </conbody>
+</concept>

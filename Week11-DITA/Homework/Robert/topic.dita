@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic">
-    <title>A Topic for <ph keyref="author"/></title>
-    <shortdesc>This is a sample topic. It is in your homework folder and is not shared.</shortdesc>
-    <body>
-        <p>This is a paragraph.</p>
-    </body>
+    <title>Building a PC by <ph keyref="author"/></title>
+    <shortdesc>A basic guide to buying components and assembling a personal computer</shortdesc>
+    <body/>
 </topic>

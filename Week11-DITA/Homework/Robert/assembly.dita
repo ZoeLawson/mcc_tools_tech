@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="assembly">
+    <title>Assembly</title>
+    <shortdesc>Putting all the parts together</shortdesc>
+    <conbody>
+        <p>Modern PCs are very easy to put together. Cards slot into their sockets only one way.
+            Power cables also only connect one way. The main hurdles are getting the CPU and
+            heatsink installed, which usually requires applying thermal paste, screwing the base
+            together, and then snapping the fans onto the heat sink in a cramped space, and then
+            arranging the cables such that you can see what you’re doing when inserting RAM and
+            other cards into your motherboard.</p>
+    </conbody>
+</concept>

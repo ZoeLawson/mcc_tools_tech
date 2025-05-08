@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossaryentry.dtd">
+<glossentry id="glossarymotherboard">
+    <glossterm>Motherboard</glossterm>
+    <glossdef>
+        <p>The motherboard, or mainboard, is the main circuit board inside your computer which
+            connects together all of the other parts. There are many manufacturers, with the most
+            popular being ASUS, ASRock, GIGABYTE, and MSI.</p>
+        <p>Your motherboard’s processor socket type must match the CPU and fit inside your case. An
+            Intel chip will not fit in a motherboard designed for AMD chips, and you must also match
+            the socket type. For instance, an Intel i5-12500 processor needs an LGA 1700 socket on
+            the motherboard.</p>
+        <p>Your board will also need enough slots for everything you want to install, although that
+            is rarely a concern. Also, take note of the form factor of your motherboard, such as ATX
+            or mini-ITX. This determines the limits on size and power for the motherboard. For a
+            first-time builder I would recommend a micro-ATX or ATX form factor for their
+            flexibility.</p>
+    </glossdef>
+</glossentry>

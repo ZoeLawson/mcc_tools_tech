@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="introduction">
+    <title>Introduction</title>
+    <shortdesc>Why build a desktop PC?</shortdesc>
+    <body>
+        <p>The primary reason to build a desktop is to get a system tailored to your needs as a
+            user. While some prebuilt systems can offer good value for the cost, they still won’t
+            match your needs as well as a properly researched home-built computer will. Building a
+            desktop has become easier and more affordable over the years, with many modern builds
+            requiring little more than a Phillips screwdriver and your hands to assemble.</p>
+        <p>However, while anyone can build their own desktop, not everyone needs to do so. If all
+            you need is basic web browsing and an office suite then a laptop or pre-built desktop
+            would cover your needs for less money. Moreover, a prebuilt laptop provides the mobility
+            that your built desktop cannot. And if your needs are simple, the cost of a basic laptop
+            might be comparable to building a desktop.</p>
+        <p>In general, if you need more power and flexibility than a basic office PC and don’t mind
+            being mostly tethered to a desk, then building a desktop PC is the right choice.</p>
+    </body>
+</topic>

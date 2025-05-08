@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="turning_it_on_for_the_first_time">
+    <title>Turning it On For the First Time</title>
+    <shortdesc>Flipping the switch for the first time is the moment of truth for your
+        build</shortdesc>
+    <taskbody>
+        <context>
+            <p>You’ve planned and built your computer, and now it’s time to flip the switch! This is
+                easily the most stressful and exciting part of the whole process, when you turn the
+                power supply on, hit the power button on the case, and hope for the best. </p>
+            <p>If all has gone well the screen will come alive with the Power On Self-Test (POST)
+                screen.</p>
+            <p>If instead, the computer just beeps at you, take note of the beeps. Those are an
+                error message that can be used to diagnose the problem. Some motherboards have an
+                LED display for error codes that can be helpful in troubleshooting.</p>
+            <p>If nothing happens the problem is most likely with the power supply: either the PSU
+                itself is bad or produces insufficient wattage, the cabling is not fully connected,
+                or you have forgotten to turn it on. </p>
+            <p>Anything short of shooting sparks is probably solvable eventually. In the worst-case
+                scenario you’ve learned a lot, and Amazon, Newegg, and Microcenter will accept
+                returns within 30 days.</p>
+            <p>If everything works you can close the case up, usually by sliding a panel into place
+                and then tightening thumb screws on the rear. Congratulations!</p>
+        </context>
+    </taskbody>
+</task>

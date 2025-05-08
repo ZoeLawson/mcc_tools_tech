@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="example_shopping">
+    <title>Example Shopping</title>
+    <shortdesc>A worked example of shopping for components</shortdesc>
+    <taskbody>
+        <context>The second step in building a desktop is to find and purchase your build
+            components</context>
+        <steps>
+            <step>
+                <cmd>I go to <xref href="https://www.logicalincrements.com/" format="html"
+                        scope="external">LogicalIncrements</xref> and look for a build set that
+                    roughly totals out to $1,000. This is the ‘Great’ category. I won’t use these
+                    suggestions exactly, but they are a good place to start looking.</cmd>
+                <info>
+                    <p>
+                        <image placement="break" href="LogicalIncrements.png" id="image_p24_nqn_gfc">
+                            <alt>an example build suggestion from LogicalIncrements.com</alt>
+                        </image>
+                    </p>
+                </info>
+            </step>
+            <step>
+                <cmd>I decide to buy online rather than go to Micro Center.</cmd>
+            </step>
+            <step>
+                <cmd>I then go to <xref href="https://pcpartpicker.com/" format="html"
+                        scope="external">PCPartPicker</xref> and click on Start Your Build in the
+                    middle of the page.</cmd>
+            </step>
+            <step>
+                <cmd>I go through each category and pick parts roughly in line with my budget. I
+                    know the GPU will be the most expensive part of the build, followed by the CPU
+                    and motherboard. I want all my parts to be roughly in the same performance tier,
+                    so for a $250 GPU I want an approximately $200 CPU and motherboard.</cmd>
+                <info>
+                    <p>
+                        <image placement="break" href="PCPartPickerList.png" id="image_acs_vqn_gfc">
+                            <alt>an example shopping list from PCPartPicker.com</alt>
+                        </image>
+                    </p>
+                </info>
+            </step>
+            <step>
+                <cmd>I decide on getting an additional SSD to go with my old HDD so my new system
+                    isn’t bottlenecked by old slow storage. I will install my OS and any games on
+                    the SSD while all my music stays on my HDD.</cmd>
+            </step>
+            <step>
+                <cmd>The peak power draw for the system is estimated at 409W. I selected a 750W PSU
+                    for better efficiency.</cmd>
+            </step>
+            <step>
+                <cmd>My total comes to $908.84. I could either be satisfied or see if I can find a
+                    few more dollars to get a new monitor for my new graphics card. </cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

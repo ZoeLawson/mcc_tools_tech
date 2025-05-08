@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="components">
+    <title>Components</title>
+    <shortdesc>Exploring what components go into a desktop PC</shortdesc>
+    <conbody>
+        <p>A desktop PC consists of several parts. The bare minimum for a working computer is a
+            central processing unit, motherboard, random access memory, power supply unit, and a
+            monitor and keyboard for interaction. In practice though you will want a case to put
+            everything in, a storage device, and an operating system. Graphics and networking cards
+            will round out your machine’s capabilities.</p>
+        <p>Components are presented in approximate order of importance to your build. Your choice of
+            CPU will determine what motherboard you need, and those two components are the core of
+            your build. The next most important part is the graphics card, followed by the RAM.
+            Networking cards, storage, and the case are vital but are rarely major choice points.
+            The PSU is presented last of the major components not because it is least, but because
+            you’ll need to know your total wattage requirements from every other part before
+            selecting it.<fig id="fig_v2x_lln_gfc">
+                <title>Typical desktop components, Credit: J.P. Rickabaugh</title>
+                <image placement="break" href="Components.jpg" id="image_w2x_lln_gfc">
+                    <alt>An image of a desktop computer with parts labeled</alt>
+                </image>
+            </fig></p>
+    </conbody>
+</concept>

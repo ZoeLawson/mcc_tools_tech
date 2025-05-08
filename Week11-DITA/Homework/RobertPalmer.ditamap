@@ -31,12 +31,56 @@
         </booklists>
     </frontmatter>
     <chapter href="Robert/topic.dita">
-        <topicref href="common/concept.dita"/>
-        <topicref href="common/task.dita"/>
-        <topicref href="common/reference.dita"/>
+        <topicref href="Robert/introduction.dita">
+            <topicref href="Robert/how_hard_is_it.dita"/>
+            <topicref href="Robert/planning_the_build.dita"/>
+        </topicref>
+        <topicref href="Robert/gratuitous_table.dita"/>
+        <topicref href="Robert/components.dita">
+            <topicref href="Robert/shopping_for_components.dita"/>
+            <topicref href="Robert/where_to_buy.dita"/>
+        </topicref>
+        <topicref href="Robert/putting_it_together.dita">
+            <topicref href="Robert/example_planning.dita"/>
+            <topicref href="Robert/example_shopping.dita"/>
+            <topicref href="Robert/assembly.dita">
+                <topicref href="Robert/prepare_the_area.dita"/>
+                <topicref href="Robert/assembly_0.dita"/>
+                <topicref href="Robert/turning_it_on_for_the_first_time.dita"/>
+                <topicref href="Robert/installing_the_os.dita"/>
+            </topicref>
+        </topicref>
+        <topichead navtitle="Glossary" id="glossary">
+            <topicmeta>
+                <shortdesc>Short descriptions of common computer components.</shortdesc>
+            </topicmeta>
+            <topicref href="common/glossaryprocessor_and_cooler.dita" keys="CPU"
+                navtitle="Processor and Cooler"/>
+            <topicref href="common/glossarymotherboard.dita" navtitle="Motherboard"
+                keys="motherboard"/>
+            <topicref href="common/glossarygraphics_processing_unit.dita" keys="GPU"
+                navtitle="Graphics Processing Unit"/>
+            <topicref href="common/glossaryrandom_access_memory.dita" keys="RAM"
+                navtitle="Random Access Memory"/>
+            <topicref href="common/glossarynetworking.dita" navtitle="Networking" keys="networking"/>
+            <topicref href="common/glossarystorage.dita" keys="storage" navtitle="Storage"/>
+            <topicref href="common/glossarycase.dita" navtitle="Case" keys="case"/>
+            <topicref href="common/glossarypower_supply_unit.dita" keys="PSU"
+                navtitle="Power Supply Unit"/>
+            <topicref href="common/glossaryperipherals.dita" keys="peripherals"
+                navtitle="Peripherals"/>
+            <topicref href="common/glossaryoperating_system.dita" keys="OS"
+                navtitle="Operating System"/>
+        </topichead>
     </chapter>
     <backmatter>
-        <keydef processing-role="resource-only" keys="author"><topicmeta><keywords><keyword>Robert Palmer</keyword></keywords></topicmeta></keydef>
+        <keydef processing-role="resource-only" keys="author">
+            <topicmeta>
+                <keywords>
+                    <keyword>Robert Palmer</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
         <keydef processing-role="resource-only" keys="homeworkfolder"><topicmeta><keywords><keyword>Robert</keyword></keywords></topicmeta></keydef>
     </backmatter>
 </bookmap>

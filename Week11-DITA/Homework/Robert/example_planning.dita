@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="example_planning">
+    <title>Example Planning</title>
+    <shortdesc>A worked example of a build plan</shortdesc>
+    <taskbody>
+        <context>The first step in building a desktop is to develop a plan</context>
+        <steps>
+            <step>
+                <cmd>What is the desktop for? </cmd>
+                <info>I want to build a new mid-range PC that can also play games at good settings
+                    for the next few years.</info>
+            </step>
+            <step>
+                <cmd>What is your budget?</cmd>
+                <info>
+                    <p>I can spend about $1,000 USD</p>
+                </info>
+            </step>
+            <step>
+                <cmd>Can you reuse any parts? </cmd>
+                <info>My current PC is very old and most of its parts are too obsolete for re-use. I
+                    can salvage my case, storage drive, monitor, and other peripherals
+                    though.</info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

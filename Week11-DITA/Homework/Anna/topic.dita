@@ -1,9 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic">
-    <title>A Topic for <ph keyref="author"/></title>
-    <shortdesc>This is a sample topic. It is in your homework folder and is not shared.</shortdesc>
+    <title>How to Develop a Survey on Qualtrics</title>
+    <shortdesc>This quick overview gets a user started with developing questions in Qualtrics.</shortdesc>
     <body>
-        <p>This is a paragraph.</p>
+        
+        <p> Qualtrics <a href="https://www.qualtrics.com/"> to Qualtrics </a>. is one of the premiere survey and user-experience (UX) design tools currently on the market. It is the most frequently used tool in academic research spaces, in particular, because it is available free of charge to most university students, faculty, and staff.</p>
+        
+        <p> Seeking feedback and upfront information about how a product or service is working - or is intended to work - can save hours of troubleshooting and service updates later. Creating a survey is quick and easy in Qualtrics. </p>
+        
+        <p> Qualtrics easily handles most common survey question types including: </p>
+        
+        <simpletable>
+            <stentry>Question Type</stentry>
+            <stentry>Description of Question</stentry>
+            </sthead>
+            <strow>
+                <stentry>Multiple Choice</stentry>
+                <stentry>"Description of Multiple Choice"</stentry>
+            </strow>
+            <strow>
+                <stentry>Open-ended Text</stentry>
+                <stentry>"Description of Open-ended Text"</stentry>
+                </strow>
+            <strow>
+                <stentry>Matrix Table</stentry>
+                <stentry>"Description of Matrix Table"</stentry>
+            </strow>
+            <strow>
+                <stentry>Slider</stentry>
+                <stentry>"Description of Slider"</stentry>
+            </strow>
+            <strow>
+                <stentry>Form Field</stentry>
+                <stentry>"Description of Form Field"</stentry>
+            </strow>
+            <stentry>Rank Order</stentry>
+            <stentry>"Description of Rank Order"</stentry>
+            </strow>
+            <strow>
+                <stentry>Side-by-Side</stentry>
+                <stentry>"Description of Side-by-Side"</stentry>
+            </strow>
+            <strow>
+                <stentry>Net Promotor Score</stentry>
+                <stentry>"Description of Net Promotor Score"</stentry>
+            </strow>
+            <strow>
+                <stentry>Timing</stentry>
+                <stentry>"Description of Timing"</stentry>
+            </strow>
+            <strow>
+                <stentry>Graphic Slider Likert</stentry>
+                <stentry>"Description of Graphic Slider Likert"</stentry>
+            </strow>
+            <strow>
+                <stentry>Pick-Group-and Rank</stentry>
+                <stentry>"Description of Pick-Group-and-Rank"</stentry>
+                </strow>
+        </simpletable>
+        
+        <p> The basic instructions for setting up a survey do not differ markedly by question type. </p>
+        
+        <p> Working with Qualtrics begins by logging in, typically to a web portal. This step will vary depending upon the home institution. Most universities, for instance, will use a form of two-factor authentication and additional screening from a university-internal domain. </p>
+        <ul>
+        <li> Duo </li>
+        <li> Google Authenticator </li>
+        <li> SMS-based Authentication </li>
+        <li> Email Authentication </li>
+        </ul>
+            
+       <p> Logging in to Qualtrics differs enough at each institution that it is outside the scope of a basic user's guide. Follow institution-specific technical guides specific to each use-case. </p>
+       
+       <p> Once logged in to Qualtrics, however, the overall procedure for developing a new survey is quick and easy. It does not differ by licensing institutions.
+        
+        <ol>
+            <li> From the landing page, click on "Create a Survey." <image href="AnnaImage1.png"/> </li>
+            <li> The first time you log in as a new user, there will be a short user tour. Click "next" at each stage (if applicable) to be introduced to a snapshot of this guide. </li>
+            <li> After completing the tour (if applicable), click on "Survey" under "From Scratch." Then click "Get started." <image href="AnnaImage2.png"/> </li>
+            <li>  Give the project a title, and then click "Create Project." <image href="AnnaImage3.png"/> </li>
+            </ol>
+           
+        <p> It is also possible in Qualtrics to share surveys previously written by other users, or to import questions from a standardized user bank of user-submitted or proprietary questions that cover common use cases. It is also possible to save previously created questions that will be repeated multiple times (e.g. for longitudinal administrations of the same survey or for common questions such as demographics identifiers) in a personal library. 
+           
+           Questions from these sources can be directly imported into a survey. To do so, select the appropriate choice from the dropdown menu and then navigate to where the intended question is located. Selecting a question from an external source will then make it the default first question in the new survey project just named in this step 3. This guide will only cover generating new questions from scratch in detail. Thus, the default selection for the dropdown box of "Create a Blank Survey Project" is assumed to be checked at this stage.
+           
+           Note: Qualtrics will again offer an option for a user tour at this stage. Clicking through it may be additionally helpful. For the purposes of this guide, it is assumed that "Skip Tour" is selected. 
+            <image href="AnnaImage4.png"/> </p>
+           
+           <p> Creating a Survey with a Single Block </p>
+           
+           <p> "Blocks" in a survey are used to gate access. For instance, if specific users are meant to see some questions not others, gated by their answer to an early question. That is, if participants in the morning section are meant to see a set of five questions that all refer to their satisfaction with the "April 6th morning session," while afternoon participants are meant to see the same questions with a wording change to state "April 6th afternoon session," blocking can be very useful. Mechanically, participants are guided to a separate subset of questions - a block - depending upon which answer they give to a "gating" multiple-choice question such as "Which session did you participate on?" followed by a series of discreet answer choices. </p>
+           
+           <p> In this section, the default single question block setup will be used. An initial default question is already provided as a starting point.</p>
+           
+           <ol>
+               <li> To modify the default question, simply click within the box to change text to the desired text. <image href="AnnaImage5.png"/></li>
+               <li> Modify question type using the dropdown box at the left side of the screen. <image href="AnnaImage6.png"/> </li>
+               <li> Each of the possible question types that Qualtrics supports is available from that dropdown menu.</li>
+               <li> Once the correct question type is selected, type-specific characteristics can be altered from the unique question menus for each type.</li>
+               <li> Click the slider(s) to add any response validations or requirements, as appropriate. In the example of  Rank-Order question, for example, appropriate and relevant questions include the nunber of choices, and response requirements.  Response requirements are typical for all question types. They include common error-preventing logical checks such as requiring a response to a specific question (especially a gating question). Adding validation includes error checking mechanisms such as requiring a numerical response to a question asking for a numerical answer. <image href="AnnaImage7.png"/> </li>
+               <li> Add additional questions to the same block by clicking on "Add New Question" and selecting the question type. New questions by default will be added immediately after the previous question. <image href="AnnaImage8.png"/></li>
+               <li> Move questions and reorder by clicking the ... menu item at the top left of the question.</li>
+               <li> Select "Move Question" from the resulting dropdown menu. <image href="AnnaImage9.png"/> </li>
+               <li> Then select where to move the question from the resulting pop up. <image href="AnnaImage10.png"/></li>
+           </ol>
+           <p> These basic steps will enable any user to create a straightforward feedback survey, planning survey, or otherwise engage with users. More advanced users can refer to additional guides for more detailed guides to block structure, logical skips, and other advanced survey programming.</p>
     </body>
 </topic>

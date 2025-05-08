@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="prepare_the_area">
+    <title>Prepare the Area</title>
+    <shortdesc>Make assembly easier and safer with a prepared area</shortdesc>
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Make sure your work area is clean, well lit, and has a non-conductive surface
+                    to work on. This will make finding dropped screws much easier, and prevent
+                    accidental electrostatic discharge from damaging your components while
+                    assembling. An electrostatic discharge wristband, which grounds your body so you
+                    don’t break sensitive electronics with a static shock, is nice to have but not
+                    strictly necessary as most components have a thin coating to mitigate static
+                    discharge. It’s under $10 on Amazon if you’re really worried though. You can
+                    also invest into an electrostatic dissipative mat and rubber soled shoes if
+                    you’re very concerned.</cmd>
+            </step>
+            <step>
+                <cmd>Gather your tools</cmd>
+                <info>
+                    <ul id="substeps_fss_vsn_gfc">
+                        <li>Thermal Paste</li>
+                        <li>Phillip’s head screwdriver</li>
+                        <li>Zip or twist ties</li>
+                        <li>Tweezers</li>
+                        <li>Flashlight</li>
+                        <li>Electrostatic Discharge Wristband (optional)</li>
+                        <li>Bootable media for installing your OS</li>
+                    </ul>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

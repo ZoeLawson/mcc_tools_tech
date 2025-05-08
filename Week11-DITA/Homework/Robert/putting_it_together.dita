@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="putting_it_together">
+    <title>Putting it Together</title>
+    <shortdesc>Planning a build, acquiring parts, and assembling a desktop</shortdesc>
+    <taskbody>
+        <context>This will provide a worked example of determining what kind of desktop PC we want,
+            finding the parts for the build, and then assembling the desktop.</context>
+        <steps>
+            <step>
+                <cmd><xref href="planning_the_build.dita">Plan the build</xref></cmd>
+            </step>
+            <step>
+                <cmd><xref href="shopping_for_components.dita">Shop for components</xref></cmd>
+            </step>
+            <step>
+                <cmd>Assemble the parts</cmd>
+            </step>
+            <step>
+                <cmd>Enjoy your PC</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

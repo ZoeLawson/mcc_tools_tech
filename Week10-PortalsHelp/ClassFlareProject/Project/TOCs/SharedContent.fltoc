@@ -84,5 +84,9 @@
     StartSection="false" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/F_RobertPalmer/RobertPalmer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Link="/Content/F_RobertPalmer/RobertPalmer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/F_RobertPalmer/Test Topic (for testing).htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
 </CatapultToc>

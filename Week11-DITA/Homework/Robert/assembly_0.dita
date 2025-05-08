@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="assembly_0">
+    <title>Assembly</title>
+    <shortdesc>It is finally time to start connecting components</shortdesc>
+    <taskbody>
+        <context>You should never force any components together. All connectors are keyed to only go
+            together one way, and will eventually snap together with moderate pressure. Getting them
+            apart again usually involves lifting a latch or tab and can be quite difficult.<p>Turn
+                off the PSU and unplug the cable from the socket before adjusting any cabling or
+                components. Never install or remove any component while the PSU is connected to the
+                wall outlet.</p></context>
+        <steps>
+            <step>
+                <cmd>First install the CPU into the socket on the motherboard according to the CPU
+                    instructions.</cmd>
+                <substeps id="substeps_slr_rtn_gfc">
+                    <substep>
+                        <cmd>Do not force the CPU into the socket. If it doesn’t settle in with
+                            light pressure check the alignment of the CPU with socket and try again.
+                        </cmd>
+                    </substep>
+                    <substep>
+                        <cmd>If it still doesn’t settle in re-verify you have the right type of
+                            motherboard socket for your CPU.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Build the clips for the cooler around the CPU socket.</cmd>
+                <substeps id="substeps_qtg_c5n_gfc">
+                    <substep>
+                        <cmd>If you have an M.2 SSD storage device now is the best time to install
+                            it into the motherboard. This kind of device connects directly to the
+                            motherboard, and as more components are added it will be harder to get
+                            your hands in there.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Install the motherboard into the case.</cmd>
+                <substeps id="substeps_c4x_g5n_gfc">
+                    <substep>
+                        <cmd>Carefully align the holes in the motherboard with the holes in the
+                            case.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Place screws in an X pattern, starting from the corners and working
+                            inwards. After placing one screw place the next on the opposite corner.
+                            Do not tighten until all screws are placed.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Gently tighten screws in the same X pattern, again starting from the
+                            corners and working inwards.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Do not overtighten the screws. This can damage the motherboard.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Instal the PSU, but do NOT plug it in yet.</cmd>
+            </step>
+            <step>
+                <cmd>Carefully install the GPU, RAM, and any other cards into their respective
+                    slots.</cmd>
+                <substeps id="substeps_kys_k5n_gfc">
+                    <substep>
+                        <cmd>Do not use excessive force. All components should slot into place with
+                            steady medium pressure.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Ensure the clips that hold the RAM cards in place are snug. Improperly
+                            slotted RAM can damage the RAM and cause the system to not boot
+                            up.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Install fans into the case if they did not already come screwed in.</cmd>
+                <info>
+                    <ol id="ol_mtm_n5n_gfc">
+                        <li>Intake fans should be on the front of the case</li>
+                        <li>Exhaust fans should be on the rear of the case</li>
+                        <li>The difference between an intake fan and an exhaust fan is usually just
+                            orientation. There is an arrow on the fan to indicate airflow
+                            direction.</li>
+                    </ol>
+                </info>
+            </step>
+            <step>
+                <cmd>Connect case fans, lights, and any other peripherals to the motherboard.</cmd>
+            </step>
+            <step>
+                <cmd>Connect the PSU to the motherboard, GPU, and any other peripherals.</cmd>
+                <substeps id="substeps_ptg_r5n_gfc">
+                    <substep>
+                        <cmd>Double check the PSU is turned off and unplugged before connecting or
+                            disconnecting any cables.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>All power cables should snap into place with firm, medium
+                            pressure.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Finish installing the heatsink and cooler according to their directions.</cmd>
+                <substeps id="substeps_k12_t5n_gfc">
+                    <substep>
+                        <cmd>You only need a pea sized amount of thermal paste for the heatsink.
+                        </cmd>
+                    </substep>
+                    <substep>
+                        <cmd>I save this step for last because the cooler will block access to a
+                            large section of the motherboard and make connecting any cables much
+                            more difficult.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Tidy up the cabling.</cmd>
+                <substeps id="substeps_hqw_55n_gfc">
+                    <substep>
+                        <cmd>Zip ties or twist ties work to keep cables secured.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>In particular make sure cable are clear of any fans.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+    </taskbody>
+</task>

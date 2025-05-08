@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="planning_the_build">
+    <title>Planning the Build</title>
+    <shortdesc>Determine your budget and purpose before going shopping</shortdesc>
+    <taskbody>
+        <context>
+            <p>The number of options in computer parts available is at the same time one of the
+                prime reasons to build your own desktop and one of the prime obstacles to overcome.
+                It is very easy to become overwhelmed with options without a plan, and just buying
+                whatever looks good or is on sale is a sure route to compatibility issues and
+                spending money on performance the rest of your machine cannot use. You need a plan
+                before you start shopping for parts. Consider the following points before diving
+                into parts list:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>What is the desktop for? </cmd>
+                <info>What are you going to do with your desktop that requires more power than a
+                    laptop or pre-built desktop? Do you need a powerful graphics card for 3D
+                    modelling and cutting-edge gaming graphics, or can you get by with a lesser
+                    option?</info>
+            </step>
+            <step>
+                <cmd>What is your budget?</cmd>
+                <info>Costs for building a desktop can vary wildly, from a few hundred dollars to
+                    several thousand at the high end. Setting an overall target budget before you
+                    start will inform the general performance range to look at and roughly how much
+                    to spend on each component. There’s no point buying a high end $900 graphics
+                    card for a $1,000 total budget build, you won’t even be able to afford a power
+                    supply and case!</info>
+            </step>
+            <step>
+                <cmd>Can you reuse any parts? </cmd>
+                <info>If you already have a desktop, some of the parts may be reusable, saving money
+                    out of your budget that can then be applied to other parts. Broadly speaking,
+                    all peripherals, such as a keyboard, mouse, monitor, or speakers, can be reused
+                    without problem assuming they still fit your needs. Legacy equipment, like a
+                    PS/2 mouse, might need replacement or at least an adapter for modern systems,
+                    but generally it’s not a problem. Some internal components can also be reused,
+                    but you will have to do research to see if they are compatible. In general, do
+                    not reuse power supplies, because they have limited lives and power supply
+                    faults can damage your new parts.</info>
+            </step>
+            <step>
+                <cmd>Avoid bottlenecks</cmd>
+                <info>Computers are limited by their slowest part, something commonly called
+                        <b>bottlenecking</b>. A $900 graphics card is wasted on a build with a $50
+                    processor and $50 worth of RAM because the rest of the machine will not be able
+                    to keep up with it. It is better to approximately match performance across parts
+                    so no one component is holding your desktop back.</info>
+            </step>
+            <step>
+                <cmd>Futureproofing </cmd>
+                <info>I recommend planning your build around currently available parts that meet
+                    your current needs. In general, it’s not worth trying to anticipate future
+                    hardware trends and overspend on components now in order to stay ahead of the
+                    curve later. Cutting edge technology usually comes at a premium and will be
+                    outdated in six months. Pricing and availability are also influenced as much by
+                    geopolitics as advances in technology, meaning it can be difficult to guess how
+                    much a component will cost a year from now or what the state of the art will be.
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="where_to_buy">
+    <title>Where to buy components</title>
+    <shortdesc>Components can be purchased either online or from physical retailers</shortdesc>
+    <conbody>
+        <p>Once you’ve finalized your parts list finding a good price from a seller with stock can
+            be a challenging task. Prices can fluctuate over a matter of months depending on new
+            technology, political circumstances, and changes in demand. Two parts that are near
+            identical may vary significantly in price due to branding or seller. </p>
+        <p>The majority of sellers in the US operate through online storefronts rather than keeping
+            stock in physical stores. While you might find a small local parts seller near you,
+            there is only one brick and mortar retailer of note in the US: Micro Center.</p>
+        <section id="section_kkg_bnn_gfc">
+            <title>
+                <ph id="Toc187072301">Online</ph></title>
+            <p>The largest online computer parts suppliers in the US are Amazon and Newegg with Best
+                Buy being a distant third, but their offerings and policies have become very similar
+                over time. Newegg has a slightly more generous return policy with no restocking fees
+                for returned goods, while Amazon inconsistently charges a percentage. In general,
+                though, go with whichever merchant is listed on PCPartPicker’s parts list at the
+                time to take advantage of sales. </p>
+        </section>
+        <section id="section_lkg_bnn_gfc">
+            <title>
+                <ph id="Toc187072302">Physical</ph></title>
+            <p><xref href="https://www.microcenter.com/" format="html" scope="external">Micro
+                    Center</xref> is the only nationwide brick and mortar computer parts retailer
+                left in the US, but it has held on for a reason. Micro Center frequently has bundles
+                and deals that nothing online can compare to, but such deals are almost always in
+                store pick up only. Willingness and ability to travel to a Micro Center can result
+                in significantly better parts for less than what would be available online or at any
+                other retailer. Micro Center currently has 28 stores spread across the US in 19
+                states.</p>
+        </section>
+    </conbody>
+</concept>

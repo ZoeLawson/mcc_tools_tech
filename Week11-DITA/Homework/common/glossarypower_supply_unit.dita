@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossaryentry.dtd">
+<glossentry id="glossarypower_supply_unit">
+    <glossterm>Power Supply Unit</glossterm>
+    <glossdef>
+        <p>The Power Supply Unit converts wall outlet power into power for your machine. It connects
+            to your motherboard and has additional connectors for other components such as hard
+            drives and GPUs. A modular PSU means that cables can be removed as needed, making cable
+            management much easier and airflow better at a small premium.</p>
+        <p>How much wattage you will need for your PSU depends on the components in your system. You
+            can add up the total power draw from each component, which will be listed in each
+            component’s technical manual, and then add extra wattage to help with efficiency. Power
+            supplies are typically most efficient at around 50% of nominal capacity, so if your
+            total power draw is 300 watts then a 600-watt PSU will be most efficient. A PSU
+            constantly operating near maximum load will generate a lot of heat and require noisy
+            fans to cool, and will also wear out faster and put your system at risk. </p>
+        <p> It is very important to get a trusted, high-quality PSU. Defects in your PSU can lead to
+            your whole system being destroyed by power surges. Do not reuse a PSU, and try to remind
+            yourself to replace your PSU every five years or so, especially on high end systems. An
+            “80 Plus” rating can be an indicator of quality and efficiency. When buying a PSU don’t
+            rely on just the brand name, look at the overall reviews for each model.</p>
+    </glossdef>
+</glossentry>

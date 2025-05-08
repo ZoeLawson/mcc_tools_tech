@@ -4,7 +4,6 @@
     <title>Example Concept File</title>
     <shortdesc>An example DITA topic of type concept. This is a shared topic.</shortdesc>
     <conbody>
-        <p>Concepts should describe things. All the background information about the thing.</p>
-        <p>Concepts are not overly structured.</p>
+        <p>This thing is compliated and involves several parts. So many the parts</p>
     </conbody>
 </concept>

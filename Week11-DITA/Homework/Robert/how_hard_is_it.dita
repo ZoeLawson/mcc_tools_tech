@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="how_hard_is_it">
+    <title>How Hard is it?</title>
+    <shortdesc>How difficult is it to build a desktop PC?</shortdesc>
+    <conbody>
+        <p>Building a desktop is not as complex as it might seem at first. Most parts and cables
+            snap together with a little pressure or only require a few screws to hold in place.
+            Connectors are generally clearly labeled and designed to only go together one way,
+            making it difficult to go wrong during assembly. It’s not substantially more difficult
+            than assembling a LEGO set or building an IKEA bookshelf, although the specter of
+            financial risk when placing a $200 processor into a $100 motherboard can make it feel
+            like more of an ordeal.</p>
+        <p>The most difficult part of building a desktop is not the labor required to put everything
+            together, but the planning that goes into selecting parts. The number of possible
+            components and configurations can very easily seem overwhelming. The reader needs the
+            ability to gauge their own needs, set a budget, do basic internet research, handle
+            simple tools, and follow basic directions.</p>
+    </conbody>
+</concept>

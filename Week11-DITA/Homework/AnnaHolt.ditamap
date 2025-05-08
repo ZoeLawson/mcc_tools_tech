@@ -30,13 +30,20 @@
             <toc/>
         </booklists>
     </frontmatter>
-    <chapter href="Anna/topic.dita">
-        <topicref href="common/concept.dita"/>
-        <topicref href="common/task.dita"/>
-        <topicref href="common/reference.dita"/>
+    <chapter href="common/how_to_make_a_qualtrics_survey.dita">
+        <topicref href="common/types_of_questions.dita"/>
+        <topicref href="common/question_details.dita"/>
+        <topicref href="common/survey_instructions.dita"/>
+        <topicref href="common/single_block.dita"/>
     </chapter>
     <backmatter>
-        <keydef processing-role="resource-only" keys="author"><topicmeta><keywords><keyword>Anna Holt</keyword></keywords></topicmeta></keydef>
+        <keydef processing-role="resource-only" keys="author">
+            <topicmeta>
+                <keywords>
+                    <keyword>Anna Holt</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
         <keydef processing-role="resource-only" keys="homeworkfolder"><topicmeta><keywords><keyword>Anna</keyword></keywords></topicmeta></keydef>
     </backmatter>
 </bookmap>

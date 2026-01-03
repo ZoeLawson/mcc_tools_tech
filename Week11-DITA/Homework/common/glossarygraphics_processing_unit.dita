@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossaryentry.dtd">
+<glossentry id="glossarygraphics_processing_unit">
+    <glossterm>Graphics Processing Unit</glossterm>
+    <glossdef>
+        <p>The graphics processing unit is a dedicated processor, separate from the CPU, that draws
+            images and graphics. The power of your GPU will determine how good displayed images
+            look. This is likely the most or second most expensive part in your computer if you want
+            to play games or do any kind of video editing or modeling.</p>
+        <p>GPUs are good at doing large numbers of repetitive tasks, such as drawing hundreds of
+            image frames per second with only slight differences. This also makes GPUs decent at
+            cryptography and generative AI application, although not as good as a specially designed
+            dedicated component. But because GPUs are good enough at those tasks they can be subject
+            to high price volatility whenever a new technology takes off. More than any other
+            component price and availability for GPUs can vary wildly. </p>
+        <p> There are two major GPU competitors, Nvidia and AMD. As a general rule Nvidia pushes
+            performance with a price tag to match while AMD offers more budget conscious GPUs.</p>
+    </glossdef>
+</glossentry>

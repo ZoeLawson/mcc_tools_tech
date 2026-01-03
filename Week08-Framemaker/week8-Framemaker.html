@@ -1,0 +1,318 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+        <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="copyright" content="(C) Copyright 2025">
+        <meta name="DC.rights.owner" content="(C) Copyright 2025">
+        <meta name="generator" content="DITA-OT"><meta name="DC.type" content="concept">
+        <meta name="DC.title" content="FrameMaker">
+        <meta name="abstract" content="">
+        <meta name="description" content="">
+        <meta name="DC.format" content="XHTML">
+        <meta name="DC.identifier" content="title_slide">
+        <link rel="stylesheet" type="text/css" href="commonltr.css">
+        <link rel="stylesheet" type="text/css" href="./common-extended.css"><title>FrameMaker</title>
+        <meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"><link rel="stylesheet" href="../revealjs/dist/reset.css"><link rel="stylesheet" href="../revealjs/dist/reveal.css"><link rel="stylesheet" href="../revealjs/dist/theme/mcc.css" id="theme"><script src="https://kit.fontawesome.com/75bbc01a62.js" crossorigin="anonymous"></script><link rel="stylesheet" href="../revealjs/plugin/highlight/monokai.css" id="highlight-theme"></head>
+        <body><div class="reveal"><div class="slides">
+        <section>
+    <h1 class="title topictitle1" id="ariaid-title1">FrameMaker</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc"></p>
+        </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title2">What is FrameMaker?</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">A component of the Adobe Creative Suite</p>
+        
+        <p class="p">Desktop publishing tool</p>
+        <p class="p">Designed for books</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title3">Fantastic Features</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Way less explody than Word.</p>
+        
+        <p class="p">Define a template (page layout, formatting) you can import easily into your content.</p>
+        <p class="p">Can break up your content into chunks (usually chapters)</p>
+        <p class="p">Index support, Cross-reference support</p>
+        <p class="p">Variable support, Conditional text support</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title4">FrameMaker drawbacks</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">FrameMaker is 30 years old. Some parts are showing their age.</p>
+        
+        <p class="p">Support for newer features have been wedged in without rework.</p>
+        <p class="p">Reuse is a bit klunky.</p>
+        <p class="p">Conditions can be complicated.</p>
+        <p class="p">Linking is very manual.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section><section>
+    <h1 class="title topictitle1" id="ariaid-title5">Unstructured vs Structured</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">There are two modes for FrameMaker</p>
+        
+        <p class="p"><dfn class="term">Unstructured</dfn> (Authoring) - Define page layout and styles and use
+            willy-nilly</p>
+        <p class="p">(Preferably following your company's style guide)</p>
+        <p class="p"><dfn class="term">Structured</dfn> - Graphical representation of SGML/XML</p>
+        <p class="p">Someone needs to define a structure, and you use elements instead of styles.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title6">More on structured authoring</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Overly simplified: Enforced style guide to ensure content is organized
+        properly.</p>
+        
+        <p class="p">For example, you can define that when documenting a procedure, you need an introduction,
+            a list of prerequisites, a lead in sentence, the procedure, and then results. </p>
+        <p class="p">In unstructured authoring, you (or an editor) have to remember which styles to apply
+            where. If you disagree with a style, you may "forget" to use them.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title7">Structured authoring continued...</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc">In structured authoring, the tooling enforces the styles and the
+        structure.</p>
+        
+        <p class="p">A task topic must have a title.</p>
+        <p class="p">The title in the task must be followed by an introduction.</p>
+        <p class="p">The introduction can be followed by prerequisites. Prerequisites must be a list.</p>
+        <p class="p">etc...</p>
+        
+        
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section><section>
+    <h1 class="title topictitle1" id="ariaid-title8">Books and files</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">There are three major types of files in FrameMaker</p>
+        
+        <p class="p"><dfn class="term">Book files</dfn> - This file is a container for the content of your book. </p>
+        <p class="p"><dfn class="term">Content files</dfn> - The files that contain your content.</p>
+        <p class="p"><dfn class="term">Generated files</dfn> - Based on information in content files, create table of
+            contents, list of things, index, etc.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title9">Templates</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc">FrameMaker is designed for print.</p>
+        
+        <p class="p">Templates include style catalogs, page layouts, color definitions, variables,
+            cross-reference formats, etc.</p>
+        <p class="p">You can import some or all of these items from any FrameMaker file into any other
+            FrameMaker file. </p>
+        <p class="p">I'll go into more nitty gritty next week.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section><section>
+    <h1 class="title topictitle1" id="ariaid-title10">Unstructured content files</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Make sure FrameMaker is in Authoring mode.</p>
+        
+        <p class="p">If all you're doing is writing, use the template assigned to you.</p>
+        <p class="p">There is a paragraph catalog of all the paragraph tags.</p>
+        <p class="p">There is a character catalog of all the character tags.</p>
+        <p class="p">There's a table catalog of all the table designs.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title11">Nifty features</h2>
+        
+    <div class="body conbody">
+        <p class="p"><dfn class="term">Markers</dfn> - Use to define index terms, markers for context sensitive help, and
+            many other things.</p>
+        <p class="p"><dfn class="term">Conditional text</dfn> - You can hide comments from production builds, or mark
+            text that should only appear for certain products or versions. </p>
+        <p class="p"><dfn class="term">Cross-references</dfn> - You can insert links to other parts of the document,
+            including pre-defined formats</p>
+        <p class="p"><dfn class="term">Variables</dfn> - Specific phrases (with character tags) that can be reused and
+            updated. For example, a version number or publication date.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title12">Insert an image</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc"></p>
+        
+        <ol class="ol">
+            <li class="li">Use an anchor paragraph.</li>
+        
+            <li class="li">Insert an Anchored Frame (<span class="ph menucascade"><span class="ph uicontrol">Insert</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Anchored Frame</span></span>).</li>
+        
+            <li class="li">Select the Anchored Frame.</li>
+        
+            <li class="li">Insert a graphic (<span class="ph menucascade"><span class="ph uicontrol">File</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Import</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">File</span></span>). Make sure you import by reference.</li>
+        
+            <li class="li">Select the resolution for the image.</li>
+        
+        </ol>
+        
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title13">Anchored frames</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc">FrameMaker is named after these "frames"</p>
+        
+        <p class="p">You can control where the frames go better than Word, so special objects go where you
+            want them.</p>
+        <p class="p">Frames can contain images, text, equations, etc.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title14">Text frames</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc">FrameMaker's answer to sub-file reuse.</p>
+        
+        <p class="p">You can re-use chapter files between books.</p>
+        <p class="p">If you want to reuse a chunk of text, put it into a separate file in a named frame.</p>
+        <p class="p">You can then reference that frame in other documents.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title15">Generated files</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Minimally create a Table of Contents (a list of specific headings with page
+        numbers)</p>
+        
+        <p class="p">Often include an Index (an alphabetized list of index markers)</p>
+        <p class="p">List of tables or list of figures.</p>
+        <p class="p">For troubleshooting or clean up, you can get list of referenced files, etc.</p>
+        <p class="p">You update the book to regenerate and update all references.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section><section>
+    <h1 class="title topictitle1" id="ariaid-title16">Structured files</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Make sure FrameMaker is in XML/Structured mode.</p>
+        
+        <p class="p">FrameMaker provides an 'easy' way to define your own structure for your business
+            purposes.</p>
+        <p class="p">I have never used it.</p>
+        <p class="p">Designing a structure is HARD.</p>
+        <p class="p">However, there is a structure that exists that FrameMaker supports: DITA.</p>
+        <p class="p">We'll be talking about DITA later, but at least we can look at structured FrameMaker with
+            it</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title17">Authoring in structured mode</h2>
+        
+    
+    <div class="body conbody"><p class="shortdesc">I have never used this mode, so this is theoretical.</p>
+        
+        <p class="p">Instead of using paragraph tags and character tags, you insert elements.</p>
+        <p class="p">There are rules about where elements can go.</p>
+        <p class="p">You have to learn the structure and adapt your writing to it.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title18">Live Demo</h1>
+        
+    <div class="body conbody">
+        <p class="p">Or: watch me try to remember how to use a tool I am rather rusty in.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section><section>
+    <h1 class="title topictitle1" id="ariaid-title19">Week 8 Homework</h1>
+        
+    
+    <div class="body conbody"><p class="shortdesc">Document a thing using the supplied unstructured FrameMaker document.</p>
+        
+        <p class="p">Download the FrameMaker trial from <a class="xref" href="https://www.adobe.com/products/framemaker.html" target="_blank">https://www.adobe.com/products/framemaker.html</a></p>
+        <p class="p">Each of you has a folder in the Week08-Framemaker folder. </p>
+        <p class="p">Open your book. Intro.fm has instructions.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
+    <h2 class="title topictitle2" id="ariaid-title20">For Mac Users</h2>
+        
+    <div class="body conbody">
+        <p class="p">FrameMaker requires Windows.</p>
+        <p class="p">If you can't make arrangements to have access to a Windows system: </p>
+        <p class="p">Watch tutorials, and read the Adobe help and write up how you would use FrameMaker if you
+            could. </p>
+        <p class="p">You can use any tool of your choice.</p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section><section>
+    <h1 class="title topictitle1" id="ariaid-title21">Resources</h1>
+        
+    <div class="body conbody">
+        <p class="p">Adobe FrameMaker tutorials, support, etc.: <a class="xref" href="https://helpx.adobe.com/support/framemaker.html" target="_blank">https://helpx.adobe.com/support/framemaker.html</a></p>
+        <p class="p"><a class="xref" href="https://helpx.adobe.com/framemaker/help/help-resources.html" target="_blank">https://helpx.adobe.com/framemaker/help/help-resources.html</a></p>
+    </div>
+        
+<div class="footer">Middlesex Community College - Tools and Technologies for Tech Writers - Winter 2025</div></section></div></div><script src="../revealjs/dist/reveal.js"></script><script src="../revealjs/plugin/notes/notes.js"></script><script src="../revealjs/plugin/markdown/markdown.js"></script><script src="../revealjs/plugin/highlight/highlight.js"></script><script type="text/javascript">
+                
+               
+                // More info about initialization and config:
+                // - https://revealjs.com/initialization/
+                // - https://revealjs.com/config/
+                Reveal.initialize({
+                
+                    // parallaxBackgroundHorizontal: null,
+                    // parallaxBackgroundImage: '',
+                    // parallaxBackgroundSize: '',
+                    // parallaxBackgroundVertical: null,
+                    autoSlide: 0,
+                    autoSlideStoppable: true,
+                    backgroundTransition: 'default',
+                    center: true,
+                    controls: true,
+                    controlsLayout: 'edges',
+                    embedded: false,
+                    fragments: true,
+                    hash: true,
+                    height: 700,
+                    hideAddressBar: true,
+                    history: true,
+                    keyboard: true,
+                    loop: false,
+                    margin: 0.1,
+                    maxScale: 1.5,
+                    minScale: 0.2,
+                    mouseWheel: false,
+                    overview: true,
+                    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+                    previewLinks: false,
+                    progress: true,
+                    rtl: false,
+                    slideNumber: false,
+                    touch: true,
+                    transition: 'default',
+                    transitionSpeed: 'default',
+                    viewDistance: 3,
+                    width: 960
+                });
+                
+                Reveal.addEventListener( 'slidechanged', function( event ) {
+                    zoomSection();
+                } );
+                
+                $( document ).ready(function() {});
+            </script></body></html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="insert_a_link_to_external_content">
+    <title>Insert a link to external content</title>
+    <shortdesc>If you want to link to anything on the internet, use an external
+        cross-reference.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Add an <xmlelement>xref</xmlelement> element.</cmd>
+            </step>
+            <step>
+                <cmd>Add the <xmlatt>href</xmlatt> attribute with the relative path to the topic you
+                    want to link to.</cmd>
+            </step>
+            <step>
+                <cmd>Add the <xmlatt>scope</xmlatt> attribute and set it to
+                        <userinput>external</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Add the <xmlatt>format</xmlatt> attribute and set it to the type of content you
+                    are pointing to. In general, if you are pointing to a web page, use
+                        <userinput>html</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd importance="optional">Provide text for the link as the contents of the
+                        <xmlelement>xref</xmlelement> element.</cmd>
+            </step>
+        </steps>
+        <example>For example, here's a link to <xref href="http://www.google.com" scope="external"
+                format="html">Google</xref>. The source is <codeph>&lt;xref
+                href="http://www.google.com" scope="external"
+                format="html">Google&lt;/xref></codeph>.</example>
+    </taskbody>
+</task>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_basics">
+    <title>Concept Basics</title>
+    <shortdesc>A topic that describes an idea.</shortdesc>
+    <conbody>
+        <p>Concepts are the most generic of the specialized topics.</p>
+        <p>A concept topic must contain the following:</p>
+        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="All_topics_must_have_an_id">
+    &lt;title>Topic title&lt;/title>
+    &lt;shortdesc>The short description of the topic&lt;/shortdesc>
+    &lt;conbody>
+        &lt;p>Your topic content goes here. Most all basic authoring elements are 
+           allowed here.&lt;/p>
+    &lt;/conbody>
+&lt;/concept></codeblock>
+        <dl>
+            <dlentry>
+                <dt><xmlelement>concept</xmlelement></dt>
+                <dd>The root element for the concept topic.</dd>
+            </dlentry>
+            <dlentry>
+                <dt><xmlelement>title</xmlelement></dt>
+                <dd>All topics must have a title. Unless you provide
+                        <xmlelement>titlealts</xmlelement> (alternative titles for search results or
+                    navigation), the content of this element shows up wherever you link to this
+                    topic. The <xmlelement>title</xmlelement> appears in the topic as the heading,
+                    in the table of contents, and as the generated text in links to this topic.</dd>
+            </dlentry>
+            <dlentry>
+                <dt><xmlelement>shortdesc</xmlelement></dt>
+                <dd>While not required, the short description  really, really should be. See <xref
+                        href="about_short_descriptions.dita"/>.</dd>
+            </dlentry>
+            <dlentry>
+                <dt><xmlelement>conbody</xmlelement></dt>
+                <dd>Container for the content, or body, of the topic.</dd>
+            </dlentry>
+        </dl>
+        <p>The <xmlelement>conbody</xmlelement> contains the meat of your topic. You can use most
+            all of the basic building blocks in a concept. See <xref href="basic_authoring.dita"
+            />.</p>
+    </conbody>
+</concept>

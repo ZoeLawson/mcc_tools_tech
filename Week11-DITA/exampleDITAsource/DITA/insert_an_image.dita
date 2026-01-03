@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="insert_an_image">
+    <title>Insert an image</title>
+    <shortdesc>Inserting images in DITA is similar to adding an image in HTML.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Add an <xmlelement>image</xmlelement> element.</cmd>
+            </step>
+            <step>
+                <cmd>Add the <xmlatt>href</xmlatt> attribute, providing the relative path to the
+                    image file you want to include.</cmd>
+            </step>
+            <step>
+                <cmd>If this is a large image, add the <xmlatt>placement</xmlatt> attribute and set
+                    it to <userinput>break</userinput>.</cmd>
+            </step>
+        </steps>
+        <postreq>See also the Oxygen XML instructions: <xref
+                href="https://www.oxygenxml.com/doc/versions/26.1/ug-author/topics/author_adding_images.html"
+                format="html" scope="external"/>.</postreq>
+    </taskbody>
+</task>

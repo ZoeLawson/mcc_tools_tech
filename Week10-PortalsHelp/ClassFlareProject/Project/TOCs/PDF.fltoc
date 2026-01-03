@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="">
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Z_Shared/PrintCover.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="pageLayout"
+    PageType="title"
+    conditions="Default.PrintOnly"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/Frontmatter.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    ReplaceMergeNode="false" />
+  <TocEntry
+    Title="SharedContent"
+    Link="/Project/TOCs/SharedContent.fltoc"
+    SyncDocumentTitle="False"
+    ReplaceMergeNode="true"
+    AutoMerge="replace" />
+</CatapultToc>

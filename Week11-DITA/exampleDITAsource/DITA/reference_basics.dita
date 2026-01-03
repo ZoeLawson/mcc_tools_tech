@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="reference_basics">
+    <title>Reference basics</title>
+    <shortdesc>Reference topics are designed for information you look up.</shortdesc>
+    <conbody>
+        <p>The reference topics are mildly restricted. Many people get mildly stymied by reference
+            topics at first due to these restrictions.</p>
+        <p>The reference topic is similar to the concept topic, except there's an odd list of things
+            you can put into the <xmlelement>refbody</xmlelement>.</p>
+        <p>A reference topic must contain the following:</p>
+        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"&gt;
+&lt;reference id="All_topics_must_have_an_id">
+    &lt;title>Topic title&lt;/title>
+    &lt;shortdesc>The short description of the topic&lt;/shortdesc>
+    &lt;refbody>
+        &lt;section>
+            &lt;p>The &lt;refbody> can contain one of the following:&lt;/p>
+            &lt;ul>
+                 &lt;li>section&lt;/li>
+                 &lt;li>table&lt;/li>
+                 &lt;li>example&lt;/li>
+                 &lt;li>refsyn&lt;/li>
+                 &lt;li>properties&lt;/li>
+            &lt;/ul>
+        &lt;/section>
+    &lt;/refbody>
+&lt;/reference></codeblock>
+        <dl>
+            <dlentry>
+                <dt><xmlelement>reference</xmlelement></dt>
+                <dd>The root element for the reference topic.</dd>
+            </dlentry>
+            <dlentry>
+                <dt><xmlelement>title</xmlelement></dt>
+                <dd>All topics must have a title. Unless you provide
+                        <xmlelement>titlealts</xmlelement> (alternative titles for search results or
+                    navigation), the content of this element shows up wherever you link to this
+                    topic. The <xmlelement>title</xmlelement> appears in the topic as the heading,
+                    in the table of contents, and as the generated text in links to this topic.</dd>
+            </dlentry>
+            <dlentry>
+                <dt><xmlelement>shortdesc</xmlelement></dt>
+                <dd>While not required, the short description  really, really should be. See <xref
+                        href="about_short_descriptions.dita"/>.</dd>
+            </dlentry>
+            <dlentry>
+                <dt><xmlelement>refbody</xmlelement></dt>
+                <dd>Container for the content, or body, of the topic. The
+                        <xmlelement>refbody</xmlelement> is restricted and you can only add one of
+                    the following:<ul>
+                        <li><xmlelement>example</xmlelement> — A specialized section that can
+                            contain any of the basic authoring elements that's intended to be an
+                            example of something.</li>
+                        <li><xmlelement>properties</xmlelement> — A specialized table for a list of
+                            properties and description. (This option is going away and is rarely
+                            used. I would avoid using it.)</li>
+                        <li><xmlelement>refsyn</xmlelement> — A specialized section container for
+                            syntax items. Syntax generally refers to command line or programming
+                            objects. This block can contain any of the basic authoring
+                            elements.</li>
+                        <li><xmlelement>section</xmlelement> — A container for any of the basic
+                            authoring elements.</li>
+                        <li><xmlelement>table</xmlelement> — A table. If you feel you need some
+                            introductory text, you'll have to add a <xmlelement>section</xmlelement>
+                            element before the <xmlelement>table</xmlelement>. </li>
+                    </ul></dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>

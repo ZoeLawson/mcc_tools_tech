@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="build_a_car">
+    <title>How to Build a Survey in Qualtrics</title>
+    <shortdesc>Instructions on bulding a car</shortdesc>
+    <taskbody>
+        <context>Building a car<p/></context>
+        <steps>
+            <step>
+                <cmd>get tires</cmd>
+            </step>
+            <step>
+                <cmd>get car</cmd>
+            </step>
+            <step>
+                <cmd>assemble</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="basic_authoring">
+    <title>Basic authoring</title>
+    <shortdesc>DITA uses many authoring structures similar to HTML.</shortdesc>
+    <refbody>
+        <section>
+            <p>For the majority of your writing, you use elements that should be familiar. The
+                following elements work exactly the same as HTML.</p>
+            <ul>
+                <li><xmlelement>p</xmlelement></li>
+                <li><xmlelement>ul</xmlelement></li>
+                <li><xmlelement>ol</xmlelement></li>
+                <li><xmlelement>li</xmlelement></li>
+            </ul>
+            <p>There are several elements that are not exactly the same as HTML, but are very
+                similar.</p>
+            <ul>
+                <li><xmlelement>image</xmlelement> — for inserting references to images. </li>
+                <li><xmlelement>note</xmlelement> — for notes, tips, warnings, etc.</li>
+                <li><xmlelement>xref</xmlelement> — for inserting links.</li>
+            </ul>
+            <p>Tables are also similar to HTML, but not quite the same:</p>
+            <codeblock>&lt;table>
+  &lt;title>Optional title for the table&lt;/title>
+  &lt;tgroup cols="2">
+    &lt;colspec colwidth="1*"/>
+    &lt;colspec colwidth="2*"/>
+    &lt;thead>
+      &lt;row>
+        &lt;entry>Animal&lt;/entry>
+        &lt;entry>Gestation&lt;/entry>
+      &lt;/row>
+    &lt;/thead>
+    &lt;tbody>
+      &lt;row>
+        &lt;entry>Elephant (African and Asian)&lt;/entry>
+        &lt;entry>19-22 months&lt;/entry>
+      &lt;/row>
+      &lt;row>
+        &lt;entry>Giraffe&lt;/entry>
+        &lt;entry>15 months&lt;/entry>
+      &lt;/row>
+      &lt;row>
+        &lt;entry>Rhinoceros&lt;/entry>
+        &lt;entry>14-16 months&lt;/entry>
+      &lt;/row>
+      &lt;row>
+        &lt;entry>Hippopotamus&lt;/entry>
+        &lt;entry>7 1/2 months&lt;/entry>
+      &lt;/row>
+    &lt;/tbody>
+  &lt;/tgroup>
+&lt;/table></codeblock>
+      <p>And there additional elements you can use.</p>
+      <ul>
+        <li><xmlelement>fig</xmlelement> — A figure. Use this as a wrapper around an
+            <xmlelement>image</xmlelement> and a <xmlelement>title</xmlelement> to make a figure
+          with a caption.</li>
+        <li><xmlelement>section</xmlelement> — A section. Can contain a title. This enables you to
+          add a chunk of content inside of your topic. Use with caution. If you're making a section,
+          why aren't you making a stand alone topic? There are some good reasons, such as making a
+          set of descriptions that are small that you don't need to have individual topics for.
+            <p>Be aware that how section titles are handled depend on your processing. They may
+            appear like the next level heading, but they might not appear in the table of
+            contents.</p></li>
+        <li><xmlelement>dl</xmlelement> — A definition list. Often when documenting things, you need
+          to have a term followed by a description. (In fact, this bulleted list really should be a
+          definition list instead.) A definition list takes the following format:<codeblock>&lt;dl>
+    &lt;dlentry>
+        &lt;dt>Definition term&lt;/dt>
+        &lt;dd>Definition description. This should contain all sorts of descriptive text.
+            You can use most other blocks such as &lt;p>, &lt;ul>, &lt;image> etc.&lt;/dd>
+        &lt;dd>You can also have additional &lt;dd> elements since one term might have 
+            multiple definitions.&lt;/dd>
+    &lt;/dlentry>
+    &lt;dlentry>
+        &lt;dt>Another term&lt;/dt>
+        &lt;dd>More descriptive text&lt;/dd>
+    &lt;/dlentry>
+&lt;/dl></codeblock><p>How definition lists display depend on your processing. They can
+            appear as tables or lists that look like glossaries, or whatever your heart desires. You
+            can also nest definition lists, which can get entertaining.</p>
+        </li>
+      </ul>
+      <p>This is just a subset of what you can include. These are basic building blocks that
+        generally don't have semantic meaning. </p>
+        </section>
+    </refbody>
+</reference>

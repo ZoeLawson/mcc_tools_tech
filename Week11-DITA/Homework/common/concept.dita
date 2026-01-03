@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept">
+    <title>How to Build a Survey in Qualtrics </title>
+    <shortdesc>An example DITA topic of type concept. This is a shared topic.</shortdesc>
+    <conbody>
+        <p>This thing is compliated and involves several parts. So many the parts</p>
+    </conbody>
+</concept>

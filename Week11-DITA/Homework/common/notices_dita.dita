@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="notices_dita">
+    <title>Middlesex Community College 2025</title>
+    <body>
+        <p>This document was prepared as an assignment for the Middlesex Community College Tools and
+            Technologies for Technical Writers class, Winter semester 2025.</p>
+        <p>Prepared by <ph keyref="author"/>.</p>
+        <p>The name is defined by the value of the <parmname>author</parmname> key defined in your
+            bookmap. I set them up to be your name.</p>
+    </body>
+</topic>

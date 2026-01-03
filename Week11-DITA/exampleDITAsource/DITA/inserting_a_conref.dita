@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="inserting_a_conref">
+    <title>Inserting a conref</title>
+    <shortdesc>You must use the same element that you are referencing.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Insert the same element you are referencing.</cmd>
+                <info>
+                    <p>For example, if you are referencing a <xmlelement>p</xmlelement>, insert a
+                            <xmlelement>p</xmlelement> element.</p>
+                </info>
+            </step>
+            <step>
+                <cmd>Add the <xmlatt>conref</xmlatt> attribute.</cmd>
+            </step>
+            <step>
+                <cmd>Set the value of the <xmlatt>conref</xmlatt> attribute as follows:</cmd>
+                <info>
+                    <p><codeph><varname>Path/to/topic</varname>#<varname>root_id_value</varname>/<varname>element_id</varname></codeph></p>
+                </info>
+            </step>
+        </steps>
+        <example>
+            <p>The following paragraph is an example conref.</p>
+            <p conref="set_up_content_for_a_conref.dita#set_up_content_for_a_conref/example_conref"/>
+            <p>The source looks like this:</p>
+            <codeblock>&lt;p conref="set_up_content_for_a_conref.dita#set_up_content_for_a_conref/example_conref"/></codeblock>
+        </example>
+        <postreq>See also the Oxygen XML documentation: <xref
+                href="https://www.oxygenxml.com/doc/versions/26.1/ug-author/topics/eppo-pathfinder-reuse.html"
+                format="html" scope="external"/>. However, do not use the Oxygen <uicontrol>Reusable
+                Content Component</uicontrol> feature. That is a nice convenience feature, but it
+            makes every single reusable bit in a separate file, which I find unmanageable. In a work
+            scenario, do whatever your information architect, content management specialist, or DITA
+            guru tells you to do.</postreq>
+    </taskbody>
+</task>

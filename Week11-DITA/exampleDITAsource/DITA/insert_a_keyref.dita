@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="insert_a_keyref">
+    <title>Insert a keyref</title>
+    <shortdesc>Key references are easier to use than content references.</shortdesc>
+    <taskbody>
+        <steps-unordered>
+            <step>
+                <cmd>Add the <xmlatt>keyref</xmlatt> attribute to an element set to the value of the
+                        <xmlatt>keys</xmlatt> attribute of the value you want to use.</cmd>
+            </step>
+        </steps-unordered>
+        <example>
+            <p>Here is the sample string: <ph keyref="sample_string"/>. The source is <codeph>&lt;ph
+                    keyref="sample_string"/></codeph>.</p>
+            <p>The following image uses the <xmlatt>keyref</xmlatt>.</p>
+            <image placement="break" keyref="sample_path"/>
+            <p>The source is <codeph>&lt;image placement="break"
+                keyref="sample_path"/></codeph>.</p>
+        </example>
+    </taskbody>
+</task>

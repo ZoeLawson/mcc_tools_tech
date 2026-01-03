@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Login</title>
+      <style>
+         div.container {
+             display: block;
+             margin: auto;
+             font-family: Century Gothic;
+             width: 850pt;
+             height: 375pt;
+             border: solid medium
+          black;
+             background-color: #e6e6ff;
+         }
+         div.logo {
+			    display: block;
+			    width: 199pt;
+			    float: left;
+			    height: 160pt;
+			    background-image: 
+			    radial-gradient(#9966ff, #660066);
+			    color: white;
+			    margin: 18pt;
+			    padding: 6pt;
+			    font-size: 14pt;
+			    font-weight: bold;
+			    text-align: center;
+			    padding-top: 100pt;
+			}
+			p {
+			    display: block;
+			}
+         div.login_form {
+             display: block;
+             float: left;
+             width: 399pt;
+         }
+         div.helpbar {
+             display: block;
+			    float:right;			    
+			    width: 150pt;
+			    margin-right: 36pt;
+         }
+         p.help {
+             display: none;
+             background-color: #e6e6ff;
+             color: black;
+             background-image: none;
+             font-weight: 
+             normal;
+             text-align: left;
+             border: solid thin black;
+             margin-top: 100px;
+             height: 
+             233px;
+             padding-top: 12pt;
+             padding-left: 12pt;
+             padding-right: 12pt;
+         }
+         h1 {
+             font-size: 24pt;
+             font-weight: bold;
+         }
+         fieldset {
+             margin: 18pt;
+         }
+         legend {
+             font-size: 18pt;
+         }
+         label {
+             font-weight: bold;
+             font-size: 16pt;
+             margin-bottom: 
+             6pt;
+             margin-right: 12pt;
+         }
+         input {
+             font-size: 16pt;
+             margin-bottom: 6pt;
+         }
+         img {
+             display: inline;
+             margin-left: 12pt;
+         }
+         a {
+             color: blue;
+             font-size: 14pt;
+         }
+         a:hover
+         {
+             text-decoration: blue underline
+         }
+         .hlpbtn {
+			    margin-left: 12pt;
+			}
+			.hlpbtn:hover {
+			    border: medium groove silver;
+			}
+         div.tada {
+             display: none;
+             background-color: #ffccff;
+             border: thin
+          solid red;
+             margin: 36pt;
+         }
+         p.tada {
+             background-color: #ffccff;
+             color: red;
+             font-size: 72pt;
+             font-family: Century Gothic;
+             background-image: none;
+         }
+         div.oops
+         {
+             font-size: 12pt;
+             font-family: Century Gothic;
+             color: gray;
+             padding: 
+             18pt;
+         }
+         .hlpclose {
+             display: inline-block;
+             float: right;
+         }
+         .imglogo {
+             margin-top: 18pt;
+         }</style>
+      <script src="https://kit.fontawesome.com/75bbc01a62.js" crossorigin="anonymous"></script>
+      <script src=" https://cdn.jsdelivr.net/npm/intro.js@6.0.0/intro.min.js "></script>
+      <link href=" https://cdn.jsdelivr.net/npm/intro.js@6.0.0/introjs.min.css " rel="stylesheet">
+   </head>
+   <body>
+      <div class="container">
+         <div class="logo">
+            <p id="step1">Cool Graphic Here</p>
+         </div>
+         <div class="login_form">
+            <h1 id="pageTitle">Login</h1>
+            <form onsubmit="doThing(); return false;" style="display:block;">
+               <fieldset>
+                  <legend id="formLegend">Something witty here</legend>
+                  <label for="username" id="username_label">UserName</label>
+                  <input id="username" type="text" title="Enter user name">
+                  <i class="fa-solid fa-circle-question hlpbtn" onclick="openHlp('usr');"
+                     title="Click here for help" id="step2"> </i>
+                  <br>
+                  <label for="password" id="password_label">Password</label>
+                  <input id="password" type="text" title="Enter password">
+                  <i class="fa-solid fa-circle-question hlpbtn" onclick="openHlp('pswd');"
+                     title="Click here for help" id="passwordHelp"> </i>
+                  <br>
+                  <input type="submit" value="Submit" id="step3">
+                  <br>
+                  <a id="pswdlink" onclick="alert('This does nothing');">Reset passwrd</a>
+               </fieldset>
+            </form>
+            <p>To start the tour, click <a onclick="startTour();">here</a>.</p>
+            <p><a onclick="ahstartTour();">Anna's Version</a> |
+               <a onclick="dbstartTour();">Daniel's Version</a> |
+               <a onclick="mtfstartTour();">Martine's Version</a> |
+               <a onclick="rpstartTour();">Robert's Version</a> |
+               <a onclick="rrstartTour();">Bobbi's Version</a> |
+         </div>
+         <div id="help" class="helpbar">
+            <p id="usr" class="help"><input type="button"
+                  onclick="document.getElementById('usr').style.display = 'none';" value="X"
+                  class="hlpclose">Your user name is your username. </p>
+            <p id="pswd" class="help"><input type="button"
+                  onclick="document.getElementById('pswd').style.display = 'none';" value="X"
+                  class="hlpclose">Keep your passord private. </p>
+         </div>
+      </div>
+      <div id="thing" class="tada">
+         <p class="tada">Do the thing!<input type="button"
+               onclick="document.getElementById('thing').style.display = 'none';" value="Close"
+               style="margin-left: 600px;"></p>
+      </div>
+      <script>
+            function openHlp(hlpid) {
+                if (hlpid == 'usr') {
+                    document.getElementById('usr').style.display = "block";
+                    document.getElementById('pswd').style.display = "none";
+                } else if (hlpid == 'pswd') {
+                    document.getElementById('usr').style.display = "none";
+                    document.getElementById('pswd').style.display = "block";
+                } else {
+                    alert('Debug: Invalid help ID');
+                }
+            }
+            function doThing() {
+                document.getElementById('thing').style.display = "block";
+            }
+            
+            function startTour() {
+               alert(data);
+            }
+      </script>
+      <script src="readtour.js"></script>
+      <script src="ah_readtour.js"></script>
+      <script src="db_readtour.js"></script>
+      <script src="mtf_readtour.js"></script>
+      <script src="rp_readtour.js"></script>
+      <script src="rr_readtour.js"></script>
+   </body>
+</html>

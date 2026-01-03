@@ -1,0 +1,428 @@
+/**
+ * Based on 
+ * Blood theme for reveal.js
+ * Author: Walther http://github.com/Walther
+ *
+ * Designed to be used with highlight.js theme
+ * "monokai_sublime.css" available from
+ * https://github.com/isagalaev/highlight.js/
+ *
+ * For other themes, change $codeBackground accordingly.
+ *
+ */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,700,300italic,700italic);
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  background: #1B355E;
+  background-color: #1B355E; }
+
+.reveal {
+  font-family: Ubuntu, "sans-serif";
+  font-size: 40px;
+  font-weight: normal;
+  color: white; 
+  z-index: 1;}
+
+::selection {
+  color: #fff;
+  background: #8E781F;
+  text-shadow: none; }
+
+::-moz-selection {
+  color: #fff;
+  background: #8E781F;
+  text-shadow: none; }
+
+.reveal .slides section,
+.reveal .slides section > section {
+  line-height: 1.3;
+  font-weight: inherit; }
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  color: #eee;
+  font-family: Ubuntu, "sans-serif";
+  font-weight: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  word-wrap: break-word; }
+
+.reveal h1 {
+  font-size: 36pt; }
+
+.reveal h2 {
+  font-size: 32pt; }
+
+.reveal h3 {
+  font-size: 28pt; }
+
+.reveal h4 {
+  font-size: 24pt; }
+
+
+/*********************************************
+ * OTHER
+ *********************************************/
+.reveal p {
+  margin: 20px 0;
+  line-height: 1.3; }
+
+/* Ensure certain elements are never larger than the slide itself */
+.reveal img,
+.reveal video,
+.reveal iframe {
+  max-width: 95%;
+  max-height: 95%; }
+
+.reveal strong,
+.reveal b {
+  font-weight: bold; }
+
+.reveal em {
+  font-style: italic; }
+
+.reveal ol,
+.reveal dl,
+.reveal ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0 0 0 1em; }
+
+.reveal ol {
+  list-style-type: decimal; }
+
+.reveal ul {
+  list-style-type: disc; }
+
+.reveal ul ul {
+  list-style-type: square; }
+
+.reveal ul ul ul {
+  list-style-type: circle; }
+
+.reveal ul ul,
+.reveal ul ol,
+.reveal ol ol,
+.reveal ol ul {
+  display: block;
+  margin-left: 40px; }
+
+.reveal dt {
+  font-weight: bold; }
+
+.reveal dd {
+  margin-left: 40px; }
+
+.reveal blockquote {
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: 20px auto;
+  padding: 5px;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+
+.reveal blockquote p:first-child,
+.reveal blockquote p:last-child {
+  display: inline-block; }
+
+.reveal q {
+  font-style: italic; }
+
+.reveal pre {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 20px auto;
+  text-align: left;
+  font-size: 0.55em;
+  font-family: monospace;
+  line-height: 1.2em;
+  word-wrap: break-word;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15); }
+
+.reveal code {
+  font-family: monospace;
+  text-transform: none; }
+
+.reveal pre code {
+  display: block;
+  padding: 5px;
+  overflow: auto;
+  max-height: 400px;
+  word-wrap: normal; }
+
+.reveal table {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.reveal table th {
+  font-weight: bold; }
+
+.reveal table th,
+.reveal table td {
+  text-align: left;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-bottom: 1px solid; }
+
+.reveal table th[align="center"],
+.reveal table td[align="center"] {
+  text-align: center; }
+
+.reveal table th[align="right"],
+.reveal table td[align="right"] {
+  text-align: right; }
+
+.reveal table tbody tr:last-child th,
+.reveal table tbody tr:last-child td {
+  border-bottom: none; }
+
+.reveal sup {
+  vertical-align: super;
+  font-size: smaller; }
+
+.reveal sub {
+  vertical-align: sub;
+  font-size: smaller; }
+
+.reveal small {
+  display: inline-block;
+  font-size: 0.6em;
+  line-height: 1.2em;
+  vertical-align: top; }
+
+.reveal small * {
+  vertical-align: top; }
+
+/*********************************************
+ * LINKS
+ *********************************************/
+.reveal a {
+  color: #E4A77E;
+  text-decoration: none;
+  -webkit-transition: color .15s ease;
+  -moz-transition: color .15s ease;
+  transition: color .15s ease; 
+  border-bottom: thin dotted #E4A77E; }
+
+.reveal a:hover {
+  color: #8E781F;
+  text-shadow: none;
+  border-bottom: thin dotted #8E781F; }
+
+.reveal .roll span:after {
+  color: #fff;
+  background: #6a1520; }
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section img {
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 4px solid #eee;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+
+.reveal section img.plain {
+  border: 0;
+  box-shadow: none; }
+
+.reveal a img {
+  -webkit-transition: all .15s linear;
+  -moz-transition: all .15s linear;
+  transition: all .15s linear; }
+
+.reveal a:hover img {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #a23;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls {
+  color: white; }
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2);
+  color: #a23; }
+
+.reveal .progress span {
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+/*********************************************
+ * PRINT BACKGROUND
+ *********************************************/
+@media print {
+  .backgrounds {
+    background-color: #222; } }
+
+.reveal p {
+  font-weight: 300;
+  text-align: left; }
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-weight: 700;
+  text-shadow: none;
+  }
+
+.reveal p code {
+  background-color: #23241f;
+  display: inline-block;
+  border-radius: 7px; }
+
+.reveal small code {
+  vertical-align: baseline; }
+
+.reveal blockquote {
+  display: block;
+  position: relative;
+  margin: 20px auto;
+  padding: 5px;
+  font-style: italic;
+  font-size: large;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+
+.reveal blockquote p:first-child,
+.reveal blockquote p:last-child {
+  display: inline-block; }
+
+br {
+  margin: 0pt;
+  padding: 0pt;
+  font-size: 0pt; }
+
+.small {
+  font-size: 24pt; }
+
+.tofit {
+  font-size: 36px; }
+
+.tofitmore {
+  font-size: 32px; }
+
+.tofitevenmore {
+  font-size: 28px; }
+
+.present {
+  height: 100%; }
+
+.footer {
+  font-size: medium;
+  color: white;
+  width: 100%;
+  text-align: center;
+  display: block;
+  position: fixed;
+  bottom: 0%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 12px;
+  border-top: solid thin white;
+  border-bottom: thin solid white;
+  z-index: -1;}
+
+
+.uicontrol {
+    font-weight: bold;
+}
+
+.filepath {
+    font-family: monospace;
+}
+
+.red {
+    color: #a23;
+}
+
+.green {
+    color: green;
+
+}
+
+.term {
+    color: #E4A77E;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.msgph {
+    background-color: #666666;
+    padding: 2pt;
+}
+
+pre.msgblock {
+    background-color: #666666;
+    padding-left: 14pt;
+    padding-right: 14pt;
+    font-size: 28pt;
+    white-space: pre-wrap;
+}
+
+.varname {
+    font-style: italic;
+}
+
+.note {
+    border: groove medium silver;
+    padding: .25em;
+    margin-top: .5em;
+    margin-bottom: .25em;
+    text-align: left;
+    text-indent: -80pt;
+    padding-left: 96pt;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+.code-fmt {
+    background-color: black;
+    white-space: pre-wrap;
+    font-family: monospace;
+    font-size: 14pt;
+    padding: 1em;
+}
+
+.cmd-white {
+    color: white;
+    font-family: monospace;
+    font-size: 14pt;
+}
+
+.cmd-red {
+    color: red;
+    font-family: monospace;
+    font-size: 14pt;
+}
+
+.cmd-orange {
+    color: #C19C00;
+    font-family: monospace;
+    font-size: 14pt;
+}

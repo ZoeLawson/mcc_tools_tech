@@ -1,0 +1,46 @@
+name: DITA to PDF - Zoë
+'on':
+  pull_request_target:
+    types:
+      - closed
+    branches:
+      - Winter2025
+    paths:
+      - 'Week11-DITA/Homework/ZoeLawson.ditamap'
+      - 'Week11-DITA/Homework/Zoe/**'
+jobs:
+  if_merged:
+    if: github.event.pull_request.merged == true
+    name: Transform a DITAMAP to a PDF (Zoë)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v4
+      - name: Build PDF
+        uses: dita-ot/dita-ot-action@4.2
+        with:
+          install: dita install https://github.com/ZoeLawson/DITAStuff/raw/mcc/plugins/mcchandout.zip
+          input: Week11-DITA/Homework/ZoeLawson.ditamap
+          transtype: mcchandout
+          output-path: .
+      - name: Set time stamp
+        id: timestamp
+        run: echo "timestamp=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
+      - name: Upload transform output
+        #if: steps.check_files.outputs.files_exists == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: ZoeHomework
+          path: 'mcchandout/ZoeLawson.pdf'
+      - name: set Creds
+        uses: oleksiyrudenko/gha-git-credentials@v2-latest
+        with:
+          token: '${{ secrets.GITHUB_TOKEN }}'
+      - name: add pdf
+        #if: steps.check_files.outputs.files_exists == 'true'
+        run: |
+          git pull origin Winter2025
+          git status
+          git add mcchandout/ZoeLawson.pdf
+          git commit -m "generated pdf file from ZoeLawson.ditamap $timestamp"
+          git push origin Winter2025

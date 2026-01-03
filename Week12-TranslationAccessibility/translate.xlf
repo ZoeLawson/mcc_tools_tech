@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff xmlns:fs="urn:oasis:names:tc:xliff:fs:2.0"
+       xmlns="urn:oasis:names:tc:xliff:document:2.0"
+       srcLang="en"
+       trgLang="de"
+       version="2.0">
+   <file id="1" original="//buildingblocks.dita">
+      <skeleton href="./skl//buildingblocks.dita.skl"/>
+      <unit  id="51409" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Building blocks</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="40259" fs:fs="li">
+         <originalData>
+            <data id="sd3e13">&lt;p&gt;</data>
+            <data id="ed3e13">&lt;/p&gt;</data>
+            <data id="sd3e15">&lt;p&gt;</data>
+            <data id="ed3e15">&lt;/p&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en"><pc id="d3e13" dataRefStart="sd3e13" dataRefEnd="ed3e13" fs:fs="p">Easily mix and match topics in ditamaps</pc><pc id="d3e15" dataRefStart="sd3e15" dataRefEnd="ed3e15" fs:fs="p">A "bookmap" (PDF) and a "map" for HTML/Help output</pc></source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="58057" fs:fs="li">
+         <originalData>
+            <data id="sd3e21">&lt;p&gt;</data>
+            <data id="ed3e21">&lt;/p&gt;</data>
+            <data id="sd3e23">&lt;p&gt;</data>
+            <data id="ed3e23">&lt;/p&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en"><pc id="d3e21" dataRefStart="sd3e21" dataRefEnd="ed3e21" fs:fs="p">Easily have shared/common topics</pc><pc id="d3e23" dataRefStart="sd3e23" dataRefEnd="ed3e23" fs:fs="p">Legal notices, contacting support, etc.</pc></source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="2" original="//buildingblocks_2.dita">
+      <skeleton href="./skl//buildingblocks_2.dita.skl"/>
+      <unit  id="50086" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">More building blocks</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="42597" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Smaller blocks possible to reuse specific paragraphs, words, chunks of content</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="1295" fs:fs="p">
+         <originalData>
+            <data id="sd4e14">&lt;term&gt;</data>
+            <data id="ed4e14">&lt;/term&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">The <pc id="d4e14" dataRefStart="sd4e14" dataRefEnd="ed4e14" fs:fs="code"><mrk type="term" translate="no" id="md4e14">conref</mrk></pc>, or content reference.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="50881" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Most every element in DITA can be provided an ID.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="9487" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Most every element in DITA can reference the ID of a same element. The content of the element is replaced by the content of the element with the ID.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="62206" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Easy to reuse a note, paragraph, step, etc.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="3" original="//concept.dita">
+      <skeleton href="./skl//concept.dita.skl"/>
+      <unit  id="44750" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Concept</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="8936" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">About a thing.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="39135" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Provides very little structure, because concepts are amorphous things.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="26641" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Use to write about all the background information you need to understand a thing.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="4" original="//conditional_text.dita">
+      <skeleton href="./skl//conditional_text.dita.skl"/>
+      <unit  id="35167" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Conditional text</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="16931" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Include, exclude, and flag text</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="18230" fs:fs="p">
+         <originalData>
+            <data id="sd6e15">&lt;term&gt;</data>
+            <data id="ed6e15">&lt;/term&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Almost every element can take one of the <pc id="d6e15" dataRefStart="sd6e15" dataRefEnd="ed6e15" fs:fs="code"><mrk type="term" translate="no" id="md6e15">profiling</mrk></pc> attributes:</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="60812" fs:fs="p">
+         <originalData>
+            <data id="sd6e20">&lt;xmlatt&gt;</data>
+            <data id="ed6e20">&lt;/xmlatt&gt;</data>
+            <data id="sd6e22">&lt;xmlatt&gt;</data>
+            <data id="ed6e22">&lt;/xmlatt&gt;</data>
+            <data id="sd6e24">&lt;xmlatt&gt;</data>
+            <data id="ed6e24">&lt;/xmlatt&gt;</data>
+            <data id="sd6e26">&lt;xmlatt&gt;</data>
+            <data id="ed6e26">&lt;/xmlatt&gt;</data>
+            <data id="sd6e28">&lt;xmlatt&gt;</data>
+            <data id="ed6e28">&lt;/xmlatt&gt;</data>
+            <data id="sd6e30">&lt;xmlatt&gt;</data>
+            <data id="ed6e30">&lt;/xmlatt&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en"><pc id="d6e20" dataRefStart="sd6e20" dataRefEnd="ed6e20" fs:fs="code"><mrk type="term" translate="no" id="md6e20">audience</mrk></pc>, <pc id="d6e22" dataRefStart="sd6e22" dataRefEnd="ed6e22" fs:fs="code"><mrk type="term" translate="no" id="md6e22">deliveryTarget</mrk></pc>, <pc id="d6e24" dataRefStart="sd6e24" dataRefEnd="ed6e24" fs:fs="code"><mrk type="term" translate="no" id="md6e24">otherprops</mrk></pc>, <pc id="d6e26" dataRefStart="sd6e26" dataRefEnd="ed6e26" fs:fs="code"><mrk type="term" translate="no" id="md6e26">platform</mrk></pc>, <pc id="d6e28" dataRefStart="sd6e28" dataRefEnd="ed6e28" fs:fs="code"><mrk type="term" translate="no" id="md6e28">product</mrk></pc>, <pc id="d6e30" dataRefStart="sd6e30" dataRefEnd="ed6e30" fs:fs="code"><mrk type="term" translate="no" id="md6e30">props</mrk></pc></source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="6939" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">You can define values for these attributes, and then include and exclude content based on the values.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="20785" fs:fs="p">
+         <originalData>
+            <data id="sd6e38">&lt;xmlatt&gt;</data>
+            <data id="ed6e38">&lt;/xmlatt&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">You can also do other processing, such as make all <pc id="d6e38" dataRefStart="sd6e38" dataRefEnd="ed6e38" fs:fs="code"><mrk type="term" translate="no" id="md6e38">audience</mrk></pc>="expert" content appear with a different background color.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="25564" fs:fs="p">
+         <originalData>
+            <data id="sd6e44">&lt;xmlatt&gt;</data>
+            <data id="ed6e44">&lt;/xmlatt&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">There is also the <pc id="d6e44" dataRefStart="sd6e44" dataRefEnd="ed6e44" fs:fs="code"><mrk type="term" translate="no" id="md6e44">rev</mrk></pc> attribute which can be used for flagging, only.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="5" original="//conkeyref.dita">
+      <skeleton href="./skl//conkeyref.dita.skl"/>
+      <unit  id="52137" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Conkeyref</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="6350" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Conrefs are fantastic...except you are constantly inserting the path to a DITA topic.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="52541" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">If you have a shared topic used by everyone with your legal warnings or product names, you may have hundreds or thousands of references to the file containing the conrefs.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="59251" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">If you need to rename or move that file, you now have to update hundreds or thousands of references.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="41214" fs:fs="p">
+         <originalData>
+            <data id="sd7e21">&lt;term&gt;</data>
+            <data id="ed7e21">&lt;/term&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Instead, use a <pc id="d7e21" dataRefStart="sd7e21" dataRefEnd="ed7e21" fs:fs="code"><mrk type="term" translate="no" id="md7e21">conkeyref</mrk></pc>. </source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="29746" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Same as a conref, except you define the path to the file as a key in your map.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="6" original="//conrefs_and_conditions.dita">
+      <skeleton href="./skl//conrefs_and_conditions.dita.skl"/>
+      <unit  id="6533" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Conrefs and conditions</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="37926" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">You can use conditions and keys in content you reference.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="56669" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">One conref, many products</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="30436" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Then, whenever I want to insert the product name in a topic used in all three products, all I insert is</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="7" original="//conrefs_and_keys.dita">
+      <skeleton href="./skl//conrefs_and_keys.dita.skl"/>
+      <unit  id="12260" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Conrefs and Keys</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="5792" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">The next phase of reuse.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="14861" fs:fs="p">
+         <originalData>
+            <data id="sd9e14">&lt;xmlatt&gt;</data>
+            <data id="ed9e14">&lt;/xmlatt&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Use the <pc id="d9e14" dataRefStart="sd9e14" dataRefEnd="ed9e14" fs:fs="code"><mrk type="term" translate="no" id="md9e14">conref</mrk></pc> attribute to reuse almost any DITA element.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="65271" fs:fs="p">
+         <originalData>
+            <data id="sd9e20">&lt;xmlelement&gt;</data>
+            <data id="ed9e20">&lt;/xmlelement&gt;</data>
+            <data id="sd9e22">&lt;xmlelement&gt;</data>
+            <data id="ed9e22">&lt;/xmlelement&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Conrefs only work with like elements. To reuse a <pc id="d9e20" dataRefStart="sd9e20" dataRefEnd="ed9e20" fs:fs="code"><mrk type="term" translate="no" id="md9e20">note</mrk></pc>, you have to insert a <pc id="d9e22" dataRefStart="sd9e22" dataRefEnd="ed9e22" fs:fs="code"><mrk type="term" translate="no" id="md9e22">note</mrk></pc></source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="433" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Conrefs are associated with files.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="15829" fs:fs="p">
+         <originalData>
+            <data id="sd9e30">&lt;xmlatt&gt;</data>
+            <data id="ed9e30">&lt;/xmlatt&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Use the <pc id="d9e30" dataRefStart="sd9e30" dataRefEnd="ed9e30" fs:fs="code"><mrk type="term" translate="no" id="md9e30">keyref</mrk></pc> for a key, most commonly used for short words or phrases or paths to files.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="47898" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Keys are associated with maps.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="8" original="//dita_basics.dita">
+      <skeleton href="./skl//dita_basics.dita.skl"/>
+      <unit  id="10170" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">DITA basics</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="1631" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">XML file format</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="41051" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">The DITA standard fulfills two roles:</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="26306" fs:fs="li">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Standardized file formats</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="50473" fs:fs="li">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Authoring standard</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="9" original="//dita_files.dita">
+      <skeleton href="./skl//dita_files.dita.skl"/>
+      <unit  id="37720" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">DITA files</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="35435" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">All content must be valid.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="36552" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">DITA has a set of rules about what should be in a file.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="30360" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Intention is to provide standarization and guidance when authoring.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="39983" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Like a form, but not quite as restrictive.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="10" original="//dita_standard.dita">
+      <skeleton href="./skl//dita_standard.dita.skl"/>
+      <unit  id="28023" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">DITA Standard</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="30779" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Based on Structured Authoring.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="31496" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Three major topic types:</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="16118" fs:fs="li">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Concept - About a thing</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="55832" fs:fs="li">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Task - To do the thing (a procedure)</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="28713" fs:fs="li">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Reference - List of stuff about thing (often tables, definitions, etc.)</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="11" original="//example_conref.dita">
+      <skeleton href="./skl//example_conref.dita.skl"/>
+      <unit  id="12398" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Example conref</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="38724" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Source item</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="52970" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">To reuse this paragraph somewhere:</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="56659" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Most DITA editors have tools to help you insert the conref.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="41744" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Remember, you have to use the same element. The following does not work:</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="12" original="//example_key.dita">
+      <skeleton href="./skl//example_key.dita.skl"/>
+      <unit  id="32478" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Example key phrase</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="37601" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Keys are defined in maps.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="1633" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">To define a string in a map file:</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="1285" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Then, in any topic in that map, all you need to insert is</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="13" original="//extensible.dita">
+      <skeleton href="./skl//extensible.dita.skl"/>
+      <unit  id="15639" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Extensible</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="15795" fs:fs="li">
+         <originalData>
+            <data id="sd15e13">&lt;p&gt;</data>
+            <data id="ed15e13">&lt;/p&gt;</data>
+            <data id="sd15e15">&lt;p&gt;</data>
+            <data id="ed15e15">&lt;/p&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en"><pc id="d15e13" dataRefStart="sd15e13" dataRefEnd="ed15e13" fs:fs="p">If you want to get fancy, you can create specializations</pc><pc id="d15e15" dataRefStart="sd15e15" dataRefEnd="ed15e15" fs:fs="p">The task, concept, and reference topics are all specializations of the generic topic type</pc></source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="15224" fs:fs="li">
+         <originalData>
+            <data id="sd15e21">&lt;p&gt;</data>
+            <data id="ed15e21">&lt;/p&gt;</data>
+            <data id="sd15e23">&lt;p&gt;</data>
+            <data id="ed15e23">&lt;/p&gt;</data>
+            <data id="sd15e25">&lt;p&gt;</data>
+            <data id="ed15e25">&lt;/p&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en"><pc id="d15e21" dataRefStart="sd15e21" dataRefEnd="ed15e21" fs:fs="p">You can transform DITA into anything</pc><pc id="d15e23" dataRefStart="sd15e23" dataRefEnd="ed15e23" fs:fs="p">All you need is the code to support it</pc><pc id="d15e25" dataRefStart="sd15e25" dataRefEnd="ed15e25" fs:fs="p">This includes: Presentation formats, animations/videos, flavors of wiki formats, messages to be used in UIs, etc.</pc></source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="14" original="//modifyblocks.dita">
+      <skeleton href="./skl//modifyblocks.dita.skl"/>
+      <unit  id="62282" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Modifying blocks</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="62042" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Reusing blocks is great, but a lot of the time, you can't just reuse it.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="2548" fs:fs="li">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Tweaking titles</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="35167" fs:fs="li">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Conditional text</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="50077" fs:fs="li">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Keys</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="61761" fs:fs="li">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Conref push</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="15" original="//modifyblocks_2.dita">
+      <skeleton href="./skl//modifyblocks_2.dita.skl"/>
+      <unit  id="50077" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Keys</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="20026" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Keys are a very powerful mechanism in DITA.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="33087" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">A key is an addressing method, defined in ditamaps. </source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="20292" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Generally, use keys for a link destination or a short text string.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="32165" fs:fs="li">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Have a key for "product", so in topics about a shared component, you use the product key.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="45816" fs:fs="li">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Have a set of keys that link to images. The help map links to low resolution files, the PDF links to high resolution files.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="16" original="//modifyblocks_3.dita">
+      <skeleton href="./skl//modifyblocks_3.dita.skl"/>
+      <unit  id="61761" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Conref push</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="21576" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Normally, when you use a conref, you replace the current element with the content of some other element.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="2487" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">With conref push, you can insert (or replace) content before or after an element with an ID.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="49309" fs:fs="p">
+         <originalData>
+            <data id="sd18e17">&lt;xmlelement&gt;</data>
+            <data id="ed18e17">&lt;/xmlelement&gt;</data>
+            <data id="sd18e19">&lt;xmlatt&gt;</data>
+            <data id="ed18e19">&lt;/xmlatt&gt;</data>
+            <data id="sd18e21">&lt;userinput&gt;</data>
+            <data id="ed18e21">&lt;/userinput&gt;</data>
+            <data id="sd18e23">&lt;varname&gt;</data>
+            <data id="ed18e23">&lt;/varname&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">For example, you set up reference topics that always have an<pc id="d18e17" dataRefStart="sd18e17" dataRefEnd="ed18e17" fs:fs="code"><mrk type="term" translate="no" id="md18e17">example</mrk></pc> section with an <pc id="d18e19" dataRefStart="sd18e19" dataRefEnd="ed18e19" fs:fs="code"><mrk type="term" translate="no" id="md18e19">id</mrk></pc> that equals<pc id="d18e21" dataRefStart="sd18e21" dataRefEnd="ed18e21" fs:fs="code"><mrk type="term" translate="no" id="md18e21">example_<pc id="d18e23" dataRefStart="sd18e23" dataRefEnd="ed18e23" fs:fs="code"><mrk type="term" translate="no" id="md18e23">commandname</mrk></pc></mrk></pc>.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="18735" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">In a specific output, you can insert an extra section that's required for an OEM version of the application.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="17" original="//opensource.dita">
+      <skeleton href="./skl//opensource.dita.skl"/>
+      <unit  id="21256" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Open standard</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="34896" fs:fs="li">
+         <originalData>
+            <data id="sd19e13">&lt;p&gt;</data>
+            <data id="ed19e13">&lt;/p&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en"><pc id="d19e13" dataRefStart="sd19e13" dataRefEnd="ed19e13" fs:fs="p">Technically, you can use DITA for free</pc></source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="37955" fs:fs="li">
+         <originalData>
+            <data id="sd19e19">&lt;p&gt;</data>
+            <data id="ed19e19">&lt;/p&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en"><pc id="d19e19" dataRefStart="sd19e19" dataRefEnd="ed19e19" fs:fs="p">Technically, if you author in DITA, anyone else can use your source to produce output (Exactly the same way all browsers render the HTML standard the same way)</pc></source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="13762" fs:fs="li">
+         <originalData>
+            <data id="sd19e25">&lt;p&gt;</data>
+            <data id="ed19e25">&lt;/p&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en"><pc id="d19e25" dataRefStart="sd19e25" dataRefEnd="ed19e25" fs:fs="p">As more and more people adopt DITA, there are more and more tools that make it more accessible. You don't have to be an XML, XSLT, JS, JAVA, ANT, and DITA expert to use it with oXygen Author, FrameMaker, etc.</pc></source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="18" original="//reference.dita">
+      <skeleton href="./skl//reference.dita.skl"/>
+      <unit  id="34450" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Reference</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="14190" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Stuff you want to look up about a thing.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="43644" fs:fs="li">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">section - for just text</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="22323" fs:fs="li">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">example - just text, but different intent</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="12554" fs:fs="li">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">table</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="24763" fs:fs="li">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">properties - like a table but more specific</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="54618" fs:fs="li">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">refsyn - programming/syntax reference</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="19" original="//resources.dita">
+      <skeleton href="./skl//resources.dita.skl"/>
+      <unit  id="21182" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Resources</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="38972" fs:fs="li">
+         <originalData>
+            <data id="sd21e13">&lt;p&gt;</data>
+            <data id="ed21e13">&lt;/p&gt;</data>
+            <data id="sd21e15">&lt;p&gt;</data>
+            <data id="ed21e15">&lt;/p&gt;</data>
+            <data id="sd21e16">&lt;xref href="http://docs.oasis-open.org/dita/dita/v1.3/dita-v1.3-part3-all-inclusive.html" format="html" scope="external"&gt;</data>
+            <data id="ed21e16">&lt;/xref&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en"><pc id="d21e13" dataRefStart="sd21e13" dataRefEnd="ed21e13" fs:fs="p">DITA 1.3 Specification</pc><pc id="d21e15" dataRefStart="sd21e15" dataRefEnd="ed21e15" fs:fs="p"><pc id="d21e16" dataRefStart="sd21e16" dataRefEnd="ed21e16" fs:fs="a" fs:subFs="href,http://docs.oasis-open.org/dita/dita/v1.3/dita-v1.3-part3-all-inclusive.html"/></pc></source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="58148" fs:fs="li">
+         <originalData>
+            <data id="sd21e22">&lt;p&gt;</data>
+            <data id="ed21e22">&lt;/p&gt;</data>
+            <data id="sd21e24">&lt;p&gt;</data>
+            <data id="ed21e24">&lt;/p&gt;</data>
+            <data id="sd21e25">&lt;xref href="https://www.oxygenxml.com/xml_author/download_oxygenxml_author.html" format="html" scope="external"&gt;</data>
+            <data id="ed21e25">&lt;/xref&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en"><pc id="d21e22" dataRefStart="sd21e22" dataRefEnd="ed21e22" fs:fs="p">Oxygen XML Author</pc><pc id="d21e24" dataRefStart="sd21e24" dataRefEnd="ed21e24" fs:fs="p"><pc id="d21e25" dataRefStart="sd21e25" dataRefEnd="ed21e25" fs:fs="a" fs:subFs="href,https://www.oxygenxml.com/xml_author/download_oxygenxml_author.html"/></pc></source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="45279" fs:fs="li">
+         <originalData>
+            <data id="sd21e31">&lt;p&gt;</data>
+            <data id="ed21e31">&lt;/p&gt;</data>
+            <data id="sd21e33">&lt;p&gt;</data>
+            <data id="ed21e33">&lt;/p&gt;</data>
+            <data id="sd21e34">&lt;xref href="http://www.dita-ot.org/" format="html" scope="external"&gt;</data>
+            <data id="ed21e34">&lt;/xref&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en"><pc id="d21e31" dataRefStart="sd21e31" dataRefEnd="ed21e31" fs:fs="p">DITA Open Tool Kit</pc><pc id="d21e33" dataRefStart="sd21e33" dataRefEnd="ed21e33" fs:fs="p"><pc id="d21e34" dataRefStart="sd21e34" dataRefEnd="ed21e34" fs:fs="a" fs:subFs="href,http://www.dita-ot.org/"/></pc></source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="20" original="//semantic_tagging.dita">
+      <skeleton href="./skl//semantic_tagging.dita.skl"/>
+      <unit  id="31291" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Semantic tagging</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="33289" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Instead of applying styles, take information about what it is.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="42640" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Instead of worrying about formatting, just tag information for what it is. Let the publication tools worry about formatting.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="24011" fs:fs="p">
+         <originalData>
+            <data id="sd22e17">&lt;xmlelement&gt;</data>
+            <data id="ed22e17">&lt;/xmlelement&gt;</data>
+            <data id="sd22e19">&lt;xmlelement&gt;</data>
+            <data id="ed22e19">&lt;/xmlelement&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Avoid using <pc id="d22e17" dataRefStart="sd22e17" dataRefEnd="ed22e17" fs:fs="code"><mrk type="term" translate="no" id="md22e17">b</mrk></pc> and <pc id="d22e19" dataRefStart="sd22e19" dataRefEnd="ed22e19" fs:fs="code"><mrk type="term" translate="no" id="md22e19">i</mrk></pc>.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="17583" fs:fs="p">
+         <originalData>
+            <data id="sd22e25">&lt;xmlelement&gt;</data>
+            <data id="ed22e25">&lt;/xmlelement&gt;</data>
+            <data id="sd22e27">&lt;xmlelement&gt;</data>
+            <data id="ed22e27">&lt;/xmlelement&gt;</data>
+            <data id="sd22e29">&lt;xmlelement&gt;</data>
+            <data id="ed22e29">&lt;/xmlelement&gt;</data>
+            <data id="sd22e31">&lt;xmlelement&gt;</data>
+            <data id="ed22e31">&lt;/xmlelement&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Work with your editors to determine how to tag items using <pc id="d22e25" dataRefStart="sd22e25" dataRefEnd="ed22e25" fs:fs="code"><mrk type="term" translate="no" id="md22e25">uicontrol</mrk></pc>, <pc id="d22e27" dataRefStart="sd22e27" dataRefEnd="ed22e27" fs:fs="code"><mrk type="term" translate="no" id="md22e27">wintitle</mrk></pc>, <pc id="d22e29" dataRefStart="sd22e29" dataRefEnd="ed22e29" fs:fs="code"><mrk type="term" translate="no" id="md22e29">parmname</mrk></pc>, <pc id="d22e31" dataRefStart="sd22e31" dataRefEnd="ed22e31" fs:fs="code"><mrk type="term" translate="no" id="md22e31">codeph</mrk></pc>, etc.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="21" original="//task.dita">
+      <skeleton href="./skl//task.dita.skl"/>
+      <unit  id="51092" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Task</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="53873" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Procedure to do the thing.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="6679" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">The most structured DITA topic type.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="474" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Prerequisite, Context, Steps/steps-unordered, Result, Example, Post-requisite</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="22" original="//title.dita">
+      <skeleton href="./skl//title.dita.skl"/>
+      <unit  id="54819" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">DITA</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="64224" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Writing with Legos</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="23" original="//titlealts.dita">
+      <skeleton href="./skl//titlealts.dita.skl"/>
+      <unit  id="2548" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Tweaking titles</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="56645" fs:fs="p">
+         <originalData>
+            <data id="sd25e11">&lt;xmlelement&gt;</data>
+            <data id="ed25e11">&lt;/xmlelement&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">When defining a title, you can provide <pc id="d25e11" dataRefStart="sd25e11" dataRefEnd="ed25e11" fs:fs="code"><mrk type="term" translate="no" id="md25e11">titlealts</mrk></pc> and provide</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="61042" fs:fs="li">
+         <originalData>
+            <data id="sd25e18">&lt;xmlelement&gt;</data>
+            <data id="ed25e18">&lt;/xmlelement&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en"><pc id="d25e18" dataRefStart="sd25e18" dataRefEnd="ed25e18" fs:fs="code"><mrk type="term" translate="no" id="md25e18">navtitle</mrk></pc> — An alternative title to use in any table of contents or navigation</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="28161" fs:fs="li">
+         <originalData>
+            <data id="sd25e23">&lt;xmlelement&gt;</data>
+            <data id="ed25e23">&lt;/xmlelement&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en"><pc id="d25e23" dataRefStart="sd25e23" dataRefEnd="ed25e23" fs:fs="code"><mrk type="term" translate="no" id="md25e23">searchtitle</mrk></pc> — An alternative title to use in search results</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="59717" fs:fs="p">
+         <originalData>
+            <data id="sd25e30">&lt;xmlelement&gt;</data>
+            <data id="ed25e30">&lt;/xmlelement&gt;</data>
+            <data id="sd25e32">&lt;i&gt;</data>
+            <data id="ed25e32">&lt;/i&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">You can provide <pc id="d25e30" dataRefStart="sd25e30" dataRefEnd="ed25e30" fs:fs="code"><mrk type="term" translate="no" id="md25e30">titlealts</mrk></pc> in topics <pc id="d25e32" dataRefStart="sd25e32" dataRefEnd="ed25e32" fs:fs="i">and</pc> in ditamaps. </source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="24" original="//topics.dita">
+      <skeleton href="./skl//topics.dita.skl"/>
+      <unit  id="24436" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Topics</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="20106" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">In general, one file equals one topic.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="30783" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">One topic generally equals one idea.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="25" original="//troubleshooting.dita">
+      <skeleton href="./skl//troubleshooting.dita.skl"/>
+      <unit  id="63054" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Troubleshooting</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="51495" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">A specialization for trying to fix things yourself</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="18273" fs:fs="li">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">condition - what the problem is</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="5203" fs:fs="li">
+         <originalData>
+            <data id="sd27e19">&lt;ul&gt;</data>
+            <data id="ed27e19">&lt;/ul&gt;</data>
+            <data id="sd27e21">&lt;li&gt;</data>
+            <data id="ed27e21">&lt;/li&gt;</data>
+            <data id="sd27e23">&lt;li&gt;</data>
+            <data id="ed27e23">&lt;/li&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">troubleSolution - a container<pc id="d27e19" dataRefStart="sd27e19" dataRefEnd="ed27e19" fs:fs="ul"> <pc id="d27e21" dataRefStart="sd27e21" dataRefEnd="ed27e21" fs:fs="li">cause - why the problem happens</pc> <pc id="d27e23" dataRefStart="sd27e23" dataRefEnd="ed27e23" fs:fs="li">remedy - how to fix or workaround the problem</pc> </pc></source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="26" original="//week11_DITA.ditamap">
+      <skeleton href="./skl//week11_DITA.ditamap.skl"/>
+      <unit  id="14496" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Week 11 - DITA</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="27" original="//week_11_homework.dita">
+      <skeleton href="./skl//week_11_homework.dita.skl"/>
+      <unit  id="26751" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Week 11 Homework</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="9867" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Document a thing using DITA</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="1264" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">I created ditamaps for you, and folders for your files.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="38173" fs:fs="p">
+         <originalData>
+            <data id="sd29e17">&lt;filepath&gt;</data>
+            <data id="ed29e17">&lt;/filepath&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">When you push your files to GitHub, it should automatically build a PDF in <pc id="d29e17" dataRefStart="sd29e17" dataRefEnd="ed29e17" fs:fs="code"><mrk type="term" translate="no" id="md29e17">mcchandout</mrk></pc>.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="41164" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">See the DITA.pdf for details.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="28" original="//why.dita">
+      <skeleton href="./skl//why.dita.skl"/>
+      <unit  id="41403" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Why DITA?</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="35941" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Small topics are building blocks to reuse</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="17348" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Many, many features to enable more reuse</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="2418" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Open source standard that can "easily" be used elsewhere</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="15639" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Extensible</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="38106" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Really, really powerful</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="27635" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">If you have someone who can work with open source tools, "cheap" to implement</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="29" original="//whynot.dita">
+      <skeleton href="./skl//whynot.dita.skl"/>
+      <unit  id="62347" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Why Not</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="30960" fs:fs="li">
+         <originalData>
+            <data id="sd31e13">&lt;p&gt;</data>
+            <data id="ed31e13">&lt;/p&gt;</data>
+            <data id="sd31e15">&lt;p&gt;</data>
+            <data id="ed31e15">&lt;/p&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en"><pc id="d31e13" dataRefStart="sd31e13" dataRefEnd="ed31e13" fs:fs="p">DITA is very rich and featured, therefore complicated</pc><pc id="d31e15" dataRefStart="sd31e15" dataRefEnd="ed31e15" fs:fs="p">DITA can do all the things...if you have the people or tools to make it work</pc></source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="9625" fs:fs="li">
+         <originalData>
+            <data id="sd31e21">&lt;p&gt;</data>
+            <data id="ed31e21">&lt;/p&gt;</data>
+            <data id="sd31e23">&lt;p&gt;</data>
+            <data id="ed31e23">&lt;/p&gt;</data>
+         </originalData>
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en"><pc id="d31e21" dataRefStart="sd31e21" dataRefEnd="ed31e21" fs:fs="p">Beware of DITA Tools that 'augment' your DITA</pc><pc id="d31e23" dataRefStart="sd31e23" dataRefEnd="ed31e23" fs:fs="p">Some CMS help create index term libraries, conrefs, etc. in proprietary formats that are no longer sharable.</pc></source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="51832" fs:fs="li">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Some of the easy to use DITA publishing tools are expensive</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+   <file id="30" original="//wordwise.dita">
+      <skeleton href="./skl//wordwise.dita.skl"/>
+      <unit  id="15581" fs:fs="title">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Word to the wise</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="27298" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">Just becaused you can doesn't mean you should</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+      <unit  id="45783" fs:fs="p">
+         <segment state="initial">
+            <source xml:space="preserve" xml:lang="en">There's probably at least 3 ways you can do the thing you want to do in DITA. All of them will work, some will work better than others, some will provide more gray hairs than others.</source>
+            <target xml:lang="de"/>
+         </segment>
+      </unit>
+   </file>
+</xliff>

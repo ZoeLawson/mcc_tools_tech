@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossaryentry.dtd">
+<glossentry id="glossarycase">
+    <glossterm>Case</glossterm>
+    <glossdef>
+        <p>You don’t technically need a case; however, it will make things much safer and more
+            organized to have everything tucked away inside a case. Cases also allow you to direct
+            airflow using fans in order to keep your components cool.</p>
+        <p>The most important consideration when getting a case is the form factor. Your case needs
+            to be at least large enough to fit your motherboard and other components. An ATX form
+            factor case is large enough for an ATX motherboard, but can also mount a smaller
+            micro-ATX motherboard. Larger cases also have more room to work in while installing
+            components.</p>
+        <p>The second most important consideration is how it looks. This is what you will be looking
+            at every time you use the computer. There are cases with lights, transparent panels, and
+            all kinds of color schemes. Or you can get a basic beige box. </p>
+        <p>Ventilation is also a concern, but most cases will have enough mounting brackets for
+            fans. If a case does not come with fans, buy enough to have at least one intake fan and
+            one exhaust fan. More fans can provide better cooling, albeit with diminishing returns,
+            but they will also create more noise.</p>
+    </glossdef>
+</glossentry>

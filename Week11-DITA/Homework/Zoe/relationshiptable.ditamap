@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>relationshipTable</title>
+    <reltable>
+        <relheader>
+            <relcolspec type="concept"/>
+            <relcolspec type="task"/>
+            <relcolspec type="reference"/>
+        </relheader>
+        <relrow>
+            <relcell>
+                <topicref href="my_first_concept.dita"/>
+                <topicref href="../common/concept.dita"/>
+            </relcell>
+            <relcell>
+                <topicref href="demo_task.dita"/>
+            </relcell>
+            <relcell>
+                <topicref href="../common/reference.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell/>
+            <relcell/>
+            <relcell/>
+        </relrow>
+    </reltable>
+</map>

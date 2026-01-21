@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="39cm" height="22cm" viewBox="276 -3 770 428" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #e5e5e5" x="277.661" y="-1.02898" width="767.576" height="272.623"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="277.661" y="-1.02898" width="767.576" height="272.623"/>
+    <text font-size="40.6394" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="661.449" y="147.633">
+      <tspan x="661.449" y="147.633"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="414.619" y="60.4773" width="212.285" height="134"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="414.619" y="60.4773" width="212.285" height="134"/>
+    <text font-size="27.0933" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="520.761" y="135.694">
+      <tspan x="520.761" y="135.694"></tspan>
+    </text>
+  </g>
+  <text font-size="27.0933" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="295.883" y="83.6458">
+    <tspan x="295.883" y="83.6458">Zoe's </tspan>
+    <tspan x="295.883" y="117.513">GitHub </tspan>
+    <tspan x="295.883" y="151.379">Account</tspan>
+  </text>
+  <g>
+    <rect style="fill: #e5e5e5" x="497.049" y="106.123" width="50.0994" height="44.2053"/>
+    <ellipse style="fill: #e5e5e5" cx="522.099" cy="150.329" rx="25.0497" ry="7.36756"/>
+    <ellipse style="fill: #e5e5e5" cx="522.099" cy="106.123" rx="25.0497" ry="7.36756"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="522.099" cy="106.123" rx="25.0497" ry="7.36756"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 547.148 106.123 L 547.148,150.329 C 547.148,154.398 535.933,157.696 522.099,157.696 C 508.264,157.696 497.049,154.398 497.049,150.329 L 497.049,106.123"/>
+    <text font-size="27.0933" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="522.099" y="183.096">
+      <tspan x="522.099" y="183.096">mcc_tools_tech</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="706.971" y="61.9176" width="218.079" height="134"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="706.971" y="61.9176" width="218.079" height="134"/>
+    <text font-size="27.0933" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="816.011" y="137.134">
+      <tspan x="816.011" y="137.134"></tspan>
+    </text>
+  </g>
+  <text font-size="27.0933" style="fill: #000000;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:normal" x="1038.54" y="88.9128">
+    <tspan x="1038.54" y="88.9128">Your</tspan>
+    <tspan x="1038.54" y="122.779">GitHub </tspan>
+    <tspan x="1038.54" y="156.646">Account</tspan>
+  </text>
+  <g>
+    <rect style="fill: #e5e5e5" x="793.594" y="105.689" width="50.0994" height="44.2053"/>
+    <ellipse style="fill: #e5e5e5" cx="818.644" cy="149.894" rx="25.0497" ry="7.36756"/>
+    <ellipse style="fill: #e5e5e5" cx="818.644" cy="105.689" rx="25.0497" ry="7.36756"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="818.644" cy="105.689" rx="25.0497" ry="7.36756"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 843.693 105.689 L 843.693,149.894 C 843.693,153.963 832.478,157.262 818.644,157.262 C 804.809,157.262 793.594,153.963 793.594,149.894 L 793.594,105.689"/>
+    <text font-size="27.0933" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="818.644" y="182.662">
+      <tspan x="818.644" y="182.662">mcc_tools_tech</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="522.099" y1="98.7559" x2="808.907" y2="98.3354"/>
+    <polygon style="fill: #000000" points="816.407,98.3245 806.415,103.339 808.907,98.3354 806.4,93.3391 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="816.407,98.3245 806.415,103.339 808.907,98.3354 806.4,93.3391 "/>
+  </g>
+  <text font-size="27.0933" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="635.952" y="89.1155">
+    <tspan x="635.952" y="89.1155">Fork</tspan>
+  </text>
+  <g>
+    <polygon style="fill: #000000" points="795.816,349.732 838.038,349.732 838.038,374.177 846.927,389.732 786.927,389.732 795.816,374.177 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="795.816,349.732 838.038,349.732 838.038,374.177 846.927,389.732 786.927,389.732 795.816,374.177 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #ffffff" points="795.816,349.732 838.038,349.732 838.038,374.177 846.927,389.732 786.927,389.732 795.816,374.177 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #808080" x1="795.816" y1="374.177" x2="838.038" y2="374.177"/>
+    <polygon style="fill: #ffffff" points="796.927,350.844 836.927,350.844 836.927,373.066 796.927,373.066 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="796.927,350.844 836.927,350.844 836.927,373.066 796.927,373.066 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" points="796.927,350.844 836.927,350.844 836.927,373.066 796.927,373.066 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #ffffff" x1="795.26" y1="379.177" x2="838.593" y2="379.177"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #ffffff" x1="794.427" y1="380.566" x2="839.427" y2="380.566"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #ffffff" x1="796.093" y1="377.788" x2="837.76" y2="377.788"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #ffffff" x1="793.593" y1="381.955" x2="796.927" y2="376.399"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #ffffff" x1="840.26" y1="381.955" x2="836.927" y2="376.399"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #ffffff" x1="793.593" y1="381.955" x2="840.26" y2="381.955"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #ffffff" x1="796.927" y1="376.399" x2="836.927" y2="376.399"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #ffffff" x1="805.26" y1="381.955" x2="805.677" y2="380.566"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #ffffff" x1="828.168" y1="380.566" x2="828.177" y2="380.566"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #ffffff" x1="828.593" y1="381.955" x2="828.168" y2="380.566"/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke-dasharray: 4; stroke: #ffffff" points="813.593,384.177 820.26,384.177 821.371,387.51 812.482,387.51 "/>
+  </g>
+  <text font-size="27.0933" style="fill: #7f7f7f;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="729.304" y="419">
+    <tspan x="729.304" y="419">Your computer</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="818.644" y1="157.262" x2="818.527" y2="338.991"/>
+    <polygon style="fill: #000000" points="818.522,346.491 813.528,336.488 818.527,338.991 823.528,336.495 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="818.522,346.491 813.528,336.488 818.527,338.991 823.528,336.495 "/>
+  </g>
+  <text font-size="27.0933" style="fill: #7f7f7f;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="776.617" y="329">
+    <tspan x="776.617" y="329">Clone</tspan>
+  </text>
+  <text font-size="40.6394" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="578.072" y="45.9818">
+    <tspan x="578.072" y="45.9818">GitHub</tspan>
+  </text>
+</svg>

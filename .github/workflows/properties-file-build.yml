@@ -3,7 +3,7 @@ name: properties to HTML
 #   workflow_dispatch:
   push:
     branches:
-    - Winter2025
+    - Winter2026
     paths:
     - 'Week02-ProgressiveInfo/Homework/ZoeLawson.properties'
 jobs:
@@ -42,5 +42,5 @@ jobs:
       run: |
         git add Week02-ProgressiveInfo/Homework/ZoeLawson.html
         git commit -m "generated html file from ZoeLawson.properties $timestamp"
-        git push origin Winter2025
+        git push origin Winter2026
       

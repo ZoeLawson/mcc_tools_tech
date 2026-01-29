@@ -1,5 +1,6 @@
 Cathy Lavey
 Senior software engineer
+(This is content pulled from my actual MS Word resume. It looks better with real formatting...)
 
 I enrolled in this class because I've done a lot of documentation, but all in MS Word; I'm interested in learning more about some of the other tools available out there right now.
 
@@ -16,3 +17,17 @@ Operating systems: Linux, MS Windows, OpenVMS.
 Languages: C++, Visual C#, STL, working knowledge of VisualBasic, VBScript, JavaScript, HTML, XML; C, POSIX threads, SQL.
 
 Tools and Technologies: OOAD and design patterns, UML. QtCreator, Eclipse, Subversion, git, Atlassian tools (Confluence, Jira, Bitbucket), Microsoft Visual Studio and VS Code, POCO C++ libraries, Google Maps. 
+
+PROFESSIONAL EXPERIENCE
+
+Senior Software Engineer, Scientific Systems Company, Inc., Woburn MA, 2017 – present
+Senior software engineer for R&D company developing autonomy software and user interfaces for unmanned aircraft systems (UAS). Ported major autonomy software from Windows to Linux. 
+Added new functionality to browser-based user interface. Assisted in developing SBIR proposals. Wrote user guides and operator manual.
+
+Senior Software Engineer, BioMimetic Systems, Woburn MA, 2011 – 2017
+Software lead for R&D company developing acoustic gunfire detection (GFD) sensors for military and law enforcement. Customers included Army Research Lab (ARL), Picatinny Arsenal NJ (US Army), Natick MA Soldier Center (NSRDEC): 
+•	Added significant new functionality to embedded C++ Linux application running on acoustic sensors, including TCP/UDP network capability. Added network capability to Windows user interface for sensor.
+•	Architected and developed sensor fusion network software (C++) to produce more accurate solutions from multiple individual results; developed two Visual C# Windows user interfaces for the fusion network.
+•	Authored user guides, release notes, protocol and design specifications.
+•	Ran and/or assisted with field tests at Ft. Devens gun ranges; supported field tests and customer demos at other Army sites and various national and international locations.
+•	Presented paper at IEEE MFI, September 2015, San Diego, CA, “A Mobile Self Synchronizing Smart Sensor Array for Detection and Localization of Impulsive Threat Sources.”

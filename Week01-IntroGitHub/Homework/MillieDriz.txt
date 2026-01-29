@@ -1,3 +1,5 @@
 Hello, I am making a text file!
 
 My second edit to this file. Have a good day!
+
+My third edit to this file. It does gets easier when you use the program :) Looking forward to tomorrow's class. 

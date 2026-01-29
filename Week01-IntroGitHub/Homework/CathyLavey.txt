@@ -11,3 +11,8 @@ SUMMARY OF SKILLS
 •	Technical writing experience — specifications, user and system management guides, installation guides, release notes, test plans and procedures, SBIR proposals.
 •	Experience training customers in groups and one-on-one.
 
+Operating systems: Linux, MS Windows, OpenVMS.
+
+Languages: C++, Visual C#, STL, working knowledge of VisualBasic, VBScript, JavaScript, HTML, XML; C, POSIX threads, SQL.
+
+Tools and Technologies: OOAD and design patterns, UML. QtCreator, Eclipse, Subversion, git, Atlassian tools (Confluence, Jira, Bitbucket), Microsoft Visual Studio and VS Code, POCO C++ libraries, Google Maps. 

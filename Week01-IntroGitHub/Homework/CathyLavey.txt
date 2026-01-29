@@ -1,6 +1,13 @@
 Cathy Lavey
 Senior software engineer
 
-I enrolled in this class because I've done a lot of documentation, but all in MS Word; I'm interested in learning more about the other tools available out there right now.
+I enrolled in this class because I've done a lot of documentation, but all in MS Word; I'm interested in learning more about some of the other tools available out there right now.
 
+SUMMARY OF SKILLS
+
+•	Broad software development experience — application design, implementation, testing, and support; release engineering; technical presentations; software quality assurance.
+•	Software engineering experience with object-oriented analysis and design, design patterns, systems integration, client/server technology, multithreaded applications, user interface design, various operating systems and languages.
+•	Varied support and sustaining experience, including problem tracking and resolution, customer demos and trade show setup, customer support, on-site installations.
+•	Technical writing experience — specifications, user and system management guides, installation guides, release notes, test plans and procedures, SBIR proposals.
+•	Experience training customers in groups and one-on-one.
 

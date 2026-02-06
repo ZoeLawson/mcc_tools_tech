@@ -5,7 +5,7 @@ name: properties to HTML
     branches:
     - Winter2026
     paths:
-    - 'Week02-ProgressiveInfo/Homework/ZoeLawson.properties'
+    - 'Week02-ProgressiveInfo/Homework/MCCDemo.properties'
 jobs:
   transform:
     name: Transform Java Properties file to HTML example
@@ -17,13 +17,13 @@ jobs:
       id: check_files
       uses: andstor/file-existence-action@v3
       with:
-        files: "Week02-ProgressiveInfo/Homework/ZoeLawson.properties"
+        files: "Week02-ProgressiveInfo/Homework/MCCDemo.properties"
     - name: Install libsaxonb-java
       if: steps.check_files.outputs.files_exists == 'true'
       run: sudo apt-get install libsaxonb-java
     - name: Run transform
       if: steps.check_files.outputs.files_exists == 'true'
-      run: saxonb-xslt -s:'Week02-ProgressiveInfo/Homework/xsl/dummy.xml' -xsl:'Week02-ProgressiveInfo/Homework/xsl/BuildLoginPage.xslt' -o:'Week02-ProgressiveInfo/Homework/ZoeLawson.html' propertiesFile='../ZoeLawson.properties'
+      run: saxonb-xslt -s:'Week02-ProgressiveInfo/Homework/xsl/dummy.xml' -xsl:'Week02-ProgressiveInfo/Homework/xsl/BuildLoginPage.xslt' -o:'Week02-ProgressiveInfo/Homework/MCCDemo.html' propertiesFile='../MCCDemo.properties'
     - name: Set time stamp
       id: timestamp
       run: echo "timestamp=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
@@ -40,7 +40,7 @@ jobs:
     - name: add html
       if: steps.check_files.outputs.files_exists == 'true'
       run: |
-        git add Week02-ProgressiveInfo/Homework/ZoeLawson.html
-        git commit -m "generated html file from ZoeLawson.properties $timestamp"
+        git add Week02-ProgressiveInfo/Homework/MCCDemo.html
+        git commit -m "generated html file from MCCDemo.properties $timestamp"
         git push origin Winter2026
       

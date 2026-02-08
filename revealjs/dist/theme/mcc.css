@@ -237,6 +237,8 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
 .reveal section img.plain {
+  margin: 0px 0px;
+  background: inherit;
   border: 0;
   box-shadow: none; }
 

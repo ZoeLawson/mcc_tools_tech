@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="115.716"
+   height="53.816"
+   viewBox="-1 -32.416 115.716 53.816"
+   version="1.1"
+   id="svg309"
+   sodipodi:docname="equation.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs313" />
+  <sodipodi:namedview
+     id="namedview311"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="10.396142"
+     inkscape:cx="57.858002"
+     inkscape:cy="26.933068"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg309" />
+  <symbol
+     id="STIXTwoMathRegular_3307"
+     viewBox="-0.156 -31.524 9.816 51.216">
+    <path
+       d="M 3.3 -6.3 L 3.3 -6.3 L 2.88 -4.284 L 6.768 -4.284 L 7.188 -6.3 Q 7.296 -6.768 7.302 -7.038 Q 7.308 -7.308 7.11 -7.416 Q 6.912 -7.524 6.372 -7.524 L 6.444 -7.884 L 9.66 -7.884 L 9.588 -7.524 Q 9.06 -7.524 8.814 -7.416 Q 8.568 -7.308 8.472 -7.044 Q 8.376 -6.78 8.268 -6.3 L 7.296 -1.572 Q 7.188 -1.056 7.2 -0.798 Q 7.212 -0.54 7.434 -0.45 Q 7.656 -0.36 8.16 -0.36 L 8.088 0 L 4.92 0 L 4.98 -0.36 Q 5.448 -0.36 5.67 -0.444 Q 5.892 -0.528 5.994 -0.792 Q 6.096 -1.056 6.204 -1.572 L 6.672 -3.816 L 2.796 -3.816 L 2.34 -1.572 Q 2.232 -1.044 2.25 -0.786 Q 2.268 -0.528 2.49 -0.444 Q 2.712 -0.36 3.204 -0.36 L 3.132 0 L -0.156 0 L -0.084 -0.36 Q 0.396 -0.36 0.642 -0.438 Q 0.888 -0.516 1.014 -0.78 Q 1.14 -1.044 1.248 -1.572 L 2.232 -6.3 Q 2.34 -6.78 2.322 -7.044 Q 2.304 -7.308 2.088 -7.416 Q 1.872 -7.524 1.344 -7.524 L 1.416 -7.884 L 4.716 -7.884 L 4.656 -7.524 Q 4.104 -7.524 3.858 -7.416 Q 3.612 -7.308 3.51 -7.038 Q 3.408 -6.768 3.3 -6.3 Z "
+       id="path272" />
+  </symbol>
+  <use
+     xlink:href="#STIXTwoMathRegular_3307"
+     x="2.356"
+     y="-78.696"
+     width="19.632"
+     height="102.432"
+     fill="black"
+     id="use275"
+     style="fill:#ffffff" />
+  <symbol
+     id="STIXTwoMathRegular_4274"
+     viewBox="0 -31.524 5.184 51.216">
+    <path
+       d="M 5.184 0 L 5.184 0 L 1.116 0 L 1.116 -0.432 Q 1.98 -0.432 2.262 -0.606 Q 2.544 -0.78 2.544 -1.236 L 2.544 -6.468 Q 2.544 -6.792 2.448 -6.936 Q 2.352 -7.08 2.1 -7.08 Q 1.908 -7.08 1.578 -7.026 Q 1.248 -6.972 1.008 -6.912 L 1.008 -7.392 L 3.228 -8.004 L 3.744 -8.004 L 3.744 -1.236 Q 3.744 -0.78 4.05 -0.606 Q 4.356 -0.432 5.184 -0.432 Z "
+       id="path277" />
+  </symbol>
+  <use
+     xlink:href="#STIXTwoMathRegular_4274"
+     x="21.988"
+     y="-54.742"
+     width="7.258"
+     height="71.702"
+     fill="black"
+     id="use280"
+     style="fill:#ffffff" />
+  <symbol
+     id="STIXTwoMathRegular_3322"
+     viewBox="0 -31.524 12.12 51.216">
+    <path
+       d="M 12.12 -7.884 L 12.12 -7.884 L 12.084 -7.524 Q 11.652 -7.512 11.388 -7.332 Q 11.124 -7.152 10.812 -6.696 L 6.588 0.072 L 6.24 0.072 L 5.844 -4.596 L 5.796 -4.596 L 2.712 0.072 L 2.376 0.072 L 1.788 -6.444 Q 1.74 -7.032 1.536 -7.278 Q 1.332 -7.524 0.816 -7.524 L 0.876 -7.884 L 3.876 -7.884 L 3.816 -7.524 Q 3.3 -7.524 3.096 -7.422 Q 2.892 -7.32 2.868 -7.08 Q 2.868 -7.056 2.868 -7.008 Q 2.868 -6.912 2.868 -6.774 Q 2.868 -6.636 2.892 -6.468 L 3.204 -3.084 L 3.264 -1.932 L 3.336 -1.932 L 5.76 -5.448 L 5.676 -6.396 Q 5.628 -6.912 5.55 -7.152 Q 5.472 -7.392 5.298 -7.458 Q 5.124 -7.524 4.776 -7.524 L 4.836 -7.884 L 7.896 -7.884 L 7.836 -7.524 Q 7.176 -7.524 6.954 -7.308 Q 6.732 -7.092 6.78 -6.42 L 7.068 -3.18 L 7.116 -1.956 L 7.176 -1.956 L 9.732 -5.976 Q 9.924 -6.276 10.092 -6.6 Q 10.26 -6.924 10.26 -7.188 Q 10.26 -7.368 10.128 -7.446 Q 9.996 -7.524 9.6 -7.524 L 9.672 -7.884 Z "
+       id="path282" />
+  </symbol>
+  <use
+     xlink:href="#STIXTwoMathRegular_3322"
+     x="1.816"
+     y="-47.688"
+     width="24.24"
+     height="102.432"
+     fill="black"
+     id="use285"
+     style="fill:#ffffff" />
+  <use
+     xlink:href="#STIXTwoMathRegular_4274"
+     x="24.472"
+     y="-23.734"
+     width="7.258"
+     height="71.702"
+     fill="black"
+     id="use287"
+     style="fill:#ffffff" />
+  <rect
+     x="1"
+     y="-7.008"
+     width="31.207"
+     height="1.632"
+     fill="black"
+     id="rect289"
+     style="fill:#ffffff" />
+  <symbol
+     id="STIXTwoMathRegular_1202"
+     viewBox="0 -31.524 7.896 51.216">
+    <path
+       d="M 7.896 -3.924 L 7.896 -3.924 L 0.744 -3.924 L 0.744 -4.74 L 7.896 -4.74 Z M 7.896 -1.476 L 7.896 -1.476 L 0.744 -1.476 L 0.744 -2.28 L 7.896 -2.28 Z "
+       id="path291" />
+  </symbol>
+  <use
+     xlink:href="#STIXTwoMathRegular_1202"
+     x="46.426"
+     y="-63.048"
+     width="15.792"
+     height="102.432"
+     fill="black"
+     id="use294"
+     style="fill:#ffffff" />
+  <use
+     xlink:href="#STIXTwoMathRegular_3307"
+     x="79.281"
+     y="-78.696"
+     width="19.632"
+     height="102.432"
+     fill="black"
+     id="use296"
+     style="fill:#ffffff" />
+  <symbol
+     id="STIXTwoMathRegular_4275"
+     viewBox="0 -31.524 5.868 51.216">
+    <path
+       d="M 5.868 -2.088 L 5.868 -2.088 L 5.46 0 L 0.54 0 L 0.54 -0.588 L 2.244 -2.316 Q 2.916 -2.988 3.354 -3.504 Q 3.792 -4.02 4.008 -4.542 Q 4.224 -5.064 4.224 -5.736 Q 4.224 -6.372 3.834 -6.786 Q 3.444 -7.2 2.736 -7.2 Q 2.088 -7.2 1.65 -6.942 Q 1.212 -6.684 0.876 -6.096 L 0.552 -6.252 Q 0.852 -7.092 1.482 -7.572 Q 2.112 -8.052 3.036 -8.052 Q 3.756 -8.052 4.308 -7.794 Q 4.86 -7.536 5.172 -7.056 Q 5.484 -6.576 5.484 -5.892 Q 5.484 -5.304 5.22 -4.788 Q 4.956 -4.272 4.47 -3.732 Q 3.984 -3.192 3.312 -2.532 L 1.812 -1.08 L 1.812 -0.996 L 2.748 -1.044 L 4.308 -1.044 Q 4.656 -1.044 4.842 -1.14 Q 5.028 -1.236 5.16 -1.47 Q 5.292 -1.704 5.448 -2.088 Z "
+       id="path298" />
+  </symbol>
+  <use
+     xlink:href="#STIXTwoMathRegular_4275"
+     x="98.913"
+     y="-54.742"
+     width="8.215"
+     height="71.702"
+     fill="black"
+     id="use301"
+     style="fill:#ffffff" />
+  <use
+     xlink:href="#STIXTwoMathRegular_3322"
+     x="78.741"
+     y="-47.688"
+     width="24.24"
+     height="102.432"
+     fill="black"
+     id="use303"
+     style="fill:#ffffff" />
+  <use
+     xlink:href="#STIXTwoMathRegular_4275"
+     x="101.397"
+     y="-23.734"
+     width="8.215"
+     height="71.702"
+     fill="black"
+     id="use305"
+     style="fill:#ffffff" />
+  <rect
+     x="77.925"
+     y="-7.008"
+     width="31.459"
+     height="1.632"
+     fill="black"
+     id="rect307"
+     style="fill:#ffffff" />
+</svg>

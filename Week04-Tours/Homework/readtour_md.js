@@ -1,15 +1,15 @@
-function startTour() {
+function mdstartTour() {
 	introJs().setOptions({
 	  steps: [{
 		title: 'Welcome',
-		intro: 'This is a sample tour using Intro.js.'
+		intro: 'This is a sample tour using Intro.js from Millie.'
 	  },
 	  {
 		element: document.querySelector('#step1'),
 		intro: 'You could change this image in week 2 using the Graphic property.'
 	  },
 	  {
-		element: document.querySelector('#formLegend'),
+		element: document.querySelector('#pageTitle'),
 		intro: 'Is this how you select a new element?'
 	  },
 	  {

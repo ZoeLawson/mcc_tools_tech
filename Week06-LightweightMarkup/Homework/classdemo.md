@@ -14,6 +14,8 @@
 
 **Here is a relative link to a location in the same file**: [Just use the part after the #](#playing-with-inline-formatting)
 
+**Here is a link to an anchor**: See [Step 5](#step-5).
+
 # Procedure practice
 
 This is an introductory sentence:
@@ -26,7 +28,7 @@ This is an introductory sentence:
 3. Maybe step 3 to do the thing. You have to choose:
    * **Option 1** — This option does this.
    * **Option 2** — This option does that.
-1. And another step.
+1. <a id="step-5"/>And another step.
 
 Congrats! you did the thing.
 

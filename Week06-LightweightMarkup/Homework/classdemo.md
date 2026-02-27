@@ -1,3 +1,21 @@
+# Procedure practice
+
+This is an introductory sentence:
+
+1. Step one to do the thing.
+2. Step 2 to do the thing.
+
+   With some extra information that hopefully lines up.
+
+3. Maybe step 3 to do the thing. You have to choose:
+   * **Option 1** — This option does this.
+   * **Option 2** — This option does that.
+1. And another step.
+
+Congrats! you did the thing.
+
+1. What number is this?
+
 # List practice
 
 * List item 1
@@ -6,6 +24,7 @@
 
 1. numbered list item
 2. numberered list item 2
+
    I want this paragraph to line up with list item 2
    * Additional bulleted list
    * item 2

@@ -14,7 +14,9 @@
 
 **Here is a relative link to a location in the same file**: [Just use the part after the #](#playing-with-inline-formatting)
 
-**Here is a link to an anchor**: See [Step 5](#step-5).
+**Here is a link to an anchor**: See [Step 4](#step-5).
+
+**Can I link without alt text**: Does just (#step-5) work? Does [](#step-5) work?
 
 # Procedure practice
 

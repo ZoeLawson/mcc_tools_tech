@@ -1,3 +1,21 @@
+# Emojis can be useful
+
+:warning: Warning: Danger Will Robinson!
+
+📎tip: Use emoji for certain types of formating
+
+## more formatting
+
+```
+This is code block
+Until you use three more back ticks
+this is all monospace and
+    respects white
+        space
+```
+
+
+
 # Tables
 
 Here is a heading | Column 2 | Column 3 | Column 4

@@ -1,3 +1,12 @@
+# Tables
+
+Here is a heading | Column 2 | Column 3 | Column 4
+----------------- | -------- | -------- | --------
+SOme text | More text | more text | more text
+a | b | c | d
+blah | * list 1 | blerg | blarg
+ | * list 2 |  | 
+
 # Playing with links
 
 ![This is an image](../../Week05-AgileHTML/Homework/Example_image.png)

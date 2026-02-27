@@ -101,7 +101,7 @@ a
 single
 paragraph.
 
-## Playing with inline formatting
+## Playing with inline formatting again
 
  Lorem ipsum dolor sit amet, _consectetur_ adipiscing elit. *Vestibulum* euismod faucibus velit sollicitudin ornare. Nam et felis quam. _Praesent_ posuere dignissim lorem, eu condimentum sapien. Proin egestas ex metus, in faucibus arcu pharetra eget. Praesent **ultrices** nulla vel elit elementum, vitae sollicitudin neque laoreet. Fusce et tortor odio. Nullam a tristique __felis__, at aliquam lorem. Proin auctor enim ut maximus rutrum. Etiam diam leo, ornare ut faucibus in, `pellentesque` ac orci. Sed eget sem non tortor tincidunt convallis vitae vel justo.
 

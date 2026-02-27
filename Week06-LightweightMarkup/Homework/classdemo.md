@@ -1,3 +1,19 @@
+# Playing with links
+
+![This is an image](../../Week05-AgileHTML/Homework/Example_image.png)
+
+[Here is a link to my website](https://www.zlawson.com)
+
+[A link to a file](Example_Markdown.md)
+
+**Fully Qualified path**: https://github.com/mcc-demo/mcc_tools_tech/blob/Winter2026/Week06-LightweightMarkup/Homework/classdemo.md#playing-with-inline-formatting
+
+**Here is a relative link**: [classdemo.md#playing-with-inline-formatting](classdemo.md#playing-with-inline-formatting)
+
+**Here is a relative link to a different file**: [Example_Markdown.md#images-and-links](Example_Markdown.md#images-and-links)
+
+**Here is a relative link to a location in the same file**: [Just use the part after the #](#playing-with-inline-formatting)
+
 # Procedure practice
 
 This is an introductory sentence:

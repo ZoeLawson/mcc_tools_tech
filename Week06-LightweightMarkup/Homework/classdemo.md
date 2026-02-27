@@ -1,3 +1,23 @@
+# List practice
+
+* List item 1
+* List item 2
+* List item 3
+
+1. numbered list item
+2. numberered list item 2
+   I want this paragraph to line up with list item 2
+   * Additional bulleted list
+   * item 2
+1. Continue the list
+2. Let's see if this works.
+   1. what do nestes numbered lists look like.
+   2. another one
+1. Does this continue.
+   a. Can I work with alpha lists
+   a. does this work.
+
+
 # Heading 1
 
 Here is a paragraph.

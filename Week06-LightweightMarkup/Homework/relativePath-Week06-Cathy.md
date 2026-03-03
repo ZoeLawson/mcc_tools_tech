@@ -8,7 +8,7 @@ Provide the relative path for the following:
 
 or
 
-![Week 6's html file](..\week6_Lightweight_markup.html) (for Windows)
+![Week 6's html file](..\week6_Lightweight_markup.html) (for Windows) (which doesn't seem to work if you click the link while in Github)
 
 1. From this file to the GitHub cheatsheet PDF.
 
@@ -24,4 +24,4 @@ or
 
 1. From the week 5 PDF handout to your week 5 homework.
 
-![To Cathy's week 5 homework files](Homework/)
+![To Cathy's week 5 homework files](Homework/) (This doesn't seem to go to just the directory? It needs a specific filename...?)

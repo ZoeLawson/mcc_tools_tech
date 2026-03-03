@@ -16,12 +16,12 @@ or
 
 1. From this file to your week 2 homework file.
 
-![Cathy's Week 2 homework](../../Week02-ProgressiveInfo/CathleenLavey.*) (again, for Linux)
+![Cathy's Week 2 homework](../../Week02-ProgressiveInfo/Homework/CathleenLavey.html) (again, for Linux)
 
 1. From your week 1 homework file to your week 5 homework file.
 
-![from Week 1's homework to Week 5's homework](../../Week05-AgileHTML/homework)
+![from Week 1's homework to Week 5's homework](../../Week05-AgileHTML/Homework/CathyL-RezStyle1.html)
 
 1. From the week 5 PDF handout to your week 5 homework.
 
-![To Cathy's week 5 homework files](Homework/CathyL-*)
+![To Cathy's week 5 homework files](Homework/)

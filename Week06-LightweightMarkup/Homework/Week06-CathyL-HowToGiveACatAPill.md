@@ -1,6 +1,6 @@
-# How to Give a Pill to a Cat
+# How to Give a Pill to a Cat (**HUMOR**)
 
-adapted from [Bob Story, Laguna Beach, CA, Coastline NEWS](https://www.creators.com/read/annies-mailbox/09/13/how-to-give-your-cat-a-pill)
+adapted from [Bob Story, Laguna Beach, CA, _**Coastline NEWS**_](https://www.creators.com/read/annies-mailbox/09/13/how-to-give-your-cat-a-pill)
 
 ## Things You Will Need
 
@@ -12,11 +12,12 @@ adapted from [Bob Story, Laguna Beach, CA, Coastline NEWS](https://www.creators.
 
 ## Directions
 
-1. Pick cat up and cradle it in the crook of your left arm as if holding a baby. 
-1. Position right forefinger and thumb on either side of cat's mouth and gently apply pressure to cheeks while holding pill in right hand.
-1. As cat opens mouth pop pill into mouth. Allow cat to close mouth and swallow.
+1. Pick cat up and cradle it in the crook of your left arm as if holding a baby. Position right forefinger and thumb on either side of cat's mouth and gently apply pressure to cheeks while holding pill in right hand. As cat opens mouth pop pill into mouth. Allow cat to close mouth and swallow.
+
 1. Retrieve pill from floor and cat from behind sofa. Cradle cat in left arm and repeat process.
+
 1. Retrieve cat from bedroom, and throw soggy pill away.
+
 1. Take new pill from foil wrap, cradle cat in left arm holding rear paws tightly with left hand. Force jaws open and push pill to back of mouth with right forefinger. Hold mouth shut for a count of ten.
 
 1. Retrieve pill from goldfish bowl and cat from top of wardrobe. Call spouse from garden.
@@ -35,9 +36,9 @@ adapted from [Bob Story, Laguna Beach, CA, Coastline NEWS](https://www.creators.
 
 1. Call fire department to retrieve cat from tree across the road. Apologize to neighbor who crashed into fence while swerving to avoid cat. Take last pill from foil-wrap.
 
-1. Tie cat's front paws to rear paws with garden twine and bind tightly to leg of dining table, find heavy duty pruning gloves from shed, force cat's mouth open with small wrench. Push pill into mouth followed by large piece of filet mignon. Hold head vertically and pour 1/2 litre of water down throat to wash pill down.
+1. Tie cat's front paws to rear paws with garden twine and bind tightly to leg of dining table, find heavy duty pruning gloves from shed, force cat's mouth open with small wrench. Push pill into mouth followed by large piece of filet mignon. Hold head vertically and pour 1/2 litre of water down throat to wash pill down. ~~Pour two jiggers of whiskey down your own.~~
 
-1. Get spouse to drive you to the emergency room, sit quietly while doctor stitches fingers and forearm and removes pill remnants from right eye. Call furniture store on way home to order new table.
+1. Get spouse to drive you to the emergency room, sit quietly while doctor stitches fingers and forearm and removes pill remnants from right eye. Stop at furniture store on way home to order new table.
 
 --------------------------------------------------------------------
 ![A snow leopard resting on a rock ledge at Roger Williams Park Zoo, RI. Image copyright (c) 2006 C. Lavey. All rights reserved.](./2006-0826-RWP-SnowLeopard-pc.jpg) 

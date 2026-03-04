@@ -1,4 +1,4 @@
-# Crock-Pot versus Insta Pot
+# Crock-Pot versus Instant Pot
 
 Aunt Betty is interested in creating hearty meals that required minimum supervision. I have reserached of possibilities that she may be interested.
 

@@ -18,4 +18,6 @@ Aunt Betty is interested in creating hearty meals that required minimum supervis
 #### Instant Pot Disadvantages
 * Higher upfront cost compared to a basic Crock-Pot.
 *  Users can have a steeper learning curve due to unfamiliarity with pressure cooking.
+
+**My recommendation** to Aunt Betty will be the Crock Pot. *Best* for budget-conscious cooks who enjoys preparing simple, hearty meals slowly.
   

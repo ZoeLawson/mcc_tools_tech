@@ -14,3 +14,8 @@ Aunt Betty is interested in creating hearty meals that required minimum supervis
 ### Instant Pot Advantages
 1. Food cooks significantly faster than a traditional slow cooker.
 2. Pressure-cooking function can create tender meats in minutes.
+
+#### Instant Pot Disadvantages
+* Higher upfront cost compared to a basic Crock-Pot.
+*  Users can have a steeper learning curve due to unfamiliarity with pressure cooking.
+  

@@ -12,13 +12,23 @@ adapted from [Bob Story, Laguna Beach, CA, _**Coastline NEWS**_](https://www.cre
 
 ## Directions
 
-1. Pick cat up and cradle it in the crook of your left arm as if holding a baby. Position right forefinger and thumb on either side of cat's mouth and gently apply pressure to cheeks while holding pill in right hand. As cat opens mouth pop pill into mouth. Allow cat to close mouth and swallow.
+1. Pick cat up and cradle it in the crook of your left arm as if holding a baby. 
 
-1. Retrieve pill from floor and cat from behind sofa. Cradle cat in left arm and repeat process.
+   Position right forefinger and thumb on either side of cat's mouth and gently apply pressure to cheeks while holding pill in right hand. 
+   
+   As cat opens mouth pop pill into mouth. Allow cat to close mouth and swallow.
+
+1. Retrieve pill from floor and cat from behind sofa. 
+
+   Cradle cat in left arm and repeat process.
 
 1. Retrieve cat from bedroom, and throw soggy pill away.
 
-1. Take new pill from foil wrap, cradle cat in left arm holding rear paws tightly with left hand. Force jaws open and push pill to back of mouth with right forefinger. Hold mouth shut for a count of ten.
+1. Take new pill from foil wrap, cradle cat in left arm holding rear paws tightly with left hand. 
+   
+   Force jaws open and push pill to back of mouth with right forefinger. 
+   
+   Hold mouth shut for a count of ten.
 
 1. Retrieve pill from goldfish bowl and cat from top of wardrobe. Call spouse from garden.
 

@@ -10,3 +10,7 @@ Aunt Betty is interested in creating hearty meals that required minimum supervis
 ## Crock Pot Disadvantages
 * Primarily a slow cooker; limited in functionality.
 * Food preparation takes a long time to cook.
+
+### Instant Pot Advantages
+1. Food cooks significantly faster than a traditional slow cooker.
+2. Pressure-cooking function can create tender meats in minutes.

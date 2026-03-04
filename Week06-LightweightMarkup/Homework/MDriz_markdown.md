@@ -21,8 +21,10 @@ Aunt Betty is interested in creating hearty meals that required minimum supervis
 
 **My recommendation** to Aunt Betty will be the Crock Pot. *Best* for budget-conscious cooks who enjoys preparing simple, hearty meals slowly.
 
-Crock-Pot |         Instant Pot |
------------------|  -----------------| 
+Crock-Pot |              Instant Pot |
+-----------------|     -----------------| 
+Easy to use              Multi-functional
+Great for entertaining
 
 
 

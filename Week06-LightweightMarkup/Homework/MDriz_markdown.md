@@ -23,7 +23,7 @@ Aunt Betty is interested in creating hearty meals that required minimum supervis
 
 Crock-Pot |       Instant Pot |
 -----------------|-------------|
-Easy to use         m                                  
+Easy to use                                           
 Great for entertaining
                                         
 

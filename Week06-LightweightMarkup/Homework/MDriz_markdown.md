@@ -26,6 +26,4 @@ Crock-Pot |       Instant Pot |
 Easy to use | Multi-functional                                          
 Great for entertaining | Best pressure cooker
                                         
-
-
 [This will be a link to the crock-pot website](https://www.crock-pot.com)

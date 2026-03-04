@@ -5,8 +5,8 @@ adapted from [Bob Story, Laguna Beach, CA, Coastline NEWS](https://www.creators.
 ## Things You Will Need
 
 * the cat
-* the cat's medication
-* your spouse
+* the medication
+* a spouse
 * a first aid kit
 * the fire department
 
@@ -41,7 +41,8 @@ Tie cat's front paws to rear paws with garden twine and bind tightly to leg of d
 
 Get spouse to drive you to the emergency room, sit quietly while doctor stitches fingers and forearm and removes pill remnants from right eye. Call furniture store on way home to order new table.
 
-
+--------------------------------------------------------------------
 ![A snow leopard resting on a rock ledge at Roger Williams Park Zoo, RI. Image copyright (c) 2006 C. Lavey. All rights reserved.](./2006-0826-RWP-SnowLeopard-pc.jpg) |
+--------------------------------------------------------------------
 A snow leopard resting on a rock ledge at Roger Williams Park Zoo, RI. Image copyright (c) 2006 C. Lavey. All rights reserved. |
-
+--------------------------------------------------------------------

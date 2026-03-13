@@ -36,7 +36,7 @@ A. Pressure cooking function
 | Texture Issues          | Cleaning Challenges    |
 +-------------------------+------------------------+
 
-.. image:: crock pot.png
+.. image:: crock pot.jpg
 
 My Recommendation
 -----------------

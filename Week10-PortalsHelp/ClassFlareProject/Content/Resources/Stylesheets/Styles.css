@@ -407,7 +407,7 @@ div.topic-hero
 	background-attachment: scroll;
 }
 
-div.topic-hero h1
+div.topic-hero>h1
 {
 	color: var(--Light);
 	font-size: 48pt;

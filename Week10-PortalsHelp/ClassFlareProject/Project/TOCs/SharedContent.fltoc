@@ -60,33 +60,21 @@
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/HomeworkHelpers/UpdateTOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      StartSection="false">
-      <TocEntry
-        Title="RoffoCopyrightNaplesPier.IMG_0930"
-        Link="/Content/Resources/Images/RoffoCopyrightNaplesPier.IMG_0930.jpeg" />
-    </TocEntry>
+      StartSection="false"></TocEntry>
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/HomeworkHelpers/GitAndFlare.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
   </TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/B_AnnaHolt/AnnaHolt.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+    Link="/Content/B_AsumanKazibwe/AsumanKazibwe.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/C_DanielBrann/DanielBrann.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Link="/Content/C_BenFortier/BenFortier.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/D_MartineThomasFox/MartineThomasFox.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Link="/Content/D_CathyLavey/CathyLavey.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/E_RobertaRoffo/RobertaRoffo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-    StartSection="false" />
-  <TocEntry
-    Title="[%=System.LinkedTitle%]"
-    Link="/Content/F_RobertPalmer/RobertPalmer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/F_RobertPalmer/Test Topic (for testing).htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-  </TocEntry>
+    Link="/Content/E_MillieDriz/MillieDriz.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
 </CatapultToc>

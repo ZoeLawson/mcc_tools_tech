@@ -1,5 +1,11 @@
 name: DITA to PDF - Zoë
 'on':
+  workflow_dispatch: 
+    inputs:
+      reason:
+        description: 'Reason for running the workflow'
+        required: true
+        default: 'Manual run'
   pull_request_target:
     types:
       - closed

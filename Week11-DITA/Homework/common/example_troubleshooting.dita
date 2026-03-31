@@ -5,19 +5,22 @@
     <troublebody>
         <condition>
             <title>Condition</title>
-            <p></p>
+            <p>This is the condition. What is the problem, or at least the symptoms.</p>
         </condition>
         <troubleSolution>
             <cause>
                 <title>Cause</title>
-                <p></p>
+                <p>What is the root cause of the issue.</p>
             </cause>
             <remedy>
                 <title>Remedy</title>
-                <responsibleParty></responsibleParty>
+                <responsibleParty>Who should fix this (Admin, tech, user)</responsibleParty>
                 <steps>
                     <step>
-                        <cmd></cmd>
+                        <cmd>This can be a procedure on how to fix the thing.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Yes, this is the same step as in a task.</cmd>
                     </step>
                 </steps>
             </remedy>

@@ -4,7 +4,7 @@ name: DITA to PDF - Zoë
     types:
       - closed
     branches:
-      - Winter2025
+      - Winter2026
     paths:
       - 'Week11-DITA/Homework/ZoeLawson.ditamap'
       - 'Week11-DITA/Homework/Zoe/**'
@@ -39,8 +39,8 @@ jobs:
       - name: add pdf
         #if: steps.check_files.outputs.files_exists == 'true'
         run: |
-          git pull origin Winter2025
+          git pull origin Winter2026
           git status
           git add mcchandout/ZoeLawson.pdf
           git commit -m "generated pdf file from ZoeLawson.ditamap $timestamp"
-          git push origin Winter2025
+          git push origin Winter2026

@@ -4,6 +4,19 @@
     <title>Example Task Topic</title>
     <shortdesc>A DITA topic of type task. This is a shared topic. Task topics are the most
         structured.</shortdesc>
+    <prolog>
+        <change-historylist>
+            <change-item>
+                <change-completed>March 2026</change-completed>
+                <change-summary>This is a shared topic. If you change it, you change it for
+                    everyone. This is a part of the <xmlelement>change-historylist</xmlelement>
+                    which is part of the metadata of the topic. It is not included in the output. It
+                    allows for file history to be stored in the file. You can use this manually as a
+                    way to log changes, or you could write scripts that automagically populate this
+                    information.</change-summary>
+            </change-item>
+        </change-historylist>
+    </prolog>
     <taskbody>
         <prereq>This is the <xmlelement>prereq</xmlelement> where you list the prerequisites for
             this task. This section is optional.</prereq>

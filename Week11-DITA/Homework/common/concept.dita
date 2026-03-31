@@ -1,9 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept">
-    <title>How to Build a Survey in Qualtrics </title>
+    <title>Example Concept Topic</title>
     <shortdesc>An example DITA topic of type concept. This is a shared topic.</shortdesc>
+    <prolog>
+        <change-historylist>
+            <change-item>
+                <change-completed>March 2026</change-completed>
+                <change-summary>This is a shared topic. If you change it, you change it for
+                    everyone. This is a part of the <xmlelement>change-historylist</xmlelement>
+                    which is part of the metadata of the topic. It is not included in the output. It
+                    allows for file history to be stored in the file. You can use this manually as a
+                    way to log changes, or you could write scripts that automagically populate this
+                    information.</change-summary>
+            </change-item>
+        </change-historylist>
+    </prolog>
     <conbody>
-        <p>This thing is compliated and involves several parts. So many the parts</p>
+        <p>This is a topic of type concept.</p>
+        <p>Concept topics are very similar to topic type topics. A <xmlelement>concept</xmlelement>
+            does not have a lot of structure to it. </p>
+        <p>Concepts are intended for more free-form text, with illustrations, etc.</p>
+        <section>
+            <title>Sections</title>
+            <p>Concepts can have sections. However, once you start a
+                    <xmlelement>section</xmlelement>, you cannot return to the main body of the
+                    <xmlelement>concept</xmlelement>.</p>
+            <p>While sections may seem like just adding a sub-heading, by default, section titles
+                are not included in the table of contents. They can be useful for grouping concepts,
+                highlighting ideas, etc. If you add an <xmlatt>id</xmlatt> attribute to the
+                    <xmlelement>section</xmlelement> element, you can link to it, and the title of
+                the section is automatically pulled in by the <xmlelement>xref</xmlelement>.</p>
+        </section>
+        <example>
+            <title>Section Specialization: Example</title>
+            <p>An example is just a fancy section. However, it does add the semantic idea of "this
+                is an example" around the contents.</p>
+        </example>
     </conbody>
 </concept>

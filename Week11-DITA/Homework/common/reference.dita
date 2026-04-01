@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference">
+    <title>Example Reference Topic</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <change-historylist>
+            <change-item>
+                <change-completed>March 2026</change-completed>
+                <change-summary>This is a shared topic. If you change it, you change it for
+                    everyone. This is a part of the <xmlelement>change-historylist</xmlelement>
+                    which is part of the metadata of the topic. It is not included in the output. It
+                    allows for file history to be stored in the file. You can use this manually as a
+                    way to log changes, or you could write scripts that automagically populate this
+                    information.</change-summary>
+            </change-item>
+        </change-historylist>
+    </prolog>
+    <refbody> </refbody>
+</reference>

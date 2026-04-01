@@ -333,7 +333,8 @@
                 <dlentry>
                     <dt>term</dt>
                     <dd>Identifies something as a word of importance. You can hook it up with keys
-                        to a glossary entry to link to the definition.</dd>
+                        to a glossary entry to link to the definition. For example, <term
+                            keyref="g_glossterm"/>.</dd>
                 </dlentry>
                 <dlentry>
                     <dt>textentity</dt>

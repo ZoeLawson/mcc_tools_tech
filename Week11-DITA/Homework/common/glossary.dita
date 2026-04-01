@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glossgroup id="glossary" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:glossarygroup.xsd">
+<!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+<glossgroup id="glossary">
     <title>Example Glossary</title>
-    <glossentry id="ddl">
-        <glossterm></glossterm>
-        <glossdef></glossdef>
-        <prolog></prolog>
-        <glossBody></glossBody>
+    <glossentry id="glossterm">
+        <glossterm>glossterm</glossterm>
+        <glossdef>This is the <xmlelement>glossdef</xmlelement> where you can write the
+            definition.</glossdef>
     </glossentry>
 </glossgroup>

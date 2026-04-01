@@ -6,7 +6,7 @@
         <booktitlealt>Week 11</booktitlealt>
     </booktitle>
     <bookmeta>
-        <author keyref="author"></author>
+        <author keyref="author"/>
         <prodinfo>
             <prodname>Tools and Technologies for Tech Writers 2026</prodname>
             <vrmlist>
@@ -18,10 +18,9 @@
                 <year>2026</year>
             </copyrfirst>
             <bookowner>
-                <person keyref="author"></person>
+                <person keyref="author"/>
                 <organization>MIDDLESEX Community College</organization>
             </bookowner>
-            <summary>Fixing deploy action version number</summary>
         </bookrights>
     </bookmeta>
     <frontmatter>
@@ -35,14 +34,13 @@
         <topicref href="common/topic_building_blocks.dita"/>
         <topicref href="common/concept.dita"/>
         <topicref href="common/task.dita"/>
-        <topicref href="common/reference.dita" linking="none"/>
+        <topicref href="common/reference.dita"/>
         <topicref href="common/example_troubleshooting.dita"/>
         <topicref href="common/glossary.dita"/>
     </chapter>
     <backmatter>
-        <keydef processing-role="resource-only" keys="author"><topicmeta><keywords><keyword>Zoë Lawson</keyword></keywords></topicmeta></keydef>
-        <keydef processing-role="resource-only" keys="homeworkfolder"><topicmeta><keywords><keyword>Zoe</keyword></keywords></topicmeta></keydef>
+        <keydef processing-role="resource-only" keys="author"><topicmeta><keywords><keyword>Asuman Kazibew</keyword></keywords></topicmeta></keydef>
+        <keydef processing-role="resource-only" keys="homeworkfolder"><topicmeta><keywords><keyword>Asuman</keyword></keywords></topicmeta></keydef>
         <keydef processing-role="resource-only" keys="g_glossterm" href="common/glossary.dita#glossterm"/>
-        <mapref href="Zoe/relationshiptable.ditamap" processing-role="resource-only"/>
     </backmatter>
 </bookmap>

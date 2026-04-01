@@ -10,11 +10,10 @@
         </relheader>
         <relrow>
             <relcell>
-                <topicref href="my_first_concept.dita"/>
                 <topicref href="../common/concept.dita"/>
             </relcell>
             <relcell>
-                <topicref href="demo_task.dita"/>
+                <topicref href="../common/task.dita"/>
             </relcell>
             <relcell>
                 <topicref href="../common/reference.dita"/>

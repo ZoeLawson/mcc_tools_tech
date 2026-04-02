@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="reference">
     <title>Example Reference Topic</title>
-    <shortdesc></shortdesc>
+    <shortdesc>A DITA topic of type reference. This is a shared topic.</shortdesc>
     <prolog>
         <change-historylist>
             <change-item>
@@ -16,5 +16,90 @@
             </change-item>
         </change-historylist>
     </prolog>
-    <refbody> </refbody>
+    <refbody>
+        <section>
+            <p>You cannot just work in the <xmlelement>refbody</xmlelement>, you have to add child
+                element first. This is a <xmlelement>section</xmlelement> (without a
+                    <xmlelement>title</xmlelement>). If I want a reference topic with just text (or
+                a definition list) in it, I use a <xmlelement>section</xmlelement>.</p>
+            <p>A reference topic allows the following elements in the
+                    <xmlelement>refbody</xmlelement>:</p>
+            <ul>
+                <li><xmlelement>example</xmlelement> — A specialized section that can contain any of
+                    the basic authoring elements that's intended to be an example of something.</li>
+                <li><xmlelement>properties</xmlelement> — A specialized table for a list of
+                    properties and description. (This option is going away and is rarely used. I
+                    would avoid using it.)</li>
+                <li><xmlelement>refsyn</xmlelement> — A specialized section container for syntax
+                    items. Syntax generally refers to command line or programming objects. This
+                    block can contain any of the basic authoring elements.</li>
+                <li><xmlelement>section</xmlelement> — A container for any of the basic authoring
+                    elements.</li>
+                <li><xmlelement>table</xmlelement> — A table. If you feel you need some introductory
+                    text, you'll have to add a <xmlelement>section</xmlelement> element before the
+                        <xmlelement>table</xmlelement>. </li>
+            </ul>
+        </section>
+        <example>
+            <title>Example with a title</title>
+            <p>Similar to using an <xmlelement>example</xmlelement> in a concept topic, the example
+                is for a blob of text or whatever, but the intention is that it is an example of
+                something.</p>
+        </example>
+        <properties frame="all">
+            <prophead>
+                <proptypehd>proptypehd</proptypehd>
+                <propvaluehd>propvaluehd</propvaluehd>
+                <propdeschd>propdeschd</propdeschd>
+            </prophead>
+            <property>
+                <proptype>proptype</proptype>
+                <propvalue>propvalue</propvalue>
+                <propdesc>propdesc</propdesc>
+            </property>
+            <property>
+                <proptype>The property name/type</proptype>
+                <propvalue>The property value</propvalue>
+                <propdesc>The property description</propdesc>
+            </property>
+            <property>
+                <proptype/>
+                <propvalue>Another property value for the same proptype</propvalue>
+                <propdesc>The description for another property</propdesc>
+            </property>
+        </properties>
+        <refsyn>
+            <title>refsyn</title>
+            <p>Again, the <xmlelement>refsyn</xmlelement> is just like a
+                    <xmlelement>section</xmlelement>, but it contains the semantic meaning of syntax
+                reference for programming languages or command line tools.</p>
+        </refsyn>
+        <table frame="all">
+            <title>A Table</title>
+            <tgroup cols="3">
+                <colspec colnum="1" colname="c1" colwidth="1*"/>
+                <colspec colnum="2" colname="c2" colwidth="1*"/>
+                <colspec colnum="3" colname="c3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Column 1</entry>
+                        <entry>Column 2</entry>
+                        <entry>Column 3</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Look</entry>
+                        <entry>a</entry>
+                        <entry>table</entry>
+                    </row>
+                    <row>
+                        <entry>full</entry>
+                        <entry>of</entry>
+                        <entry>data</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
 </reference>

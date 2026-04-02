@@ -1,9 +1,189 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
+        <link href="../Resources/TableStyles/Alternate-Row-Color.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <h1>Millie Driz Homework</h1>
-        <p>Delete this text and replace it with your own content.</p>
+        <h1>How to Create A Stability Sample Tracker</h1>
+        <h2 style="font-weight: bold;"><span style="font-weight: bold;">Introduction:</span>
+        </h2>
+        <p>The stability tracker is a tool created in Excel spreadsheet that tracks samples during the stability study of a pharmaceutical product.</p>
+        <p>The stability study is designed to provide evidence on how the quality of the drug substances / drug products varies with time and environmental factors.  Testing of the product (for example, <i>Appearance</i>, <i>Purity</i>, <i>Microbial Contamination</i>) is performed by the laboratory chemist. Laboratory managers can utilize the stability tracker to monitor the life cycle of the product from initiation to completion of the study.</p>
+        <p>By monitoring the stability study and testing, you obtain information to establish an expiration date ensuring the product's safety, efficacy, and quality for the consumer.</p>
+        <h3><span style="font-weight: bold;">Definition of Terms:</span>
+        </h3>
+        <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/Alternate-Row-Color.css');" class="TableStyle-Alternate-Row-Color" cellspacing="21">
+            <col style="width: 50%;" class="TableStyle-Alternate-Row-Color-Column-Column1" />
+            <col style="width: 50%;" class="TableStyle-Alternate-Row-Color-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><b>Name</b>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column1-Body1"><b>Description</b>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2">Product</td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column1-Body2">Drug Substance or Drug Product in the stability study (for example, Acetaminophen (Drug Substance) Tylenol (Drug Product).</td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1">Product Description</td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column1-Body1">Actual name of the active ingredient (DS) or brand label (DP).</td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2">Lot No.</td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column1-Body2">Unique identification number assigned to the product for DS or DP.</td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1">Drug Substance (DS)</td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column1-Body1">Active raw ingredient of the product.</td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2">Drug Product (DP)</td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column1-Body2">Complete, ready-to-use medication (for example, tablet, capsule, or liquid).</td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1">Initiation</td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column1-Body1">Start date of the stability study.</td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2">
+                        <p>Total Storage Period</p>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column1-Body2">
+                        <p>Entire duration of storage for the product during stability study.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1">
+                        <p>End of Stability</p>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column1-Body1">
+                        <p>Final time (date) which the product is tested.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2">
+                        <p>Pull Schedule</p>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column1-Body2">
+                        <p>Date when the product is scheduled to be pulled for testing.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyB-Column1-Body1">Pull Date</td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyA-Column1-Body1">Number of months is based on the pull schedule date.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <h4>Creating the Stability Sample Tracker</h4>
+        <ul>
+            <li>
+                <p>To create the tracker, you will enter the labels and data. When you are finished, your result should look like Figure 1.</p>
+                <p style="font-weight: bold;">Figure 1. Completed Spreadsheet</p>
+                <p>
+                    <img src="../Resources/Images/millie_image.png" />
+                </p>
+            </li>
+        </ul>
+        <p style="font-weight: bold;">Entering the Labels:</p>
+        <p style="font-weight: normal;">Enter the labels for the spreadsheet (see Figure 1), as follows:</p>
+        <ol>
+            <li>
+                <p style="font-weight: normal;">A1 Product</p>
+            </li>
+            <li>
+                <p>B1 Product Description</p>
+            </li>
+            <li>
+                <p>C1 Lot No.</p>
+            </li>
+            <li>
+                <p>D1 Drug Substances (DS) / Drug Product (DP)</p>
+            </li>
+            <li>
+                <p>E1 Initiation</p>
+            </li>
+            <li>
+                <p>F1 Total Storage Period</p>
+            </li>
+            <li>
+                <p>G1 End of Stability</p>
+            </li>
+            <li>
+                <p>H1 Pull Schedule</p>
+            </li>
+            <li>
+                <p>I1 Pull Date (Months)</p>
+            </li>
+        </ol>
+        <p><b>Note:</b> To avoid entering the labels every time, save a copy to use as a template for future Stability Sample Tracker spreadsheets.</p>
+        <p style="font-weight: bold;">Entering the Data:</p>
+        <p>Enter the data for the spreadsheet (see Figure 1), as follows:</p>
+        <ol>
+            <li>
+                <p>A2-A7		OTBU</p>
+            </li>
+            <li>
+                <p>B2-B7		APIX</p>
+            </li>
+            <li>
+                <p>C2-C7		NGS181100</p>
+            </li>
+            <li>
+                <p>D2-D7		DP</p>
+            </li>
+            <li>
+                <p>E2-E7		27-Sep-2025</p>
+            </li>
+            <li>
+                <p>F2-F7		12 Months</p>
+            </li>
+            <li>
+                <p>G2-G7		27-Sep-2026</p>
+            </li>
+            <li>
+                <p>H2		27-Sep-2025</p>
+            </li>
+            <li>
+                <p>H3		27-Oct-2025</p>
+            </li>
+            <li>
+                <p>H4		27-Dec-2025</p>
+            </li>
+            <li>
+                <p>H5		27-Mar-2026</p>
+            </li>
+            <li>
+                <p>H6		27-Jun-2026</p>
+            </li>
+            <li>
+                <p>H7		27-Sep-2026</p>
+            </li>
+            <li>
+                <p>I2		0</p>
+            </li>
+            <li>
+                <p>I3		1</p>
+            </li>
+            <li>
+                <p>I4		3</p>
+            </li>
+            <li>
+                <p>I5		6</p>
+            </li>
+            <li>
+                <p>I6		9</p>
+            </li>
+            <li>
+                <p>I7		12</p>
+            </li>
+        </ol>
+        <p><b>Note:</b> To add additional products, follow the instructions as explained above.</p>
+        <p>For additional information, see <a href="https://hascientific.com/">Stability Management</a></p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p style="font-weight: bold;">&#160;</p>
     </body>
 </html>

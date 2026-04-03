@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>ADF Comm Parameters</h1>
+        <p>This topic describes the communication parameters used by the ADF.</p>
+        <p>The USB interface to the ADF is an FTDI FT232R Serial to USB chip; when plugged into a host system, it will appear as one or more serial ports. The Windows driver for this device is available from the website: <a href="CathyLavey.htm" title="Link to website with FTDI chip driver." alt="Link to website with FTDI chip driver.">http://www.ftdichip.com/FTDrivers.htm</a>.</p>
+        <p>For ADF G7 (dismount) and G8 (unattended ground sensor, vehicle mount), four serial ports will appear. The first port is the console. The second and third are for BioMimetic Systems’ use. The fourth port is for sensor output, as documented in the section below, on messages from the ADF to the host system. Display or data logging applications should monitor this fourth com port.</p>
+        <p>The communications parameters are documented in the <MadCap:xref href="#SWADF">SWADF comm parameters </MadCap:xref>below. All messages (both in and out) are followed by a “<span style="font-family: monospace;">\r\n</span>” (<span style="font-family: monospace;">0x0d0a</span>).</p>
+        <p>&#160;</p>
+        <table>
+            <caption><a name="SWADF"></a>SWADF comm parameters</caption>
+            <col />
+            <col style="width: 218px;" />
+            <thead>
+                <tr>
+                    <th>Parameter</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bits/sec</td>
+                    <td>115200</td>
+                </tr>
+                <tr>
+                    <td>Data bits</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Stop bit</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Parity</td>
+                    <td>None</td>
+                </tr>
+                <tr>
+                    <td>Flow control</td>
+                    <td>None</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+    </body>
+</html>

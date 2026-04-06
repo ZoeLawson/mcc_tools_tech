@@ -29,7 +29,7 @@
             <toc/>
         </booklists>
     </frontmatter>
-    <chapter href="Zoe/topic.dita"/>
+    <chapter href="Zoe/topic.dita" navtitle="Calibrating the HV-1000"/>
     <chapter href="common/topic.dita">
         <topicref href="common/topic_building_blocks.dita"/>
         <topicref href="common/concept.dita"/>

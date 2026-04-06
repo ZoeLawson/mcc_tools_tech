@@ -31,6 +31,9 @@
         </booklists>
     </frontmatter>
     <chapter href="Zoe/topic.dita">
+        <topicref href="Zoe/fortier_concept_alpha.dita"/>
+        <topicref href="Zoe/fortier_reference_alpha.dita"/>
+        <topicref href="Zoe/fortier_task_alpha.dita"/>
         <topicref href="common/task.dita"/>
         <topicref href="Zoe/my_first_concept.dita"/>
         <topicref href="common/concept.dita"/>
@@ -38,8 +41,20 @@
         <topicref href="Zoe/demo_task.dita"/>
     </chapter>
     <backmatter>
-        <keydef processing-role="resource-only" keys="author"><topicmeta><keywords><keyword>Zoë Lawson</keyword></keywords></topicmeta></keydef>
-        <keydef processing-role="resource-only" keys="homeworkfolder"><topicmeta><keywords><keyword>Zoe</keyword></keywords></topicmeta></keydef>
+        <keydef processing-role="resource-only" keys="author">
+            <topicmeta>
+                <keywords>
+                    <keyword>Benjamin Fortier</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef processing-role="resource-only" keys="homeworkfolder">
+            <topicmeta>
+                <keywords>
+                    <keyword>Fortier</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
         <mapref href="Zoe/relationshiptable.ditamap" processing-role="resource-only"/>
     </backmatter>
 </bookmap>

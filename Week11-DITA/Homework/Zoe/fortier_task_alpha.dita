@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="fortier_task_alpha">
+    <title>Fortier - Task Alpha</title>
+    <shortdesc>This task describes the procedure for calibrating the HV-1000 sensor to ensure accurate data collection. Proper calibration is required after initial installation, following a firmware update, or if anomalous readings are detected. Completing this process requires the calibration tool kit (PN: CAL-KIT-55B).</shortdesc>
+    <taskbody>
+        <prereq id="prereq_mny_4zp_v3c">
+            <p>Calibration of the HV-1000 sensor requires the following.</p>
+            <p>
+                <ul id="ul_zhp_pzp_v3c">
+                    <li>Operator-level access permissions or higher.</li>
+                    <li>The CAL-KIT-55B calibration tool kit.</li>
+                    <li>The HV-1000 sensor powered on and in a ready state.</li>
+                    <li>Approximately five minutes of uninterrupted time to complete the
+                        process.</li>
+                    <li>The system software updated to version 2.1 or later.</li>
+                </ul>
+            </p>
+        </prereq>
+        <context>
+            <p>Calibration aligns the HV-1000 sensor's internal measurements with known standard
+                values. This process is critical for maintaining data integrity and ensuring
+                compliance with quality assurance protocols. The task involves using a calibrated
+                reference device from the tool kit to send a stable signal, which the HV-1000 then
+                uses to auto-adjust its internal settings.</p>
+            <p>The entire process typically takes less than five minutes to complete and does not
+                require a system reboot. You must have Operator-level access permissions or higher
+                to perform this calibration.</p>
+            <p><b>Perform the calibration in the following order:</b></p>
+            <ol id="ol_uy5_dbq_v3c">
+                <li>Locate the calibration port on the lower panel of the HV-1000 sensor.</li>
+                <li>Connect the reference device from the CAL-KIT-55B firmly into the calibration
+                    port.</li>
+                <li>On the main system interface, navigate to Settings > Maintenance > Sensor
+                    Calibration.</li>
+                <li>Select HV-1000 from the list of available devices.</li>
+                <li>Click the Begin Calibration button.</li>
+                <li>Wait for the status indicator to change from blinking amber to solid green. Do
+                    not interrupt power during this process.</li>
+                <li>After the process completes, disconnect the reference device from the
+                    calibration port.</li>
+                <li>Verify the calibration was successful by checking that the "Calibration Status"
+                    field on the sensor's main screen reads OK.<table frame="all" rowsep="1"
+                        colsep="1" id="table_inx_qbq_v3c">
+                        <title>Status Indicators</title>
+                        <tgroup cols="5">
+                            <colspec colnum="1" colname="c1" colwidth="1*"/>
+                            <colspec colnum="2" colname="c2" colwidth="1*"/>
+                            <colspec colnum="3" colname="c3" colwidth="1*"/>
+                            <colspec colnum="4" colname="c4" colwidth="1*"/>
+                            <colspec colnum="5" colname="c5" colwidth="1*"/>
+                            <thead>
+                                <row>
+                                    <entry>Status Light</entry>
+                                    <entry>Color</entry>
+                                    <entry>State</entry>
+                                    <entry>Meaning</entry>
+                                    <entry>Required Action</entry>
+                                </row>
+                            </thead>
+                            <tbody>
+                                <row>
+                                    <entry>Power</entry>
+                                    <entry>Green</entry>
+                                    <entry>Solid</entry>
+                                    <entry>Device is ready</entry>
+                                    <entry>None. Proceed with task</entry>
+                                </row>
+                                <row>
+                                    <entry>Calibration</entry>
+                                    <entry>Amber</entry>
+                                    <entry>Blinking</entry>
+                                    <entry>Calibration in progress</entry>
+                                    <entry>Do not interrupt power or disconnect device</entry>
+                                </row>
+                                <row>
+                                    <entry>Calibration</entry>
+                                    <entry>Green</entry>
+                                    <entry>Solid</entry>
+                                    <entry>Calibration complete</entry>
+                                    <entry>Disconnect reference device</entry>
+                                </row>
+                                <row>
+                                    <entry>Calibration</entry>
+                                    <entry>Red</entry>
+                                    <entry>Solid</entry>
+                                    <entry>Calibration failed</entry>
+                                    <entry>Restart procedure</entry>
+                                </row>
+                                <row>
+                                    <entry>System fault</entry>
+                                    <entry>Red</entry>
+                                    <entry>Blinking</entry>
+                                    <entry>An error has occurred</entry>
+                                    <entry>Abort the task and contact system support</entry>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table><fig id="fig_dqg_pcq_v3c">
+                        <title>Allen Redman calibrates an HV-1000 sensor</title>
+                        <image
+                            href="../../../../../../Downloads/a1c-allen-redman-loads-software-for-an-electronic-sensor-at-the-17th-reconnaissance-c73178-1024.jpg"
+                            id="image_eqg_pcq_v3c"/>
+                        <p><xref href="https://en.wikipedia.org/wiki/Sensor" format="html"
+                                scope="external"><b>Learn more information here:</b></xref></p>
+                    </fig></li>
+            </ol>
+        </context>
+    </taskbody>
+</task>

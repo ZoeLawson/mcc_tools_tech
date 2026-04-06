@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic">
+    <title>Example Topic</title>
+    <shortdesc>The topic is the default, unspecialised topic type of DITA.</shortdesc>
+    <body>
+        <p>The <xmlelement>topic</xmlelement> is the basic building block of DITA. All other topic
+            types are derived/specialized from the topic.</p>
+        <p>In general, when authoring, avoid using <xmlelement>topic</xmlelement> type topics
+            because they carry no special meaning. However, they do serve some very important
+            purposes:</p>
+        <ul>
+            <li>Provide the basic topic type to specialize from.<p>If you choose to create your own
+                    topic types, you can start with a topic and go from there.</p></li>
+            <li>Provide a default for conversion work.<p>When converting to DITA, you don't always
+                    do all the work you should do to identify topic types. You can convert
+                    everything to topics and then sort them out later.</p></li>
+            <li>Great for what I call "container topics"<p>Most DITA generation tools allow for
+                    auto-generated links, especially child links. To structure your content, you can
+                    create a topic with nothing but a title. The child links (and optional short
+                    descriptions) can be included automatically.</p></li>
+        </ul>
+    </body>
+</topic>

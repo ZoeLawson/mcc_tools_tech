@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+<glossgroup id="glossary">
+    <title>Example Glossary</title>
+    <glossentry id="glossterm">
+        <glossterm>glossterm</glossterm>
+        <glossdef>This is the <xmlelement>glossdef</xmlelement> where you can write the
+            definition.</glossdef>
+    </glossentry>
+</glossgroup>

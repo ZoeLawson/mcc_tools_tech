@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_building_blocks">
+    <title>Topic Building Blocks</title>
+    <abstract><shortdesc>Brief rundown of the elements you can use in <xmlelement>topic</xmlelement> type
+        topics.</shortdesc></abstract>
+    <prolog>
+        <author>Author</author>
+        <source>Source</source>
+        <publisher>Publisher</publisher>
+        <copyright>
+            <copyryear year="2026"/>
+            <copyrholder>Copyright Holder</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="created date"/>
+            <revised modified="revised date"/>
+        </critdates>
+        <change-historylist>
+            <change-item>
+                <change-completed>change completed</change-completed>
+                <change-summary>This is the change summary</change-summary>
+            </change-item>
+        </change-historylist>
+        <metadata>
+            <keywords>
+                <indexterm>indexterm</indexterm>
+            </keywords>
+            <keywords>
+                <keyword>keyword</keyword>
+            </keywords>
+            <othermeta name="name" content="content"/>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <title>Structure Blocks</title>
+            <p>These are the elements that make up a topic.</p>
+            <dl>
+                <dlentry>
+                    <dt>topic</dt>
+                    <dd>The defining container</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>title</dt>
+                    <dd>All topics need a title. Note that there is only one
+                            <xmlelement>title</xmlelement> element. All things that can use a title
+                        use this same element, whether that is a topic, section, figure, table,
+                        etc.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>shortdesc</dt>
+                    <dd>The short description for the topic. This is the first sentence of the
+                        topic. This element can be picked up in search results or when generating
+                        links. <p>Alternatively, you can use an <xmlelement>abstract</xmlelement>.
+                            The <xmlelement>abstract</xmlelement> allows for more content than a
+                                <xmlelement>shortdesc</xmlelement>, but it is not extracted and
+                            reused the same way. However, you can place multiple
+                                <xmlelement>shortdesc</xmlelement> inside an
+                                <xmlelement>abstract</xmlelement>, which can be useful when dealing
+                            with conditional content.</p></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>prolog</dt>
+                    <dd>A place to put all the metadata for the topic. In general, nothing in this
+                        section emits in the topic. This can include:<ul>
+                            <li>Author</li>
+                            <li>Source</li>
+                            <li>Publisher</li>
+                            <li>Copyright</li>
+                            <li>Change History List (technically a specialization, but I'm listing
+                                all the prolog things here)</li>
+                            <li>Critical Dates</li>
+                            <li>Metadata: keywords, index terms, and 'other meta' such as any name
+                                value pair you need.</li>
+                        </ul></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>body</dt>
+                    <dd>The container that holds the content of the topic</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>related-links</dt>
+                    <dd>A list of links to other topics of interest (instead of having links in the
+                        text).</dd>
+                </dlentry>
+            </dl>
+        </section>
+        <section><title>Body blocks</title>
+            <p>These are the elements that can be used as blocks inside of the
+                    <xmlelement>body</xmlelement>.</p>
+            <p>Technically, the <xmlelement>topic</xmlelement> should not contain specializations.
+                However, the technical content components are usually just included with.</p>
+            <dl>
+                <dlentry><dt>bodydiv</dt><dd>Generic container to group content. It can only be used inside of a
+                            <xmlelement>body</xmlelement>, so it's mainly for using for
+                        specialization.</dd></dlentry>
+                <dlentry><dt>codeblock</dt><dd>This is a specialization from the programming domain, but it indicates multiple lines of
+                        code.</dd></dlentry>
+                <dlentry><dt>div</dt><dd>A generic container. It can group content with no semantic meaning. In general, avoid using,
+                        except for when grouping together a set of blocks you want to reuse instead
+                        of dealing with using the fancy conref attributes.</dd></dlentry>
+                <dlentry><dt>dl</dt><dd>Definition list. You can provide a term and at least one definition. Super useful. Can be
+                        displayed as a funky formatted list or as a table. If you add an
+                            <xmlatt>id</xmlatt> attribute to the <xmlelement>dlentry</xmlelement>
+                        element, the <xmlelement>dt</xmlelement> is automagically returned in the
+                            <xmlelement>xref</xmlelement>.</dd></dlentry>
+                <dlentry><dt>data</dt><dd>Basic name value pair for specialization. Does not emit by default. In general, don't use except
+                        when you want to support funky processing without a specialization (if you
+                        know how to change the formatting).</dd></dlentry>
+                <dlentry><dt>data-about</dt><dd>Funky extension thing used with <xmlelement>data</xmlelement>. Used for specializations. Don't
+                        use.</dd></dlentry>
+                <dlentry>
+                    <dt>draft-comment</dt>
+                    <dd>One of my favorite elements. The DITA-OT includes a parameter that excludes
+                        this element. Enables you to include comments and questions in your writing
+                        with less fear that it will show up in the output.</dd>
+                </dlentry>
+                <dlentry><dt>equation-block</dt><dd>To define where you're inserting an equation using <xmlelement>mathml</xmlelement> or just an
+                        image. Equations often need special formatting or funky fonts, so
+                        identifying them can be useful.</dd></dlentry>
+                <dlentry><dt>equation-figure</dt><dd>As <xmlelement>equation-block</xmlelement>, but you can add a
+                        <xmlelement>title</xmlelement>.</dd></dlentry>
+                <dlentry><dt>example</dt><dd>A specialized section that identifies the content as an example. </dd></dlentry>
+                <dlentry><dt>fig</dt><dd>A grouping that identifies a <term>figure</term>. Generally, this is an image with a caption
+                            (<xmlelement>title</xmlelement>), but could contain text or a
+                        codeblock.</dd></dlentry>
+                <dlentry><dt>foreign</dt><dd>A special element for identifying things that aren't DITA. Available for specialization. Do not
+                        use.</dd></dlentry>
+                <dlentry><dt>hazardstatement</dt><dd>Fancy specialized Hazard Statements for <xref
+                            href="https://blog.ansi.org/ansi/ansi-z535-1-2022-safety-colors-standard/"
+                            format="html" scope="external"/> and <xref
+                            href="https://www.iso.org/standard/51021.html" format="html"
+                            scope="external"/>. </dd></dlentry>
+                <dlentry><dt>image</dt><dd>How you link to an image.</dd></dlentry>
+                <dlentry><dt>imagemap</dt><dd>A special image where you can identify zones in the image and associate links with those
+                        zones.</dd></dlentry>
+                <dlentry><dt>lines</dt><dd>A block where white space is preserved, but not necessarily using monospaced font. Often used
+                        for addresses or poetry.</dd></dlentry>
+                <dlentry><dt>lq</dt><dd>Long quote. When you want to identify a quotation that contains multiple paragraphs.</dd></dlentry>
+                <dlentry><dt>mathml</dt><dd>An element that can contain MATHML, an XML based language for rendering equations. <xref
+                            href="https://developer.mozilla.org/en-US/docs/Web/MathML" format="html"
+                            scope="external"/></dd></dlentry>
+                <dlentry><dt>msgblock</dt><dd>A special block for messages, usually from software.</dd></dlentry>
+                <dlentry><dt>note</dt><dd>A container for short(ish) content you want to emphasize in some way. The default DITA contains
+                        several types of notes, including tip, warning, caution, and important.</dd></dlentry>
+                <dlentry><dt>object</dt><dd>An element to reference something not-DITA, such as a video.</dd></dlentry>
+                <dlentry><dt>ol</dt><dd>Ordered list, just like HTML.</dd></dlentry>
+                <dlentry><dt>p</dt><dd>A paragraph, just like HTML.</dd></dlentry>
+                <dlentry><dt>parml</dt><dd>A parameter list. A special list, like <xmlelement>dl</xmlelement>, but for parameters. Not used
+                        very often.</dd></dlentry>
+                <dlentry><dt>pre</dt><dd>Preformatted text, just like HTML.</dd></dlentry>
+                <dlentry><dt>required-cleanup</dt><dd>Special element that you should only see during conversion work. If a conversion transform finds
+                        a lump of content it can't deal with, wrap it in
+                            <xmlelement>required-cleanup</xmlelement> and let a human deal with
+                        it.</dd></dlentry>
+                <dlentry><dt>screen</dt><dd>A specialization to identify content you see on a screen. Very useful when dealing with command
+                        line content.</dd></dlentry>
+                <dlentry><dt>section</dt><dd>A division to group content with an optional title. In general, section titles are not included
+                        in the table of contents.</dd></dlentry>
+                <dlentry><dt>simpletable</dt><dd>A basic table. In DITA 1.3, does not allow row or column spanning. You can only control whether
+                        or not separators display.</dd></dlentry>
+                <dlentry><dt>sl</dt><dd>Simple list. Provides a list without bullets or numbering.</dd></dlentry>
+                <dlentry><dt>sort-as</dt><dd>Special element meant to be used with indexes. </dd></dlentry>
+                <dlentry><dt>svg-container</dt><dd>Special element if you want to include raw SVG code in your topic.</dd></dlentry>
+                <dlentry><dt>syntaxdiagram</dt><dd>Super specialized element for syntax diagrams, used in some programming languages.</dd></dlentry>
+                <dlentry><dt>table</dt><dd>A CALS based table. </dd></dlentry>
+                <dlentry><dt>ul</dt><dd>Unordered list. Same as HTML.</dd></dlentry>
+                <dlentry><dt>unknown</dt><dd>Element for specialization. Do not use.</dd></dlentry></dl></section>
+        <section>
+            <title>Inline elements</title>
+            <p>There are many block elements that can be used inside of other block elements. For
+                example, you can have an <xmlelement>image</xmlelement> or
+                    <xmlelement>ul</xmlelement> inside of a <xmlelement>p</xmlelement>. I am not
+                including those elements again here.</p>
+            <p>I personally prefer keeping my elements separate. I do not like to have a list inside
+                of a <xmlelement>p</xmlelement>, I prefer the list to be after the paragraph. This
+                is my best practice. However other people prefer having the block items inside of
+                paragraphs so that it's easier to reuse them together. That may have made more sense
+                in earlier editions of DITA, but now that you can define conrefs to contain multiple
+                elements, or use a <xmlelement>div</xmlelement> to combine them, I prefer to keep
+                things as tidy as possible. Since a lot of formatting is either CSS or XSL-FO based,
+                inheritance matters. A <xmlelement>ul</xmlelement> inside of a
+                    <xmlelement>p</xmlelement> may inherit different margins etc. that just makes
+                troubleshooting formatting issues a pain.</p>
+        </section>
+        <section>
+            <title>Generic Elements</title>
+            <dl>
+                <dlentry>
+                    <dt>b</dt>
+                    <dd>Generic bold. Avoid if possible and pick something semantic.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>line-through</dt>
+                    <dd>Formatting to strike through content.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>markupname</dt>
+                    <dd>Generic identifier of some sort of mark up. Meant for specialization.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>overline</dt>
+                    <dd>Formatting to have a line over the text.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>sub</dt>
+                    <dd>Subscript - Use as needed. </dd>
+                </dlentry>
+                <dlentry>
+                    <dt>sup</dt>
+                    <dd>Superscript - Use as needed.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>tt</dt>
+                    <dd>Generic monospace formatting. Same as HTML. Try to use something
+                        semantic.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>u</dt>
+                    <dd>Generic underline formatting. Same as HTML. Try to use something
+                        semantic.</dd>
+                </dlentry>
+            </dl>
+        </section>
+        <section>
+            <title>Semantic Elements</title>
+            <dl>
+                <dlentry>
+                    <dt>abbreviated-form</dt>
+                    <dd>If you use all the special bits of glossaries and the abbreviation domain,
+                        use this to identify the abbreviated form of a term.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>apiname</dt>
+                    <dd>For API names</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>cite</dt>
+                    <dd>To identify a citation.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>cmdname</dt>
+                    <dd>A command name.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>codeph</dt>
+                    <dd>A code phrase</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>equation-inline</dt>
+                    <dd>Like <xmlelement>equation-block</xmlelement>, but you can have your math
+                        inline.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>filepath</dt>
+                    <dd>For paths when describing things on computers.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>fn</dt>
+                    <dd>Footnote. You enter it right in the text, and the processing will put it at
+                        the bottom of the page.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>indexterm</dt>
+                    <dd>If you need to have index terms in your content, you can put them where
+                        needed, not just in the <xmlelement>prolog</xmlelement></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>indextermref</dt>
+                    <dd>If you need to do any of that "see also" stuff in your index.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>keyword</dt>
+                    <dd>Identifies an important word. Generally has no formatting, but can help with
+                        search results if your processing supports it. Also useful for rendering
+                        keys of simple phrases. </dd>
+                </dlentry>
+                <dlentry>
+                    <dt>menucascade</dt>
+                    <dd>In the software world, you constantly need to identify a set of nested
+                        options in menus. Use the <xmlelement>menucascade</xmlelement> to identify
+                        and format them for you. For example: Select <menucascade>
+                            <uicontrol>File</uicontrol>
+                            <uicontrol>Open</uicontrol>
+                        </menucascade>.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>msgnum</dt>
+                    <dd>If your system provides codes or IDs for system messages, use this to
+                        identify it.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>msgph</dt>
+                    <dd>For inline system messages.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>numcharref object</dt>
+                    <dd>XML Domain to identify when you reference funky characters by Hex codes. For
+                        example &#x38f; is <numcharref>x38f</numcharref>.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>option</dt>
+                    <dd>For software or programming, an option.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>parameterentity</dt>
+                    <dd>XML Domain for parameter entities in schemas.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>parmname</dt>
+                    <dd>For software or programming, a parameter name.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>ph</dt>
+                    <dd>A phrase. No semantic meaning or formatting, but crazy useful for inserting
+                        keys or marking sentences for conditions.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>q</dt>
+                    <dd>An inline quote.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>synph</dt>
+                    <dd>Syntax phrase. Similar to codeph, but slightly different. Sorta like syntax
+                        is an algebra equation <equation-inline>a + b = c</equation-inline> but
+                        codeph is a math equation <equation-inline>1 + 2 = 3</equation-inline>.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>systemoutput</dt>
+                    <dd>Response from a system.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>term</dt>
+                    <dd>Identifies something as a word of importance. You can hook it up with keys
+                        to a glossary entry to link to the definition. For example, <term
+                            keyref="g_glossterm"/>.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>textentity</dt>
+                    <dd>XML domain to identify text entities in schemas.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>tm</dt>
+                    <dd>Use to identify something as a trademark. For example <tm tmtype="tm"
+                            >Soon</tm>.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>uicontrol</dt>
+                    <dd>Something in the user interface.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>userinput</dt>
+                    <dd>User input, i.e. something you type in.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>varname </dt>
+                    <dd>Variable name</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>wintitle</dt>
+                    <dd>Window title. Can be used for a window, screen, dialog box, etc.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>xmlatt</dt>
+                    <dd>XML domain attribute name</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>xmlelement</dt>
+                    <dd>XML Domain element name</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>xmlnsname</dt>
+                    <dd>XML Domain name space</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>xmlpi</dt>
+                    <dd>XML Domain processing instruction</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>xref</dt>
+                    <dd>How you define links.</dd>
+                </dlentry>
+            </dl>
+        </section>
+        <section>
+            <title>Specialization Elements</title>
+            <dl>
+                <dlentry>
+                    <dt>boolean</dt>
+                    <dd>Meant for specialization, an element that can be true or false. Do not
+                        use.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>state</dt>
+                    <dd>A name value pair for specialization. Do not use.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>text</dt>
+                    <dd>Mainly intended as a specialization element. Avoid using.</dd>
+                </dlentry>
+            </dl>
+        </section>
+    </body>
+</topic>

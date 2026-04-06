@@ -6,19 +6,19 @@
         <booktitlealt>Week 11</booktitlealt>
     </booktitle>
     <bookmeta>
-        <author>Zoë Lawson</author>
+        <author keyref="author"></author>
         <prodinfo>
-            <prodname>Tools and Technologies for Tech Writers 2025</prodname>
+            <prodname>Tools and Technologies for Tech Writers 2026</prodname>
             <vrmlist>
                 <vrm version="1" release="0" modification="0"/>
             </vrmlist>
         </prodinfo>
         <bookrights>
             <copyrfirst>
-                <year>2025</year>
+                <year>2026</year>
             </copyrfirst>
             <bookowner>
-                <person>Zoë Lawson</person>
+                <person keyref="author"></person>
                 <organization>MIDDLESEX Community College</organization>
             </bookowner>
             <summary>Fixing deploy action version number</summary>
@@ -30,31 +30,19 @@
             <toc/>
         </booklists>
     </frontmatter>
-    <chapter href="Zoe/topic.dita">
-        <topicref href="Zoe/fortier_concept_alpha.dita"/>
-        <topicref href="Zoe/fortier_reference_alpha.dita"/>
-        <topicref href="Zoe/fortier_task_alpha.dita"/>
-        <topicref href="common/task.dita"/>
-        <topicref href="Zoe/my_first_concept.dita"/>
+    <chapter href="Zoe/topic.dita"/>
+    <chapter href="common/topic.dita">
+        <topicref href="common/topic_building_blocks.dita"/>
         <topicref href="common/concept.dita"/>
+        <topicref href="common/task.dita"/>
         <topicref href="common/reference.dita" linking="none"/>
-        <topicref href="Zoe/demo_task.dita"/>
+        <topicref href="common/example_troubleshooting.dita"/>
+        <topicref href="common/glossary.dita"/>
     </chapter>
     <backmatter>
-        <keydef processing-role="resource-only" keys="author">
-            <topicmeta>
-                <keywords>
-                    <keyword>Benjamin Fortier</keyword>
-                </keywords>
-            </topicmeta>
-        </keydef>
-        <keydef processing-role="resource-only" keys="homeworkfolder">
-            <topicmeta>
-                <keywords>
-                    <keyword>Fortier</keyword>
-                </keywords>
-            </topicmeta>
-        </keydef>
+        <keydef processing-role="resource-only" keys="author"><topicmeta><keywords><keyword>Zoë Lawson</keyword></keywords></topicmeta></keydef>
+        <keydef processing-role="resource-only" keys="homeworkfolder"><topicmeta><keywords><keyword>Zoe</keyword></keywords></topicmeta></keydef>
+        <keydef processing-role="resource-only" keys="g_glossterm" href="common/glossary.dita#glossterm"/>
         <mapref href="Zoe/relationshiptable.ditamap" processing-role="resource-only"/>
     </backmatter>
 </bookmap>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Sample Bookmap</mainbooktitle>
+        <booktitlealt>Week 11</booktitlealt>
+    </booktitle>
+    <bookmeta>
+        <author keyref="author"/>
+        <prodinfo>
+            <prodname>Tools and Technologies for Tech Writers 2026</prodname>
+            <vrmlist>
+                <vrm version="1" release="0" modification="0"/>
+            </vrmlist>
+        </prodinfo>
+        <bookrights>
+            <copyrfirst>
+                <year>2026</year>
+            </copyrfirst>
+            <bookowner>
+                <person keyref="author"/>
+                <organization>MIDDLESEX Community College</organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter>
+        <notices href="common/notices_dita.dita" toc="no"/>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter href="Zoe/topic.dita"/>
+    <chapter href="common/topic.dita">
+        <topicref href="common/topic_building_blocks.dita"/>
+        <topicref href="common/concept.dita"/>
+        <topicref href="common/task.dita"/>
+        <topicref href="common/reference.dita"/>
+        <topicref href="common/example_troubleshooting.dita"/>
+        <topicref href="common/glossary.dita"/>
+    </chapter>
+    <backmatter>
+        <keydef processing-role="resource-only" keys="author"><topicmeta><keywords><keyword>Millie Driz</keyword></keywords></topicmeta></keydef>
+        <keydef processing-role="resource-only" keys="homeworkfolder"><topicmeta><keywords><keyword>Millie</keyword></keywords></topicmeta></keydef>
+        <keydef processing-role="resource-only" keys="g_glossterm" href="common/glossary.dita#glossterm"/>
+    </backmatter>
+</bookmap>

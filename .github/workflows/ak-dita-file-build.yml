@@ -1,0 +1,46 @@
+name: DITA to PDF - Asuman
+'on':
+  pull_request_target:
+    types:
+      - closed
+    branches:
+      - Winter2026
+    paths:
+      - 'Week11-DITA/Homework/AsumanKazibwe.ditamap'
+      - 'Week11-DITA/Homework/Asuman/**'
+jobs:
+  if_merged:
+    if: github.event.pull_request.merged == true
+    name: Transform a DITAMAP to a PDF (Asuman)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v4
+      - name: Build PDF
+        uses: dita-ot/dita-ot-action@4.2
+        with:
+          install: dita install https://github.com/ZoeLawson/DITAStuff/raw/mcc/plugins/mcchandout.zip
+          input: Week11-DITA/Homework/AsumanKazibwe.ditamap
+          transtype: mcchandout
+          output-path: .
+      - name: Set time stamp
+        id: timestamp
+        run: echo "timestamp=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
+      - name: Upload transform output
+        #if: steps.check_files.outputs.files_exists == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: AsumanHomework
+          path: 'mcchandout/AsumanKazibwe.pdf'
+      - name: set Creds
+        uses: oleksiyrudenko/gha-git-credentials@v2-latest
+        with:
+          token: '${{ secrets.GITHUB_TOKEN }}'
+      - name: add pdf
+        #if: steps.check_files.outputs.files_exists == 'true'
+        run: |
+          git pull origin Winter2026
+          git status
+          git add mcchandout/AsumanKazibwe.pdf
+          git commit -m "generated pdf file from AsumanKazibwe.ditamap $timestamp"
+          git push origin Winter2026

@@ -73,7 +73,21 @@
     Link="/Content/C_BenFortier/BenFortier.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/D_CathyLavey/CathyLavey.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Link="/Content/D_CathyLavey/CathyLavey.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/D_CathyLavey/SWADF Assembly.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/D_CathyLavey/ADF Comm Parameters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/D_CathyLavey/Messages from the ADF.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/D_CathyLavey/Hardware Status Report.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+  </TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/E_MillieDriz/MillieDriz.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

@@ -30,12 +30,14 @@
             <toc/>
         </booklists>
     </frontmatter>
-    <chapter href="Zoe/topic.dita"/>
+    <chapter href="Zoe/topic.dita">
+        <topicref href="Zoe/class_demo.dita"/>
+    </chapter>
     <chapter href="common/topic.dita">
         <topicref href="common/topic_building_blocks.dita"/>
         <topicref href="common/concept.dita"/>
-        <topicref href="common/task.dita"/>
         <topicref href="common/reference.dita" linking="none"/>
+        <topicref href="common/task.dita"/>
         <topicref href="common/example_troubleshooting.dita"/>
         <topicref href="common/glossary.dita"/>
     </chapter>

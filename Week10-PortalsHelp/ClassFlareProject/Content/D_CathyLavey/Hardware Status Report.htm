@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Hardware Status Report</h1>
+        <p>This message is sent by the ADF as a response to a status request by the host (see Hardware Status Request on page 5) or during a failure of the self-test TODO (see section). A failure is indicated by a zero at the appropriate bit position.</p>
+        <p>The message is formatted as follows:</p>
+        <p><span style="font-family: monospace;">$h&lt;8 hex digits&gt;</span>
+        </p>
+        <p>The bit definitions from low bit to high bit are:</p>
+        <ul>
+            <li>
+                <p><span style="font-family: monospace;">0x00000001</span> – if clear, indicates a failure of the primary analog board (analog ADF systems only)</p>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <p><span style="font-family: monospace;">0x00000002</span> – if clear, indicates a failure in the secondary analog board (analog ADF systems only)</p>
+            </li>
+            <li>
+                <p>etc...</p>
+            </li>
+        </ul>
+        <p>&#160;</p>
+    </body>
+</html>

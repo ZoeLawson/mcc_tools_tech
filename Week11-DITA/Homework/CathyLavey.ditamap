@@ -29,7 +29,11 @@
             <toc/>
         </booklists>
     </frontmatter>
+    <chapter href="Cathy/swadf_assembly.dita"/>
     <chapter href="Cathy/topic.dita"/>
+    <chapter href="Cathy/CommsParams.dita"/>
+    <chapter href="Cathy/hardware_status_request.dita"/>
+    <chapter href="Cathy/hardware_status_report.dita"/>
     <chapter href="common/topic.dita">
         <topicref href="common/topic_building_blocks.dita"/>
         <topicref href="common/concept.dita"/>

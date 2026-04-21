@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="untitled1">
+    <title>Hardware Status Report</title>
+    <shortdesc>This message is sent by the ADF as a response to a status request by the host (see
+            <xref href="hardware_status_request.dita" format="dita">Hardware Status Request</xref>)
+        or during a failure of the self-test function. A failure is indicated by a zero at the
+        appropriate bit position.</shortdesc>
+    <refbody>
+        <section>
+            <p>The message is formatted as follows:</p>
+            <p><codeph>$h&lt;8 hex digits></codeph>
+            </p>
+            <p>The bit definitions from low bit to high bit are:</p>
+            <table frame="all" rowsep="1" colsep="1" id="table_zwc_xch_y3c">
+                <title>Hardware status bits and their meanings.</title>
+                <tgroup cols="2" align="left">
+                    <colspec colnum="1" colname="c1" colwidth="1*"/>
+                    <colspec colnum="2" colname="c2" colwidth="3.65*"/>
+                    <thead>
+                        <row>
+                            <entry>Hardware bits</entry>
+                            <entry>Meanings</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry><codeph>0x00000001 </codeph></entry>
+                            <entry>If clear, indicates a failure of the primary analog board (analog
+                                ADF systems only)</entry>
+                        </row>
+                        <row>
+                            <entry><codeph>0x00000002</codeph>
+                            </entry>
+                            <entry>If clear, indicates a failure in the secondary analog board
+                                (analog ADF systems only)</entry>
+                        </row>
+                        <row>
+                            <entry>etc...</entry>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+
+        </section>
+    </refbody>
+</reference>

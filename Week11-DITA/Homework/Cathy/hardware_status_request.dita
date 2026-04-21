@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="hardware_status_request">
+    <title>Hardware Status Request</title>
+    <shortdesc>This message is issued by the host system when it wishes to get a current hardware
+        status report from the ADF. Sending this message causes the ADF to generate and send an
+        indication of its current hardware status (see <xref href="untitled1.dita">Hardware Status
+            Response</xref>).</shortdesc>
+    <refbody>
+        <section>
+            <p>The message is formatted as follows:</p>
+            <p><codeph>$h?&lt;</codeph>
+            </p>
+        </section>
+    </refbody>
+</reference>

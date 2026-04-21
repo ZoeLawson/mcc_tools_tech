@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_i3k_ccf_y3c">
+    <title>The Art of Wine Tasting</title>
+    <shortdesc>Learn the 5S method</shortdesc>
+    <conbody>
+        <p>To Taste Wine, use the 5S method as follows:</p>
+        <ol id="ol_x3f_tcf_y3c">
+            <li><b>See</b> (check color/clarity)</li>
+            <li><b>Swirl</b> (aerate in the glass)</li>
+            <li><b>Sniff</b> (identify aromas)</li>
+            <li><b>Sip</b> (take a mouthful)</li>
+            <li><b>Savor</b> (assess the finish)</li>
+        </ol>
+    </conbody>
+</concept>

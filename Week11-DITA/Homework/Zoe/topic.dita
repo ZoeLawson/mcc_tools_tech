@@ -5,6 +5,15 @@
     <shortdesc>This is a sample topic. It is in your homework folder (<ph keyref="homeworkfolder"/>)
         and is not shared.</shortdesc>
     <body>
-        <p>This is a paragraph. </p>
+        <p>This is a paragraph. <indexterm>bird</indexterm></p>
+        <p>This is a paragraph.</p>
+        <p>Here is another paragraph.</p>
+        <ul>
+            <li>list item 1</li>
+            <li>list item 2<p>here is a nested
+                        paragraph<indexterm>bird<indexterm>goose</indexterm></indexterm></p><image
+                    placement="break" href="../images/mcc_logo.jpg"/></li>
+        </ul>
+        <draft-comment author="zoela">this is a comment</draft-comment>
     </body>
 </topic>

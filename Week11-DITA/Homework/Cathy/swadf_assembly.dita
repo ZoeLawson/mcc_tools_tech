@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="swadf_assembly">
+    <title>SWADF Assembly</title>
+    <shortdesc>This section explains how to assemble the Soldier-Wearable Acoustic Direction Finder
+        (SWADF).</shortdesc>
+    <taskbody>
+        
+        <prereq>
+            <p>
+                Ensure you have all necessary tools and parts ready.
+            </p>
+            <ul id="ul_u25_rft_x3c">
+                <li>Flat head screwdriver</li>
+                <li>Phillips-head screwdriver</li>
+                <li>Allen wrench</li>
+            </ul>
+            <fig id="fig_wqs_h1h_y3c">
+                <title>A BMS acoustic direction finder (ADF), associated cables, and necessary tools
+                    for assembly of the box.</title>
+                <image href="Images/SWADFandTools-3x4-72-cc.jpg" id="image_xqs_h1h_y3c">
+                    <alt>Electronic parts, cables, and tools for working on the SWADF.</alt>
+                </image>
+            </fig>
+        </prereq>
+        <steps id="steps_syb_r1h_y3c">
+            <step>
+                <cmd>To assemble the SWADF, first do this step 1.</cmd>
+            </step>
+            <step>
+                <cmd>Then do this step 2.</cmd>
+            </step>
+            <step>
+                <cmd>Then step 3...</cmd>
+            </step>
+        </steps>
+        
+    </taskbody>
+</task>

@@ -1,10 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic">
-    <title>My First Topic</title>
-    <shortdesc>This is a sample topic. It is in your homework folder (<ph keyref="homeworkfolder"/>)
-        and is not shared.</shortdesc>
+    <title><?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>Easy Baba Ganoush
+        Recipe</title><?oxy_custom_end?>
+    <shortdesc>This baba ganoush recipe is the best! It is in your homework folder (<ph
+            keyref="homeworkfolder"/>) and is not shared.</shortdesc>
     <body>
-        <p>This is a paragraph.</p>
+        <p>What is the key ingredient in baba ganoush? </p>
+        <p>The main ingredient in baba ganoush is  <b>Eggplant.</b> For a nice smokey flavor, you
+            want to really cooked on the inside and charred on the outside. </p>
+        <p><i><u>Ingredients:</u></i><ul id="ul_frf_wvp_x3c">
+                <li>2 Italian eggplants</li>
+                <li>¼ cup tahini paste</li>
+                <li>1 lemon, juice of</li>
+                <li>
+                    <p>1 garlic clove, minced</p>
+                </li>
+                <li>
+                    <p>1 tablespoon plain Greek yogurt, optional</p>
+                </li>
+                <li>
+                    <p>Kosher salt and black pepper</p>
+                </li>
+                <li>
+                    <p>3/4 teaspoon Aleppo pepper or red pepper flakes, optional</p>
+                </li>
+                <li>
+                    <p>Extra virgin olive oil</p>
+                </li>
+                <li>Toasted pine nuts for garnish, optional</li>
+            </ul></p>
+        <p><i><u>Instructions:</u></i><ol id="ol_kqv_pwp_x3c">
+                <li>Smoke or grill the eggplant. Cook until it is tender and the skin is charred and
+                    crispy on all sides.</li>
+                <li>Once the eggplant is cool enough to touch, peel the charred crispy skin off .
+                    Discard the skin and the stem.</li>
+                <li>Transfer the cooked and fully drained eggplant to a bowl. Use a fork to break it
+                    down into smaller pieces. Add the tahini paste, garlic, lemon juice, Greek
+                    yogurt (if using) salt, pepper, Aleppo pepper or crushed red pepper flakes. Mix
+                    gently with a wooden spoon or a fork until well-combined.</li>
+                <li>Cover the baba ganoush and chill in the fridge for 30 minutes to an hour.</li>
+                <li>To serve, transfer the baba ganoush to a rimmed serving dish or a bowl. Top with
+                    a good drizzle of extra virgin olive oil and toasted pine nuts, if you like.
+                    Serve with pita wedges or pita chips and veggies of your choice!</li>
+            </ol></p>
+        <p>Finished Product!</p>
+        <p><image href="../images/Baba%20Ganoush.jpg" id="image_jqv_xgq_x3c"/></p>
+        <table frame="all" rowsep="1" colsep="1" id="table_zbx_jjq_x3c">
+            <title>BABA GANOUSH VS HUMMUS COMPARISON:</title>
+            <tgroup cols="3">
+                <colspec colnum="1" colname="c1" colwidth="1*" align="center"/>
+                <colspec colnum="2" colname="c2" colwidth="1*" align="center"/>
+                <colspec colnum="3" colname="c3" colwidth="1*" align="center"/>
+                <thead>
+                    <row>
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                        <entry>FEATURE</entry>
+                        <entry>HUMMUS</entry>
+                        <entry>BABA GANOUSH</entry><?oxy_custom_end?>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry align="center">Main Ingredient</entry>
+                        <entry>Chickpeas</entry>
+                        <entry>Eggplant</entry>
+                    </row>
+                    <row>
+                        <entry align="center">Taste</entry>
+                        <entry>Creamy, nutty, tangy</entry>
+                        <entry>Smoky, earthy, slightly sweet</entry>
+                    </row>
+                    <row>
+                        <entry align="center">Texture</entry>
+                        <entry>Thick, smooth, dense</entry>
+                        <entry>Soft, silky, airy</entry>
+                    </row>
+                    <row>
+                        <entry align="center">Protein</entry>
+                        <entry>Higher</entry>
+                        <entry>Lower</entry>
+                    </row>
+                    <row>
+                        <entry align="center">Carbs</entry>
+                        <entry>Higher</entry>
+                        <entry>Lower</entry>
+                    </row>
+                    <row>
+                        <entry align="center">Best For</entry>
+                        <entry>Filling dips, sandwiches, bowls</entry>
+                        <entry>Light mezze, pairing with grilled foods</entry>
+                    </row>
+                    <row>
+                        <entry align="center">Overall Feel</entry>
+                        <entry>Hearty and satisfying</entry>
+                        <entry>Light and refined</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
     </body>
+    <related-links>
+        <link href="https://cookieandkate.com/epic-baba-ganoush-recipe/" format="html"
+            scope="external"/>
+    </related-links>
 </topic>

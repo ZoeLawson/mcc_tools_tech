@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="CommsParams">
+    <title>USB Communications Parameters</title>
+    <shortdesc>This describes the parameters necessary for communicating with the BMS ADF over USB
+        interface. </shortdesc>
+    <refbody>
+        <table frame="all" rowsep="1" colsep="1" id="table_f2d_m1t_x3c">
+            <title>USB Comms Parameters</title>
+            <tgroup cols="2" align="center">
+                <colspec colnum="1" colname="c1" colwidth="1*"/>
+                <colspec colnum="2" colname="c2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Parameter</entry>
+                        <entry>Required Value</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Bits/sec</entry>
+                        <entry>115200</entry>
+                    </row>
+                    <row>
+                        <entry>Data bits</entry>
+                        <entry>8</entry>
+                    </row>
+                    <row>
+                        <entry>Stop bit</entry>
+                        <entry>1</entry>
+                    </row>
+                    <row>
+                        <entry>Parity</entry>
+                        <entry>None</entry>
+                    </row>
+                    <row>
+                        <entry>Flow control</entry>
+                        <entry>None</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

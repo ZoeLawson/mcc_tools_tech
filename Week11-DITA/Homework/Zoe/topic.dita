@@ -1,19 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic">
-    <title>My First Topic</title>
-    <shortdesc>This is a sample topic. It is in your homework folder (<ph keyref="homeworkfolder"/>)
-        and is not shared.</shortdesc>
+    <title>Calibrating the HV-1000</title>
+    <shortdesc>This task describes the procedure for calibrating the HV-1000 sensor to ensure
+        accurate data collection. Proper calibration is required after initial installation,
+        following a firmware update, or if anomalous readings are detected. Completing this process
+        requires the calibration tool kit (PN: CAL-KIT-55B).</shortdesc>
     <body>
-        <p>This is a paragraph. <indexterm>bird</indexterm></p>
-        <p>This is a paragraph.</p>
-        <p>Here is another paragraph.</p>
-        <ul>
-            <li>list item 1</li>
-            <li>list item 2<p>here is a nested
-                        paragraph<indexterm>bird<indexterm>goose</indexterm></indexterm></p><image
-                    placement="break" href="../images/mcc_logo.jpg"/></li>
-        </ul>
-        <draft-comment author="zoela">this is a comment</draft-comment>
+        <fig id="fig_owh_prq_v3c">
+            <title>A1C Allen Reed knows how to calibrate an HV-1000</title>
+            <image href="../../../../../../Downloads/a1c-allen-redman-loads-software-for-an-electronic-sensor-at-the-17th-reconnaissance-c73178-1024.jpg" scale="40" id="image_pwh_prq_v3c"/>
+        </fig>
+        <p>Sensor calibration is the process of configuring a sensor to provide a known output in
+            response to a known input signal. This process compares the sensor's measurements
+            against the measurement of a highly accurate reference device. The sensor's software is
+            then adjusted to minimize the difference between its readings and the reference
+            standard. Regular calibration is essential for ensuring measurement accuracy,
+            reliability, and traceability to international standards, which is critical for quality
+            control, safety, and data validity.</p>
+        <section id="section_c2l_b5q_v3c">
+            <title>Prerequisites</title>
+            <p>Before you begin the calibration procedure, ensure you have the following:</p>
+            <ul id="ul_d2l_b5q_v3c">
+                <li>Operator-level access permissions or higher.</li>
+                <li>The CAL-KIT-55B calibration tool kit.</li>
+                <li>The HV-1000 sensor powered on and in a ready state.</li>
+                <li>Approximately five minutes of uninterrupted time to complete the process.</li>
+                <li>The system software updated to version 2.1 or later.</li>
+            </ul>
+        </section>
+        <p><b>Order of Operations</b></p>
+        <p>
+            <ol id="ol_zqz_srq_v3c">
+                <li>Locate the calibration port on the lower panel of the HV-1000 sensor.</li>
+                <li>Connect the reference device from the CAL-KIT-55B firmly into the calibration
+                    port.</li>
+                <li>On the main system interface, navigate to Settings > Maintenance > Sensor
+                    Calibration.</li>
+                <li>Select HV-1000 from the list of available devices.</li>
+                <li>Click the Begin Calibration button.</li>
+                <li>Wait for the status indicator to change from blinking amber to solid green. Do
+                    not interrupt power during this process.</li>
+                <li>After the process completes, disconnect the reference device from the
+                    calibration port.</li>
+                <li>Verify the calibration was successful by checking that the "Calibration Status"
+                    field on the sensor's main screen reads OK.<table frame="all" rowsep="1"
+                        colsep="1" id="table_mcy_ktq_v3c">
+                        <title>Status Indicators</title>
+                        <tgroup cols="5">
+                            <colspec colnum="1" colname="c1" colwidth="1*"/>
+                            <colspec colnum="2" colname="c2" colwidth="1*"/>
+                            <colspec colnum="3" colname="c3" colwidth="1*"/>
+                            <colspec colnum="4" colname="c4" colwidth="1*"/>
+                            <colspec colnum="5" colname="c5" colwidth="1*"/>
+                            <thead>
+                                <row>
+                                    <entry>Status Light</entry>
+                                    <entry>Color</entry>
+                                    <entry>State</entry>
+                                    <entry>Meaning</entry>
+                                    <entry>Action</entry>
+                                </row>
+                            </thead>
+                            <tbody>
+                                <row>
+                                    <entry>Power</entry>
+                                    <entry>Green</entry>
+                                    <entry>Solid</entry>
+                                    <entry>Device is on and ready.</entry>
+                                    <entry>Proceed with task.</entry>
+                                </row>
+                                <row>
+                                    <entry>Calibration</entry>
+                                    <entry>Amber</entry>
+                                    <entry>Blinking</entry>
+                                    <entry>Calibration in progress.</entry>
+                                    <entry>Do not interrupt power or disconnect the CAL-KIT.</entry>
+                                </row>
+                                <row>
+                                    <entry>Calibration</entry>
+                                    <entry>Green</entry>
+                                    <entry>Solid</entry>
+                                    <entry>Calibration completed succesfully.</entry>
+                                    <entry>Proceed to disconnect the CAL-KIT.</entry>
+                                </row>
+                                <row>
+                                    <entry>Calibration</entry>
+                                    <entry>Red</entry>
+                                    <entry>Solid</entry>
+                                    <entry>Calibration has failed.</entry>
+                                    <entry>Check all connections, ensure the calibration evice is
+                                        certified, and restart the procedure.</entry>
+                                </row>
+                                <row>
+                                    <entry>System Fault</entry>
+                                    <entry>Red</entry>
+                                    <entry>Blinking</entry>
+                                    <entry>A system error has occurred.</entry>
+                                    <entry>Abort the calibration procedure and contact System
+                                        Support.</entry>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table></li>
+            </ol>
+        </p>
     </body>
+    <related-links>
+        <link href="https://en.wikipedia.org/wiki/Fiber-optic_sensor" format="html" scope="external"
+        />
+    </related-links>
 </topic>

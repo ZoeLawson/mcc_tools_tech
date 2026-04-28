@@ -42,9 +42,28 @@
         <topicref href="common/glossary.dita"/>
     </chapter>
     <backmatter>
-        <keydef processing-role="resource-only" keys="author"><topicmeta><keywords><keyword>Zoë Lawson</keyword></keywords></topicmeta></keydef>
-        <keydef processing-role="resource-only" keys="homeworkfolder"><topicmeta><keywords><keyword>Zoe</keyword></keywords></topicmeta></keydef>
-        <keydef processing-role="resource-only" keys="g_glossterm" href="common/glossary.dita#glossterm"/>
+        <booklists>
+            <indexlist/>
+        </booklists>
+        <topicgroup collection-type="sequence" linking="none">
+            <keydef processing-role="resource-only" keys="author">
+                <topicmeta>
+                    <keywords>
+                        <keyword>Zoë Lawson</keyword>
+                    </keywords>
+                </topicmeta>
+            </keydef>
+            <keydef processing-role="resource-only" keys="homeworkfolder">
+                <topicmeta>
+                    <keywords>
+                        <keyword>Zoe</keyword>
+                    </keywords>
+                </topicmeta>
+            </keydef>
+            <keydef processing-role="resource-only" keys="g_glossterm"
+                href="common/glossary.dita#glossterm"/>
+            <mapref href="Zoe/relationshiptable.ditamap" processing-role="resource-only"/>
+        </topicgroup>
         <mapref href="Zoe/relationshiptable.ditamap" processing-role="resource-only"/>
     </backmatter>
 </bookmap>

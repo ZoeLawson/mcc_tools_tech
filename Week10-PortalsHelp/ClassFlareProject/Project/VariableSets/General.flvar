@@ -38,4 +38,8 @@
     Name="Tool"
     Comment=""
     EvaluatedDefinition="MadCap Flare">MadCap Flare</Variable>
+  <Variable
+    Name="WIFITerm"
+    Comment=""
+    EvaluatedDefinition="WI-FI">WI-FI</Variable>
 </CatapultVariableSet>

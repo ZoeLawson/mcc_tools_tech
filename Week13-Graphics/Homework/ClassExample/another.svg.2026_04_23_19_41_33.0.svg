@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="another.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs2">
+    <rect
+       x="307.3727"
+       y="234.2532"
+       width="247.79385"
+       height="97.492663"
+       id="rect293" />
+  </defs>
+  <g
+     id="layer2">
+    <rect
+       style="fill:#ffa500;stroke:#afeeee;stroke-width:2"
+       id="rect289"
+       width="93.50663"
+       height="63.770809"
+       x="61.979492"
+       y="49.79855" />
+    <ellipse
+       style="fill:#ffa500;stroke:#afeeee;stroke-width:2"
+       id="path395"
+       cx="60.009045"
+       cy="182.17671"
+       rx="40.662849"
+       ry="32.064537" />
+  </g>
+  <g
+     id="layer1">
+    <rect
+       style="fill:#ff0000;stroke:#afeeee;stroke-width:2"
+       id="rect235"
+       width="82.042221"
+       height="50.515076"
+       x="39.767189"
+       y="81.68396" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Text">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text291"
+       style="font-size:24px;white-space:pre;shape-inside:url(#rect293);fill:#ffa500;stroke:#afeeee;stroke-width:22.6772;stroke-dasharray:none"><tspan
+         sodipodi:role="line"
+         id="tspan295"
+         style="fill:none;stroke:#800000;stroke-width:22.6772;stroke-dasharray:none">Look Text.</tspan></text>
+  </g>
+</svg>
